@@ -46,23 +46,31 @@ pesquisas de preço das contratações de tecnologia da informação?”.
 
 ## Objetivo
 
-1.4 Objetivos
-1.4.1 Objetivo Geral
+### Objetivo Geral
+
 Desenvolver um algoritmo baseado em Inteligência Artificial e Deep learning capaz de
 indicar possíveis indícios de sobrepreços durante a fase de pesquisa de preços em Contratações
 de Tecnologia da Informação do Senado Federal.
-1.4.2 Objetivos específicos
+
+### Objetivos específicos
+
 • Levantar Bases de Dados existentes sobre às contratações de tecnologia da informação;
+
 • Desenvolver uma ferramenta para obtenção e pré-processamento dos dados necessários
 ao Treinamento da Inteligência Artificial;
+
 • Disponibilizar repositório público dos dados de contratações de TI utilizado pela ferra-
 menta;
+
 • Levantar as técnicas, métodos e boas práticas mais recentes utilizados na detecções de
 fraudes em compras;
+
 • Treinar e utilizar um modelo de Inteligência Artificial na estimativa de preços e detecção
 de sobrepreço nas contratações de TI do banco de dados preparado;
+
 • Prover uma ferramenta de avaliação de indícios de sobrepreços para uso efetivo no Senado
 Federal;
+
 • Avaliar o grau de confiabilidade da ferramenta na predição de sobrepreço;
 
 ## Cronograma
