@@ -4,6 +4,9 @@
 
 ## Introdução
 
+O presente repositório se destina ao armazenamento dos dados e dos programas fonte desenvolvidos durante a elaboração da pesquisa elaborada no período de Março de 2022 a julho de 2023 como trabalho de conclusão de curso do Mestrado Profissional em Poder Legislativo da Câmara dos Deputados sob a supervisão do Prof. Dr. Fabiano Peruzzo Schwartz. O estudo propõe a construção de um algoritmo baseado em Inteligência Artificial e Deep learning capaz de indicar possíveis indícios de sobrepreços durante a fase de pesquisa de preços em Contratações de Tecnologia da Informação do Senado Federal, de forma a disponibilizar ao gestor público um ferramental que o ajude a elaborar projetos com maior acurácia, tendendo a minorar a preocupação e a inação de inúmeros gestores, decorrente do temor de ser auditado por um órgão de controle, que está muito mais preparado.
+
+
 ## Problema de Pesquisa
 
 Toda contratação pública é feita através de processo licitatório e uma das etapas do
