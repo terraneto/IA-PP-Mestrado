@@ -13,7 +13,7 @@ Toda contratação pública é feita através de processo licitatório e uma das
 
 Cabe destacar que a utilização de tecnologias nos órgãos de controle está muito mais aprimorada do que as tecnologias disponíveis para o gestor, como podemos notar no artigo de Peci e Braga (2021):
 
-        >Enquanto os órgãos de controle contam com recursos humanos especializados, com bases de dados sofisticados e com acesso privilegiado a dados sigilosos de transações financeiras e outras informações cruciais para compreender complexos cenários marcados pela corrupção, esta mesma capacidade não está disponível para o gestor público, o responsável direto pela tomada de decisões de políticas públicas. (PECI; BRAGA, 2021)
+> Enquanto os órgãos de controle contam com recursos humanos especializados, com bases de dados sofisticados e com acesso privilegiado a dados sigilosos de transações financeiras e outras informações cruciais para compreender complexos cenários marcados pela corrupção, esta mesma capacidade não está disponível para o gestor público, o responsável direto pela tomada de decisões de políticas públicas. (PECI; BRAGA, 2021)
 
 Neste sentido, pretende-se neste estudo utilizar a tecnologia de Machine Learning para treinar uma Inteligência Artificial para avaliar as contratações de tecnologia da informação, de forma a indicar a probabilidade de ocorrer sobrepreço. Por meio da utilização dos dados abertos das contratações, em especial os Dados Abertos do Sistema Integrado de Administração e Serviços Gerais – SIASG do Governo Federal.
 
@@ -89,7 +89,7 @@ OLIVEIRA, C. C. O uso de Inteligência Artificial para Controle Social da Admini
 
 PANIS, A. C. Inovação em compras públicas: estudo de caso do robô ALICE da Controladoria-Geral da União (CGU). Dissertação (Mestrado em Administração) — Universidade de Brasília, 2020. Disponível em: https://repositorio.unb.br/handle/10482/38639. Acesso em: 21 mar. 2022. 
 
-PECI, A.; BRAGA, M. V. A. Corrupção e capacidades assimétricas da gestão e do controle. Estadão, abr. 2021. Disponível em: https://repositorio.ufsc.br/bitstream/handle/123456789/ 222445/[corrupç~ao]corrupç~aoecapacidadesassimétricasdagest~aoedocontrole-estadao.pdf?sequence=1&isAllowed=y. Acesso em: 21 mar. 2022. 
+PECI, A.; BRAGA, M. V. A. Corrupção e capacidades assimétricas da gestão e do controle. Estadão, abr. 2021. Disponível em: https://repositorio.ufsc.br/bitstream/handle/123456789/222445/[corrupç~ao]corrupç~aoecapacidadesassimétricasdagest~aoedocontrole-estadao.pdf?sequence=1&isAllowed=y. Acesso em: 21 mar. 2022. 
 
 POSSAMAI, A. J. Dados abertos no governo federal brasileiro : desafios de
 transparência e interoperabilidade. 313 p. Tese (Doutorado em Ciência Política) —
