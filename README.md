@@ -2,7 +2,7 @@
 
 ### Autor: Rubens Vasconcellos Terra Neto
 
-> Status do Projeto: :heavy_check_mark: :warning: (concluido, em desenvolvimento, etc)
+> Status do Projeto: :heavy_check_mark: :warning: (em desenvolvimento)
 
 ## Introdução
 
