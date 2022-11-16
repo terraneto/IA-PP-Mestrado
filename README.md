@@ -57,7 +57,7 @@ Federal;
 
 ## Estrutura do Repositório
 
-[a relative link](Setembro-2022/other_file.md)
+[Setembro-2022](Setembro-2022/setembro.md)
 
 ## Relatório de pesquisa do Mestrado Profissional em Poder Legislativo da Câmara dos Deputados
 
