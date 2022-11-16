@@ -55,6 +55,10 @@ Federal;
 
 ## Cronograma
 
+## Estrutura do Repositório
+
+[a relative link](Setembro-2022/other_file.md)
+
 ## Relatório de pesquisa do Mestrado Profissional em Poder Legislativo da Câmara dos Deputados
 
 ## Referências Bibliográficas da Pesquisa
