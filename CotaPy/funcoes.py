@@ -32,11 +32,15 @@ def request_json(url, arquivo):
     print('Inicio request_json url=' + url + ' arquivo=' + arquivo)
     response = requests.get(url)
     if response.status_code == 200:
-       data_json = response.json()
-       with open(arquivo, 'w') as f:
-          json.dump(data_json, f)
-       return True
+        resposta = response.content
+        if response.headers.get('content-type') == 'application/json':
+            data_json = response.json()
+            with open(arquivo, 'w') as f:
+                json.dump(data_json, f)
+            return True
+        else:
+            print(response.headers.get('content-type'))
+            return False
     else:
         print(response.status_code)
         return False
-

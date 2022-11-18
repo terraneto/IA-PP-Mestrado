@@ -25,7 +25,7 @@ print(frame)
 for row in frame.codigo_item_material:
     nomearq = 'material' + str(row).zfill(9) + '.json'
     arquivo = path + "\\" + nomearq
-    if row < 11703:
+    if row < 11800:
         continue
     if not (os.path.exists(arquivo)):
         print('Fazendo ' + str(row))

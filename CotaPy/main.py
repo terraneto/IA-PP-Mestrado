@@ -1,30 +1,14 @@
-# This is a sample Python script.
 import os
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 from sqlalchemy import create_engine
 from dateutil.relativedelta import *
 from datetime import date
 import json
-from sqlalchemy.dialects.mysql import insert
 import pandas as pd2
 
+from funcoes import insert_on_duplicate
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-def insert_on_duplicate(table, conn, keys, data_iter):
-    insert_stmt = insert(table.table).values(list(data_iter))
-    on_duplicate_key_stmt = insert_stmt.on_duplicate_key_update(insert_stmt.inserted)
-    conn.execute(on_duplicate_key_stmt)
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    print('PyCharm')
 
 sqlEngine = create_engine('mysql+pymysql://siasg:siasg@192.168.2.135/siasg', pool_recycle=3600)
 dbConnection = sqlEngine.connect()
