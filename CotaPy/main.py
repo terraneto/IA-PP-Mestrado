@@ -4,13 +4,10 @@ import os
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 from sqlalchemy import create_engine
-import pymysql
-import datetime
 from dateutil.relativedelta import *
 from datetime import date
 import json
 from sqlalchemy.dialects.mysql import insert
-import pandas as pd
 import pandas as pd2
 
 
@@ -39,7 +36,7 @@ print(datainicio)
 vtabela = 'licitacoesmes'
 vtabelasiasg = 'licitacoes'
 
-while (arquivos > 0):
+while arquivos > 0:
     nomearq = '..\\Novembro-2022\\licitacoes\\' + vtabelasiasg + datainicio.strftime("%Y-%m") + '.json'
     print(nomearq)
     try:
@@ -104,7 +101,3 @@ for file in directories:
         print("Erro na gravação do arquivo " + nomearq)
     i = i + 1
 
-
-
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
