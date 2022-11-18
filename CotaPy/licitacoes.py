@@ -1,11 +1,11 @@
 import calendar
 import os
 
-from funcoes import baixar_json
+from funcoes import baixar_json, request_json
 
 # specify your path of directory
 path = "..\\Novembro-2022\\Licitacoes - Diarias"
-anos: list[int] = [2021, 2022]
+anos: list[int] = [2022]
 
 vtabela = 'licitacoes'
 for ano in anos:
@@ -25,5 +25,7 @@ for ano in anos:
                     print('Fazendo ' + sdia)
                     url = 'http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?data_publicacao=' + sdia
                     arquivo = path + "\\" + nomearq
-                    erro = not baixar_json(url, arquivo)
+                    erro = not request_json(url, arquivo)
+                else:
+                    erro = False
 print('Concluído')
