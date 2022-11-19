@@ -1,7 +1,3 @@
-# SELECT distinct codigo_item_material FROM siasg.itensLicitacao where !(codigo_item_material is null);
-# http://compras.dados.gov.br/materiais/id/material/000227505.json
-# str(num).zfill(9)
-
 from sqlalchemy import create_engine
 import pandas as pd
 import os
@@ -21,12 +17,9 @@ qsql = 'SELECT distinct codigo_item_material FROM'
 qsql = qsql + ' siasg.itensLicitacao where codigo_item_material is not null order by codigo_item_material'
 
 frame = pd.read_sql(qsql, dbConnection)
-print(frame)
 for row in frame.codigo_item_material:
     nomearq = 'material' + str(row).zfill(9) + '.json'
     arquivo = path + "\\" + nomearq
-    if row < 11800:
-        continue
     if not (os.path.exists(arquivo)):
         print('Fazendo ' + str(row))
         url = 'http://compras.dados.gov.br/materiais/id/material/' + str(row).zfill(9) + '.json'

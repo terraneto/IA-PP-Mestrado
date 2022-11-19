@@ -1,7 +1,7 @@
 import calendar
 import os
 
-from funcoes import baixar_json, request_json
+from funcoes import request_json
 
 # specify your path of directory
 path = "..\\Novembro-2022\\Licitacoes - Diarias"
