@@ -12,3 +12,20 @@ def product(product_id):
         404, "produto nao encontrado"
     )
     return render_template("product.html", product=product)
+
+
+def view_home():
+    product = Product.query.filter_by(id=1).first() or abort(
+        404, "produto nao encontrado"
+    )
+    return render_template("product.html", product=product)
+
+
+def view_first_page():
+    products = Product.query.all()
+    return render_template("index.html", products=products)
+
+
+def view_second_page():
+    products = Product.query.all()
+    return render_template("index.html", products=products)
