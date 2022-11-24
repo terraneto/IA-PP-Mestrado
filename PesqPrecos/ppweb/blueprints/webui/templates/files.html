@@ -1,0 +1,12 @@
+{% extends "index.html" %}
+{% block content %}
+<ul>
+    {% for file in files %}
+    <li>
+        <a href="{{'/static'+(request.path + '/' if request.path != '/' else '') + file }}">
+            {{ file }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>
+{%endblock %}

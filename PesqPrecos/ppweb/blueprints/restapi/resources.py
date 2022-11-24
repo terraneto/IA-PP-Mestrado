@@ -2,6 +2,7 @@ from flask import abort, jsonify
 from flask_restful import Resource
 
 from ppweb.models import Product
+from ppweb.models import Uasg
 
 
 class ProductResource(Resource):
@@ -9,6 +10,14 @@ class ProductResource(Resource):
         products = Product.query.all() or abort(204)
         return jsonify(
             {"products": [product.to_dict() for product in products]}
+        )
+
+
+class UasgResource(Resource):
+    def get(self):
+        uasgs = Uasg.query.all() or abort(204)
+        return jsonify(
+            {"uasgs": [uasg.to_dict() for uasg in uasgs]}
         )
 
 

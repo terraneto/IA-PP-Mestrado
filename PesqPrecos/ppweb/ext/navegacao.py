@@ -1,5 +1,5 @@
 from flask_nav import Nav
-from flask_nav.elements import Navbar, View, Subgroup, Separator, Link
+from flask_nav.elements import Navbar, View, Subgroup, Separator, Link, Text
 
 nav = Nav()
 
@@ -11,10 +11,13 @@ def mynavbar():
         View('Home', 'webui.index'),
         View('Produto', 'webui.index'),
         View('Outro', 'webui.view_home'),
-        Subgroup('subpáginas',
-                 View('firstpage', 'webui.firstpage'),
+        Subgroup('UASG',
+                 View('Uasgs', 'webui.uasg'),
+                 View('Listar Jsons', 'webui.jsonpath', req_path='uasg'),
                  Separator(),
-                 View('secondpage', 'webui.secondpage'),
+                 Text('Teste de texto'),
+                 View('Carregar Jsons', 'webui.secondpage'),
+                 View('Baixar Jsons', 'webui.view_baixa_uasgs')
                  ),
         Link('Tech Support', 'http://www.google.com'),
     )
