@@ -1,6 +1,9 @@
+import datetime
+
 import requests
 import json
 import os
+
 
 
 def request_json(url, tipo, arquivo):
@@ -34,6 +37,7 @@ def request_json(url, tipo, arquivo):
 
 
 def baixa_json_baselicitacoes(tipo):
+
     pag = 0
     numpags = 1
     while pag < numpags:
@@ -54,5 +58,19 @@ def baixa_json_baselicitacoes(tipo):
                 numpags = totalpag
         pag += 1
     return True
+
+def logs(tipo, mensagem):
+        data = datetime.datetime.now()
+        str_now = data.strftime('%Y-%m-%d %H:%M:%S')
+        sodata = data.strftime('%Y-%m-%d')
+        log = './static/logs/' + tipo +sodata+'.txt'
+        f = open(log, 'r+')
+        f.seek(-2, 2)  # last character in file
+        if f.read(2) == '\n\n':
+            f.seek(-1, 1)  # wow, we really did find a newline! rewind again!
+        f.write(str_now + ' - ' + mensagem+'\n')
+        f.close()
+
+
 
 
