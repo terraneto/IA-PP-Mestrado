@@ -16,9 +16,17 @@ def mynavbar():
                  View('Listar Jsons', 'webui.jsonpath', req_path='uasgs'),
 #                 Separator(),
 #                 Text('Teste de texto'),
-                 View('Carregar Jsons', 'webui.view_carrega_json_uasg'),
-                 View('Baixar Jsons', 'webui.view_baixa_uasgs')
+
                  ),
+        Subgroup('Baixar Jsons',
+                 View('Órgãos', 'webui.view_baixa_orgaos'),
+                 View('Uasgs', 'webui.view_baixa_uasgs'),
+                 ),
+        Subgroup('Carregar Jsons',
+                 View('Órgãos', 'webui.view_carrega_json_orgao'),
+                 View('Uasgs', 'webui.view_carrega_json_uasg'),
+                 ),
+
 #        Link('Tech Support', 'http://www.google.com'),
     )
 

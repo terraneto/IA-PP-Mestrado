@@ -5,7 +5,7 @@ from flask_simplelogin import login_required
 from werkzeug.security import generate_password_hash
 
 from ppweb.ext.database import db
-from ppweb.models import Product, User, Uasg, Config
+from ppweb.models import Product, User, Uasg, Config, Orgao
 
 # Proteger o admin com login via Monkey Patch
 AdminIndexView._handle_view = login_required(AdminIndexView._handle_view)
@@ -27,5 +27,6 @@ def init_app(app):
     admin.init_app(app)
     admin.add_view(sqla.ModelView(Product, db.session))
     admin.add_view(sqla.ModelView(Uasg, db.session))
+    admin.add_view(sqla.ModelView(Orgao, db.session))
     admin.add_view(sqla.ModelView(Config, db.session))
     admin.add_view(UserAdmin(User, db.session))

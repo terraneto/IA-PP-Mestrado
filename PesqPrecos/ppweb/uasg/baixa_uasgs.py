@@ -1,5 +1,5 @@
 from ppweb.utils import baixa_json_baselicitacoes
 
 def baixa_uasg():
-    baixa_json_baselicitacoes('uasgs')
+    baixa_json_baselicitacoes('uasgs', None)
     return True

@@ -1,9 +1,9 @@
 from flask import abort, render_template, send_file
 
-from ppweb.models import Product, Uasg
+from ppweb.models import Product, Uasg, Orgao
 import os
 
-from ppweb.utils import baixa_json_baselicitacoes, carrega_json_db, carrega_json
+from ppweb.utils import baixa_json_baselicitacoes,  carrega_json
 
 
 def index():
@@ -16,10 +16,6 @@ def uasg():
     return render_template("uasgs.html", uasgs=uasgs)
 
 
-def view_carrega_json_uasg():
-    carrega_json('uasgs')
-    uasgs = Uasg.query.all()
-    return render_template("uasgs.html", uasgs=uasgs)
 
 
 def product(product_id):
@@ -58,5 +54,21 @@ def dir_listing(req_path):
 
 
 def view_baixa_uasgs():
-    baixa_json_baselicitacoes('uasgs')
+    baixa_json_baselicitacoes('uasgs', None)
     return dir_listing('uasgs')
+
+def view_baixa_orgaos():
+    baixa_json_baselicitacoes('orgaos', 'ativo=True')
+    return dir_listing('orgaos')
+
+
+def view_carrega_json_uasg():
+    carrega_json('uasgs')
+    uasgs = Uasg.query.all()
+    return render_template("uasgs.html", uasgs=uasgs)
+
+
+def view_carrega_json_orgao():
+    carrega_json('Orgaos')
+    orgaos = Orgao.query.all()
+    return render_template("orgaos.html", orgaos=orgaos)

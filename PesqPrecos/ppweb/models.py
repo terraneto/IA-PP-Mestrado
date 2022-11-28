@@ -31,3 +31,12 @@ class Uasg(db.Model, SerializerMixin):
     total_fornecedores_cadastrados = db.Column(db.Integer)
     unidade_cadastradora = db.Column(db.Integer)
     ativo = db.Column(db.Integer)
+
+
+class Orgao(db.Model, SerializerMixin):
+    codigo = db.Column(db.Integer, primary_key=True)
+    nome = db.Column(db.String(50))
+    codigo_tipo_adm = db.Column(db.Integer)
+    codigo_tipo_esfera = db.Column(db.String(9))
+    codigo_tipo_poder = db.Column(db.Integer)
+    ativo = db.Column(db.Integer)
