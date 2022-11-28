@@ -25,3 +25,9 @@ class ProductItemResource(Resource):
     def get(self, product_id):
         product = Product.query.filter_by(id=product_id).first() or abort(404)
         return jsonify(product.to_dict())
+
+
+class UasgItemResource(Resource):
+    def get(self, id):
+        uasg = Uasg.query.filter_by(id=id).first() or abort(404)
+        return jsonify(uasg.to_dict())

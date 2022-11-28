@@ -1,6 +1,6 @@
 from flask import Blueprint
 
-from .views import index, product, view_home, view_second_page, view_first_page, dir_listing, view_baixa_uasgs, uasg
+from .views import index, product, view_home, view_second_page, view_first_page, dir_listing, view_baixa_uasgs, uasg, view_carrega_json_uasg
 
 bp = Blueprint("webui", __name__, template_folder="templates")
 
@@ -28,7 +28,9 @@ bp.add_url_rule("/json", view_func=dir_listing, endpoint="json"
 bp.add_url_rule("/json/<req_path>", view_func=dir_listing, endpoint="jsonpath")
 
 
-bp.add_url_rule("/json/uasgs/download", view_func=view_baixa_uasgs, endpoint="view_baixa_uasgs")
+bp.add_url_rule("/json/uasgs", view_func=view_baixa_uasgs, endpoint="view_baixa_uasgs")
+
+bp.add_url_rule("/json/uasgs/carregadb", view_func=view_carrega_json_uasg, endpoint="view_carrega_json_uasg")
 
 def init_app(app):
     app.register_blueprint(bp)

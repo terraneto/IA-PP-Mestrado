@@ -1,16 +1,23 @@
-from flask import abort, render_template
+from flask import abort, render_template, send_file
 
 from ppweb.models import Product, Uasg
 import os
 
-from ppweb.utils import baixa_json_baselicitacoes
+from ppweb.utils import baixa_json_baselicitacoes, carrega_json_db, carrega_json
 
 
 def index():
     products = Product.query.all()
     return render_template("index.html", products=products)
 
+
 def uasg():
+    uasgs = Uasg.query.all()
+    return render_template("uasgs.html", uasgs=uasgs)
+
+
+def view_carrega_json_uasg():
+    carrega_json('uasgs')
     uasgs = Uasg.query.all()
     return render_template("uasgs.html", uasgs=uasgs)
 
@@ -41,19 +48,11 @@ def view_second_page():
 
 def dir_listing(req_path):
     BASE_DIR = './static/json/'
-
-    # Joining the base and the requested path
     abs_path = os.path.join(BASE_DIR, req_path)
-
-    # Return 404 if path doesn't exist
     if not os.path.exists(abs_path):
         return abort(404)
-
-    # Check if path is a file and serve
     if os.path.isfile(abs_path):
         return send_file(abs_path)
-
-    # Show directory contents
     files = os.listdir(abs_path)
     return render_template('files.html', files=files)
 

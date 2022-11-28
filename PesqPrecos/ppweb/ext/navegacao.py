@@ -13,13 +13,13 @@ def mynavbar():
         View('Outro', 'webui.view_home'),
         Subgroup('UASG',
                  View('Uasgs', 'webui.uasg'),
-                 View('Listar Jsons', 'webui.jsonpath', req_path='uasg'),
-                 Separator(),
-                 Text('Teste de texto'),
-                 View('Carregar Jsons', 'webui.secondpage'),
+                 View('Listar Jsons', 'webui.jsonpath', req_path='uasgs'),
+#                 Separator(),
+#                 Text('Teste de texto'),
+                 View('Carregar Jsons', 'webui.view_carrega_json_uasg'),
                  View('Baixar Jsons', 'webui.view_baixa_uasgs')
                  ),
-        Link('Tech Support', 'http://www.google.com'),
+#        Link('Tech Support', 'http://www.google.com'),
     )
 
 
