@@ -157,3 +157,34 @@ def create_orgaos_from_dataframe(df):
         db.session.commit()
     except Exception as excecao:
         print("Erro na gravação no banco " + str(excecao.__cause__))
+
+
+def baixa_json_basemateriais(tipo, parametro):
+    pag = 0
+    numpags = 1
+    logs(tipo, 'Iniciou download número páginas=' + str(numpags))
+    while pag < numpags:
+        valpag = 500 * pag
+        if parametro is None:
+            url = 'http://compras.dados.gov.br/materiais/v1/' + tipo + '.json?offset=' + str(valpag)
+        else:
+            url = 'http://compras.dados.gov.br/materiais/v1/' + tipo + '.json?' + parametro + '&offset=' + str(valpag)
+        print(url)
+        arquivo = tipo + str(valpag) + '.json'
+        if os.path.exists('./static/json/' + tipo + '/' + arquivo) and pag > 0:
+            pag += 1
+            logs(tipo, 'Pulou pagina=' + str(pag))
+            continue
+        baixou = request_json(url, tipo, arquivo)
+        if baixou:
+            with open('./static/json/' + tipo + '/' + arquivo) as jsonfile:
+                data_json = json.load(jsonfile)
+                num = data_json["count"]
+                totalpag = num // 500
+                if num % 500 > 0:
+                    totalpag = totalpag + 1
+                numpags = totalpag
+        pag += 1
+        logs(tipo, 'Terminou paginas=' + str(pag))
+        logs(tipo, 'número paginas=' + str(numpags))
+    return True

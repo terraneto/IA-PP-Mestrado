@@ -40,3 +40,13 @@ class Orgao(db.Model, SerializerMixin):
     codigo_tipo_esfera = db.Column(db.String(9))
     codigo_tipo_poder = db.Column(db.Integer)
     ativo = db.Column(db.Integer)
+
+
+class Material(db.Model, SerializerMixin):
+    codigo = db.Column(db.Integer, primary_key=True)
+    descricao = db.Column(db.String(30))
+    id_grupo = db.Column(db.Integer)
+    id_classe = db.Column(db.Integer)
+    id_pdm = db.Column(db.Integer)
+    status = db.Column(db.Integer)
+    sustentavel = db.Column(db.Integer)

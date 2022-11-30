@@ -19,10 +19,12 @@ def mynavbar():
 
                  ),
         Subgroup('Baixar Jsons',
+                 View('Materiais', 'webui.view_baixa_materiais'),
                  View('Órgãos', 'webui.view_baixa_orgaos'),
                  View('Uasgs', 'webui.view_baixa_uasgs'),
                  ),
         Subgroup('Carregar Jsons',
+                 View('Materiais', 'webui.view_carrega_json_materiais'),
                  View('Órgãos', 'webui.view_carrega_json_orgao'),
                  View('Uasgs', 'webui.view_carrega_json_uasg'),
                  ),
