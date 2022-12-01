@@ -1,0 +1,6 @@
+2022-12-01 08:57:03 - Iniciou download número páginas=1
+2022-12-01 09:00:09 - Terminou paginas=1
+2022-12-01 09:00:09 - número paginas=1
+2022-12-01 09:39:29 - Iniciou download número páginas=1
+2022-12-01 09:40:08 - Terminou paginas=1
+2022-12-01 09:40:08 - número paginas=1
