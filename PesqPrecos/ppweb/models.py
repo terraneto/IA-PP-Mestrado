@@ -50,3 +50,73 @@ class Material(db.Model, SerializerMixin):
     id_pdm = db.Column(db.Integer)
     status = db.Column(db.Integer)
     sustentavel = db.Column(db.Integer)
+
+
+class Grupo(db.Model, SerializerMixin):
+    codigo = db.Column(db.Integer, primary_key=True)
+    descricao = db.Column(db.String(130))
+
+
+class Classe(db.Model, SerializerMixin):
+    codigo = db.Column(db.Integer, primary_key=True)
+    descricao = db.Column(db.String(130))
+    codigo_grupo = db.Column(db.Integer)
+
+
+class PDM(db.Model, SerializerMixin):
+    codigo = db.Column(db.Integer, primary_key=True)
+    descricao = db.Column(db.String(130))
+    codigo_classe = db.Column(db.Integer)
+
+
+class AmbitoOcorrencia(db.Model, SerializerMixin):
+    id = db.Column(db.Integer, primary_key=True)
+    descricao = db.Column(db.String(25))
+
+
+class CNAE(db.Model, SerializerMixin):
+    id = db.Column(db.Integer, primary_key=True)
+    descricao = db.Column(db.String(170))
+    codigo_longo = db.Column(db.String(10))
+
+
+class ComprasContratos(db.Model, SerializerMixin):
+    id = db.Column(db.Integer, primary_key=True)
+    codigo_contrato = db.Column(db.String(17))
+    numero = db.Column(db.String(12))
+    receita_despesa = db.Column(db.String(7))
+    orgao_codigo = db.Column(db.Integer)
+    orgao_nome = db.Column(db.String(45))
+    unidade_codigo = db.Column(db.Integer)
+    unidade_nome_resumido = db.Column(db.String(20))
+    unidade_nome = db.Column(db.String(50))
+    unidade_origem_codigo = db.Column(db.Integer)
+    unidade_origem_nome = db.Column(db.String(50))
+    codigo_tipo = db.Column(db.Integer)
+    tipo = db.Column(db.String(45))
+    categoria = db.Column(db.String(25))
+    processo = db.Column(db.String(25))
+    objeto = db.Column(db.Text)
+    fundamento_legal = db.Column(db.String(50))
+
+
+'''
+  `data_assinatura` text, DateTime
+  `data_publicacao` text, DateTime
+  `vigencia_inicio` text, DateTime
+  `vigencia_fim` text,  DateTime
+  `valor_inicial` double DEFAULT NULL,
+  `valor_global` double DEFAULT NULL,
+  `num_parcelas` bigint DEFAULT NULL,
+  `valor_parcela` double DEFAULT NULL,
+  `valor_acumulado` double DEFAULT NULL,
+  `fornecedor_tipo` text,
+  `fornecedor_cnpj_cpf_idgener` text,
+  `fornecedor_nome` text,
+  `codigo_compra` text,
+  `modalidade_codigo` text,
+  `modalidade` text,
+  `unidade_compra` double DEFAULT NULL,
+  `licitacao_numero` text,
+  `informacao_complementar` text,
+ '''

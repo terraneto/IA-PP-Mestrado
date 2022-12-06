@@ -1,0 +1,1 @@
+{"_links":{"self":{"href":"http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura=2022-01-16","title":"Lista de contratos filtrados por data_assinatura=2022-01-16."},"first":{"href":"/comprasContratos/v1/contratos.json?data_assinatura=2022-01-16&offset=0","title":"Primeira página"}},"_embedded":{"contratos":[]},"count":0,"offset":0}
