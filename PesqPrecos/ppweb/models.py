@@ -98,25 +98,21 @@ class ComprasContratos(db.Model, SerializerMixin):
     processo = db.Column(db.String(25))
     objeto = db.Column(db.Text)
     fundamento_legal = db.Column(db.String(50))
-
-
-'''
-  `data_assinatura` text, DateTime
-  `data_publicacao` text, DateTime
-  `vigencia_inicio` text, DateTime
-  `vigencia_fim` text,  DateTime
-  `valor_inicial` double DEFAULT NULL,
-  `valor_global` double DEFAULT NULL,
-  `num_parcelas` bigint DEFAULT NULL,
-  `valor_parcela` double DEFAULT NULL,
-  `valor_acumulado` double DEFAULT NULL,
-  `fornecedor_tipo` text,
-  `fornecedor_cnpj_cpf_idgener` text,
-  `fornecedor_nome` text,
-  `codigo_compra` text,
-  `modalidade_codigo` text,
-  `modalidade` text,
-  `unidade_compra` double DEFAULT NULL,
-  `licitacao_numero` text,
-  `informacao_complementar` text,
- '''
+    data_assinatura = db.Column(db.DateTime)
+    data_publicacao = db.Column(db.DateTime)
+    vigencia_inicio = db.Column(db.DateTime)
+    vigencia_fim = db.Column(db.DateTime)
+    valor_inicial = db.Column(db.Float)
+    valor_global = db.Column(db.Float)
+    num_parcelas = db.Column(db.BigInteger)
+    valor_parcela = db.Column(db.Float)
+    valor_acumulado = db.Column(db.Float)
+    fornecedor_tipo = db.Column(db.Text)
+    fornecedor_cnpj_cpf_idgener = db.Column(db.Text)
+    fornecedor_nome = db.Column(db.Text)
+    codigo_compra = db.Column(db.Text)
+    modalidade_codigo = db.Column(db.Text)
+    modalidade = db.Column(db.Text)
+    unidade_compra = db.Column(db.Float)
+    licitacao_numero = db.Column(db.Text)
+    informacao_complementar = db.Column(db.Text)

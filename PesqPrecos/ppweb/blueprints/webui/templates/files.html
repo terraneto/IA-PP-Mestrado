@@ -3,7 +3,7 @@
 <ul>
     {% for file in files %}
     <li>
-        <a href="{{'/static'+(request.path + '/' if request.path != '/' else '') + file }}">
+        <a href="{{'../../'+ vpath  + '/' + file }}">
             {{ file }}
         </a>
     </li>

@@ -1,9 +1,9 @@
 from flask import abort, render_template, send_file
 
-from ppweb.models import Product, Uasg, Orgao, Material
+from ppweb.models import Product, Uasg, Orgao, Material, Classe, Grupo
 import os
 
-from ppweb.utils import baixa_json_baselicitacoes, carrega_json, baixa_json_basemateriais
+from ppweb.utils import baixa_json_baselicitacoes, carrega_json, baixa_json_basemateriais, baixa_json
 
 
 def index():
@@ -30,16 +30,6 @@ def view_home():
     return render_template("product.html", product=product)
 
 
-def view_first_page():
-    products = Product.query.all()
-    return render_template("index.html", products=products)
-
-
-def view_second_page():
-    products = Product.query.all()
-    return render_template("index.html", products=products)
-
-
 def dir_listing(req_path):
     BASE_DIR = './static/json/'
     abs_path = os.path.join(BASE_DIR, req_path)
@@ -48,7 +38,7 @@ def dir_listing(req_path):
     if os.path.isfile(abs_path):
         return send_file(abs_path)
     files = os.listdir(abs_path)
-    return render_template('files.html', files=files)
+    return render_template('files.html', files=files, vpath=abs_path)
 
 
 def view_baixa_uasgs():
@@ -61,9 +51,16 @@ def view_baixa_orgaos():
     return dir_listing('orgaos')
 
 
-def view_baixa_materiais():
-    baixa_json_basemateriais('materiais', None)
-    return dir_listing('materiais')
+def view_baixa_tipo_materiais(vtipo):
+    print('view baixa tipo de materiais. Tipo=' + vtipo)
+    baixa_json_basemateriais(vtipo, None)
+    return dir_listing(vtipo)
+
+
+def view_baixa_json(vmodulo, vtipo):
+    print('view baixa tipo de ' + vmodulo + '. Tipo=' + vtipo)
+    baixa_json(vmodulo, vtipo, None)
+    return dir_listing(vtipo)
 
 
 def view_carrega_json_uasg():
@@ -76,7 +73,6 @@ def view_carrega_json_orgao():
     carrega_json('Orgaos')
     orgaos = Orgao.query.all()
     return render_template("orgaos.html", orgaos=orgaos)
-
 
 
 def view_carrega_json_materiais():
