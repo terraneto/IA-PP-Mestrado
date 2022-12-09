@@ -2,7 +2,7 @@ from flask import Blueprint
 
 from .views import index, product, view_home, dir_listing, \
     view_baixa_uasgs, uasg, view_carrega_json_uasg, view_baixa_orgaos, view_carrega_json_orgao, \
-    view_baixa_tipo_materiais, view_carrega_json_materiais
+    view_carrega_json_materiais, view_baixa_json
 
 bp = Blueprint("webui", __name__, template_folder="templates")
 
@@ -22,7 +22,7 @@ bp.add_url_rule("/json", view_func=dir_listing, endpoint="json")
 
 bp.add_url_rule("/json/<req_path>", view_func=dir_listing, endpoint="jsonpath")
 
-bp.add_url_rule("/json/materiais/<vtipo>", view_func=view_baixa_tipo_materiais, endpoint="view_baixa_tipo_materiais")
+bp.add_url_rule("/json/<vmodulo>/<vtipo>", view_func=view_baixa_json, endpoint="view_baixa_json")
 
 bp.add_url_rule("/json/uasgs", view_func=view_baixa_uasgs, endpoint="view_baixa_uasgs")
 

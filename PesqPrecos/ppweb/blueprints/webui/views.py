@@ -3,7 +3,7 @@ from flask import abort, render_template, send_file
 from ppweb.models import Product, Uasg, Orgao, Material, Classe, Grupo
 import os
 
-from ppweb.utils import baixa_json_baselicitacoes, carrega_json, baixa_json_basemateriais, baixa_json
+from ppweb.utils import baixa_json_baselicitacoes, carrega_json, baixa_json
 
 
 def index():
@@ -51,15 +51,15 @@ def view_baixa_orgaos():
     return dir_listing('orgaos')
 
 
-def view_baixa_tipo_materiais(vtipo):
-    print('view baixa tipo de materiais. Tipo=' + vtipo)
-    baixa_json_basemateriais(vtipo, None)
-    return dir_listing(vtipo)
-
-
 def view_baixa_json(vmodulo, vtipo):
     print('view baixa tipo de ' + vmodulo + '. Tipo=' + vtipo)
     baixa_json(vmodulo, vtipo, None)
+    return dir_listing(vtipo)
+
+
+def view_baixa_json_parametros(vmodulo, vtipo, vparametro):
+    print('view baixa tipo de ' + vmodulo + '. Tipo=' + vtipo)
+    baixa_json(vmodulo, vtipo, vparametro)
     return dir_listing(vtipo)
 
 

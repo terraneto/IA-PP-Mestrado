@@ -13,9 +13,14 @@ def request_json(url, tipo, arquivo):
     patharquivo = './static/json/' + tipo + '/' + arquivo
     status = False
     erro = 0
-    try:
-        while status is False and erro < 5:
-            response = requests.get(url)
+    tempo = 5
+    while status is False and erro < 2:
+        try:
+            data = datetime.datetime.now()
+            str_now = data.strftime('%Y-%m-%d %H:%M:%S')
+            print('Request_json - '+str_now + ' - Baixando ' + url + ' Erro=' + str(erro))
+            response = requests.get(url, timeout=tempo)
+            print('Request_json - Status do download ' + str(response.status_code))
             if response.status_code == 200:
                 if response.headers.get('content-type') == 'application/json':
                     data_json = response.json()
@@ -32,14 +37,14 @@ def request_json(url, tipo, arquivo):
                     return True
                 else:
                     print(response.headers.get('content-type'))
-            else:
-                print(response.status_code)
+        except (requests.exceptions.RequestException, ValueError) as e:
+            print(e)
+            tempo = tempo +5
+            erro = erro - 1
+        finally:
             erro = erro + 1
-            print(erro)
-        return status
-    except (requests.exceptions.RequestException, ValueError) as e:
-        print(e)
-        return False
+    return status
+
 
 
 def baixa_json_baselicitacoes(tipo, parametro):
@@ -163,64 +168,19 @@ def create_orgaos_from_dataframe(df):
         print("Erro na gravação no banco " + str(excecao.__cause__))
 
 
-def baixa_json_basemateriais(ptipo, tparametro):
-    print('baixa Json Materiais ' + ptipo)
-    pag = 0
-    numpags = 1
-    logs(ptipo, 'Iniciou download número páginas=' + str(numpags))
-    while pag < numpags:
-        valpag = 500 * pag
-        if tparametro is None:
-            url = 'http://compras.dados.gov.br/materiais/v1/' + ptipo + '.json?offset=' + str(valpag)
-        else:
-            url = 'http://compras.dados.gov.br/materiais/v1/' + ptipo + '.json?' + tparametro + '&offset=' + str(valpag)
-        arquivo = ptipo + str(valpag) + '.json'
-        patharquivo = './static/json/' + ptipo + '/' + arquivo
-        oldarquivo = './static/json/' + ptipo + '/old' + arquivo
-        if os.path.exists(patharquivo) and pag > 0:
-            pag += 1
-            logs(ptipo, 'Pulou pagina=' + str(pag))
-            continue
-        print(url)
-        if pag == 0:
-            if os.path.exists(patharquivo):
-                if not os.path.exists(oldarquivo):
-                    os.rename(patharquivo, oldarquivo)
-        baixou = request_json(url, ptipo, arquivo)
-        if baixou or pag == 0:
-            if not baixou:
-                print(oldarquivo)
-                if not os.path.exists(oldarquivo):
-                    os.rename(oldarquivo, patharquivo)
-            with open('./static/json/' + ptipo + '/' + arquivo) as jsonfile:
-                data_json = json.load(jsonfile)
-                num = data_json["count"]
-                totalpag = num // 500
-                if num % 500 > 0:
-                    totalpag = totalpag + 1
-                numpags = totalpag
-        pag += 1
-        print('baixada ' + str(pag) + '/' + str(numpags))
-        logs(ptipo, 'Terminou paginas=' + str(pag))
-        logs(ptipo, 'número paginas=' + str(numpags))
-        if os.path.exists(oldarquivo):
-            os.remove(oldarquivo)
-    return True
-
-
 def baixa_json(modulo, ptipo, tparametro):
-    print('baixa Json '+modulo+' - ' + ptipo)
+    print('baixa Json ' + modulo + ' - ' + ptipo)
     pag = 0
     numpags = 1
     logs(ptipo, 'Iniciou download número páginas=' + str(numpags))
-    if not os.path.exists('./static/json'+ptipo):
-        os.mkdir('./static/json/'+ptipo)
+    if not os.path.exists('./static/json/' + ptipo):
+        os.mkdir('./static/json/' + ptipo)
     while pag < numpags:
         valpag = 500 * pag
         if tparametro is None:
-            url = 'http://compras.dados.gov.br/'+modulo+'/v1/' + ptipo + '.json?offset=' + str(valpag)
+            url = 'http://compras.dados.gov.br/' + modulo + '/v1/' + ptipo + '.json?offset=' + str(valpag)
         else:
-            url = 'http://compras.dados.gov.br/'+modulo+'/v1/' + ptipo + '.json?' + tparametro + \
+            url = 'http://compras.dados.gov.br/' + modulo + '/v1/' + ptipo + '.json?' + tparametro + \
                   '&offset=' + str(valpag)
         arquivo = ptipo + str(valpag) + '.json'
         patharquivo = './static/json/' + ptipo + '/' + arquivo
@@ -238,9 +198,9 @@ def baixa_json(modulo, ptipo, tparametro):
         if baixou or pag == 0:
             if not baixou:
                 print(oldarquivo)
-                if not os.path.exists(oldarquivo):
+                if not os.path.exists(patharquivo):
                     os.rename(oldarquivo, patharquivo)
-            with open('./static/json/' + ptipo + '/' + arquivo) as jsonfile:
+            with open(patharquivo) as jsonfile:
                 data_json = json.load(jsonfile)
                 num = data_json["count"]
                 totalpag = num // 500
