@@ -104,12 +104,6 @@ def view_baixa_json(vmodulo, vtipo):
     return dir_listing(vtipo)
 
 
-def view_baixa_json_parametros(vmodulo, vtipo, vparametro):
-    print('view baixa tipo de ' + vmodulo + '. Tipo=' + vtipo)
-    baixa_json(vmodulo, vtipo, vparametro)
-    return dir_listing(vtipo)
-
-
 def view_baixa_json_contratos_mensal(vmodulo, vtipo, vano):
     print('view baixa tipo de ' + vmodulo + '. Tipo=' + vtipo + ' Ano=' + str(vano))
     baixa_json_contratos_mensal(vmodulo, vtipo, vano)
