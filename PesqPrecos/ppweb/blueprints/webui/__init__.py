@@ -1,8 +1,10 @@
 from flask import Blueprint
 
 from .views import index, product, view_home, dir_listing, \
-    view_baixa_uasgs, uasg, view_carrega_json_uasg, view_baixa_orgaos, view_carrega_json_orgao, \
-    view_carrega_json_materiais, view_baixa_json
+    uasg, view_carrega_json_uasg, view_carrega_json_orgao, \
+    view_carrega_json_materiais, view_baixa_json, view_carrega_json_classes, view_carrega_json_grupos, \
+    view_carrega_json_pdms, view_seltipo, view_baixa_json_contratos_mensal, update_dropdown, process_data, \
+    view_baixa_json_diario, view_baixa_material_por_id
 
 bp = Blueprint("webui", __name__, template_folder="templates")
 
@@ -24,16 +26,37 @@ bp.add_url_rule("/json/<req_path>", view_func=dir_listing, endpoint="jsonpath")
 
 bp.add_url_rule("/json/<vmodulo>/<vtipo>", view_func=view_baixa_json, endpoint="view_baixa_json")
 
-bp.add_url_rule("/json/uasgs", view_func=view_baixa_uasgs, endpoint="view_baixa_uasgs")
+bp.add_url_rule("/json/<vmodulo>/<vtipo>/<vano>/diario", view_func=view_baixa_json_diario,
+                endpoint="view_baixa_json_diario")
 
-bp.add_url_rule("/json/Orgaos", view_func=view_baixa_orgaos, endpoint="view_baixa_orgaos")
+bp.add_url_rule("/json/<vmodulo>/<vtipo>/<vano>", view_func=view_baixa_json_contratos_mensal,
+                endpoint="view_baixa_json_contratos_mensal")
+
+bp.add_url_rule("/json/material", view_func=view_baixa_material_por_id, endpoint="view_baixa_material_por_id")
 
 bp.add_url_rule("/json/uasgs/carregadb", view_func=view_carrega_json_uasg, endpoint="view_carrega_json_uasg")
 
 bp.add_url_rule("/json/orgaos/carregadb", view_func=view_carrega_json_orgao, endpoint="view_carrega_json_orgao")
 
-bp.add_url_rule("/json/materiais/carregadb", view_func=view_carrega_json_materiais,
+bp.add_url_rule("/carregadb/classes", view_func=view_carrega_json_classes,
+                endpoint="view_carrega_json_classes")
+
+bp.add_url_rule("/carregadb/grupos", view_func=view_carrega_json_grupos,
+                endpoint="view_carrega_json_grupos")
+
+bp.add_url_rule("/carregadb/materiais", view_func=view_carrega_json_materiais,
                 endpoint="view_carrega_json_materiais")
+
+bp.add_url_rule("/carregadb/pdms", view_func=view_carrega_json_pdms,
+                endpoint="view_carrega_json_pdms")
+
+bp.add_url_rule("/seltipo", view_func=view_seltipo,
+                endpoint="view_seltipo")
+
+bp.add_url_rule("/_update_dropdown", view_func=update_dropdown,
+                endpoint="update_dropdown")
+bp.add_url_rule("/_process_data", view_func=process_data,
+                endpoint="process_data")
 
 
 def init_app(app):

@@ -1,0 +1,4 @@
+2022-12-10 10:14:18 - Iniciou download número páginas=1
+2022-12-10 10:16:05 - Terminou paginas=1
+2022-12-10 10:16:05 - número paginas=2
+2022-12-10 10:16:05 - Pulou pagina=2

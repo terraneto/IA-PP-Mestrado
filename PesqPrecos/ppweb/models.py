@@ -64,7 +64,7 @@ class Classe(db.Model, SerializerMixin):
 
 
 class PDM(db.Model, SerializerMixin):
-    codigo = db.Column(db.Integer, primary_key=True)
+    codigo = db.Column(db.String(5), primary_key=True)
     descricao = db.Column(db.String(130))
     codigo_classe = db.Column(db.Integer)
 
