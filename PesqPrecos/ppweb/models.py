@@ -79,6 +79,14 @@ class CNAE(db.Model, SerializerMixin):
     descricao = db.Column(db.String(170))
     codigo_longo = db.Column(db.String(10))
 
+class Municipio(db.Model, SerializerMixin):
+    id = db.Column(db.Integer, primary_key=True)
+    codigo_ibge = db.Column(db.Text)
+    nome = db.Column(db.String(45))
+    nome_uf = db.Column(db.String(20))
+    sigla_uf = db.Column(db.String(2))
+    ativo = db.Column(db.Integer)
+
 
 class ComprasContratos(db.Model, SerializerMixin):
     id = db.Column(db.Integer, primary_key=True)

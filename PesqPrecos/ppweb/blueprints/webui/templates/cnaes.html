@@ -1,0 +1,27 @@
+{% extends "index.html" %}
+
+{% block content %}
+<div class="container">
+<h1>CNAEs</h1>
+
+        <ul class="list-group">
+            {% for cnae in cnaes %}
+            <li class="list-group-item">
+                {{cnae.id}} - {{cnae.descricao}} - {{cnae.codigo_longo}}
+            </li>
+            {% endfor %}
+        </ul>
+
+</div>
+{% block footer %}
+<footer class="footer hidden-xs">
+    <div class="container-fluid" style="position: absolute; height: 2.4rem; width: 100%; bottom: 0" >
+        <div class="row">
+           <div class="col-md-12">
+             <p class="texto text-center" style="background-image: url({{url_for('static', filename='RODAPE_BG.PNG')}}); color: white; "  >Senado Federal - Praça dos Três Poderes - Brasília DF - CEP 70165-900 - Fone: (61)3303-4141</p>
+           </div>
+        </div>
+    </div>
+</footer>
+{% endblock %}
+{% endblock %}

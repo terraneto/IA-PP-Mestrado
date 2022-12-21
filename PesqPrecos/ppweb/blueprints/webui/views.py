@@ -1,6 +1,7 @@
 from flask import abort, render_template, send_file, request, jsonify
 
-from ppweb.models import Product, Uasg, Orgao, Material, Classe, Grupo, PDM
+from ppweb.models import Product, Uasg, Orgao, Material, Classe, Grupo, PDM, AmbitoOcorrencia, CNAE, Municipio, \
+    ComprasContratos
 
 import os
 
@@ -121,6 +122,28 @@ def view_baixa_material_por_id():
     baixa_material_por_id()
     return dir_listing('material')
 
+
+def view_carrega_json_ambitos_ocorrencia():
+    carrega_json('ambitos_ocorrencia')
+    ambitos_ocorrencia = AmbitoOcorrencia.query.all()
+    return render_template("ambitos_ocorrencia.html", ambitos_ocorrencia=ambitos_ocorrencia)
+
+
+def view_carrega_json_contratos_mensais():
+    print('Entrei view carrega contratos')
+    carrega_json('contratos')
+    contratos = ComprasContratos.query.all()
+    return render_template("contratos.html", contratos=contratos)
+
+def view_carrega_json_cnaes():
+    carrega_json('cnaes')
+    cnaes = CNAE.query.all()
+    return render_template("cnaes.html", cnaes=cnaes)
+
+def view_carrega_json_municipios():
+    carrega_json('municipios')
+    municipios = Municipio.query.all()
+    return render_template("municipios.html", municipios=municipios)
 
 def view_carrega_json_uasg():
     carrega_json('uasgs')

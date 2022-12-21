@@ -4,7 +4,8 @@ from .views import index, product, view_home, dir_listing, \
     uasg, view_carrega_json_uasg, view_carrega_json_orgao, \
     view_carrega_json_materiais, view_baixa_json, view_carrega_json_classes, view_carrega_json_grupos, \
     view_carrega_json_pdms, view_seltipo, view_baixa_json_contratos_mensal, update_dropdown, process_data, \
-    view_baixa_json_diario, view_baixa_material_por_id
+    view_baixa_json_diario, view_baixa_material_por_id, view_carrega_json_cnaes, \
+    view_carrega_json_ambitos_ocorrencia, view_carrega_json_municipios, view_carrega_json_contratos_mensais
 
 bp = Blueprint("webui", __name__, template_folder="templates")
 
@@ -47,8 +48,20 @@ bp.add_url_rule("/carregadb/grupos", view_func=view_carrega_json_grupos,
 bp.add_url_rule("/carregadb/materiais", view_func=view_carrega_json_materiais,
                 endpoint="view_carrega_json_materiais")
 
+bp.add_url_rule("/carregadb/municipios", view_func=view_carrega_json_municipios,
+                endpoint="view_carrega_json_municipios")
+
 bp.add_url_rule("/carregadb/pdms", view_func=view_carrega_json_pdms,
                 endpoint="view_carrega_json_pdms")
+
+bp.add_url_rule("/carregadb/ambitos_ocorrencia", view_func=view_carrega_json_ambitos_ocorrencia,
+                endpoint="view_carrega_json_ambitos_ocorrencia")
+
+bp.add_url_rule("/carregadb/contratos", view_func=view_carrega_json_contratos_mensais,
+                endpoint="view_carrega_json_contratos_mensais")
+
+bp.add_url_rule("/carregadb/cnaes", view_func=view_carrega_json_cnaes,
+                endpoint="view_carrega_json_cnaes")
 
 bp.add_url_rule("/seltipo", view_func=view_seltipo,
                 endpoint="view_seltipo")
