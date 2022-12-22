@@ -5,7 +5,7 @@ from ppweb.models import Product, Uasg, Orgao, Material, Classe, Grupo, PDM, Amb
 
 import os
 
-from ppweb.utils import carrega_json, baixa_json, baixa_json_contratos_mensal, baixa_json_diario, baixa_material_por_id
+from ppweb.utils import carrega_json, baixa_json, baixa_json_contratos_mensal, baixa_json_diario
 
 
 def index():
@@ -116,11 +116,6 @@ def view_baixa_json_diario(vmodulo, vtipo, vano):
     baixa_json_diario(vmodulo, vtipo, vano)
     return dir_listing(vtipo)
 
-
-def view_baixa_material_por_id():
-    print('view baixa material por id')
-    baixa_material_por_id()
-    return dir_listing('material')
 
 
 def view_carrega_json_ambitos_ocorrencia():

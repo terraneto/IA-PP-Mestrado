@@ -4,7 +4,7 @@ from .views import index, product, view_home, dir_listing, \
     uasg, view_carrega_json_uasg, view_carrega_json_orgao, \
     view_carrega_json_materiais, view_baixa_json, view_carrega_json_classes, view_carrega_json_grupos, \
     view_carrega_json_pdms, view_seltipo, view_baixa_json_contratos_mensal, update_dropdown, process_data, \
-    view_baixa_json_diario, view_baixa_material_por_id, view_carrega_json_cnaes, \
+    view_baixa_json_diario, view_carrega_json_cnaes, \
     view_carrega_json_ambitos_ocorrencia, view_carrega_json_municipios, view_carrega_json_contratos_mensais
 
 bp = Blueprint("webui", __name__, template_folder="templates")
@@ -32,8 +32,6 @@ bp.add_url_rule("/json/<vmodulo>/<vtipo>/<vano>/diario", view_func=view_baixa_js
 
 bp.add_url_rule("/json/<vmodulo>/<vtipo>/<vano>", view_func=view_baixa_json_contratos_mensal,
                 endpoint="view_baixa_json_contratos_mensal")
-
-bp.add_url_rule("/json/material", view_func=view_baixa_material_por_id, endpoint="view_baixa_material_por_id")
 
 bp.add_url_rule("/json/uasgs/carregadb", view_func=view_carrega_json_uasg, endpoint="view_carrega_json_uasg")
 

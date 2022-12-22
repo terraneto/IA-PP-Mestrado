@@ -274,21 +274,3 @@ def baixa_json_diario(modulo, ptipo, vano):
     return True
 
 
-def baixa_material_por_id():
-    numpags = 1730000
-    ptipo = 'material'
-    if not os.path.exists('./static/json/material'):
-        os.mkdir('./static/json/material')
-    for ident in range(1, numpags):
-        arquivo = 'material' + str(ident).zfill(7) + '.json'
-        patharquivo = './static/json/material/' + arquivo
-        url = 'http://compras.dados.gov.br/materiais/id/material/' + str(ident) + '.json'
-        if os.path.exists(patharquivo):
-            logs(ptipo, 'Pulou pagina=' + str(ident))
-            continue
-        baixou = request_json(url, ptipo, arquivo)
-        if baixou:
-            print('baixada ' + str(ident) + '/' + str(numpags))
-            logs(ptipo, 'Terminou paginas=' + str(ident))
-            logs(ptipo, 'número paginas=' + str(numpags))
-    return True

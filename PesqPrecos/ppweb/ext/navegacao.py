@@ -38,7 +38,6 @@ def mynavbar():
                  View('Grupos', 'webui.view_baixa_json', vmodulo='materiais', vtipo='grupos'),
                  View('Materiais', 'webui.view_baixa_json', vmodulo='materiais', vtipo='materiais'),
                  View('PDMs', 'webui.view_baixa_json', vmodulo='materiais', vtipo='pdms'),
-                 View('Material por Id', 'webui.view_baixa_material_por_id'),
                  Separator(),
                  Text('Módulo Licitações'),
                  View('Licitações', 'webui.view_baixa_json_diario', vmodulo='licitacoes', vtipo='licitacoes',
