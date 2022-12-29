@@ -79,6 +79,7 @@ class CNAE(db.Model, SerializerMixin):
     descricao = db.Column(db.String(170))
     codigo_longo = db.Column(db.String(10))
 
+
 class Municipio(db.Model, SerializerMixin):
     id = db.Column(db.Integer, primary_key=True)
     codigo_ibge = db.Column(db.Text)
@@ -106,10 +107,10 @@ class ComprasContratos(db.Model, SerializerMixin):
     processo = db.Column(db.String(25))
     objeto = db.Column(db.Text)
     fundamento_legal = db.Column(db.String(50))
-    data_assinatura = db.Column(db.DateTime)
-    data_publicacao = db.Column(db.DateTime)
-    vigencia_inicio = db.Column(db.DateTime)
-    vigencia_fim = db.Column(db.DateTime)
+    data_assinatura = db.Column(db.Text)
+    data_publicacao = db.Column(db.Text)
+    vigencia_inicio = db.Column(db.Text)
+    vigencia_fim = db.Column(db.Text)
     valor_inicial = db.Column(db.Float)
     valor_global = db.Column(db.Float)
     num_parcelas = db.Column(db.BigInteger)
@@ -124,3 +125,27 @@ class ComprasContratos(db.Model, SerializerMixin):
     unidade_compra = db.Column(db.Float)
     licitacao_numero = db.Column(db.Text)
     informacao_complementar = db.Column(db.Text)
+
+
+class Licitacao(db.Model, SerializerMixin):
+    uasg = db.Column(db.Integer, primary_key=True)
+    modalidade = db.Column(db.Integer, primary_key=True)
+    numero_aviso = db.Column(db.Integer, primary_key=True)
+    identificador = db.Column(db.Text)
+    numero_item_licitacao = db.Column(db.Integer, primary_key=True)
+    tipo_pregao = db.Column(db.Text)
+    situacao_aviso = db.Column(db.Text)
+    objeto = db.Column(db.Text)
+    codigo_do_item_no_catalogo = db.Column(db.Integer)
+    informacoes_gerais = db.Column(db.Text)
+    numero_processo = db.Column(db.Text)
+    tipo_recurso = db.Column(db.Text)
+    numero_itens = db.Column(db.Integer)
+    nome_responsavel = db.Column(db.Text)
+    funcao_responsavel = db.Column(db.Text)
+    data_entrega_edital = db.Column(db.Text)
+    endereco_entrega_edital = db.Column(db.Text)
+    data_abertura_proposta = db.Column(db.Text)
+    data_entrega_proposta = db.Column(db.Text)
+    data_publicacao = db.Column(db.Text)
+

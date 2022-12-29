@@ -1,12 +1,14 @@
 import click
 from ppweb.ext.database import db
 from ppweb.ext.auth import create_user
-from ppweb.models import Product, PDM
+from ppweb.models import Product, PDM, Licitacao, ComprasContratos
 
 
 def create_db():
     """Creates database"""
     """PDM.__table__.drop(db.engine)"""
+    Licitacao.__table__.drop(db.engine)
+    ComprasContratos.__table__.drop(db.engine)
     db.create_all()
 
 

@@ -1,6 +1,6 @@
 from ppweb.ext.database import db
-
-from ppweb.models import Uasg, Orgao
+from ppweb.models import Uasg, Orgao, Licitacao
+from ppweb.utils import logs
 
 
 def create_uasg_from_dataframe(df):
@@ -50,9 +50,56 @@ def create_orgaos_from_dataframe(df):
             orgao.ativo = df_orgao['ativo']
             exists = db.session.query(db.exists().where(Orgao.codigo == df_orgao['codigo'])).scalar()
             if exists:
-                Orgao.verified = True
+                orgao.verified = True
             else:
                 db.session.add(orgao)
         db.session.commit()
     except Exception as excecao:
+        print("Erro na gravação no banco " + str(excecao.__cause__))
+
+
+def create_licitacoes_from_dataframe(df):
+    try:
+        if '_links' in df.columns:
+            del df['_links']
+        print('tamanho do dataframe =' + str(len(df)))
+        for index, df_licitacao in df.iterrows():
+            print(index)
+            licitacao = Licitacao.query.filter_by(uasg=df_licitacao['uasg'], modalidade=df_licitacao['modalidade'],
+                                                  numero_aviso=df_licitacao['numero_aviso'],
+                                                  numero_item_licitacao=df_licitacao['numero_item_licitacao']
+                                                  ).first()
+            if licitacao is None:
+                exists = False
+                licitacao = Licitacao()
+            else:
+                exists = True
+            licitacao.uasg = df_licitacao['uasg']
+            licitacao.modalidade = df_licitacao['modalidade']
+            licitacao.numero_aviso = df_licitacao['numero_aviso']
+            licitacao.identificador = df_licitacao['identificador']
+            licitacao.numero_item_licitacao = df_licitacao['numero_item_licitacao']
+            licitacao.tipo_pregao = df_licitacao['tipo_pregao']
+            licitacao.situacao_aviso = df_licitacao['situacao_aviso']
+            licitacao.objeto = df_licitacao['objeto']
+            licitacao.codigo_do_item_no_catalogo = df_licitacao['codigo_do_item_no_catalogo']
+            licitacao.informacoes_gerais = df_licitacao['informacoes_gerais']
+            licitacao.numero_processo = df_licitacao['numero_processo']
+            licitacao.tipo_recurso = df_licitacao['tipo_recurso']
+            licitacao.numero_itens = df_licitacao['numero_itens']
+            licitacao.nome_responsavel = df_licitacao['nome_responsavel']
+            licitacao.funcao_responsavel = df_licitacao['funcao_responsavel']
+            licitacao.data_entrega_edital = df_licitacao['data_entrega_edital']
+            licitacao.endereco_entrega_edital = df_licitacao['endereco_entrega_edital']
+            licitacao.data_abertura_proposta = df_licitacao['data_abertura_proposta']
+            licitacao.data_entrega_proposta = df_licitacao['data_entrega_proposta']
+            licitacao.data_publicacao = df_licitacao['data_publicacao']
+            if exists:
+                licitacao.verified = True
+            else:
+                db.session.add(licitacao)
+            db.session.commit()
+    except Exception as excecao:
+        logs('licitacoes', df_licitacao['licitacao.identificador'])
+        logs('licitacoes', str(df_licitacao['numero_item_licitacao']))
         print("Erro na gravação no banco " + str(excecao.__cause__))

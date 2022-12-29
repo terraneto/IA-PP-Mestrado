@@ -3,14 +3,9 @@ import datetime
 import requests
 import json
 import os
-import pandas as pd2
 
-from ppweb.contratosdf import create_contratos_from_dataframe
-from ppweb.fornecedoresdf import create_ambitos_ocorrencia_from_dataframe, create_cnaes_from_dataframe, \
-    create_municipios_from_dataframe
-from ppweb.licitacoesdf import create_uasg_from_dataframe, create_orgaos_from_dataframe
-from ppweb.materiaisdf import create_classes_from_dataframe, create_grupos_from_dataframe, \
-    create_materiais_from_dataframe, create_pdms_from_dataframe
+from ppweb.ext.database import db
+from ppweb.models import Uasg, Licitacao
 
 
 def request_json(url, tipo, arquivo):
@@ -63,50 +58,6 @@ def logs(tipo, mensagem):
     f.close()
 
 
-def carrega_json(tipo):
-    path = './static/json/' + tipo
-    directories = os.listdir(path)
-    i = 1
-    for file in directories:
-        nomearq = file
-        try:
-            with open(path + "//" + nomearq, encoding="utf8") as json_file:
-                data_json = json.loads(json_file.read())
-            embedded = data_json["_embedded"]
-            if tipo == "ambitos_ocorrencia":
-                tb = embedded["AmbitosOcorrencia"]
-            else:
-                tb = embedded[tipo]
-            df = pd2.DataFrame.from_dict(tb, orient='columns')
-            match tipo:
-                case "uasgs":
-                    create_uasg_from_dataframe(df)
-                case "Orgaos":
-                    create_orgaos_from_dataframe(df)
-                case "classes":
-                    create_classes_from_dataframe(df)
-                case "grupos":
-                    create_grupos_from_dataframe(df)
-                case "materiais":
-                    create_materiais_from_dataframe(df)
-                case "pdms":
-                    create_pdms_from_dataframe(df)
-                case "ambitos_ocorrencia":
-                    create_ambitos_ocorrencia_from_dataframe(df)
-                case "cnaes":
-                    create_cnaes_from_dataframe(df)
-                case "municipios":
-                    create_municipios_from_dataframe(df)
-                case "contratos":
-                    create_contratos_from_dataframe(df)
-                case _:
-                    print('default')
-        except Exception as excecao:
-            print("Erro na gravação do arquivo " + str(excecao.__cause__) + nomearq)
-        i = i + 1
-    return True
-
-
 def baixa_json(modulo, ptipo, tparametro):
     print('baixa Json ' + modulo + ' - ' + ptipo)
     pag = 0
@@ -124,9 +75,6 @@ def baixa_json(modulo, ptipo, tparametro):
         arquivo = ptipo + str(valpag) + '.json'
         patharquivo = './static/json/' + ptipo + '/' + arquivo
         oldarquivo = './static/json/' + ptipo + '/old' + arquivo
-        # if ptipo == 'materiais' and pag < 3234:
-        #   pag = 3400
-        #   numpags = 3452
         if os.path.exists(patharquivo) and pag > 0:
             pag += 1
             logs(ptipo, 'Pulou pagina=' + str(pag))
@@ -158,65 +106,69 @@ def baixa_json(modulo, ptipo, tparametro):
     return True
 
 
-def baixa_json_contratos_mensal(modulo, ptipo, vano):
+def baixa_json_mensal(modulo, ptipo, vano):
     ano = int(vano)
     print('baixa Json ' + modulo + ' - ' + ptipo)
     for mes in range(1, 13):
         udia = calendar.monthrange(ano, mes)[1]
-        udia1 = udia + 1
-        print(udia1)
         smes = str(ano).zfill(4) + '-' + str(mes).zfill(2)
-        inicio = smes + '-' + str(1).zfill(2)
-        fim = smes + '-' + str(udia).zfill(2)
-        pag = 0
-        numpags = 1
-        logs(ptipo, 'Iniciou download mês ' + str(mes) + ' número páginas=' + str(numpags))
-        if not os.path.exists('./static/json/' + ptipo):
-            os.mkdir('./static/json/' + ptipo)
-        while pag < numpags:
-            valpag = 500 * pag
-            if ptipo == 'licitacoes':
-                url = 'http://compras.dados.gov.br/' + modulo + '/v1/' + ptipo + '.json?' + \
-                  'data_publicacao_min=' + inicio + '&data_publicacao_max=' + fim + '&offset=' + str(valpag)
+        for parte in range(1, 32):
+            diainicio = parte
+            diafim = parte + 1
+            if diafim > udia:
+                diafim = udia
+            inicio = smes + '-' + str(diainicio).zfill(2)
+            fim = smes + '-' + str(diafim).zfill(2)
+            pag = 0
+            numpags = 1
+            logs(ptipo,
+                 'Iniciou download mês ' + str(mes) + ' - parte ' + str(parte) + ' número páginas=' + str(numpags))
+            if not os.path.exists('./static/json/' + ptipo):
+                os.mkdir('./static/json/' + ptipo)
+            while pag < numpags:
+                valpag = 500 * pag
+                if ptipo == 'licitacoes':
+                    url = 'http://compras.dados.gov.br/' + modulo + '/v1/' + ptipo + '.json?' + \
+                          'data_publicacao_min=' + inicio + '&data_publicacao_max=' + fim + '&offset=' + str(valpag)
 
-            else:
-                url = 'http://compras.dados.gov.br/' + modulo + '/v1/' + ptipo + '.json?' + \
-                  'data_assinatura_min=' + inicio + '&data_assinatura_max=' + fim + '&offset=' + str(valpag)
-            print(url)
-            arquivo = ptipo + smes + '-' + str(valpag).zfill(4) + '.json'
-            patharquivo = './static/json/' + ptipo + '/' + arquivo
-            oldarquivo = './static/json/' + ptipo + '/old' + arquivo
-            if os.path.exists(patharquivo) and pag > 0:
+                else:
+                    url = 'http://compras.dados.gov.br/' + modulo + '/v1/' + ptipo + '.json?' + \
+                          'data_assinatura_min=' + inicio + '&data_assinatura_max=' + fim + '&offset=' + str(valpag)
+                print(url)
+                arquivo = ptipo + smes + '-' + str(parte) + '-' + str(valpag).zfill(4) + '.json'
+                patharquivo = './static/json/' + ptipo + '/' + arquivo
+                oldarquivo = './static/json/' + ptipo + '/old' + arquivo
+                if os.path.exists(patharquivo) and pag > 0:
+                    pag += 1
+                    logs(ptipo, 'Pulou pagina=' + str(pag))
+                    continue
+                print(url)
+                if pag == 0:
+                    if os.path.exists(patharquivo):
+                        if not os.path.exists(oldarquivo):
+                            os.rename(patharquivo, oldarquivo)
+                baixou = request_json(url, ptipo, arquivo)
+                if baixou or pag == 0:
+                    if not baixou:
+                        print(oldarquivo)
+                        if not os.path.exists(patharquivo):
+                            if os.path.exists(oldarquivo):
+                                os.rename(oldarquivo, patharquivo)
+                            else:
+                                continue
+                    with open(patharquivo) as jsonfile:
+                        data_json = json.load(jsonfile)
+                        num = data_json["count"]
+                        totalpag = num // 500
+                        if num % 500 > 0:
+                            totalpag = totalpag + 1
+                        numpags = totalpag
                 pag += 1
-                logs(ptipo, 'Pulou pagina=' + str(pag))
-                continue
-            print(url)
-            if pag == 0:
-                if os.path.exists(patharquivo):
-                    if not os.path.exists(oldarquivo):
-                        os.rename(patharquivo, oldarquivo)
-            baixou = request_json(url, ptipo, arquivo)
-            if baixou or pag == 0:
-                if not baixou:
-                    print(oldarquivo)
-                    if not os.path.exists(patharquivo):
-                        if os.path.exists(oldarquivo):
-                            os.rename(oldarquivo, patharquivo)
-                        else:
-                            continue
-                with open(patharquivo) as jsonfile:
-                    data_json = json.load(jsonfile)
-                    num = data_json["count"]
-                    totalpag = num // 500
-                    if num % 500 > 0:
-                        totalpag = totalpag + 1
-                    numpags = totalpag
-            pag += 1
-            print('baixada ' + str(pag) + '/' + str(numpags))
-            logs(ptipo, 'Terminou paginas=' + str(pag))
-            logs(ptipo, 'número paginas=' + str(numpags))
-            if os.path.exists(oldarquivo):
-                os.remove(oldarquivo)
+                print('baixada ' + str(pag) + '/' + str(numpags))
+                logs(ptipo, 'Terminou paginas=' + str(pag))
+                logs(ptipo, 'número paginas=' + str(numpags))
+                if os.path.exists(oldarquivo):
+                    os.remove(oldarquivo)
     return True
 
 
@@ -273,4 +225,143 @@ def baixa_json_diario(modulo, ptipo, vano):
                     os.remove(oldarquivo)
     return True
 
+
+def baixa_json_uasg_mensal(modulo, ptipo, vano):
+    uasgs = Uasg.query.all()
+    for uasg in uasgs:
+        vid = uasg.id
+        ano = int(vano)
+        print('baixa Json ' + modulo + ' - ' + ptipo)
+        for mes in range(1, 13):
+            udia = calendar.monthrange(ano, mes)[1]
+            smes = str(ano).zfill(4) + '-' + str(mes).zfill(2)
+            diainicio = 1
+            diafim = udia
+            inicio = smes + '-' + str(diainicio).zfill(2)
+            fim = smes + '-' + str(diafim).zfill(2)
+            pag = 0
+            numpags = 1
+            logs(ptipo,
+                 'Iniciou download mês ' + str(mes) + ' - ' + str(vid) + ' número páginas='
+                 + str(numpags))
+            if not os.path.exists('./static/json/' + ptipo):
+                os.mkdir('./static/json/' + ptipo)
+            while pag < numpags:
+                valpag = 500 * pag
+                if ptipo == 'licitacoes':
+                    url = 'http://compras.dados.gov.br/' + modulo + '/v1/' + ptipo + '.json?uasg=' + str(vid) + \
+                          '&data_publicacao_min=' + inicio + '&data_publicacao_max=' + fim + '&offset=' + \
+                          str(valpag)
+                else:
+                    url = 'http://compras.dados.gov.br/' + modulo + '/v1/' + ptipo + '.json?uasg=' + str(vid) + \
+                          '&data_assinatura_min=' + inicio + '&data_assinatura_max=' + fim + '&offset=' + \
+                          str(valpag)
+                print(url)
+                arquivo = ptipo + smes + '-' + str(vid) + '-' + str(valpag).zfill(4) + '.json'
+                patharquivo = './static/json/' + ptipo + '/' + arquivo
+                oldarquivo = './static/json/' + ptipo + '/old' + arquivo
+                if os.path.exists(patharquivo) and pag > 0:
+                    pag += 1
+                    logs(ptipo, 'Pulou pagina=' + str(pag))
+                    continue
+                print(url)
+                if pag == 0:
+                    if os.path.exists(patharquivo):
+                        if not os.path.exists(oldarquivo):
+                            os.rename(patharquivo, oldarquivo)
+                baixou = request_json(url, ptipo, arquivo)
+                if baixou or pag == 0:
+                    if not baixou:
+                        print(oldarquivo)
+                        if not os.path.exists(patharquivo):
+                            if os.path.exists(oldarquivo):
+                                os.rename(oldarquivo, patharquivo)
+                            else:
+                                continue
+                    with open(patharquivo) as jsonfile:
+                        data_json = json.load(jsonfile)
+                        num = data_json["count"]
+                        totalpag = num // 500
+                        if num % 500 > 0:
+                            totalpag = totalpag + 1
+                        numpags = totalpag
+                pag += 1
+                print('baixada ' + str(pag) + '/' + str(numpags))
+                logs(ptipo, 'Terminou paginas=' + str(pag))
+                logs(ptipo, 'número paginas=' + str(numpags))
+                if os.path.exists(oldarquivo):
+                    os.remove(oldarquivo)
+    return True
+
+
+def baixa_uasg_mensal(uasg, vano, ptipo, modulo):
+    vid = uasg.id
+    ano = int(vano)
+    print('baixa Json ' + modulo + ' - ' + ptipo)
+    for mes in range(1, 13):
+        udia = calendar.monthrange(ano, mes)[1]
+        smes = str(ano).zfill(4) + '-' + str(mes).zfill(2)
+        diainicio = 1
+        diafim = udia
+        inicio = smes + '-' + str(diainicio).zfill(2)
+        fim = smes + '-' + str(diafim).zfill(2)
+        logs(ptipo, 'Iniciou download mês ' + str(mes) + ' - ' + str(vid))
+        if not os.path.exists('./static/json/' + ptipo):
+            os.mkdir('./static/json/' + ptipo)
+        if ptipo == 'licitacoes':
+            url = 'http://compras.dados.gov.br/' + modulo + '/v1/' + ptipo + '.json?uasg=' + str(vid) + \
+                  '&data_publicacao_min=' + inicio + '&data_publicacao_max=' + fim
+        else:
+            url = 'http://compras.dados.gov.br/' + modulo + '/v1/' + ptipo + '.json?uasg=' + str(vid) + \
+                  '&data_assinatura_min=' + inicio + '&data_assinatura_max=' + fim
+        print(url)
+        arquivo = ptipo + smes + '-' + str(vid) + '.json'
+        request_json(url, ptipo, arquivo)
+    return True
+
+
+def baixa_json_uasg_anual(modulo, ptipo, vano):
+    uasgs = Uasg.query.all()
+    for uasg in uasgs:
+        vid = uasg.id
+        print('baixa Json ' + modulo + ' - ' + ptipo)
+        inicio = vano + '-01-01'
+        fim = vano + '-12-31'
+        logs(ptipo, 'Iniciou download anual ' + vano + ' - ' + str(vid))
+        if not os.path.exists('./static/json/' + ptipo):
+            os.mkdir('./static/json/' + ptipo)
+        if ptipo == 'licitacoes':
+            url = 'http://compras.dados.gov.br/' + modulo + '/v1/' + ptipo + '.json?uasg=' + str(vid) + \
+                  '&data_publicacao_min=' + inicio + '&data_publicacao_max=' + fim
+        else:
+            url = 'http://compras.dados.gov.br/' + modulo + '/v1/' + ptipo + '.json?uasg=' + str(vid) + \
+                  '&data_assinatura_min=' + inicio + '&data_assinatura_max=' + fim
+        print(url)
+        arquivo = ptipo + vano + '-' + str(vid) + '.json'
+        patharquivo = './static/json/' + ptipo + '/' + arquivo
+        if not os.path.exists(patharquivo):
+            baixou = request_json(url, ptipo, arquivo)
+            if baixou:
+                with open(patharquivo) as jsonfile:
+                    data_json = json.load(jsonfile)
+                    num = data_json["count"]
+                    totalpag = num // 500
+                    if (totalpag == 1) and (num % 500 == 0):
+                        baixa_uasg_mensal(uasg, vano, ptipo, modulo)
+    return True
+
+
+def baixa_json_itenslicitacoes():
+    identificadores = db.session.query(Licitacao.identificador).distinct().all()
+    for licitacao in identificadores:
+        print('baixando itens')
+        if not os.path.exists('./static/json/itenslicitacoes'):
+            os.mkdir('./static/json/itenslicitacoes')
+        url = 'http://compras.dados.gov.br/licitacoes/id/licitacao/'+licitacao.identificador+'/itens.json'
+        print(url)
+        arquivo = licitacao.identificador + '.json'
+        patharquivo = './static/json/itenslicitacoes/' + arquivo
+        if not os.path.exists(patharquivo):
+            baixou = request_json(url, 'itenslicitacoes', arquivo)
+    return True
 

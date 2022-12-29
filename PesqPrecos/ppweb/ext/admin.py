@@ -6,7 +6,7 @@ from werkzeug.security import generate_password_hash
 
 from ppweb.ext.database import db
 from ppweb.models import Product, User, Uasg, Config, Orgao, Classe, Material, Grupo, PDM, CNAE, AmbitoOcorrencia, \
-    ComprasContratos
+    ComprasContratos, Licitacao
 
 # Proteger o admin com login via Monkey Patch
 AdminIndexView._handle_view = login_required(AdminIndexView._handle_view)
@@ -36,5 +36,6 @@ def init_app(app):
     admin.add_view(sqla.ModelView(CNAE, db.session))
     admin.add_view(sqla.ModelView(AmbitoOcorrencia, db.session))
     admin.add_view(sqla.ModelView(ComprasContratos, db.session))
+    admin.add_view(sqla.ModelView(Licitacao, db.session))
     admin.add_view(sqla.ModelView(Config, db.session))
     admin.add_view(UserAdmin(User, db.session))

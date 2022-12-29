@@ -1,11 +1,13 @@
 from flask import abort, render_template, send_file, request, jsonify
 
+from ppweb.cargajson import carrega_json
 from ppweb.models import Product, Uasg, Orgao, Material, Classe, Grupo, PDM, AmbitoOcorrencia, CNAE, Municipio, \
-    ComprasContratos
+    ComprasContratos, Licitacao
 
 import os
 
-from ppweb.utils import carrega_json, baixa_json, baixa_json_contratos_mensal, baixa_json_diario
+from ppweb.utils import baixa_json, baixa_json_mensal, baixa_json_diario, baixa_json_uasg_mensal, \
+    baixa_json_uasg_anual, baixa_json_itenslicitacoes
 
 
 def index():
@@ -105,9 +107,21 @@ def view_baixa_json(vmodulo, vtipo):
     return dir_listing(vtipo)
 
 
-def view_baixa_json_contratos_mensal(vmodulo, vtipo, vano):
+def view_baixa_json_mensal(vmodulo, vtipo, vano):
     print('view baixa tipo de ' + vmodulo + '. Tipo=' + vtipo + ' Ano=' + str(vano))
-    baixa_json_contratos_mensal(vmodulo, vtipo, vano)
+    baixa_json_mensal(vmodulo, vtipo, vano)
+    return dir_listing(vtipo)
+
+
+def view_baixa_json_uasg_mensal(vmodulo, vtipo, vano):
+    print('view baixa tipo de ' + vmodulo + '. Tipo=' + vtipo + ' Ano=' + str(vano))
+    baixa_json_uasg_mensal(vmodulo, vtipo, vano)
+    return dir_listing(vtipo)
+
+
+def view_baixa_json_uasg_anual(vmodulo, vtipo, vano):
+    print('view baixa tipo de ' + vmodulo + '. Tipo=' + vtipo + ' Ano=' + str(vano))
+    baixa_json_uasg_anual(vmodulo, vtipo, vano)
     return dir_listing(vtipo)
 
 
@@ -116,6 +130,11 @@ def view_baixa_json_diario(vmodulo, vtipo, vano):
     baixa_json_diario(vmodulo, vtipo, vano)
     return dir_listing(vtipo)
 
+
+def view_baixa_json_itenslicitacoes():
+    print('view baixa itens da licitacao')
+    baixa_json_itenslicitacoes()
+    return dir_listing('itenslicitacao')
 
 
 def view_carrega_json_ambitos_ocorrencia():
@@ -130,15 +149,18 @@ def view_carrega_json_contratos_mensais():
     contratos = ComprasContratos.query.all()
     return render_template("contratos.html", contratos=contratos)
 
+
 def view_carrega_json_cnaes():
     carrega_json('cnaes')
     cnaes = CNAE.query.all()
     return render_template("cnaes.html", cnaes=cnaes)
 
+
 def view_carrega_json_municipios():
     carrega_json('municipios')
     municipios = Municipio.query.all()
     return render_template("municipios.html", municipios=municipios)
+
 
 def view_carrega_json_uasg():
     carrega_json('uasgs')
@@ -174,3 +196,9 @@ def view_carrega_json_pdms():
     carrega_json('pdms')
     pdms = PDM.query.all()
     return render_template("pdms.html", pdms=pdms)
+
+
+def view_carrega_json_licitacoes():
+    carrega_json('licitacoes')
+    licitacoes = Licitacao.query.all()
+    return render_template("licitacaoes.html", licitacoes=licitacoes)
