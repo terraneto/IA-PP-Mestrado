@@ -3,87 +3,91 @@
 {% block content %}
 
 <div class="container">
+    <form action = "http://localhost:5000/_process_data_licitacao" method = "POST">
     <h1>Baixar jsons de Licitações</h1>
 <br>
         <div class="row">
         <div class="form-group col-xs-6">
-          <label for="select-ano">Selecione o período</label>
-          <select class="form-control" id="select-ano">
+                <fieldset>
+          <label for="select_ano">Selecione o período</label>
+          <select class="form-control" id="select_ano">
                 <option value="1">2022</option>
                 <option value="2">2023</option>
                 <option value="3">Últimos 3 meses</option>
           </select>
+                </fieldset>
         </div>
       </div>
           <br>
-      <div class="row">
-        <div class="form-group col-xs-6">
-          <label for="all_modelos">Selecione o Modelo</label>
-          <select class="form-control" id="all_modelos">
-            {% for o in all_modelos %}
-                    <option value="{{ o }}">{{ o }}</option>
-            {% endfor %}
-          </select>
-        </div>
-      </div>
-          <br>
-      <div class="row">
-        <div class="form-group col-xs-6">
-          <label for="all_periodos">Selecione o período</label>
-          <select class="form-control" id="all_periodos">
-            {% for o in all_periodos %}
-                    <option value="{{ o }}">{{ o }}</option>
-            {% endfor %}
-          </select>
-        </div>
-      </div>
+      {% if selected_ano != 3 %}
 
+      <div class="row">
+        <div class="form-group col-xs-6">
+          <label for="select_inicio">Selecione o início</label>
+            <fieldset>
+                <select name="comp_select" class="selectpicker form-control">
+          <select class="selectpicker form-control" id="select_inicio">
+                 <option value="1">Ano</option>
+                <option value="2">Mês</option>
+                <option value="3">Dia</option>
+                <option value="4">Classe</option>
+                <option value="5">Material</option>
+          </select>
+                </fieldset>
+        </div>
+      </div>
+    {% endif %}
+
+    <br>
+
+    <div class="row">
+    <div class="form-group col-xs-6">
+    <fieldset>
+    <label>Recursivo:</label>
+    <div>
+      <input checked id="S" name="recursividade" type="radio"
+             value="S">
+      <label for="S">Sim</label>
+    </div>
+
+    <div>
+        <input id="N" name="recursividade" type="radio" value="N">
+      <label for="N">Não</label>
+    </div>
+    </fieldset>
+    </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+    <div class="form-group col-xs-6">
+    <fieldset>
+    <label>Sobrepõe:</label>
+    <div>
+      <input checked id="SS" name="sobrepoe" type="radio"
+             value="S">
+      <label for="SS">Sim</label>
+    </div>
+
+    <div>
+        <input id="NS" name="sobrepoe" type="radio" value="N">
+      <label for="NS">Não</label>
+    </div>
+    </fieldset>
+    </div>
+    </div>
+
+    <br>
       <div>
-        <button type="button" id="process_baixa_licitacao">Baixar json</button>
-        <button type="button" id="go_index">Fechar</button>
+        <button id="submit" type="submit" value="submit">Baixar json</button>
+        <button id="go_index" type="button">Fechar</button>
       </div>
-      <br>
 
       <br>
+
+      </form>
 </div>
-    <script src="https://code.jquery.com/jquery-1.12.4.js" type="text/javascript"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function() {
-
-        $('#all_modelos').change(function(){
-
-          $.getJSON('/_update_dropdown_licitacao', {
-            selected_class: $('#all_modelos').val()
-
-          }).success(function(data) {
-                $('#all_periodos').html(data.html_string_selected);
-           })
-        });
-        $('#go_index').bind('click', function() {
-             window.location.replace("/");
-        });
-        $('#process_baixa_licitacao').bind('click', function() {
-            $.getJSON('/_process_data_licitacao', {
-                selected_class: $('#all_modelos').val(),
-                selected_entry: $('#all_periodos').val(),
-           }).success(function(data) {
-
-            })
-
-          return false;
-
-        });
-      });
-
-      $.ajax({
-            type: "POST",
-            url: "~/pythoncode.py",
-            data: { param: text}
-      }).done(function( o ) {
-                window.location.replace("/");
-      });
-    </script>
 
 {% block footer %}
 <footer class="footer hidden-xs">

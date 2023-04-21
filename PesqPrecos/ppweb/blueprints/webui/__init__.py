@@ -1,16 +1,17 @@
 from flask import Blueprint
 
 from .views import index, dir_listing, \
-    uasg, view_baixa_json,  view_seltipo, update_dropdown, process_data, \
+    uasg, view_baixa_json, view_seltipo, update_dropdown, process_data, \
     view_carrega_json_contratos_mensais, \
     view_baixa_json_itenslicitacao, view_baixa_json_itenscontrato, view_baixa_json_licitacoes_mes, \
     view_carrega_json_itenscontratos, view_baixa_json_contrato_mensal, \
     view_baixa_json_contrato_anual, view_baixa_json_contrato_mes, \
     view_baixa_json_licitacao_uasg_mensal, view_itenscontratos, view_itens, view_carrega_itens_contratos, \
     view_baixa_json_licitacao_uasg_trimestral, view_baixa_json_itensprecospraticados, \
-    view_baixa_json_licitacao_uasg_anual_geral,   view_carrega_itens_licitacoes, \
+    view_baixa_json_licitacao_uasg_anual_geral, view_carrega_itens_licitacoes, \
     view_baixa_uasg_diario_material_geral, view_baixa_uasg_mensal_geral, view_baixa_uasg_mensal_diario_geral, \
-    view_baixa_uasg_diario_classe_geral, view_cargaseltipo, view_carrega_dados, carrega_dados
+    view_baixa_uasg_diario_classe_geral, view_cargaseltipo, view_carrega_dados, carrega_dados, view_licitacoesseltipo, \
+    process_data_licitacao
 
 bp = Blueprint("webui", __name__, template_folder="templates")
 
@@ -88,6 +89,9 @@ bp.add_url_rule("/seltipo", view_func=view_seltipo,
 bp.add_url_rule("/cargaseltipo", view_func=view_cargaseltipo,
                 endpoint="view_cargaseltipo")
 
+bp.add_url_rule("/licitacoesseltipo", view_func=view_licitacoesseltipo,
+                endpoint="view_licitacoesseltipo")
+
 bp.add_url_rule("/carrega_dados/<tipo>", view_func=view_carrega_dados,
                 endpoint="view_carrega_dados")
 
@@ -104,6 +108,9 @@ bp.add_url_rule("/_update_dropdown", view_func=update_dropdown,
                 endpoint="update_dropdown")
 bp.add_url_rule("/_process_data", view_func=process_data,
                 endpoint="process_data")
+
+bp.add_url_rule("/_process_data_licitacao", view_func=process_data_licitacao, endpoint="process_data_licitacoes",
+                methods=['POST'])
 bp.add_url_rule("/_carrega_dados", view_func=carrega_dados,
                 endpoint="carrega_dados")
 

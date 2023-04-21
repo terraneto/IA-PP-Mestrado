@@ -32,16 +32,6 @@ def get_dropdown_values():
     }
     return modulos
 
-
-def get_dropdown_licitacoes():
-    modulos = {
-        'Licitações por Uasg Anual': ['2022', '2023'],
-        'Licitações por Uasg e Mês do Ano': ['2022', '2023'],
-        'Licitacoes por Uasg e dia do Ano': ['2022', '2023']
-    }
-    return modulos
-
-
 def get_carga_values():
     modulos = {'ambitos_ocorrencia', 'cnaes', 'fornecedores', 'linhas_fornecimento', 'municipios',
                'naturezas_juridicas', 'ocorrencias_fornecedores', 'portes_empresa', 'prazos_ocorrencia',
@@ -70,6 +60,16 @@ def process_data():
     baixa_json(selected_class, selected_entry, None)
     return dir_listing(selected_entry)
 
+def process_data_licitacao():
+    print('entrei process_data_licitacao')
+    if request.method == 'POST':
+        result = request.form
+        for i in result:
+            print(i)
+        # print(inicio)
+        # baixa_json(selected_class, selected_entry, None)
+    return dir_listing('licitacoes')
+
 
 def carrega_dados():
     print("abri")
@@ -88,6 +88,9 @@ def view_seltipo():
     return render_template('seltipo.html',
                            all_classes=default_classes,
                            all_entries=default_values)
+
+def view_licitacoesseltipo():
+    return render_template('licitacoesseltipo.html')
 
 
 def view_cargaseltipo():
