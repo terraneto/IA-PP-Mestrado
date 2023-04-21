@@ -1,0 +1,15 @@
+{% extends "index.html" %}
+{% block content %}
+<div class="container">
+<h1>Itens</h1>
+
+        <ul class="list-group">
+            {% for item in itens %}
+            <li class="list-group-item">
+                {{item.licitacao_contrato}} - {{item.id}} - {{item.catmat_id}} - {{item.grupo_id}} - {{item.classe_id}} - {{item.pdm_id}} - {{item.quantidade}} - {{item.unidade}} - {{item.valor_unitario}} - {{item.valor_total}}
+            </li>
+            {% end-for %}
+        </ul>
+
+</div>
+{% endblock %}

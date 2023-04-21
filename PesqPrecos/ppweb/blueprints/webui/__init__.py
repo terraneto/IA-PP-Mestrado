@@ -1,13 +1,16 @@
 from flask import Blueprint
 
-from .views import index, product, view_home, dir_listing, \
-    uasg, view_carrega_json_uasg, view_carrega_json_orgao, \
-    view_carrega_json_materiais, view_baixa_json, view_carrega_json_classes, view_carrega_json_grupos, \
-    view_carrega_json_pdms, view_seltipo, view_baixa_json_mensal, update_dropdown, process_data, \
-    view_baixa_json_diario, view_carrega_json_cnaes, \
-    view_carrega_json_ambitos_ocorrencia, view_carrega_json_municipios, view_carrega_json_contratos_mensais, \
-    view_baixa_json_uasg_mensal, view_baixa_json_uasg_anual, view_carrega_json_licitacoes, \
-    view_baixa_json_itenslicitacoes
+from .views import index, dir_listing, \
+    uasg, view_baixa_json,  view_seltipo, update_dropdown, process_data, \
+    view_carrega_json_contratos_mensais, \
+    view_baixa_json_itenslicitacao, view_baixa_json_itenscontrato, view_baixa_json_licitacoes_mes, \
+    view_carrega_json_itenscontratos, view_baixa_json_contrato_mensal, \
+    view_baixa_json_contrato_anual, view_baixa_json_contrato_mes, \
+    view_baixa_json_licitacao_uasg_mensal, view_itenscontratos, view_itens, view_carrega_itens_contratos, \
+    view_baixa_json_licitacao_uasg_trimestral, view_baixa_json_itensprecospraticados, \
+    view_baixa_json_licitacao_uasg_anual_geral,   view_carrega_itens_licitacoes, \
+    view_baixa_uasg_diario_material_geral, view_baixa_uasg_mensal_geral, view_baixa_uasg_mensal_diario_geral, \
+    view_baixa_uasg_diario_classe_geral, view_cargaseltipo, view_carrega_dados, carrega_dados
 
 bp = Blueprint("webui", __name__, template_folder="templates")
 
@@ -15,13 +18,14 @@ bp.add_url_rule("/", view_func=index)
 
 bp.add_url_rule("/uasgs", view_func=uasg)
 
-bp.add_url_rule(
-    "/product/<product_id>", view_func=product, endpoint="productview"
-)
+#bp.add_url_rule(
+#    "/product/<product_id>", view_func=product, endpoint="productview"
+#)
 
-bp.add_url_rule(
-    "/home", view_func=view_home, endpoint="view_home"
-)
+
+#3bp.add_url_rule(
+#    "/home", view_func=view_home, endpoint="view_home"
+#)
 
 bp.add_url_rule("/json", view_func=dir_listing, endpoint="json")
 
@@ -29,60 +33,79 @@ bp.add_url_rule("/json/<req_path>", view_func=dir_listing, endpoint="jsonpath")
 
 bp.add_url_rule("/json/<vmodulo>/<vtipo>", view_func=view_baixa_json, endpoint="view_baixa_json")
 
-bp.add_url_rule("/json/<vmodulo>/<vtipo>/<vano>/diario", view_func=view_baixa_json_diario,
-                endpoint="view_baixa_json_diario")
+bp.add_url_rule("/json/comprascontratos/<vano>", view_func=view_baixa_json_contrato_mensal,
+                endpoint="view_baixa_json_contrato_mensal")
 
-bp.add_url_rule("/json/<vmodulo>/<vtipo>/<vano>", view_func=view_baixa_json_mensal,
-                endpoint="view_baixa_json_mensal")
+bp.add_url_rule("/json/comprascontratos/anual/<vano>", view_func=view_baixa_json_contrato_anual,
+                endpoint="view_baixa_json_contrato_anual")
 
-bp.add_url_rule("/json/uasg/<vmodulo>/<vtipo>/<vano>", view_func=view_baixa_json_uasg_mensal,
-                endpoint="view_baixa_json_uasg_mensal")
+bp.add_url_rule("/json/comprascontratos/ano/<vano>/mes/<vmes>", view_func=view_baixa_json_contrato_mes,
+                endpoint="view_baixa_json_contrato_mes")
 
-bp.add_url_rule("/json/itenslicitacoes", view_func=view_baixa_json_itenslicitacoes,
-                endpoint="view_baixa_json_itenslicitacoes")
+bp.add_url_rule("/json/itenslicitacao", view_func=view_baixa_json_itenslicitacao,
+                endpoint="view_baixa_json_itenslicitacao")
 
-bp.add_url_rule("/json/uasg/anual/<vmodulo>/<vtipo>/<vano>", view_func=view_baixa_json_uasg_anual,
-                endpoint="view_baixa_json_uasg_anual")
+bp.add_url_rule("/json/itensprecospraticados", view_func=view_baixa_json_itensprecospraticados,
+                endpoint="view_baixa_json_itensprecospraticados")
 
-bp.add_url_rule("/json/uasgs/carregadb", view_func=view_carrega_json_uasg, endpoint="view_carrega_json_uasg")
+bp.add_url_rule("/json/licitacoes/ano/<vano>/mes/<vmes>", view_func=view_baixa_json_licitacoes_mes,
+                endpoint="view_baixa_json_licitacoes_mes")
 
-bp.add_url_rule("/json/orgaos/carregadb", view_func=view_carrega_json_orgao, endpoint="view_carrega_json_orgao")
+bp.add_url_rule("/json/licitacoes/trimestral", view_func=view_baixa_json_licitacao_uasg_trimestral,
+                endpoint="view_baixa_json_licitacao_uasg_trimestral")
 
-bp.add_url_rule("/carregadb/classes", view_func=view_carrega_json_classes,
-                endpoint="view_carrega_json_classes")
+bp.add_url_rule("/json/itenscontrato", view_func=view_baixa_json_itenscontrato,
+                endpoint="view_baixa_json_itenscontrato")
 
-bp.add_url_rule("/carregadb/grupos", view_func=view_carrega_json_grupos,
-                endpoint="view_carrega_json_grupos")
+bp.add_url_rule("/json/uasg/licitacao/geral/<vano>", view_func=view_baixa_json_licitacao_uasg_anual_geral,
+                endpoint="view_baixa_json_licitacao_uasg_anual_geral")
 
-bp.add_url_rule("/carregadb/materiais", view_func=view_carrega_json_materiais,
-                endpoint="view_carrega_json_materiais")
+bp.add_url_rule("/json/uasg/licitacao/mensal/<vano>/<vmes>", view_func=view_baixa_json_licitacao_uasg_mensal,
+                endpoint="view_baixa_json_licitacao_uasg_mensal")
 
-bp.add_url_rule("/carregadb/municipios", view_func=view_carrega_json_municipios,
-                endpoint="view_carrega_json_municipios")
+bp.add_url_rule("/json/uasg/licitacao/<ano>/material", view_func=view_baixa_uasg_diario_material_geral,
+                endpoint="view_baixa_uasg_diario_material_geral")
 
-bp.add_url_rule("/carregadb/pdms", view_func=view_carrega_json_pdms,
-                endpoint="view_carrega_json_pdms")
+bp.add_url_rule("/json/uasg/licitacao/<ano>/mensal", view_func=view_baixa_uasg_mensal_geral,
+                endpoint="view_baixa_uasg_mensal_geral")
 
-bp.add_url_rule("/carregadb/ambitos_ocorrencia", view_func=view_carrega_json_ambitos_ocorrencia,
-                endpoint="view_carrega_json_ambitos_ocorrencia")
+bp.add_url_rule("/json/uasg/licitacao/<ano>/diario", view_func=view_baixa_uasg_mensal_diario_geral,
+                endpoint="view_baixa_uasg_mensal_diario_geral")
+
+bp.add_url_rule("/json/uasg/licitacao/<ano>/classes", view_func=view_baixa_uasg_diario_classe_geral,
+                endpoint="view_baixa_uasg_diario_classe_geral")
 
 bp.add_url_rule("/carregadb/contratos", view_func=view_carrega_json_contratos_mensais,
                 endpoint="view_carrega_json_contratos_mensais")
 
-bp.add_url_rule("/carregadb/licitacoes", view_func=view_carrega_json_licitacoes,
-                endpoint="view_carrega_json_licitacoes")
 
-bp.add_url_rule("/carregadb/cnaes", view_func=view_carrega_json_cnaes,
-                endpoint="view_carrega_json_cnaes")
+bp.add_url_rule("/carregadb/itenscontratos", view_func=view_carrega_json_itenscontratos,
+                endpoint="view_carrega_json_itenscontratos")
 
 bp.add_url_rule("/seltipo", view_func=view_seltipo,
                 endpoint="view_seltipo")
+
+bp.add_url_rule("/cargaseltipo", view_func=view_cargaseltipo,
+                endpoint="view_cargaseltipo")
+
+bp.add_url_rule("/carrega_dados/<tipo>", view_func=view_carrega_dados,
+                endpoint="view_carrega_dados")
+
+bp.add_url_rule("/itenscontratos", view_func=view_itenscontratos,
+                endpoint="view_itenscontratos")
+
+bp.add_url_rule("/itensdecontratos", view_func=view_carrega_itens_contratos,
+                endpoint="view_carrega_itens_contratos")
+
+bp.add_url_rule("/itensdelicitacoes", view_func=view_carrega_itens_licitacoes,
+                endpoint="view_carrega_itens_licitacoes")
 
 bp.add_url_rule("/_update_dropdown", view_func=update_dropdown,
                 endpoint="update_dropdown")
 bp.add_url_rule("/_process_data", view_func=process_data,
                 endpoint="process_data")
-
+bp.add_url_rule("/_carrega_dados", view_func=carrega_dados,
+                endpoint="carrega_dados")
 
 def init_app(app):
     app.register_blueprint(bp)

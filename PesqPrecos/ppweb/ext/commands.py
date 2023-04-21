@@ -1,39 +1,25 @@
 import click
-from ppweb.ext.database import db
+
 from ppweb.ext.auth import create_user
-from ppweb.models import Product, PDM, Licitacao, ComprasContratos
+from ppweb.ext.database import db
 
 
 def create_db():
     """Creates database"""
     """PDM.__table__.drop(db.engine)"""
-    Licitacao.__table__.drop(db.engine)
-    ComprasContratos.__table__.drop(db.engine)
-    db.create_all()
+    """Itens.__table__.drop(db.engine)"""
+    """Itensprecospraticados.__table__.drop(db.engine)"""
+    """db.create_all()"""
 
 
 def drop_db():
-    """Cleans database"""
-    db.drop_all()
-
-
-def populate_db():
-    """Populate db with sample data"""
-    data = [
-        Product(
-            id=1, name="Ciabatta", price="10", description="Italian Bread"
-        ),
-        Product(id=2, name="Baguete", price="15", description="French Bread"),
-        Product(id=3, name="Pretzel", price="20", description="German Bread"),
-    ]
-    db.session.bulk_save_objects(data)
-    db.session.commit()
-    return Product.query.all()
+   """Cleans database"""
+   """ db.drop_all() """
 
 
 def init_app(app):
     # add multiple commands in a bulk
-    for command in [create_db, drop_db, populate_db]:
+    for command in [create_db, drop_db]:
         app.cli.add_command(app.cli.command()(command))
 
     # add a single command

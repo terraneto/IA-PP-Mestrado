@@ -1,0 +1,403 @@
+2023-04-19 21:02:36 - Request_json - contratos - 2023-04-19 21:02:36 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=0 Erro=0
+2023-04-19 21:02:38 - Request_json - contratos - Status do download 200
+2023-04-19 21:02:39 - Request_json - contratos - 2023-04-19 21:02:39 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=500 Erro=0
+2023-04-19 21:02:40 - Request_json - contratos - Status do download 200
+2023-04-19 21:02:41 - Request_json - contratos - 2023-04-19 21:02:41 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=1000 Erro=0
+2023-04-19 21:02:42 - Request_json - contratos - Status do download 200
+2023-04-19 21:02:44 - Request_json - contratos - 2023-04-19 21:02:44 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=1500 Erro=0
+2023-04-19 21:02:45 - Request_json - contratos - Status do download 200
+2023-04-19 21:02:48 - Request_json - contratos - 2023-04-19 21:02:48 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=2000 Erro=0
+2023-04-19 21:02:49 - Request_json - contratos - Status do download 200
+2023-04-19 21:02:51 - Request_json - contratos - 2023-04-19 21:02:51 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=2500 Erro=0
+2023-04-19 21:02:52 - Request_json - contratos - Status do download 200
+2023-04-19 21:02:53 - Request_json - contratos - 2023-04-19 21:02:53 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=3000 Erro=0
+2023-04-19 21:02:55 - Request_json - contratos - Status do download 200
+2023-04-19 21:02:56 - Request_json - contratos - 2023-04-19 21:02:56 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=3500 Erro=0
+2023-04-19 21:02:57 - Request_json - contratos - Status do download 200
+2023-04-19 21:02:59 - Request_json - contratos - 2023-04-19 21:02:59 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=4000 Erro=0
+2023-04-19 21:03:00 - Request_json - contratos - Status do download 200
+2023-04-19 21:03:01 - Request_json - contratos - 2023-04-19 21:03:01 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=4500 Erro=0
+2023-04-19 21:03:03 - Request_json - contratos - Status do download 200
+2023-04-19 21:03:04 - Request_json - contratos - 2023-04-19 21:03:04 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=5000 Erro=0
+2023-04-19 21:03:05 - Request_json - contratos - Status do download 200
+2023-04-19 21:03:06 - Request_json - contratos - 2023-04-19 21:03:06 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=5500 Erro=0
+2023-04-19 21:03:06 - Request_json - contratos - Status do download 502
+2023-04-19 21:03:06 - Request_json - contratos - 2023-04-19 21:03:06 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=5500 Erro=1
+2023-04-19 21:03:07 - Request_json - contratos - Status do download 200
+2023-04-19 21:03:08 - Request_json - contratos - 2023-04-19 21:03:08 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=6000 Erro=0
+2023-04-19 21:03:09 - Request_json - contratos - Status do download 200
+2023-04-19 21:03:10 - Request_json - contratos - 2023-04-19 21:03:10 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=6500 Erro=0
+2023-04-19 21:03:11 - Request_json - contratos - Status do download 200
+2023-04-19 21:03:13 - Request_json - contratos - 2023-04-19 21:03:13 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=7000 Erro=0
+2023-04-19 21:03:14 - Request_json - contratos - Status do download 200
+2023-04-19 21:03:16 - Request_json - contratos - 2023-04-19 21:03:16 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=7500 Erro=0
+2023-04-19 21:03:17 - Request_json - contratos - Status do download 200
+2023-04-19 21:03:19 - Request_json - contratos - 2023-04-19 21:03:19 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=8000 Erro=0
+2023-04-19 21:03:20 - Request_json - contratos - Status do download 200
+2023-04-19 21:03:21 - Request_json - contratos - 2023-04-19 21:03:21 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=8500 Erro=0
+2023-04-19 21:03:22 - Request_json - contratos - Status do download 200
+2023-04-19 21:03:23 - Request_json - contratos - 2023-04-19 21:03:23 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=9000 Erro=0
+2023-04-19 21:03:25 - Request_json - contratos - Status do download 200
+2023-04-19 21:03:26 - Request_json - contratos - 2023-04-19 21:03:26 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=9500 Erro=0
+2023-04-19 21:03:27 - Request_json - contratos - Status do download 200
+2023-04-19 21:03:28 - Request_json - contratos - 2023-04-19 21:03:28 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=10000 Erro=0
+2023-04-19 21:03:29 - Request_json - contratos - Status do download 200
+2023-04-19 21:03:30 - Request_json - contratos - 2023-04-19 21:03:30 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=10500 Erro=0
+2023-04-19 21:03:31 - Request_json - contratos - Status do download 200
+2023-04-19 21:03:32 - Request_json - contratos - 2023-04-19 21:03:32 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=11000 Erro=0
+2023-04-19 21:03:34 - Request_json - contratos - Status do download 200
+2023-04-19 21:03:35 - Request_json - contratos - 2023-04-19 21:03:35 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=11500 Erro=0
+2023-04-19 21:03:36 - Request_json - contratos - Status do download 200
+2023-04-19 21:03:37 - Request_json - contratos - 2023-04-19 21:03:37 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=12000 Erro=0
+2023-04-19 21:03:38 - Request_json - contratos - Status do download 200
+2023-04-19 21:03:39 - Request_json - contratos - 2023-04-19 21:03:39 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=12500 Erro=0
+2023-04-19 21:03:40 - Request_json - contratos - Status do download 200
+2023-04-19 21:03:42 - Request_json - contratos - 2023-04-19 21:03:42 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=13000 Erro=0
+2023-04-19 21:03:43 - Request_json - contratos - Status do download 200
+2023-04-19 21:03:44 - Request_json - contratos - 2023-04-19 21:03:44 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=13500 Erro=0
+2023-04-19 21:03:45 - Request_json - contratos - Status do download 200
+2023-04-19 21:03:46 - Request_json - contratos - 2023-04-19 21:03:46 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=14000 Erro=0
+2023-04-19 21:03:48 - Request_json - contratos - Status do download 200
+2023-04-19 21:03:49 - Request_json - contratos - 2023-04-19 21:03:49 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=14500 Erro=0
+2023-04-19 21:03:50 - Request_json - contratos - Status do download 200
+2023-04-19 21:03:52 - Request_json - contratos - 2023-04-19 21:03:52 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=15000 Erro=0
+2023-04-19 21:03:53 - Request_json - contratos - Status do download 200
+2023-04-19 21:03:55 - Request_json - contratos - 2023-04-19 21:03:55 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=15500 Erro=0
+2023-04-19 21:03:56 - Request_json - contratos - Status do download 200
+2023-04-19 21:03:58 - Request_json - contratos - 2023-04-19 21:03:58 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=16000 Erro=0
+2023-04-19 21:04:01 - Request_json - contratos - Status do download 200
+2023-04-19 21:04:02 - Request_json - contratos - 2023-04-19 21:04:02 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=16500 Erro=0
+2023-04-19 21:04:04 - Request_json - contratos - Status do download 200
+2023-04-19 21:04:06 - Request_json - contratos - 2023-04-19 21:04:06 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=17000 Erro=0
+2023-04-19 21:04:08 - Request_json - contratos - Status do download 200
+2023-04-19 21:04:09 - Request_json - contratos - 2023-04-19 21:04:09 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=17500 Erro=0
+2023-04-19 21:04:11 - Request_json - contratos - Status do download 200
+2023-04-19 21:04:12 - Request_json - contratos - 2023-04-19 21:04:12 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=18000 Erro=0
+2023-04-19 21:04:14 - Request_json - contratos - Status do download 200
+2023-04-19 21:04:15 - Request_json - contratos - 2023-04-19 21:04:15 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=18500 Erro=0
+2023-04-19 21:04:16 - Request_json - contratos - Status do download 200
+2023-04-19 21:04:17 - Request_json - contratos - 2023-04-19 21:04:17 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=19000 Erro=0
+2023-04-19 21:04:19 - Request_json - contratos - Status do download 200
+2023-04-19 21:04:20 - Request_json - contratos - 2023-04-19 21:04:20 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=19500 Erro=0
+2023-04-19 21:04:21 - Request_json - contratos - Status do download 200
+2023-04-19 21:04:22 - Request_json - contratos - 2023-04-19 21:04:22 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=20000 Erro=0
+2023-04-19 21:04:24 - Request_json - contratos - Status do download 200
+2023-04-19 21:04:29 - Request_json - contratos - 2023-04-19 21:04:29 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=20500 Erro=0
+2023-04-19 21:04:30 - Request_json - contratos - Status do download 200
+2023-04-19 21:04:32 - Request_json - contratos - 2023-04-19 21:04:32 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=21000 Erro=0
+2023-04-19 21:04:34 - Request_json - contratos - Status do download 200
+2023-04-19 21:04:36 - Request_json - contratos - 2023-04-19 21:04:36 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=21500 Erro=0
+2023-04-19 21:04:38 - Request_json - contratos - Status do download 200
+2023-04-19 21:04:39 - Request_json - contratos - 2023-04-19 21:04:39 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=22000 Erro=0
+2023-04-19 21:04:40 - Request_json - contratos - Status do download 200
+2023-04-19 21:04:42 - Request_json - contratos - 2023-04-19 21:04:42 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=22500 Erro=0
+2023-04-19 21:04:43 - Request_json - contratos - Status do download 200
+2023-04-19 21:04:45 - Request_json - contratos - 2023-04-19 21:04:45 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=23000 Erro=0
+2023-04-19 21:04:46 - Request_json - contratos - Status do download 200
+2023-04-19 21:04:48 - Request_json - contratos - 2023-04-19 21:04:48 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=23500 Erro=0
+2023-04-19 21:04:49 - Request_json - contratos - Status do download 200
+2023-04-19 21:04:51 - Request_json - contratos - 2023-04-19 21:04:51 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=24000 Erro=0
+2023-04-19 21:04:52 - Request_json - contratos - Status do download 200
+2023-04-19 21:04:53 - Request_json - contratos - 2023-04-19 21:04:53 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=24500 Erro=0
+2023-04-19 21:04:53 - Request_json - contratos - Status do download 502
+2023-04-19 21:04:53 - Request_json - contratos - 2023-04-19 21:04:53 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=24500 Erro=1
+2023-04-19 21:04:54 - Request_json - contratos - Status do download 502
+2023-04-19 21:04:54 - Request_json - contratos - 2023-04-19 21:04:54 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=24500 Erro=2
+2023-04-19 21:04:54 - Request_json - contratos - Status do download 502
+2023-04-19 21:04:54 - Request_json - contratos - 2023-04-19 21:04:54 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=25000 Erro=0
+2023-04-19 21:04:57 - Request_json - contratos - Status do download 200
+2023-04-19 21:04:58 - Request_json - contratos - 2023-04-19 21:04:58 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=25500 Erro=0
+2023-04-19 21:05:00 - Request_json - contratos - Status do download 200
+2023-04-19 21:05:01 - Request_json - contratos - 2023-04-19 21:05:01 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=26000 Erro=0
+2023-04-19 21:05:03 - Request_json - contratos - Status do download 200
+2023-04-19 21:05:04 - Request_json - contratos - 2023-04-19 21:05:04 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=26500 Erro=0
+2023-04-19 21:05:05 - Request_json - contratos - Status do download 200
+2023-04-19 21:05:07 - Request_json - contratos - 2023-04-19 21:05:07 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=27000 Erro=0
+2023-04-19 21:05:08 - Request_json - contratos - Status do download 200
+2023-04-19 21:05:10 - Request_json - contratos - 2023-04-19 21:05:10 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=27500 Erro=0
+2023-04-19 21:05:12 - Request_json - contratos - Status do download 200
+2023-04-19 21:05:14 - Request_json - contratos - 2023-04-19 21:05:14 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=28000 Erro=0
+2023-04-19 21:05:16 - Request_json - contratos - Status do download 200
+2023-04-19 21:05:17 - Request_json - contratos - 2023-04-19 21:05:17 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=28500 Erro=0
+2023-04-19 21:05:19 - Request_json - contratos - Status do download 200
+2023-04-19 21:05:20 - Request_json - contratos - 2023-04-19 21:05:20 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=29000 Erro=0
+2023-04-19 21:05:22 - Request_json - contratos - Status do download 200
+2023-04-19 21:05:24 - Request_json - contratos - 2023-04-19 21:05:24 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=29500 Erro=0
+2023-04-19 21:05:25 - Request_json - contratos - Status do download 200
+2023-04-19 21:05:26 - Request_json - contratos - 2023-04-19 21:05:26 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=30000 Erro=0
+2023-04-19 21:05:28 - Request_json - contratos - Status do download 200
+2023-04-19 21:05:29 - Request_json - contratos - 2023-04-19 21:05:29 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=30500 Erro=0
+2023-04-19 21:05:31 - Request_json - contratos - Status do download 200
+2023-04-19 21:05:32 - Request_json - contratos - 2023-04-19 21:05:32 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=31000 Erro=0
+2023-04-19 21:05:34 - Request_json - contratos - Status do download 200
+2023-04-19 21:05:35 - Request_json - contratos - 2023-04-19 21:05:35 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=31500 Erro=0
+2023-04-19 21:05:37 - Request_json - contratos - Status do download 200
+2023-04-19 21:05:38 - Request_json - contratos - 2023-04-19 21:05:38 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=32000 Erro=0
+2023-04-19 21:05:41 - Request_json - contratos - Status do download 200
+2023-04-19 21:05:42 - Request_json - contratos - 2023-04-19 21:05:42 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=32500 Erro=0
+2023-04-19 21:05:45 - Request_json - contratos - Status do download 200
+2023-04-19 21:05:46 - Request_json - contratos - 2023-04-19 21:05:46 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=33000 Erro=0
+2023-04-19 21:05:48 - Request_json - contratos - Status do download 200
+2023-04-19 21:05:49 - Request_json - contratos - 2023-04-19 21:05:49 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=33500 Erro=0
+2023-04-19 21:05:51 - Request_json - contratos - Status do download 200
+2023-04-19 21:05:52 - Request_json - contratos - 2023-04-19 21:05:52 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=34000 Erro=0
+2023-04-19 21:05:54 - Request_json - contratos - Status do download 200
+2023-04-19 21:05:55 - Request_json - contratos - 2023-04-19 21:05:55 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=34500 Erro=0
+2023-04-19 21:05:55 - Request_json - contratos - Status do download 502
+2023-04-19 21:05:55 - Request_json - contratos - 2023-04-19 21:05:55 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=34500 Erro=1
+2023-04-19 21:05:56 - Request_json - contratos - Status do download 502
+2023-04-19 21:05:56 - Request_json - contratos - 2023-04-19 21:05:56 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=34500 Erro=2
+2023-04-19 21:05:58 - Request_json - contratos - Status do download 200
+2023-04-19 21:05:59 - Request_json - contratos - 2023-04-19 21:05:59 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=35000 Erro=0
+2023-04-19 21:06:01 - Request_json - contratos - Status do download 200
+2023-04-19 21:06:02 - Request_json - contratos - 2023-04-19 21:06:02 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=35500 Erro=0
+2023-04-19 21:06:03 - Request_json - contratos - Status do download 502
+2023-04-19 21:06:03 - Request_json - contratos - 2023-04-19 21:06:03 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=35500 Erro=1
+2023-04-19 21:06:04 - Request_json - contratos - Status do download 200
+2023-04-19 21:06:06 - Request_json - contratos - 2023-04-19 21:06:06 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=36000 Erro=0
+2023-04-19 21:06:07 - Request_json - contratos - Status do download 200
+2023-04-19 21:06:09 - Request_json - contratos - 2023-04-19 21:06:09 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=36500 Erro=0
+2023-04-19 21:06:10 - Request_json - contratos - Status do download 200
+2023-04-19 21:06:11 - Request_json - contratos - 2023-04-19 21:06:11 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=37000 Erro=0
+2023-04-19 21:06:13 - Request_json - contratos - Status do download 200
+2023-04-19 21:06:14 - Request_json - contratos - 2023-04-19 21:06:14 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=37500 Erro=0
+2023-04-19 21:06:18 - Request_json - contratos - Status do download 200
+2023-04-19 21:06:19 - Request_json - contratos - 2023-04-19 21:06:19 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=38000 Erro=0
+2023-04-19 21:06:21 - Request_json - contratos - Status do download 200
+2023-04-19 21:06:23 - Request_json - contratos - 2023-04-19 21:06:23 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=38500 Erro=0
+2023-04-19 21:06:24 - Request_json - contratos - Status do download 200
+2023-04-19 21:06:26 - Request_json - contratos - 2023-04-19 21:06:26 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=39000 Erro=0
+2023-04-19 21:06:28 - Request_json - contratos - Status do download 200
+2023-04-19 21:06:29 - Request_json - contratos - 2023-04-19 21:06:29 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=39500 Erro=0
+2023-04-19 21:06:31 - Request_json - contratos - Status do download 200
+2023-04-19 21:06:32 - Request_json - contratos - 2023-04-19 21:06:32 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=40000 Erro=0
+2023-04-19 21:06:34 - Request_json - contratos - Status do download 200
+2023-04-19 21:06:36 - Request_json - contratos - 2023-04-19 21:06:36 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=40500 Erro=0
+2023-04-19 21:06:37 - Request_json - contratos - Status do download 200
+2023-04-19 21:06:39 - Request_json - contratos - 2023-04-19 21:06:39 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=41000 Erro=0
+2023-04-19 21:06:40 - Request_json - contratos - Status do download 200
+2023-04-19 21:06:42 - Request_json - contratos - 2023-04-19 21:06:42 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=41500 Erro=0
+2023-04-19 21:06:44 - Request_json - contratos - Status do download 200
+2023-04-19 21:06:46 - Request_json - contratos - 2023-04-19 21:06:46 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=42000 Erro=0
+2023-04-19 21:06:50 - Request_json - contratos - Status do download 200
+2023-04-19 21:07:33 - Request_json - contratos - 2023-04-19 21:07:33 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2023-01-01&data_assinatura_max=2023-12-31&offset=0 Erro=0
+2023-04-19 21:07:35 - Request_json - contratos - Status do download 200
+2023-04-19 21:07:36 - Request_json - contratos - 2023-04-19 21:07:36 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2023-01-01&data_assinatura_max=2023-12-31&offset=500 Erro=0
+2023-04-19 21:07:37 - Request_json - contratos - Status do download 200
+2023-04-19 21:07:39 - Request_json - contratos - 2023-04-19 21:07:39 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2023-01-01&data_assinatura_max=2023-12-31&offset=1000 Erro=0
+2023-04-19 21:07:41 - Request_json - contratos - Status do download 200
+2023-04-19 21:07:46 - Request_json - contratos - 2023-04-19 21:07:46 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2023-01-01&data_assinatura_max=2023-12-31&offset=1500 Erro=0
+2023-04-19 21:07:48 - Request_json - contratos - Status do download 200
+2023-04-19 21:07:51 - Request_json - contratos - 2023-04-19 21:07:51 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2023-01-01&data_assinatura_max=2023-12-31&offset=2000 Erro=0
+2023-04-19 21:07:53 - Request_json - contratos - Status do download 200
+2023-04-19 21:07:55 - Request_json - contratos - 2023-04-19 21:07:55 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2023-01-01&data_assinatura_max=2023-12-31&offset=2500 Erro=0
+2023-04-19 21:07:56 - Request_json - contratos - Status do download 200
+2023-04-19 21:07:58 - Request_json - contratos - 2023-04-19 21:07:58 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2023-01-01&data_assinatura_max=2023-12-31&offset=3000 Erro=0
+2023-04-19 21:07:59 - Request_json - contratos - Status do download 200
+2023-04-19 21:08:00 - Request_json - contratos - 2023-04-19 21:08:00 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2023-01-01&data_assinatura_max=2023-12-31&offset=3500 Erro=0
+2023-04-19 21:08:01 - Request_json - contratos - Status do download 200
+2023-04-19 21:08:03 - Request_json - contratos - 2023-04-19 21:08:03 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2023-01-01&data_assinatura_max=2023-12-31&offset=4000 Erro=0
+2023-04-19 21:08:04 - Request_json - contratos - Status do download 200
+2023-04-19 21:08:05 - Request_json - contratos - 2023-04-19 21:08:05 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2023-01-01&data_assinatura_max=2023-12-31&offset=4500 Erro=0
+2023-04-19 21:08:06 - Request_json - contratos - Status do download 200
+2023-04-19 21:08:08 - Request_json - contratos - 2023-04-19 21:08:08 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2023-01-01&data_assinatura_max=2023-12-31&offset=5000 Erro=0
+2023-04-19 21:08:09 - Request_json - contratos - Status do download 200
+2023-04-19 21:08:10 - Request_json - contratos - 2023-04-19 21:08:10 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2023-01-01&data_assinatura_max=2023-12-31&offset=5500 Erro=0
+2023-04-19 21:08:12 - Request_json - contratos - Status do download 200
+2023-04-19 21:08:14 - Request_json - contratos - 2023-04-19 21:08:14 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2023-01-01&data_assinatura_max=2023-12-31&offset=6000 Erro=0
+2023-04-19 21:08:15 - Request_json - contratos - Status do download 200
+2023-04-19 21:08:16 - Request_json - contratos - 2023-04-19 21:08:16 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2023-01-01&data_assinatura_max=2023-12-31&offset=6500 Erro=0
+2023-04-19 21:08:18 - Request_json - contratos - Status do download 200
+2023-04-19 21:08:19 - Request_json - contratos - 2023-04-19 21:08:19 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2023-01-01&data_assinatura_max=2023-12-31&offset=7000 Erro=0
+2023-04-19 21:08:23 - Request_json - contratos - Status do download 200
+2023-04-19 21:08:25 - Request_json - contratos - 2023-04-19 21:08:25 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2023-01-01&data_assinatura_max=2023-12-31&offset=7500 Erro=0
+2023-04-19 21:08:26 - Request_json - contratos - Status do download 200
+2023-04-19 21:08:28 - Request_json - contratos - 2023-04-19 21:08:28 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2023-01-01&data_assinatura_max=2023-12-31&offset=8000 Erro=0
+2023-04-19 21:08:29 - Request_json - contratos - Status do download 200
+2023-04-19 21:08:31 - Request_json - contratos - 2023-04-19 21:08:31 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2023-01-01&data_assinatura_max=2023-12-31&offset=8500 Erro=0
+2023-04-19 21:08:33 - Request_json - contratos - Status do download 200
+2023-04-19 21:08:34 - Request_json - contratos - 2023-04-19 21:08:34 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2023-01-01&data_assinatura_max=2023-12-31&offset=9000 Erro=0
+2023-04-19 21:08:35 - Request_json - contratos - Status do download 200
+2023-04-19 21:09:49 - Request_json - contratos - 2023-04-19 21:09:49 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=0 Erro=0
+2023-04-19 21:09:52 - Request_json - contratos - Status do download 200
+2023-04-19 21:09:53 - Request_json - contratos - 2023-04-19 21:09:53 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=500 Erro=0
+2023-04-19 21:09:55 - Request_json - contratos - Status do download 200
+2023-04-19 21:09:57 - Request_json - contratos - 2023-04-19 21:09:57 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=1000 Erro=0
+2023-04-19 21:09:59 - Request_json - contratos - Status do download 200
+2023-04-19 21:10:00 - Request_json - contratos - 2023-04-19 21:10:00 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=1500 Erro=0
+2023-04-19 21:10:02 - Request_json - contratos - Status do download 200
+2023-04-19 21:10:05 - Request_json - contratos - 2023-04-19 21:10:05 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=2000 Erro=0
+2023-04-19 21:10:06 - Request_json - contratos - Status do download 200
+2023-04-19 21:10:08 - Request_json - contratos - 2023-04-19 21:10:08 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=2500 Erro=0
+2023-04-19 21:10:10 - Request_json - contratos - Status do download 200
+2023-04-19 21:10:12 - Request_json - contratos - 2023-04-19 21:10:12 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=3000 Erro=0
+2023-04-19 21:10:13 - Request_json - contratos - Status do download 200
+2023-04-19 21:10:15 - Request_json - contratos - 2023-04-19 21:10:15 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=3500 Erro=0
+2023-04-19 21:10:16 - Request_json - contratos - Status do download 200
+2023-04-19 21:10:18 - Request_json - contratos - 2023-04-19 21:10:18 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=4000 Erro=0
+2023-04-19 21:10:19 - Request_json - contratos - Status do download 200
+2023-04-19 21:10:21 - Request_json - contratos - 2023-04-19 21:10:21 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=4500 Erro=0
+2023-04-19 21:10:22 - Request_json - contratos - Status do download 502
+2023-04-19 21:10:22 - Request_json - contratos - 2023-04-19 21:10:22 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=4500 Erro=1
+2023-04-19 21:10:23 - Request_json - contratos - Status do download 200
+2023-04-19 21:10:25 - Request_json - contratos - 2023-04-19 21:10:25 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=5000 Erro=0
+2023-04-19 21:10:26 - Request_json - contratos - Status do download 200
+2023-04-19 21:10:28 - Request_json - contratos - 2023-04-19 21:10:28 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=5500 Erro=0
+2023-04-19 21:10:29 - Request_json - contratos - Status do download 200
+2023-04-19 21:10:31 - Request_json - contratos - 2023-04-19 21:10:31 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=6000 Erro=0
+2023-04-19 21:10:31 - Request_json - contratos - Status do download 502
+2023-04-19 21:10:31 - Request_json - contratos - 2023-04-19 21:10:31 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=6000 Erro=1
+2023-04-19 21:10:34 - Request_json - contratos - Status do download 200
+2023-04-19 21:10:36 - Request_json - contratos - 2023-04-19 21:10:36 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=6500 Erro=0
+2023-04-19 21:10:37 - Request_json - contratos - Status do download 200
+2023-04-19 21:10:39 - Request_json - contratos - 2023-04-19 21:10:39 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=7000 Erro=0
+2023-04-19 21:10:41 - Request_json - contratos - Status do download 200
+2023-04-19 21:10:43 - Request_json - contratos - 2023-04-19 21:10:43 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=7500 Erro=0
+2023-04-19 21:10:44 - Request_json - contratos - Status do download 200
+2023-04-19 21:10:46 - Request_json - contratos - 2023-04-19 21:10:46 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=8000 Erro=0
+2023-04-19 21:10:47 - Request_json - contratos - Status do download 200
+2023-04-19 21:10:49 - Request_json - contratos - 2023-04-19 21:10:49 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=8500 Erro=0
+2023-04-19 21:10:50 - Request_json - contratos - Status do download 200
+2023-04-19 21:10:52 - Request_json - contratos - 2023-04-19 21:10:52 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=9000 Erro=0
+2023-04-19 21:10:54 - Request_json - contratos - Status do download 200
+2023-04-19 21:10:56 - Request_json - contratos - 2023-04-19 21:10:56 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=9500 Erro=0
+2023-04-19 21:10:57 - Request_json - contratos - Status do download 200
+2023-04-19 21:10:59 - Request_json - contratos - 2023-04-19 21:10:59 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=10000 Erro=0
+2023-04-19 21:11:00 - Request_json - contratos - Status do download 200
+2023-04-19 21:11:02 - Request_json - contratos - 2023-04-19 21:11:02 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=10500 Erro=0
+2023-04-19 21:11:03 - Request_json - contratos - Status do download 200
+2023-04-19 21:11:05 - Request_json - contratos - 2023-04-19 21:11:05 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=11000 Erro=0
+2023-04-19 21:11:07 - Request_json - contratos - Status do download 200
+2023-04-19 21:11:08 - Request_json - contratos - 2023-04-19 21:11:08 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=11500 Erro=0
+2023-04-19 21:11:10 - Request_json - contratos - Status do download 200
+2023-04-19 21:11:11 - Request_json - contratos - 2023-04-19 21:11:11 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=12000 Erro=0
+2023-04-19 21:11:17 - Request_json - contratos - 2023-04-19 21:11:17 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=12000 Erro=1
+2023-04-19 21:11:18 - Request_json - contratos - Status do download 200
+2023-04-19 21:11:21 - Request_json - contratos - 2023-04-19 21:11:21 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=12500 Erro=0
+2023-04-19 21:11:23 - Request_json - contratos - Status do download 200
+2023-04-19 21:11:25 - Request_json - contratos - 2023-04-19 21:11:25 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=13000 Erro=0
+2023-04-19 21:11:27 - Request_json - contratos - Status do download 200
+2023-04-19 21:11:29 - Request_json - contratos - 2023-04-19 21:11:29 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=13500 Erro=0
+2023-04-19 21:11:30 - Request_json - contratos - Status do download 200
+2023-04-19 21:11:32 - Request_json - contratos - 2023-04-19 21:11:32 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=14000 Erro=0
+2023-04-19 21:11:33 - Request_json - contratos - Status do download 200
+2023-04-19 21:11:35 - Request_json - contratos - 2023-04-19 21:11:35 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=14500 Erro=0
+2023-04-19 21:11:36 - Request_json - contratos - Status do download 200
+2023-04-19 21:11:38 - Request_json - contratos - 2023-04-19 21:11:38 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=15000 Erro=0
+2023-04-19 21:11:39 - Request_json - contratos - Status do download 200
+2023-04-19 21:11:41 - Request_json - contratos - 2023-04-19 21:11:41 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=15500 Erro=0
+2023-04-19 21:11:42 - Request_json - contratos - Status do download 200
+2023-04-19 21:11:44 - Request_json - contratos - 2023-04-19 21:11:44 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=16000 Erro=0
+2023-04-19 21:11:45 - Request_json - contratos - Status do download 200
+2023-04-19 21:11:47 - Request_json - contratos - 2023-04-19 21:11:47 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=16500 Erro=0
+2023-04-19 21:11:49 - Request_json - contratos - Status do download 200
+2023-04-19 21:11:50 - Request_json - contratos - 2023-04-19 21:11:50 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=17000 Erro=0
+2023-04-19 21:11:52 - Request_json - contratos - Status do download 200
+2023-04-19 21:11:53 - Request_json - contratos - 2023-04-19 21:11:53 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=17500 Erro=0
+2023-04-19 21:11:54 - Request_json - contratos - Status do download 200
+2023-04-19 21:11:56 - Request_json - contratos - 2023-04-19 21:11:56 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=18000 Erro=0
+2023-04-19 21:11:57 - Request_json - contratos - Status do download 200
+2023-04-19 21:11:59 - Request_json - contratos - 2023-04-19 21:11:59 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=18500 Erro=0
+2023-04-19 21:12:00 - Request_json - contratos - Status do download 200
+2023-04-19 21:12:02 - Request_json - contratos - 2023-04-19 21:12:02 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=19000 Erro=0
+2023-04-19 21:12:03 - Request_json - contratos - Status do download 200
+2023-04-19 21:12:04 - Request_json - contratos - 2023-04-19 21:12:04 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=19500 Erro=0
+2023-04-19 21:12:06 - Request_json - contratos - Status do download 200
+2023-04-19 21:12:07 - Request_json - contratos - 2023-04-19 21:12:07 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=20000 Erro=0
+2023-04-19 21:12:09 - Request_json - contratos - Status do download 502
+2023-04-19 21:12:09 - Request_json - contratos - 2023-04-19 21:12:09 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=20000 Erro=1
+2023-04-19 21:12:10 - Request_json - contratos - Status do download 200
+2023-04-19 21:12:12 - Request_json - contratos - 2023-04-19 21:12:12 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=20500 Erro=0
+2023-04-19 21:12:13 - Request_json - contratos - Status do download 200
+2023-04-19 21:12:15 - Request_json - contratos - 2023-04-19 21:12:15 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=21000 Erro=0
+2023-04-19 21:12:17 - Request_json - contratos - Status do download 200
+2023-04-19 21:12:18 - Request_json - contratos - 2023-04-19 21:12:18 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=21500 Erro=0
+2023-04-19 21:12:20 - Request_json - contratos - Status do download 200
+2023-04-19 21:12:22 - Request_json - contratos - 2023-04-19 21:12:22 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=22000 Erro=0
+2023-04-19 21:12:23 - Request_json - contratos - Status do download 200
+2023-04-19 21:12:25 - Request_json - contratos - 2023-04-19 21:12:25 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=22500 Erro=0
+2023-04-19 21:12:26 - Request_json - contratos - Status do download 200
+2023-04-19 21:12:28 - Request_json - contratos - 2023-04-19 21:12:28 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=23000 Erro=0
+2023-04-19 21:12:30 - Request_json - contratos - Status do download 200
+2023-04-19 21:12:32 - Request_json - contratos - 2023-04-19 21:12:32 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=23500 Erro=0
+2023-04-19 21:12:33 - Request_json - contratos - Status do download 200
+2023-04-19 21:12:35 - Request_json - contratos - 2023-04-19 21:12:35 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=24000 Erro=0
+2023-04-19 21:12:36 - Request_json - contratos - Status do download 200
+2023-04-19 21:12:37 - Request_json - contratos - 2023-04-19 21:12:37 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=24500 Erro=0
+2023-04-19 21:12:38 - Request_json - contratos - Status do download 200
+2023-04-19 21:12:40 - Request_json - contratos - 2023-04-19 21:12:40 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=25000 Erro=0
+2023-04-19 21:12:41 - Request_json - contratos - Status do download 200
+2023-04-19 21:12:42 - Request_json - contratos - 2023-04-19 21:12:42 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=25500 Erro=0
+2023-04-19 21:12:44 - Request_json - contratos - Status do download 200
+2023-04-19 21:12:45 - Request_json - contratos - 2023-04-19 21:12:45 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=26000 Erro=0
+2023-04-19 21:12:47 - Request_json - contratos - Status do download 200
+2023-04-19 21:12:48 - Request_json - contratos - 2023-04-19 21:12:48 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=26500 Erro=0
+2023-04-19 21:12:49 - Request_json - contratos - Status do download 502
+2023-04-19 21:12:49 - Request_json - contratos - 2023-04-19 21:12:49 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=26500 Erro=1
+2023-04-19 21:12:49 - Request_json - contratos - Status do download 502
+2023-04-19 21:12:49 - Request_json - contratos - 2023-04-19 21:12:49 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=26500 Erro=2
+2023-04-19 21:12:50 - Request_json - contratos - Status do download 200
+2023-04-19 21:12:51 - Request_json - contratos - 2023-04-19 21:12:51 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=27000 Erro=0
+2023-04-19 21:12:53 - Request_json - contratos - Status do download 200
+2023-04-19 21:12:54 - Request_json - contratos - 2023-04-19 21:12:54 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=27500 Erro=0
+2023-04-19 21:12:54 - Request_json - contratos - Status do download 502
+2023-04-19 21:12:54 - Request_json - contratos - 2023-04-19 21:12:54 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=27500 Erro=1
+2023-04-19 21:12:56 - Request_json - contratos - Status do download 200
+2023-04-19 21:12:57 - Request_json - contratos - 2023-04-19 21:12:57 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=28000 Erro=0
+2023-04-19 21:13:00 - Request_json - contratos - Status do download 200
+2023-04-19 21:13:01 - Request_json - contratos - 2023-04-19 21:13:01 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=28500 Erro=0
+2023-04-19 21:13:02 - Request_json - contratos - Status do download 200
+2023-04-19 21:13:04 - Request_json - contratos - 2023-04-19 21:13:04 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=29000 Erro=0
+2023-04-19 21:13:06 - Request_json - contratos - Status do download 200
+2023-04-19 21:13:07 - Request_json - contratos - 2023-04-19 21:13:07 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=29500 Erro=0
+2023-04-19 21:13:09 - Request_json - contratos - Status do download 200
+2023-04-19 21:13:10 - Request_json - contratos - 2023-04-19 21:13:10 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=30000 Erro=0
+2023-04-19 21:13:11 - Request_json - contratos - Status do download 200
+2023-04-19 21:13:13 - Request_json - contratos - 2023-04-19 21:13:13 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=30500 Erro=0
+2023-04-19 21:13:14 - Request_json - contratos - Status do download 200
+2023-04-19 21:13:16 - Request_json - contratos - 2023-04-19 21:13:16 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=31000 Erro=0
+2023-04-19 21:13:17 - Request_json - contratos - Status do download 200
+2023-04-19 21:13:21 - Request_json - contratos - 2023-04-19 21:13:21 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=31500 Erro=0
+2023-04-19 21:13:23 - Request_json - contratos - Status do download 200
+2023-04-19 21:13:25 - Request_json - contratos - 2023-04-19 21:13:25 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=32000 Erro=0
+2023-04-19 21:13:26 - Request_json - contratos - Status do download 200
+2023-04-19 21:13:28 - Request_json - contratos - 2023-04-19 21:13:28 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=32500 Erro=0
+2023-04-19 21:13:30 - Request_json - contratos - Status do download 200
+2023-04-19 21:13:31 - Request_json - contratos - 2023-04-19 21:13:31 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=33000 Erro=0
+2023-04-19 21:13:33 - Request_json - contratos - Status do download 200
+2023-04-19 21:13:34 - Request_json - contratos - 2023-04-19 21:13:34 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=33500 Erro=0
+2023-04-19 21:13:36 - Request_json - contratos - Status do download 200
+2023-04-19 21:13:38 - Request_json - contratos - 2023-04-19 21:13:38 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=34000 Erro=0
+2023-04-19 21:13:40 - Request_json - contratos - Status do download 200
+2023-04-19 21:13:41 - Request_json - contratos - 2023-04-19 21:13:41 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=34500 Erro=0
+2023-04-19 21:13:43 - Request_json - contratos - Status do download 200
+2023-04-19 21:13:45 - Request_json - contratos - 2023-04-19 21:13:45 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=35000 Erro=0
+2023-04-19 21:13:46 - Request_json - contratos - Status do download 200
+2023-04-19 21:13:48 - Request_json - contratos - 2023-04-19 21:13:48 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=35500 Erro=0
+2023-04-19 21:13:49 - Request_json - contratos - Status do download 200
+2023-04-19 21:13:50 - Request_json - contratos - 2023-04-19 21:13:50 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=36000 Erro=0
+2023-04-19 21:13:52 - Request_json - contratos - Status do download 200
+2023-04-19 21:13:53 - Request_json - contratos - 2023-04-19 21:13:53 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=36500 Erro=0
+2023-04-19 21:13:55 - Request_json - contratos - Status do download 200
+2023-04-19 21:13:56 - Request_json - contratos - 2023-04-19 21:13:56 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=37000 Erro=0
+2023-04-19 21:13:58 - Request_json - contratos - Status do download 200
+2023-04-19 21:14:00 - Request_json - contratos - 2023-04-19 21:14:00 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=37500 Erro=0
+2023-04-19 21:14:01 - Request_json - contratos - Status do download 200
+2023-04-19 21:14:03 - Request_json - contratos - 2023-04-19 21:14:03 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=38000 Erro=0
+2023-04-19 21:14:05 - Request_json - contratos - Status do download 200
+2023-04-19 21:14:07 - Request_json - contratos - 2023-04-19 21:14:07 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=38500 Erro=0
+2023-04-19 21:14:08 - Request_json - contratos - Status do download 200
+2023-04-19 21:14:10 - Request_json - contratos - 2023-04-19 21:14:10 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=39000 Erro=0
+2023-04-19 21:14:11 - Request_json - contratos - Status do download 200
+2023-04-19 21:14:13 - Request_json - contratos - 2023-04-19 21:14:13 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=39500 Erro=0
+2023-04-19 21:14:14 - Request_json - contratos - Status do download 200
+2023-04-19 21:14:16 - Request_json - contratos - 2023-04-19 21:14:16 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=40000 Erro=0
+2023-04-19 21:14:18 - Request_json - contratos - Status do download 200
+2023-04-19 21:14:19 - Request_json - contratos - 2023-04-19 21:14:19 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=40500 Erro=0
+2023-04-19 21:14:21 - Request_json - contratos - Status do download 200
+2023-04-19 21:14:23 - Request_json - contratos - 2023-04-19 21:14:23 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=41000 Erro=0
+2023-04-19 21:14:25 - Request_json - contratos - Status do download 200
+2023-04-19 21:14:26 - Request_json - contratos - 2023-04-19 21:14:26 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=41500 Erro=0
+2023-04-19 21:14:28 - Request_json - contratos - Status do download 200
+2023-04-19 21:14:29 - Request_json - contratos - 2023-04-19 21:14:29 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2022-01-01&data_assinatura_max=2022-12-31&offset=42000 Erro=0
+2023-04-19 21:14:31 - Request_json - contratos - Status do download 200

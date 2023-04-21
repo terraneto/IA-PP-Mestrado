@@ -1,19 +1,25 @@
 {% extends "index.html" %}
 
 {% block content %}
+                {% set paginasbaixadas = "teste" %}
 <div class="container">
+    <h1>Baixar jsons</h1>
+<br>
       <div class="row">
         <div class="form-group col-xs-6">
           <label for="all_classes">Selecione o Módulo</label>
-          <select class="form-control" style="color: white; background: #34568B;" id="all_classes">
+          <select class="form-control" id="all_classes">
             {% for o in all_classes %}
                     <option value="{{ o }}">{{ o }}</option>
             {% endfor %}
           </select>
         </div>
+      </div>
+          <br>
+      <div class="row">
         <div class="form-group col-xs-6">
           <label for="all_entries">Selecione a entidade</label>
-          <select class="form-control" style="color:white; background:#009B77;" id="all_entries">
+          <select class="form-control" id="all_entries">
             {% for o in all_entries %}
                     <option value="{{ o }}">{{ o }}</option>
             {% endfor %}
@@ -22,12 +28,13 @@
       </div>
 
       <div>
-        <button type="button" style="color:white; background:#3498DB;" id="process_input">Process selection!</button>
-        <button type="button" onclick="')">Click Me!</button>
-      </div><br><br>
-      <div id="processed_results">
-        Here we display some output based on the selection
+        <button type="button" id="process_input">Baixar json</button>
+        <button type="button" id="go_index">Fechar</button>
       </div>
+      <br>
+      {{paginasbaixadas}}
+
+      <br>
 </div>
     <script src="https://code.jquery.com/jquery-1.12.4.js" type="text/javascript"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -43,16 +50,19 @@
                 $('#all_entries').html(data.html_string_selected);
            })
         });
+        $('#go_index').bind('click', function() {
+             window.location.replace("/");
+        });
         $('#process_input').bind('click', function() {
-
+                {% set paginasbaixadas = "Alterei" %}
             $.getJSON('/_process_data', {
                 selected_class: $('#all_classes').val(),
                 selected_entry: $('#all_entries').val(),
 
 
-            }).success(function(data) {
-                $('#processed_results').text(data.random_text);
 
+            }).success(function(data) {
+                {% set paginasbaixadas = "Alterei" %}
             })
 
           return false;
@@ -65,7 +75,7 @@
             url: "~/pythoncode.py",
             data: { param: text}
       }).done(function( o ) {
-            // do something
+                window.location.replace("/");
       });
     </script>
 

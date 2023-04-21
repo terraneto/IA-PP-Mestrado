@@ -1,0 +1,70 @@
+{% extends "index.html" %}
+
+{% block content %}
+                {% set paginasbaixadas = "teste" %}
+<div class="container">
+    <h1>Carregar jsons</h1>
+<br>
+      <div class="row">
+        <div class="form-group col-xs-6">
+          <label for="all_classes">Selecione o tipo</label>
+          <select class="form-control" id="all_classes">
+            {% for o in all_classes %}
+                    <option value="{{ o }}">{{ o }}</option>
+            {% endfor %}
+          </select>
+        </div>
+      </div>
+        <br>
+      <div>
+        <button type="button" id="process_input">Carregar json</button>
+        <button type="button" id="go_index">Fechar</button>
+      </div>
+      <br>
+      {{paginasbaixadas}}
+
+      <br>
+</div>
+    <script src="https://code.jquery.com/jquery-1.12.4.js" type="text/javascript"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+
+        $('#all_classes').change(function(){
+            selected_class: $('#all_classes').val()
+        });
+        $('#go_index').bind('click', function() {
+             window.location.replace("/");
+        });
+        $('#process_input').bind('click', function() {
+            $.getJSON('/_carrega_dados', {
+               selected_class: $('#all_classes').val(),
+            }).success(function(data) {
+                         window.location.replace("/");
+            })
+                         window.location.replace("/");
+          return false;
+        });
+      });
+
+      $.ajax({
+            type: "POST",
+            url: "~/pythoncode.py",
+            data: { param: text}
+      }).done(function( o ) {
+                window.location.replace("/");
+      });
+    </script>
+
+{% block footer %}
+<footer class="footer hidden-xs">
+    <div class="container-fluid" style="position: absolute; height: 2.4rem; width: 100%; bottom: 0" >
+        <div class="row">
+           <div class="col-md-12">
+             <p class="texto text-center" style="background-image: url({{url_for('static', filename='RODAPE_BG.PNG')}}); color: white; "  >Senado Federal - Praça dos Três Poderes - Brasília DF - CEP 70165-900 - Fone: (61)3303-4141</p>
+           </div>
+        </div>
+    </div>
+</footer>
+{% endblock %}
+{% endblock %}

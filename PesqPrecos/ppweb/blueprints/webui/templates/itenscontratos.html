@@ -1,0 +1,15 @@
+{% extends "index.html" %}
+{% block content %}
+<div class="container">
+<h1>Contratos</h1>
+
+        <ul class="list-group">
+            {% for itemcontrato in itenscontrato %}
+            <li class="list-group-item">
+                {{itemcontrato.id}} - {{itemcontrato.contrato_id}} - {{itemcontrato.tipo_id}} - {{itemcontrato.grupo_id}} - {{itemcontrato.catmatser_item_id}} - {{itemcontrato.descricao_complementar}} - {{itemcontrato.quantidade}}  - {{itemcontrato.valor_unitario}}  - {{itemcontrato.valor_total}}
+            </li>
+            {% endfor %}
+        </ul>
+
+</div>
+{% endblock %}
