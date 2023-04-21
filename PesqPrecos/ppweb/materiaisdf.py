@@ -30,7 +30,7 @@ def create_grupos_from_dataframe(df):
             grupo = Grupo()
             grupo.codigo = df_grupo['codigo']
             grupo.descricao = df_grupo['descricao']
-            exists = db.session.query(db.exists().where(Classe.codigo == df_grupo['codigo'])).scalar()
+            exists = db.session.query(db.exists().where(Grupo.codigo == df_grupo['codigo'])).scalar()
             if exists:
                 grupo.verified = True
             else:
@@ -45,11 +45,15 @@ def create_pdms_from_dataframe(df):
         if '_links' in df.columns:
             del df['_links']
         for index, df_pdm in df.iterrows():
-            pdm = PDM()
+            pdm = PDM.query.filter_by(codigo=df_pdm['codigo']).first()
+            if pdm is None:
+                exists = False
+                pdm = PDM()
+            else:
+                exists = True
             pdm.codigo = df_pdm['codigo']
             pdm.descricao = df_pdm['descricao']
             pdm.codigo_classe = df_pdm['codigo_classe']
-            exists = db.session.query(db.exists().where(PDM.codigo == df_pdm['codigo'])).scalar()
             if exists:
                 pdm.verified = True
             else:
@@ -61,10 +65,16 @@ def create_pdms_from_dataframe(df):
 
 def create_materiais_from_dataframe(df):
     try:
+        material = None
         if '_links' in df.columns:
             del df['_links']
         for index, df_material in df.iterrows():
-            material = Material()
+            material = Material.query.filter_by(codigo=df_material['codigo']).first()
+            if material is None:
+                exists = False
+                material = Material()
+            else:
+                exists = True
             material.codigo = df_material['codigo']
             material.descricao = df_material['descricao']
             material.id_grupo = df_material['id_grupo']
@@ -72,11 +82,12 @@ def create_materiais_from_dataframe(df):
             material.id_pdm = df_material['id_pdm']
             material.status = df_material['status']
             material.sustentavel = df_material['sustentavel']
-            exists = db.session.query(db.exists().where(Material.codigo == df_material['codigo'])).scalar()
             if exists:
                 material.verified = True
             else:
                 db.session.add(material)
         db.session.commit()
+        return material
     except Exception as excecao:
         print("Erro na gravação no banco " + str(excecao.__cause__))
+        return None

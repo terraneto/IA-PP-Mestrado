@@ -2,14 +2,8 @@ from ppweb.ext.database import db
 from sqlalchemy_serializer import SerializerMixin
 
 
-class Product(db.Model, SerializerMixin):
-    id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(140))
-    price = db.Column(db.Numeric())
-    description = db.Column(db.Text)
-
-
 class User(db.Model, SerializerMixin):
+    __tablename__ = "user"
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(140))
     password = db.Column(db.String(512))
@@ -29,11 +23,31 @@ class Uasg(db.Model, SerializerMixin):
     cnpj = db.Column(db.String(14))
     cep = db.Column(db.String(8))
     total_fornecedores_cadastrados = db.Column(db.Integer)
+    total_fornecedores_recadastrados = db.Column(db.Integer)
     unidade_cadastradora = db.Column(db.Integer)
     ativo = db.Column(db.Integer)
 
+class Fornecedor(db.Model, SerializerMixin):
+    __tablename__ = "fornecedores"
+    id = db.Column(db.Integer, primary_key=True)
+    cnpj = db.Column(db.Text)
+    cpf = db.Column(db.Text)
+    nome = db.Column(db.Text)
+    ativo = db.Column(db.Integer)
+    recadastrado = db.Column(db.Text)
+    id_municipio = db.Column(db.Integer)
+    uf = db.Column(db.String(2))
+    id_natureza_juridica = db.Column(db.Integer)
+    id_porte_empresa = db.Column(db.Integer)
+    id_ramo_negocio = db.Column(db.Integer)
+    id_unidade_cadastradora = db.Column(db.Text)
+    id_cnae = db.Column(db.Integer)
+    id_cnae2 = db.Column(db.Integer)
+    habilitado_licitar = db.Column(db.Integer)
+
 
 class Orgao(db.Model, SerializerMixin):
+    __tablename__ = "orgao"
     codigo = db.Column(db.Integer, primary_key=True)
     nome = db.Column(db.String(50))
     codigo_tipo_adm = db.Column(db.Integer)
@@ -43,6 +57,7 @@ class Orgao(db.Model, SerializerMixin):
 
 
 class Material(db.Model, SerializerMixin):
+    __tablename__ = "materiais"
     codigo = db.Column(db.Integer, primary_key=True)
     descricao = db.Column(db.String(30))
     id_grupo = db.Column(db.Integer)
@@ -53,34 +68,40 @@ class Material(db.Model, SerializerMixin):
 
 
 class Grupo(db.Model, SerializerMixin):
+    __tablename__ = "grupo"
     codigo = db.Column(db.Integer, primary_key=True)
     descricao = db.Column(db.String(130))
 
 
 class Classe(db.Model, SerializerMixin):
+    __tablename__ = "classes"
     codigo = db.Column(db.Integer, primary_key=True)
     descricao = db.Column(db.String(130))
     codigo_grupo = db.Column(db.Integer)
 
 
 class PDM(db.Model, SerializerMixin):
+    __tablename__ = "pdms"
     codigo = db.Column(db.String(5), primary_key=True)
     descricao = db.Column(db.String(130))
     codigo_classe = db.Column(db.Integer)
 
 
 class AmbitoOcorrencia(db.Model, SerializerMixin):
+    __tablename__ = "ambitos_ocorrencia"
     id = db.Column(db.Integer, primary_key=True)
     descricao = db.Column(db.String(25))
 
 
 class CNAE(db.Model, SerializerMixin):
+    __tablename__ = "cnaes"
     id = db.Column(db.Integer, primary_key=True)
     descricao = db.Column(db.String(170))
     codigo_longo = db.Column(db.String(10))
 
 
 class Municipio(db.Model, SerializerMixin):
+    __tablename__ = "municipios"
     id = db.Column(db.Integer, primary_key=True)
     codigo_ibge = db.Column(db.Text)
     nome = db.Column(db.String(45))
@@ -90,6 +111,7 @@ class Municipio(db.Model, SerializerMixin):
 
 
 class ComprasContratos(db.Model, SerializerMixin):
+    __tablename__ = "comprasContratos"
     id = db.Column(db.Integer, primary_key=True)
     codigo_contrato = db.Column(db.String(17))
     numero = db.Column(db.String(12))
@@ -128,15 +150,14 @@ class ComprasContratos(db.Model, SerializerMixin):
 
 
 class Licitacao(db.Model, SerializerMixin):
+    __tablename__ = "licitacoes"
     uasg = db.Column(db.Integer, primary_key=True)
     modalidade = db.Column(db.Integer, primary_key=True)
     numero_aviso = db.Column(db.Integer, primary_key=True)
     identificador = db.Column(db.Text)
-    numero_item_licitacao = db.Column(db.Integer, primary_key=True)
     tipo_pregao = db.Column(db.Text)
     situacao_aviso = db.Column(db.Text)
     objeto = db.Column(db.Text)
-    codigo_do_item_no_catalogo = db.Column(db.Integer)
     informacoes_gerais = db.Column(db.Text)
     numero_processo = db.Column(db.Text)
     tipo_recurso = db.Column(db.Text)
@@ -149,3 +170,69 @@ class Licitacao(db.Model, SerializerMixin):
     data_entrega_proposta = db.Column(db.Text)
     data_publicacao = db.Column(db.Text)
 
+
+class Itenslicitacao(db.Model, SerializerMixin):
+    __tablename__ = "itensLicitacao"
+    uasg = db.Column(db.Integer, primary_key=True)
+    modalidade = db.Column(db.Integer, primary_key=True)
+    numero_aviso = db.Column(db.Integer, primary_key=True)
+    numero_licitacao = db.Column(db.Text)
+    numero_item_licitacao = db.Column(db.Integer, primary_key=True)
+    codigo_item_servico = db.Column(db.Text)
+    codigo_item_material = db.Column(db.Integer)
+    descricao_item = db.Column(db.Text)
+    sustentavel = db.Column(db.Integer)
+    quantidade = db.Column(db.Text)
+    unidade = db.Column(db.Text)
+    cnpj_fornecedor = db.Column(db.Text)
+    cpfVencedor = db.Column(db.Text)
+    beneficio = db.Column(db.Text)
+    valor_estimado = db.Column(db.Float)
+    decreto_7174 = db.Column(db.Integer)
+    criterio_julgamento = db.Column(db.Text)
+
+
+class Itenscontratos(db.Model, SerializerMixin):
+    __tablename__ = "itensComprasContratos"
+    id = db.Column(db.Integer, primary_key=True)
+    contrato_id = db.Column(db.Integer)
+    tipo_id = db.Column(db.Text)
+    grupo_id = db.Column(db.Text)
+    catmatser_item_id = db.Column(db.Text)
+    descricao_complementar = db.Column(db.Text)
+    quantidade = db.Column(db.Integer)
+    valor_unitario = db.Column(db.Float)
+    valor_total = db.Column(db.Float)
+
+
+class Itens(db.Model, SerializerMixin):
+    __tablename__ = "itens"
+    licitacao_contrato = db.Column(db.Integer, primary_key=True)
+    id = db.Column(db.Integer, primary_key=True)
+    data = db.Column(db.Text)
+    grupo_id = db.Column(db.Integer)
+    catmat_id = db.Column(db.Integer)
+    classe_id = db.Column(db.Integer)
+    pdm_id = db.Column(db.Integer)
+    quantidade = db.Column(db.Integer)
+    unidade = db.Column(db.Text)
+    valor_unitario = db.Column(db.Float)
+    valor_total = db.Column(db.Float)
+
+
+class Itensprecospraticados(db.Model, SerializerMixin):
+    __tablename__ = "itensPrecoPraticado"
+    uasg = db.Column(db.Integer, primary_key=True)
+    modalidade = db.Column(db.Integer, primary_key=True)
+    numero_aviso = db.Column(db.Integer, primary_key=True)
+    numero_item_licitacao = db.Column(db.Integer, primary_key=True)
+    codigo_item_material = db.Column(db.Integer)
+    codigo_item_servico = db.Column(db.Text)
+    cnpj_fornecedor = db.Column(db.Text)
+    marca = db.Column(db.Text)
+    unidade = db.Column(db.Text)
+    quantidade = db.Column(db.Text)
+    valor_unitario = db.Column(db.Float)
+    valor_total = db.Column(db.Float)
+    beneficio = db.Column(db.Text)
+    id_licitacao = db.Column(db.Text)

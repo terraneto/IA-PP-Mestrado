@@ -3,7 +3,7 @@ DEBUG = false
 FLASK_ADMIN_NAME = "PPweb Admin"
 FLASK_ADMIN_TEMPLATE_MODE = "bootstrap3"
 FLASK_ADMIN_SWATCH = 'cerulean'
-SQLALCHEMY_DATABASE_URI = 'sqlite:///development.db'
+SQLALCHEMY_DATABASE_URI = 'mysql://siasg:siasg@192.168.2.135/siasg'
 TITLE = "PPweb"
 SECRET_KEY = "jadkfbsdkjbfbh"
 PASSWORD_SCHEMES = ['pbkdf2_sha512', 'md5_crypt']
@@ -47,4 +47,4 @@ DEBUG_TB_PANELS = [
 SQLALCHEMY_DATABASE_URI = 'sqlite:///testing.db'
 
 [production]
-SQLALCHEMY_DATABASE_URI = 'sqlite:///production.db'
+SQLALCHEMY_DATABASE_URI = 'mysql://siasg:siasg@192.168.2.135/siasg'
