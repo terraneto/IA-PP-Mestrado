@@ -1,5 +1,3 @@
-from sqlalchemy.sql.elements import Null
-
 from ppweb.ext.database import db
 from ppweb.models import Itenscontratos, Itens, ComprasContratos, Licitacao, Material, \
     Itensprecospraticados
@@ -7,19 +5,19 @@ from ppweb.utils import baixa_json_material
 
 
 def busca_data(id):
-    contrato = ComprasContratos.query.filter(ComprasContratos.id == id).first()
+    contrato = ComprasContratos.query.filter(id=id).first()
     if contrato is None:
         print('não achou contrato')
-        return None
+        return '1970-01-01'
     else:
         return contrato.data_assinatura
 
 
 def busca_data_licitacao(uasg, modalidade, numero_aviso):
-    licitacao = Licitacao.query.filter(Licitacao.uasg == uasg, Licitacao.modalidade == modalidade,
-                                       Licitacao.numero_aviso == numero_aviso).first()
+    licitacao = Licitacao.query.filter(uasg=uasg, modalidade=modalidade,
+                                       numero_aviso=numero_aviso).first()
     if licitacao is None:
-        return None
+        return '1970-01-01'
     else:
         return licitacao.data_abertura_proposta[:10]
 
@@ -31,9 +29,27 @@ def busca_material(catmat):
     return material
 
 
+def carrega_materiais_nos_itens():
+    registros = Itens.query.filter(pdm_id=0).all()
+    i = 0
+    n = len(registros)
+    for item in registros:
+        i = i + 1
+        print('processando item ' + str(i) + ' de ' + str(n))
+        material = busca_material(item.catmat_id)
+        if material is not None:
+            print('atualizando')
+            item.pdm_id = material.id_pdm
+            item.grupo_id = material.id_grupo
+            item.classe_id = material.id_classe
+            item.verified = True
+            db.session.commit()
+
+
 def carrega_itens_contratos():
     try:
         # dfc=pd.read_sql(SQL,conn)
+        catmat = 0
         itens = Itenscontratos.query.filter(Itenscontratos.tipo_id == 'Material').all()
         i = 0
         for itemc in itens:
@@ -61,13 +77,21 @@ def carrega_itens_contratos():
                 item.quantidade = itemc.quantidade
                 item.valor_unitario = itemc.valor_unitario
                 item.valor_total = itemc.valor_total
+                if itemc.valor_unitario is None:
+                    if itemc.valor_total is None:
+                        continue
+                    else:
+                        item.valor_unitario = itemc.valor_total / float(itemc.quantidade)
+                else:
+                    item.valor_unitario = itemc.valor_unitario
+
                 if exists:
                     item.verified = True
                 else:
                     db.session.add(item)
                 db.session.commit()
             except Exception as excep:
-                print('Erro com o material = ' + str(catmat) + excep.__cause__)
+                print('Erro com o material = ' + str(catmat) + str(excep.__cause__))
     except Exception as excecao:
         print("Erro na gravação no banco " + str(excecao.__cause__))
 
@@ -83,8 +107,6 @@ def carrega_itens_licitacoes():
             try:
                 i = i + 1
                 print('processando item de licitação ' + str(i) + ' de ' + str(len(itens)))
-                if i < 150744:
-                    continue
                 id = int(iteml.id_licitacao)
                 item = Itens.query.filter(Itens.id == id,
                                           Itens.licitacao_contrato == iteml.numero_item_licitacao).first()
