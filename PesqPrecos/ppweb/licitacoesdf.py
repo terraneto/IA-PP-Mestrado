@@ -505,7 +505,7 @@ def baixa_uasg_diario_material_geral(ano):
     return True
 
 
-def baixa_uasg_diario_classe_geral(ano):
+def baixa_uasg_diario_classe_geral(ano, recursivo):
     path = './static/json/licitacoes/'+ano+'/diario'
     directories = os.listdir(path)
     i = 0
@@ -543,11 +543,12 @@ def baixa_uasg_diario_classe_geral(ano):
             if not os.path.exists(dcpatharquivod):
                 print('diario ' + str(i) + '/' + str(numdir) + ' Classe ' + str(c) + ' de ' + str(nclasses) + ' ' + url)
                 request_json(url, 'licitacoes/'+ano + '/classes', dcarquivo)
-    baixa_uasg_diario_material_geral(ano)
+    if recursivo == 'S':
+        baixa_uasg_diario_material_geral(ano)
     return True
 
 
-def baixa_uasg_mensal_diario_geral(ano):
+def baixa_uasg_mensal_diario_geral(ano, recursivo):
     path = './static/json/licitacoes/'+ano+'/mensal'
     directories = os.listdir(path)
     i = 0
@@ -584,11 +585,12 @@ def baixa_uasg_mensal_diario_geral(ano):
             if not os.path.exists(dpatharquivod):
                 print('Mês ' + str(i) + '/' + str(numdir) + ' dia ' + str(ddia) + ' de ' + str(dudia) + ' ' + url)
                 request_json(url, 'licitacoes/'+ano+'/diario', darquivo)
-    baixa_uasg_diario_classe_geral(ano)
+    if recursivo == 'S':
+        baixa_uasg_diario_classe_geral(ano)
     return True
 
 
-def baixa_uasg_mensal_geral(ano):
+def baixa_uasg_mensal_geral(ano, recursivo):
     path = './static/json/licitacoes/'+ano
     directories = os.listdir(path)
     i = 0
@@ -627,11 +629,12 @@ def baixa_uasg_mensal_geral(ano):
             mpatharquivom = './static/json/licitacoes/'+ano+'/mensal/' + marquivo
             if not os.path.exists(mpatharquivom):
                 request_json(url, 'licitacoes/'+ano+'/mensal', marquivo)
-    baixa_uasg_mensal_diario_geral(ano)
+    if recursivo == 'S':
+        baixa_uasg_mensal_diario_geral(ano)
     return True
 
 
-def baixa_json_licitacao_uasg_anual_geral(vano):
+def baixa_json_licitacao_uasg_anual_geral(vano, recursivo):
     tipo = 'licitacoes/'+vano
     from sqlalchemy import text
 
@@ -644,6 +647,13 @@ def baixa_json_licitacao_uasg_anual_geral(vano):
    # query = db.session.query(Uasg).filter_by(Uasg.ativo == 1).query
 
     #uasgs = [row.uasg for row in query1.all()]
+
+    #itemprecopraticado = Itensprecospraticados.query.filter_by(uasg=df_licitacao['uasg'],
+    #                                                           modalidade=df_licitacao['modalidade'],
+    #                                                           numero_aviso=df_licitacao['numero_aviso'],
+    #                                                           numero_item_licitacao=df_licitacao[
+    #                                                               'numero_item_licitacao']
+    #                                                           ).first()
     numu = len(uasgs)
     u = 0
     for uasg in uasgs:
@@ -662,5 +672,6 @@ def baixa_json_licitacao_uasg_anual_geral(vano):
         patharquivo = './static/json/licitacoes/' + vano + '/' + arquivo
         if not os.path.exists(patharquivo):
             request_json(url, tipo, arquivo)
-    baixa_uasg_mensal_geral(vano)
+    if recursivo == 'S':
+        baixa_uasg_mensal_geral(vano, recursivo)
     return True

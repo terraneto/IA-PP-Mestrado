@@ -32,6 +32,7 @@ def get_dropdown_values():
     }
     return modulos
 
+
 def get_carga_values():
     modulos = {'ambitos_ocorrencia', 'cnaes', 'fornecedores', 'linhas_fornecimento', 'municipios',
                'naturezas_juridicas', 'ocorrencias_fornecedores', 'portes_empresa', 'prazos_ocorrencia',
@@ -60,21 +61,37 @@ def process_data():
     baixa_json(selected_class, selected_entry, None)
     return dir_listing(selected_entry)
 
+
 def process_data_licitacao():
-    print('entrei process_data_licitacao')
     if request.method == 'POST':
         result = request.form
-        for i in result:
-            print(i)
-        # print(inicio)
-        # baixa_json(selected_class, selected_entry, None)
+        ano = result.get('select_ano')
+        inicio = result.get('select_inicio')
+        recursivo = result.get('recursividade')
+        sobrepoe = result.get('sobrepoe')
+        print(ano)
+        print(inicio)
+        print(recursivo)
+        print(sobrepoe)
+        if ano == '3':
+            baixa_json_licitacao_uasg_trimestral()
+        else:
+            match inicio:
+                case '1':
+                    baixa_json_licitacao_uasg_anual_geral(ano, recursivo)
+                case '2':
+                    baixa_uasg_mensal_geral(ano, recursivo)
+                case '3':
+                    baixa_uasg_mensal_diario_geral(ano, recursivo)
+                case '4':
+                    baixa_uasg_diario_classe_geral(ano, recursivo)
+                case '5':
+                    baixa_uasg_diario_material_geral(ano)
     return dir_listing('licitacoes')
 
 
 def carrega_dados():
-    print("abri")
     selected_class = request.args.get('selected_class', type=str)
-    print("carrega dados - " + selected_class)
     carrega_json(selected_class)
     return dir_listing(selected_class)
 
@@ -88,6 +105,7 @@ def view_seltipo():
     return render_template('seltipo.html',
                            all_classes=default_classes,
                            all_entries=default_values)
+
 
 def view_licitacoesseltipo():
     return render_template('licitacoesseltipo.html')
@@ -155,38 +173,6 @@ def view_baixa_json_contrato_anual(vano):
 def view_baixa_json_contrato_mes(vano, vmes):
     baixa_json_contrato_mes(vano, vmes)
     return dir_listing("contratos")
-
-
-def view_baixa_json_licitacao_uasg_anual_geral(vano):
-    print('view baixa licitacoes  Ano=' + str(vano))
-    baixa_json_licitacao_uasg_anual_geral(vano)
-    return dir_listing('licitacoes')
-
-
-def view_baixa_uasg_diario_material_geral(ano):
-    baixa_uasg_diario_material_geral(ano)
-    return dir_listing('licitacoes' + '\\' + ano + '\\' + 'material')
-
-
-def view_baixa_uasg_mensal_geral(ano):
-    baixa_uasg_mensal_geral(ano)
-    return dir_listing('licitacoes' + '\\' + ano + '\\' + 'mensal')
-
-
-def view_baixa_uasg_mensal_diario_geral(ano):
-    baixa_uasg_mensal_diario_geral(ano)
-    return dir_listing('licitacoes' + '\\' + ano + '\\' + 'diario')
-
-
-def view_baixa_uasg_diario_classe_geral(ano):
-    baixa_uasg_diario_classe_geral(ano)
-    return dir_listing('licitacoes' + '\\' + ano + '\\' + 'classes')
-
-
-def view_baixa_json_licitacao_uasg_trimestral():
-    print('view baixa licitacoes  trimestral')
-    baixa_json_licitacao_uasg_trimestral()
-    return dir_listing('licitacoes')
 
 
 def view_baixa_json_licitacao_uasg_mensal(vano, vmes):

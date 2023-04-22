@@ -10,23 +10,22 @@
         <div class="form-group col-xs-6">
                 <fieldset>
           <label for="select_ano">Selecione o período</label>
-          <select class="form-control" id="select_ano">
-                <option value="1">2022</option>
-                <option value="2">2023</option>
+          <select name="select_ano" class="selectpicker form-control" id="select_ano">
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
                 <option value="3">Últimos 3 meses</option>
           </select>
                 </fieldset>
         </div>
       </div>
           <br>
-      {% if selected_ano != 3 %}
+      {% if select_ano != 3 %}
 
       <div class="row">
         <div class="form-group col-xs-6">
           <label for="select_inicio">Selecione o início</label>
             <fieldset>
-                <select name="comp_select" class="selectpicker form-control">
-          <select class="selectpicker form-control" id="select_inicio">
+          <select name="select_inicio" class="selectpicker form-control" id="select_inicio">
                  <option value="1">Ano</option>
                 <option value="2">Mês</option>
                 <option value="3">Dia</option>
