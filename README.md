@@ -59,15 +59,15 @@ Federal;
 
 [Novembro-2022](Novembro-2022/novembro.md)
 [PesqPrecos]
-classes.csv
-comprasContratos.csv
-grupos.csv
-itens.csv
-itensLicitacao.csv
-licitacoes.csv
-materiais.csv
-pdms.csv
-uasgs.csv
+[classes.csv]
+[comprasContratos.csv]
+[grupos.csv]
+[itens.csv]
+[itensLicitacao.csv]
+[licitacoes.csv]
+[materiais.csv]
+[pdms.csv]
+[uasgs.csv]
 
 ## Relatório de pesquisa do Mestrado Profissional em Poder Legislativo da Câmara dos Deputados
 
