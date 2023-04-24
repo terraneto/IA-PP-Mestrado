@@ -210,14 +210,12 @@ class Itens(db.Model, SerializerMixin):
     licitacao_contrato = db.Column(db.Integer, primary_key=True)
     id = db.Column(db.Integer, primary_key=True)
     data = db.Column(db.Text)
-    grupo_id = db.Column(db.Integer)
     catmat_id = db.Column(db.Integer)
-    classe_id = db.Column(db.Integer)
-    pdm_id = db.Column(db.Integer)
     quantidade = db.Column(db.Integer)
     unidade = db.Column(db.Text)
     valor_unitario = db.Column(db.Float)
     valor_total = db.Column(db.Float)
+    uf_uasg = db.Column(db.Text)
 
 
 class Itensprecospraticados(db.Model, SerializerMixin):

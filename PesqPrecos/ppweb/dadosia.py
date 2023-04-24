@@ -34,7 +34,7 @@ def busca_material(catmat):
     return material
 
 
-def carrega_materiais_nos_itens():
+def atualiza_materiais():
     registros = Itens.query.filter(pdm_id=0).all()
     i = 0
     n = len(registros)
@@ -42,13 +42,6 @@ def carrega_materiais_nos_itens():
         i = i + 1
         print('processando item ' + str(i) + ' de ' + str(n))
         material = busca_material(item.catmat_id)
-        if material is not None:
-            print('atualizando')
-            item.pdm_id = material.id_pdm
-            item.grupo_id = material.id_grupo
-            item.classe_id = material.id_classe
-            item.verified = True
-            db.session.commit()
 
 
 def carrega_itens_contratos():
@@ -65,7 +58,6 @@ def carrega_itens_contratos():
                 catmatstr = itemc.catmatser_item_id[0:gap_pos]
                 catmat = int(catmatstr)
                 print(catmat)
-                material = busca_material(catmat)
                 item = Itens.query.filter_by(id=itemc.id, licitacao_contrato=0).first()
                 if item is None:
                     exists = False
@@ -77,10 +69,6 @@ def carrega_itens_contratos():
                 item.id = itemc.id
                 item.data = busca_data(itemc.contrato_id)
                 item.catmat_id = catmat
-                if material is not None:
-                    item.pdm_id = material.id_pdm
-                    item.grupo_id = material.id_grupo
-                    item.classe_id = material.id_classe
                 item.quantidade = itemc.quantidade
                 item.valor_unitario = itemc.valor_unitario
                 item.valor_total = itemc.valor_total
@@ -125,11 +113,6 @@ def carrega_itens_licitacoes():
                 item.id = id
                 item.data = busca_data_licitacao(iteml.uasg, iteml.modalidade, iteml.numero_aviso)
                 item.catmat_id = iteml.codigo_item_material
-                material = busca_material(iteml.codigo_item_material)
-                if material is not None:
-                    item.pdm_id = material.id_pdm
-                    item.grupo_id = material.id_grupo
-                    item.classe_id = material.id_classe
                 item.quantidade = iteml.quantidade
                 item.unidade = iteml.unidade
                 if iteml.valor_unitario is None:
