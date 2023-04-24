@@ -14,18 +14,23 @@ def busca_data(id):
 
 
 def busca_data_licitacao(uasg, modalidade, numero_aviso):
-    licitacao = Licitacao.query.filter(uasg=uasg, modalidade=modalidade,
+    print('entrei na busca da data licitacao')
+    licitacao = Licitacao.query.filter_by(uasg=uasg, modalidade=modalidade,
                                        numero_aviso=numero_aviso).first()
     if licitacao is None:
+        print('licitacao não encontrada')
         return '1970-01-01'
     else:
         return licitacao.data_abertura_proposta[:10]
 
 
 def busca_material(catmat):
-    material = Material.query.filter(Material.codigo == catmat).first()
+    print('entrei na busca do material')
+    material = Material.query.filter_by(codigo=catmat).first()
     if material is None:
         material = baixa_json_material(catmat)
+        if material is None:
+            print('não achei o material')
     return material
 
 
@@ -50,7 +55,7 @@ def carrega_itens_contratos():
     try:
         # dfc=pd.read_sql(SQL,conn)
         catmat = 0
-        itens = Itenscontratos.query.filter(Itenscontratos.tipo_id == 'Material').all()
+        itens = Itenscontratos.query.filter(tipo_id='Material').all()
         i = 0
         for itemc in itens:
             try:
@@ -59,14 +64,16 @@ def carrega_itens_contratos():
                 gap_pos = itemc.catmatser_item_id.find(" ")
                 catmatstr = itemc.catmatser_item_id[0:gap_pos]
                 catmat = int(catmatstr)
+                print(catmat)
                 material = busca_material(catmat)
-                item = Itens.query.filter(Itens.id == itemc.id, Itens.licitacao_contrato == 0).first()
+                item = Itens.query.filter_by(id=itemc.id, licitacao_contrato=0).first()
                 if item is None:
                     exists = False
                     item = Itens()
                 else:
                     exists = True
                 item.licitacao_contrato = 0
+                print(item.licitacao_contrato)
                 item.id = itemc.id
                 item.data = busca_data(itemc.contrato_id)
                 item.catmat_id = catmat
@@ -99,8 +106,7 @@ def carrega_itens_contratos():
 def carrega_itens_licitacoes():
     print('entrei itens de licitações')
     try:
-        itens = Itensprecospraticados.query.filter(
-            Itensprecospraticados.codigo_item_servico == 0).all()
+        itens = Itensprecospraticados.query.filter_by(codigo_item_servico=0).all()
         i = 0
         print('Número de licitações=' + str(len(itens)))
         for iteml in itens:
@@ -108,8 +114,8 @@ def carrega_itens_licitacoes():
                 i = i + 1
                 print('processando item de licitação ' + str(i) + ' de ' + str(len(itens)))
                 id = int(iteml.id_licitacao)
-                item = Itens.query.filter(Itens.id == id,
-                                          Itens.licitacao_contrato == iteml.numero_item_licitacao).first()
+                item = Itens.query.filter_by(id=id,
+                                          licitacao_contrato=iteml.numero_item_licitacao).first()
                 if item is None:
                     exists = False
                     item = Itens()
