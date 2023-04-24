@@ -8373,3 +8373,1473 @@
 2023-04-24 06:47:06 - Request_json - material - Status do download 502
 2023-04-24 06:47:06 - Request_json - material - 2023-04-24 06:47:06 - Baixando http://compras.dados.gov.br/materiais/id/material/0481753.json Erro=2
 2023-04-24 06:47:06 - Request_json - material - Status do download 502
+2023-04-24 06:48:02 - Request_json - material - 2023-04-24 06:48:02 - Baixando http://compras.dados.gov.br/materiais/id/material/0600871.json Erro=0
+2023-04-24 06:48:02 - Request_json - material - Status do download 502
+2023-04-24 06:48:02 - Request_json - material - 2023-04-24 06:48:02 - Baixando http://compras.dados.gov.br/materiais/id/material/0600871.json Erro=1
+2023-04-24 06:48:03 - Request_json - material - Status do download 502
+2023-04-24 06:48:03 - Request_json - material - 2023-04-24 06:48:03 - Baixando http://compras.dados.gov.br/materiais/id/material/0600871.json Erro=2
+2023-04-24 06:48:03 - Request_json - material - Status do download 502
+2023-04-24 06:48:33 - Request_json - material - 2023-04-24 06:48:33 - Baixando http://compras.dados.gov.br/materiais/id/material/0602502.json Erro=0
+2023-04-24 06:48:33 - Request_json - material - Status do download 502
+2023-04-24 06:48:33 - Request_json - material - 2023-04-24 06:48:33 - Baixando http://compras.dados.gov.br/materiais/id/material/0602502.json Erro=1
+2023-04-24 06:48:33 - Request_json - material - Status do download 502
+2023-04-24 06:48:33 - Request_json - material - 2023-04-24 06:48:33 - Baixando http://compras.dados.gov.br/materiais/id/material/0602502.json Erro=2
+2023-04-24 06:48:34 - Request_json - material - Status do download 502
+2023-04-24 06:48:59 - Request_json - material - 2023-04-24 06:48:59 - Baixando http://compras.dados.gov.br/materiais/id/material/0479382.json Erro=0
+2023-04-24 06:48:59 - Request_json - material - Status do download 502
+2023-04-24 06:48:59 - Request_json - material - 2023-04-24 06:48:59 - Baixando http://compras.dados.gov.br/materiais/id/material/0479382.json Erro=1
+2023-04-24 06:48:59 - Request_json - material - Status do download 502
+2023-04-24 06:48:59 - Request_json - material - 2023-04-24 06:48:59 - Baixando http://compras.dados.gov.br/materiais/id/material/0479382.json Erro=2
+2023-04-24 06:49:00 - Request_json - material - Status do download 502
+2023-04-24 06:49:00 - Request_json - material - 2023-04-24 06:49:00 - Baixando http://compras.dados.gov.br/materiais/id/material/0479382.json Erro=0
+2023-04-24 06:49:00 - Request_json - material - Status do download 502
+2023-04-24 06:49:00 - Request_json - material - 2023-04-24 06:49:00 - Baixando http://compras.dados.gov.br/materiais/id/material/0479382.json Erro=1
+2023-04-24 06:49:01 - Request_json - material - Status do download 502
+2023-04-24 06:49:01 - Request_json - material - 2023-04-24 06:49:01 - Baixando http://compras.dados.gov.br/materiais/id/material/0479382.json Erro=2
+2023-04-24 06:49:01 - Request_json - material - Status do download 502
+2023-04-24 06:49:07 - Request_json - material - 2023-04-24 06:49:07 - Baixando http://compras.dados.gov.br/materiais/id/material/0479382.json Erro=0
+2023-04-24 06:49:07 - Request_json - material - Status do download 502
+2023-04-24 06:49:07 - Request_json - material - 2023-04-24 06:49:07 - Baixando http://compras.dados.gov.br/materiais/id/material/0479382.json Erro=1
+2023-04-24 06:49:08 - Request_json - material - Status do download 502
+2023-04-24 06:49:08 - Request_json - material - 2023-04-24 06:49:08 - Baixando http://compras.dados.gov.br/materiais/id/material/0479382.json Erro=2
+2023-04-24 06:49:08 - Request_json - material - Status do download 502
+2023-04-24 06:49:08 - Request_json - material - 2023-04-24 06:49:08 - Baixando http://compras.dados.gov.br/materiais/id/material/0484675.json Erro=0
+2023-04-24 06:49:08 - Request_json - material - Status do download 502
+2023-04-24 06:49:08 - Request_json - material - 2023-04-24 06:49:08 - Baixando http://compras.dados.gov.br/materiais/id/material/0484675.json Erro=1
+2023-04-24 06:49:09 - Request_json - material - Status do download 502
+2023-04-24 06:49:09 - Request_json - material - 2023-04-24 06:49:09 - Baixando http://compras.dados.gov.br/materiais/id/material/0484675.json Erro=2
+2023-04-24 06:49:09 - Request_json - material - Status do download 502
+2023-04-24 06:49:09 - Request_json - material - 2023-04-24 06:49:09 - Baixando http://compras.dados.gov.br/materiais/id/material/0475836.json Erro=0
+2023-04-24 06:49:09 - Request_json - material - Status do download 502
+2023-04-24 06:49:09 - Request_json - material - 2023-04-24 06:49:09 - Baixando http://compras.dados.gov.br/materiais/id/material/0475836.json Erro=1
+2023-04-24 06:49:10 - Request_json - material - Status do download 502
+2023-04-24 06:49:10 - Request_json - material - 2023-04-24 06:49:10 - Baixando http://compras.dados.gov.br/materiais/id/material/0475836.json Erro=2
+2023-04-24 06:49:10 - Request_json - material - Status do download 502
+2023-04-24 06:49:10 - Request_json - material - 2023-04-24 06:49:10 - Baixando http://compras.dados.gov.br/materiais/id/material/0475837.json Erro=0
+2023-04-24 06:49:10 - Request_json - material - Status do download 502
+2023-04-24 06:49:10 - Request_json - material - 2023-04-24 06:49:10 - Baixando http://compras.dados.gov.br/materiais/id/material/0475837.json Erro=1
+2023-04-24 06:49:11 - Request_json - material - Status do download 502
+2023-04-24 06:49:11 - Request_json - material - 2023-04-24 06:49:11 - Baixando http://compras.dados.gov.br/materiais/id/material/0475837.json Erro=2
+2023-04-24 06:49:11 - Request_json - material - Status do download 502
+2023-04-24 06:49:11 - Request_json - material - 2023-04-24 06:49:11 - Baixando http://compras.dados.gov.br/materiais/id/material/0475839.json Erro=0
+2023-04-24 06:49:11 - Request_json - material - Status do download 502
+2023-04-24 06:49:11 - Request_json - material - 2023-04-24 06:49:11 - Baixando http://compras.dados.gov.br/materiais/id/material/0475839.json Erro=1
+2023-04-24 06:49:12 - Request_json - material - Status do download 502
+2023-04-24 06:49:12 - Request_json - material - 2023-04-24 06:49:12 - Baixando http://compras.dados.gov.br/materiais/id/material/0475839.json Erro=2
+2023-04-24 06:49:12 - Request_json - material - Status do download 502
+2023-04-24 06:50:17 - Request_json - material - 2023-04-24 06:50:17 - Baixando http://compras.dados.gov.br/materiais/id/material/0485372.json Erro=0
+2023-04-24 06:50:17 - Request_json - material - Status do download 502
+2023-04-24 06:50:17 - Request_json - material - 2023-04-24 06:50:17 - Baixando http://compras.dados.gov.br/materiais/id/material/0485372.json Erro=1
+2023-04-24 06:50:18 - Request_json - material - Status do download 502
+2023-04-24 06:50:18 - Request_json - material - 2023-04-24 06:50:18 - Baixando http://compras.dados.gov.br/materiais/id/material/0485372.json Erro=2
+2023-04-24 06:50:18 - Request_json - material - Status do download 502
+2023-04-24 06:50:28 - Request_json - material - 2023-04-24 06:50:28 - Baixando http://compras.dados.gov.br/materiais/id/material/0262376.json Erro=0
+2023-04-24 06:50:28 - Request_json - material - Status do download 502
+2023-04-24 06:50:28 - Request_json - material - 2023-04-24 06:50:28 - Baixando http://compras.dados.gov.br/materiais/id/material/0262376.json Erro=1
+2023-04-24 06:50:29 - Request_json - material - Status do download 502
+2023-04-24 06:50:29 - Request_json - material - 2023-04-24 06:50:29 - Baixando http://compras.dados.gov.br/materiais/id/material/0262376.json Erro=2
+2023-04-24 06:50:29 - Request_json - material - Status do download 502
+2023-04-24 06:50:34 - Request_json - material - 2023-04-24 06:50:34 - Baixando http://compras.dados.gov.br/materiais/id/material/0486417.json Erro=0
+2023-04-24 06:50:39 - Request_json - material - 2023-04-24 06:50:39 - Baixando http://compras.dados.gov.br/materiais/id/material/0486417.json Erro=1
+2023-04-24 06:50:39 - Request_json - material - Status do download 502
+2023-04-24 06:50:39 - Request_json - material - 2023-04-24 06:50:39 - Baixando http://compras.dados.gov.br/materiais/id/material/0486417.json Erro=2
+2023-04-24 06:50:45 - Request_json - material - 2023-04-24 06:50:45 - Baixando http://compras.dados.gov.br/materiais/id/material/0479026.json Erro=0
+2023-04-24 06:50:45 - Request_json - material - Status do download 502
+2023-04-24 06:50:45 - Request_json - material - 2023-04-24 06:50:45 - Baixando http://compras.dados.gov.br/materiais/id/material/0479026.json Erro=1
+2023-04-24 06:50:50 - Request_json - material - 2023-04-24 06:50:50 - Baixando http://compras.dados.gov.br/materiais/id/material/0479026.json Erro=2
+2023-04-24 06:51:04 - Request_json - material - 2023-04-24 06:51:04 - Baixando http://compras.dados.gov.br/materiais/id/material/0602509.json Erro=0
+2023-04-24 06:51:09 - Request_json - material - 2023-04-24 06:51:09 - Baixando http://compras.dados.gov.br/materiais/id/material/0602509.json Erro=1
+2023-04-24 06:51:10 - Request_json - material - Status do download 502
+2023-04-24 06:51:10 - Request_json - material - 2023-04-24 06:51:10 - Baixando http://compras.dados.gov.br/materiais/id/material/0602509.json Erro=2
+2023-04-24 06:51:10 - Request_json - material - Status do download 502
+2023-04-24 06:51:16 - Request_json - material - 2023-04-24 06:51:16 - Baixando http://compras.dados.gov.br/materiais/id/material/0486536.json Erro=0
+2023-04-24 06:51:22 - Request_json - material - 2023-04-24 06:51:22 - Baixando http://compras.dados.gov.br/materiais/id/material/0486536.json Erro=1
+2023-04-24 06:51:27 - Request_json - material - 2023-04-24 06:51:27 - Baixando http://compras.dados.gov.br/materiais/id/material/0486536.json Erro=2
+2023-04-24 06:51:28 - Request_json - material - Status do download 502
+2023-04-24 06:51:28 - Request_json - material - 2023-04-24 06:51:28 - Baixando http://compras.dados.gov.br/materiais/id/material/0421227.json Erro=0
+2023-04-24 06:51:28 - Request_json - material - Status do download 502
+2023-04-24 06:51:28 - Request_json - material - 2023-04-24 06:51:28 - Baixando http://compras.dados.gov.br/materiais/id/material/0421227.json Erro=1
+2023-04-24 06:51:33 - Request_json - material - 2023-04-24 06:51:33 - Baixando http://compras.dados.gov.br/materiais/id/material/0421227.json Erro=2
+2023-04-24 06:51:39 - Request_json - material - 2023-04-24 06:51:39 - Baixando http://compras.dados.gov.br/materiais/id/material/0391136.json Erro=0
+2023-04-24 06:51:44 - Request_json - material - 2023-04-24 06:51:44 - Baixando http://compras.dados.gov.br/materiais/id/material/0391136.json Erro=1
+2023-04-24 06:51:50 - Request_json - material - 2023-04-24 06:51:50 - Baixando http://compras.dados.gov.br/materiais/id/material/0391136.json Erro=2
+2023-04-24 06:51:50 - Request_json - material - Status do download 502
+2023-04-24 06:51:54 - Request_json - material - 2023-04-24 06:51:54 - Baixando http://compras.dados.gov.br/materiais/id/material/0465021.json Erro=0
+2023-04-24 06:51:54 - Request_json - material - Status do download 502
+2023-04-24 06:51:54 - Request_json - material - 2023-04-24 06:51:54 - Baixando http://compras.dados.gov.br/materiais/id/material/0465021.json Erro=1
+2023-04-24 06:51:54 - Request_json - material - Status do download 502
+2023-04-24 06:51:54 - Request_json - material - 2023-04-24 06:51:54 - Baixando http://compras.dados.gov.br/materiais/id/material/0465021.json Erro=2
+2023-04-24 06:51:55 - Request_json - material - Status do download 502
+2023-04-24 06:51:59 - Request_json - material - 2023-04-24 06:51:59 - Baixando http://compras.dados.gov.br/materiais/id/material/0426021.json Erro=0
+2023-04-24 06:52:00 - Request_json - material - Status do download 502
+2023-04-24 06:52:00 - Request_json - material - 2023-04-24 06:52:00 - Baixando http://compras.dados.gov.br/materiais/id/material/0426021.json Erro=1
+2023-04-24 06:52:00 - Request_json - material - Status do download 502
+2023-04-24 06:52:00 - Request_json - material - 2023-04-24 06:52:00 - Baixando http://compras.dados.gov.br/materiais/id/material/0426021.json Erro=2
+2023-04-24 06:52:00 - Request_json - material - Status do download 502
+2023-04-24 06:52:06 - Request_json - material - 2023-04-24 06:52:06 - Baixando http://compras.dados.gov.br/materiais/id/material/0430183.json Erro=0
+2023-04-24 06:52:06 - Request_json - material - Status do download 502
+2023-04-24 06:52:06 - Request_json - material - 2023-04-24 06:52:06 - Baixando http://compras.dados.gov.br/materiais/id/material/0430183.json Erro=1
+2023-04-24 06:52:06 - Request_json - material - Status do download 502
+2023-04-24 06:52:06 - Request_json - material - 2023-04-24 06:52:06 - Baixando http://compras.dados.gov.br/materiais/id/material/0430183.json Erro=2
+2023-04-24 06:52:07 - Request_json - material - Status do download 502
+2023-04-24 06:52:11 - Request_json - material - 2023-04-24 06:52:11 - Baixando http://compras.dados.gov.br/materiais/id/material/0432780.json Erro=0
+2023-04-24 06:52:17 - Request_json - material - 2023-04-24 06:52:17 - Baixando http://compras.dados.gov.br/materiais/id/material/0432780.json Erro=1
+2023-04-24 06:52:17 - Request_json - material - Status do download 502
+2023-04-24 06:52:17 - Request_json - material - 2023-04-24 06:52:17 - Baixando http://compras.dados.gov.br/materiais/id/material/0432780.json Erro=2
+2023-04-24 06:52:17 - Request_json - material - Status do download 502
+2023-04-24 06:52:21 - Request_json - material - 2023-04-24 06:52:21 - Baixando http://compras.dados.gov.br/materiais/id/material/0404584.json Erro=0
+2023-04-24 06:52:21 - Request_json - material - Status do download 502
+2023-04-24 06:52:21 - Request_json - material - 2023-04-24 06:52:21 - Baixando http://compras.dados.gov.br/materiais/id/material/0404584.json Erro=1
+2023-04-24 06:52:27 - Request_json - material - 2023-04-24 06:52:27 - Baixando http://compras.dados.gov.br/materiais/id/material/0404584.json Erro=2
+2023-04-24 06:52:27 - Request_json - material - Status do download 502
+2023-04-24 06:52:33 - Request_json - material - 2023-04-24 06:52:33 - Baixando http://compras.dados.gov.br/materiais/id/material/0338686.json Erro=0
+2023-04-24 06:52:33 - Request_json - material - Status do download 502
+2023-04-24 06:52:33 - Request_json - material - 2023-04-24 06:52:33 - Baixando http://compras.dados.gov.br/materiais/id/material/0338686.json Erro=1
+2023-04-24 06:52:34 - Request_json - material - Status do download 502
+2023-04-24 06:52:34 - Request_json - material - 2023-04-24 06:52:34 - Baixando http://compras.dados.gov.br/materiais/id/material/0338686.json Erro=2
+2023-04-24 06:52:34 - Request_json - material - Status do download 502
+2023-04-24 06:52:41 - Request_json - material - 2023-04-24 06:52:41 - Baixando http://compras.dados.gov.br/materiais/id/material/0427348.json Erro=0
+2023-04-24 06:52:46 - Request_json - material - 2023-04-24 06:52:46 - Baixando http://compras.dados.gov.br/materiais/id/material/0427348.json Erro=1
+2023-04-24 06:52:47 - Request_json - material - Status do download 502
+2023-04-24 06:52:47 - Request_json - material - 2023-04-24 06:52:47 - Baixando http://compras.dados.gov.br/materiais/id/material/0427348.json Erro=2
+2023-04-24 06:52:47 - Request_json - material - Status do download 502
+2023-04-24 06:53:13 - Request_json - material - 2023-04-24 06:53:13 - Baixando http://compras.dados.gov.br/materiais/id/material/0487691.json Erro=0
+2023-04-24 06:53:13 - Request_json - material - Status do download 502
+2023-04-24 06:53:13 - Request_json - material - 2023-04-24 06:53:13 - Baixando http://compras.dados.gov.br/materiais/id/material/0487691.json Erro=1
+2023-04-24 06:53:13 - Request_json - material - Status do download 502
+2023-04-24 06:53:13 - Request_json - material - 2023-04-24 06:53:13 - Baixando http://compras.dados.gov.br/materiais/id/material/0487691.json Erro=2
+2023-04-24 06:53:14 - Request_json - material - Status do download 502
+2023-04-24 06:53:18 - Request_json - material - 2023-04-24 06:53:18 - Baixando http://compras.dados.gov.br/materiais/id/material/0476544.json Erro=0
+2023-04-24 06:53:19 - Request_json - material - Status do download 502
+2023-04-24 06:53:19 - Request_json - material - 2023-04-24 06:53:19 - Baixando http://compras.dados.gov.br/materiais/id/material/0476544.json Erro=1
+2023-04-24 06:53:19 - Request_json - material - Status do download 502
+2023-04-24 06:53:19 - Request_json - material - 2023-04-24 06:53:19 - Baixando http://compras.dados.gov.br/materiais/id/material/0476544.json Erro=2
+2023-04-24 06:53:19 - Request_json - material - Status do download 502
+2023-04-24 06:54:32 - Request_json - material - 2023-04-24 06:54:32 - Baixando http://compras.dados.gov.br/materiais/id/material/0479196.json Erro=0
+2023-04-24 06:54:32 - Request_json - material - Status do download 502
+2023-04-24 06:54:32 - Request_json - material - 2023-04-24 06:54:32 - Baixando http://compras.dados.gov.br/materiais/id/material/0479196.json Erro=1
+2023-04-24 06:54:33 - Request_json - material - Status do download 502
+2023-04-24 06:54:33 - Request_json - material - 2023-04-24 06:54:33 - Baixando http://compras.dados.gov.br/materiais/id/material/0479196.json Erro=2
+2023-04-24 06:54:33 - Request_json - material - Status do download 502
+2023-04-24 06:54:33 - Request_json - material - 2023-04-24 06:54:33 - Baixando http://compras.dados.gov.br/materiais/id/material/0472561.json Erro=0
+2023-04-24 06:54:34 - Request_json - material - Status do download 502
+2023-04-24 06:54:34 - Request_json - material - 2023-04-24 06:54:34 - Baixando http://compras.dados.gov.br/materiais/id/material/0472561.json Erro=1
+2023-04-24 06:54:34 - Request_json - material - Status do download 502
+2023-04-24 06:54:34 - Request_json - material - 2023-04-24 06:54:34 - Baixando http://compras.dados.gov.br/materiais/id/material/0472561.json Erro=2
+2023-04-24 06:54:34 - Request_json - material - Status do download 502
+2023-04-24 06:54:34 - Request_json - material - 2023-04-24 06:54:34 - Baixando http://compras.dados.gov.br/materiais/id/material/0472560.json Erro=0
+2023-04-24 06:54:35 - Request_json - material - Status do download 502
+2023-04-24 06:54:35 - Request_json - material - 2023-04-24 06:54:35 - Baixando http://compras.dados.gov.br/materiais/id/material/0472560.json Erro=1
+2023-04-24 06:54:35 - Request_json - material - Status do download 502
+2023-04-24 06:54:35 - Request_json - material - 2023-04-24 06:54:35 - Baixando http://compras.dados.gov.br/materiais/id/material/0472560.json Erro=2
+2023-04-24 06:54:35 - Request_json - material - Status do download 502
+2023-04-24 06:55:10 - Request_json - material - 2023-04-24 06:55:10 - Baixando http://compras.dados.gov.br/materiais/id/material/0442232.json Erro=0
+2023-04-24 06:55:11 - Request_json - material - Status do download 502
+2023-04-24 06:55:11 - Request_json - material - 2023-04-24 06:55:11 - Baixando http://compras.dados.gov.br/materiais/id/material/0442232.json Erro=1
+2023-04-24 06:55:11 - Request_json - material - Status do download 502
+2023-04-24 06:55:11 - Request_json - material - 2023-04-24 06:55:11 - Baixando http://compras.dados.gov.br/materiais/id/material/0442232.json Erro=2
+2023-04-24 06:55:11 - Request_json - material - Status do download 502
+2023-04-24 06:55:11 - Request_json - material - 2023-04-24 06:55:11 - Baixando http://compras.dados.gov.br/materiais/id/material/0482209.json Erro=0
+2023-04-24 06:55:12 - Request_json - material - Status do download 502
+2023-04-24 06:55:12 - Request_json - material - 2023-04-24 06:55:12 - Baixando http://compras.dados.gov.br/materiais/id/material/0482209.json Erro=1
+2023-04-24 06:55:17 - Request_json - material - 2023-04-24 06:55:17 - Baixando http://compras.dados.gov.br/materiais/id/material/0482209.json Erro=2
+2023-04-24 06:55:17 - Request_json - material - Status do download 502
+2023-04-24 06:56:34 - Request_json - material - 2023-04-24 06:56:34 - Baixando http://compras.dados.gov.br/materiais/id/material/0601573.json Erro=0
+2023-04-24 06:56:34 - Request_json - material - Status do download 502
+2023-04-24 06:56:34 - Request_json - material - 2023-04-24 06:56:34 - Baixando http://compras.dados.gov.br/materiais/id/material/0601573.json Erro=1
+2023-04-24 06:56:34 - Request_json - material - Status do download 502
+2023-04-24 06:56:34 - Request_json - material - 2023-04-24 06:56:34 - Baixando http://compras.dados.gov.br/materiais/id/material/0601573.json Erro=2
+2023-04-24 06:56:35 - Request_json - material - Status do download 502
+2023-04-24 06:56:35 - Request_json - material - 2023-04-24 06:56:35 - Baixando http://compras.dados.gov.br/materiais/id/material/0471655.json Erro=0
+2023-04-24 06:56:35 - Request_json - material - Status do download 502
+2023-04-24 06:56:35 - Request_json - material - 2023-04-24 06:56:35 - Baixando http://compras.dados.gov.br/materiais/id/material/0471655.json Erro=1
+2023-04-24 06:56:35 - Request_json - material - Status do download 502
+2023-04-24 06:56:35 - Request_json - material - 2023-04-24 06:56:35 - Baixando http://compras.dados.gov.br/materiais/id/material/0471655.json Erro=2
+2023-04-24 06:56:36 - Request_json - material - Status do download 502
+2023-04-24 06:56:40 - Request_json - material - 2023-04-24 06:56:40 - Baixando http://compras.dados.gov.br/materiais/id/material/0485515.json Erro=0
+2023-04-24 06:56:40 - Request_json - material - Status do download 502
+2023-04-24 06:56:40 - Request_json - material - 2023-04-24 06:56:40 - Baixando http://compras.dados.gov.br/materiais/id/material/0485515.json Erro=1
+2023-04-24 06:56:41 - Request_json - material - Status do download 502
+2023-04-24 06:56:41 - Request_json - material - 2023-04-24 06:56:41 - Baixando http://compras.dados.gov.br/materiais/id/material/0485515.json Erro=2
+2023-04-24 06:56:41 - Request_json - material - Status do download 502
+2023-04-24 06:56:46 - Request_json - material - 2023-04-24 06:56:46 - Baixando http://compras.dados.gov.br/materiais/id/material/0486831.json Erro=0
+2023-04-24 06:56:47 - Request_json - material - Status do download 502
+2023-04-24 06:56:47 - Request_json - material - 2023-04-24 06:56:47 - Baixando http://compras.dados.gov.br/materiais/id/material/0486831.json Erro=1
+2023-04-24 06:56:52 - Request_json - material - 2023-04-24 06:56:52 - Baixando http://compras.dados.gov.br/materiais/id/material/0486831.json Erro=2
+2023-04-24 06:56:52 - Request_json - material - Status do download 502
+2023-04-24 06:56:52 - Request_json - material - 2023-04-24 06:56:52 - Baixando http://compras.dados.gov.br/materiais/id/material/0486825.json Erro=0
+2023-04-24 06:56:53 - Request_json - material - Status do download 502
+2023-04-24 06:56:53 - Request_json - material - 2023-04-24 06:56:53 - Baixando http://compras.dados.gov.br/materiais/id/material/0486825.json Erro=1
+2023-04-24 06:56:53 - Request_json - material - Status do download 502
+2023-04-24 06:56:53 - Request_json - material - 2023-04-24 06:56:53 - Baixando http://compras.dados.gov.br/materiais/id/material/0486825.json Erro=2
+2023-04-24 06:56:53 - Request_json - material - Status do download 502
+2023-04-24 06:56:53 - Request_json - material - 2023-04-24 06:56:53 - Baixando http://compras.dados.gov.br/materiais/id/material/0601647.json Erro=0
+2023-04-24 06:56:54 - Request_json - material - Status do download 502
+2023-04-24 06:56:54 - Request_json - material - 2023-04-24 06:56:54 - Baixando http://compras.dados.gov.br/materiais/id/material/0601647.json Erro=1
+2023-04-24 06:56:54 - Request_json - material - Status do download 502
+2023-04-24 06:56:54 - Request_json - material - 2023-04-24 06:56:54 - Baixando http://compras.dados.gov.br/materiais/id/material/0601647.json Erro=2
+2023-04-24 06:56:54 - Request_json - material - Status do download 502
+2023-04-24 06:56:54 - Request_json - material - 2023-04-24 06:56:54 - Baixando http://compras.dados.gov.br/materiais/id/material/0601175.json Erro=0
+2023-04-24 06:56:55 - Request_json - material - Status do download 502
+2023-04-24 06:56:55 - Request_json - material - 2023-04-24 06:56:55 - Baixando http://compras.dados.gov.br/materiais/id/material/0601175.json Erro=1
+2023-04-24 06:56:55 - Request_json - material - Status do download 502
+2023-04-24 06:56:55 - Request_json - material - 2023-04-24 06:56:55 - Baixando http://compras.dados.gov.br/materiais/id/material/0601175.json Erro=2
+2023-04-24 06:56:55 - Request_json - material - Status do download 502
+2023-04-24 06:56:55 - Request_json - material - 2023-04-24 06:56:55 - Baixando http://compras.dados.gov.br/materiais/id/material/0601175.json Erro=0
+2023-04-24 06:56:56 - Request_json - material - Status do download 502
+2023-04-24 06:56:56 - Request_json - material - 2023-04-24 06:56:56 - Baixando http://compras.dados.gov.br/materiais/id/material/0601175.json Erro=1
+2023-04-24 06:56:56 - Request_json - material - Status do download 502
+2023-04-24 06:56:56 - Request_json - material - 2023-04-24 06:56:56 - Baixando http://compras.dados.gov.br/materiais/id/material/0601175.json Erro=2
+2023-04-24 06:56:56 - Request_json - material - Status do download 502
+2023-04-24 06:57:31 - Request_json - material - 2023-04-24 06:57:31 - Baixando http://compras.dados.gov.br/materiais/id/material/0483188.json Erro=0
+2023-04-24 06:57:31 - Request_json - material - Status do download 502
+2023-04-24 06:57:31 - Request_json - material - 2023-04-24 06:57:31 - Baixando http://compras.dados.gov.br/materiais/id/material/0483188.json Erro=1
+2023-04-24 06:57:32 - Request_json - material - Status do download 502
+2023-04-24 06:57:32 - Request_json - material - 2023-04-24 06:57:32 - Baixando http://compras.dados.gov.br/materiais/id/material/0483188.json Erro=2
+2023-04-24 06:57:32 - Request_json - material - Status do download 502
+2023-04-24 06:57:37 - Request_json - material - 2023-04-24 06:57:37 - Baixando http://compras.dados.gov.br/materiais/id/material/0476493.json Erro=0
+2023-04-24 06:57:43 - Request_json - material - 2023-04-24 06:57:43 - Baixando http://compras.dados.gov.br/materiais/id/material/0476493.json Erro=1
+2023-04-24 06:57:43 - Request_json - material - Status do download 502
+2023-04-24 06:57:43 - Request_json - material - 2023-04-24 06:57:43 - Baixando http://compras.dados.gov.br/materiais/id/material/0476493.json Erro=2
+2023-04-24 06:57:44 - Request_json - material - Status do download 502
+2023-04-24 06:58:00 - Request_json - material - 2023-04-24 06:58:00 - Baixando http://compras.dados.gov.br/materiais/id/material/0479931.json Erro=0
+2023-04-24 06:58:00 - Request_json - material - Status do download 502
+2023-04-24 06:58:00 - Request_json - material - 2023-04-24 06:58:00 - Baixando http://compras.dados.gov.br/materiais/id/material/0479931.json Erro=1
+2023-04-24 06:58:01 - Request_json - material - Status do download 502
+2023-04-24 06:58:01 - Request_json - material - 2023-04-24 06:58:01 - Baixando http://compras.dados.gov.br/materiais/id/material/0479931.json Erro=2
+2023-04-24 06:58:01 - Request_json - material - Status do download 502
+2023-04-24 06:58:01 - Request_json - material - 2023-04-24 06:58:01 - Baixando http://compras.dados.gov.br/materiais/id/material/0479931.json Erro=0
+2023-04-24 06:58:02 - Request_json - material - Status do download 502
+2023-04-24 06:58:02 - Request_json - material - 2023-04-24 06:58:02 - Baixando http://compras.dados.gov.br/materiais/id/material/0479931.json Erro=1
+2023-04-24 06:58:02 - Request_json - material - Status do download 502
+2023-04-24 06:58:02 - Request_json - material - 2023-04-24 06:58:02 - Baixando http://compras.dados.gov.br/materiais/id/material/0479931.json Erro=2
+2023-04-24 06:58:02 - Request_json - material - Status do download 502
+2023-04-24 06:58:02 - Request_json - material - 2023-04-24 06:58:02 - Baixando http://compras.dados.gov.br/materiais/id/material/0484080.json Erro=0
+2023-04-24 06:58:03 - Request_json - material - Status do download 502
+2023-04-24 06:58:03 - Request_json - material - 2023-04-24 06:58:03 - Baixando http://compras.dados.gov.br/materiais/id/material/0484080.json Erro=1
+2023-04-24 06:58:03 - Request_json - material - Status do download 502
+2023-04-24 06:58:03 - Request_json - material - 2023-04-24 06:58:03 - Baixando http://compras.dados.gov.br/materiais/id/material/0484080.json Erro=2
+2023-04-24 06:58:03 - Request_json - material - Status do download 502
+2023-04-24 06:58:03 - Request_json - material - 2023-04-24 06:58:03 - Baixando http://compras.dados.gov.br/materiais/id/material/0481483.json Erro=0
+2023-04-24 06:58:04 - Request_json - material - Status do download 502
+2023-04-24 06:58:04 - Request_json - material - 2023-04-24 06:58:04 - Baixando http://compras.dados.gov.br/materiais/id/material/0481483.json Erro=1
+2023-04-24 06:58:04 - Request_json - material - Status do download 502
+2023-04-24 06:58:04 - Request_json - material - 2023-04-24 06:58:04 - Baixando http://compras.dados.gov.br/materiais/id/material/0481483.json Erro=2
+2023-04-24 06:58:05 - Request_json - material - Status do download 502
+2023-04-24 06:58:05 - Request_json - material - 2023-04-24 06:58:05 - Baixando http://compras.dados.gov.br/materiais/id/material/0486395.json Erro=0
+2023-04-24 06:58:05 - Request_json - material - Status do download 502
+2023-04-24 06:58:05 - Request_json - material - 2023-04-24 06:58:05 - Baixando http://compras.dados.gov.br/materiais/id/material/0486395.json Erro=1
+2023-04-24 06:58:05 - Request_json - material - Status do download 502
+2023-04-24 06:58:06 - Request_json - material - 2023-04-24 06:58:06 - Baixando http://compras.dados.gov.br/materiais/id/material/0486395.json Erro=2
+2023-04-24 06:58:06 - Request_json - material - Status do download 502
+2023-04-24 06:58:30 - Request_json - material - 2023-04-24 06:58:30 - Baixando http://compras.dados.gov.br/materiais/id/material/0480172.json Erro=0
+2023-04-24 06:58:31 - Request_json - material - Status do download 502
+2023-04-24 06:58:31 - Request_json - material - 2023-04-24 06:58:31 - Baixando http://compras.dados.gov.br/materiais/id/material/0480172.json Erro=1
+2023-04-24 06:58:31 - Request_json - material - Status do download 502
+2023-04-24 06:58:31 - Request_json - material - 2023-04-24 06:58:31 - Baixando http://compras.dados.gov.br/materiais/id/material/0480172.json Erro=2
+2023-04-24 06:58:32 - Request_json - material - Status do download 502
+2023-04-24 06:58:32 - Request_json - material - 2023-04-24 06:58:32 - Baixando http://compras.dados.gov.br/materiais/id/material/0602175.json Erro=0
+2023-04-24 06:58:37 - Request_json - material - 2023-04-24 06:58:37 - Baixando http://compras.dados.gov.br/materiais/id/material/0602175.json Erro=1
+2023-04-24 06:58:38 - Request_json - material - Status do download 502
+2023-04-24 06:58:38 - Request_json - material - 2023-04-24 06:58:38 - Baixando http://compras.dados.gov.br/materiais/id/material/0602175.json Erro=2
+2023-04-24 06:58:43 - Request_json - material - 2023-04-24 06:58:43 - Baixando http://compras.dados.gov.br/materiais/id/material/0600772.json Erro=0
+2023-04-24 06:58:48 - Request_json - material - 2023-04-24 06:58:48 - Baixando http://compras.dados.gov.br/materiais/id/material/0600772.json Erro=1
+2023-04-24 06:58:49 - Request_json - material - Status do download 502
+2023-04-24 06:58:49 - Request_json - material - 2023-04-24 06:58:49 - Baixando http://compras.dados.gov.br/materiais/id/material/0600772.json Erro=2
+2023-04-24 06:58:49 - Request_json - material - Status do download 502
+2023-04-24 06:58:49 - Request_json - material - 2023-04-24 06:58:49 - Baixando http://compras.dados.gov.br/materiais/id/material/0601993.json Erro=0
+2023-04-24 06:58:49 - Request_json - material - Status do download 502
+2023-04-24 06:58:49 - Request_json - material - 2023-04-24 06:58:49 - Baixando http://compras.dados.gov.br/materiais/id/material/0601993.json Erro=1
+2023-04-24 06:58:50 - Request_json - material - Status do download 502
+2023-04-24 06:58:50 - Request_json - material - 2023-04-24 06:58:50 - Baixando http://compras.dados.gov.br/materiais/id/material/0601993.json Erro=2
+2023-04-24 06:58:50 - Request_json - material - Status do download 502
+2023-04-24 06:58:50 - Request_json - material - 2023-04-24 06:58:50 - Baixando http://compras.dados.gov.br/materiais/id/material/0480173.json Erro=0
+2023-04-24 06:58:50 - Request_json - material - Status do download 502
+2023-04-24 06:58:50 - Request_json - material - 2023-04-24 06:58:50 - Baixando http://compras.dados.gov.br/materiais/id/material/0480173.json Erro=1
+2023-04-24 06:58:51 - Request_json - material - Status do download 502
+2023-04-24 06:58:51 - Request_json - material - 2023-04-24 06:58:51 - Baixando http://compras.dados.gov.br/materiais/id/material/0480173.json Erro=2
+2023-04-24 06:58:51 - Request_json - material - Status do download 502
+2023-04-24 06:59:04 - Request_json - material - 2023-04-24 06:59:04 - Baixando http://compras.dados.gov.br/materiais/id/material/0485908.json Erro=0
+2023-04-24 06:59:04 - Request_json - material - Status do download 502
+2023-04-24 06:59:04 - Request_json - material - 2023-04-24 06:59:04 - Baixando http://compras.dados.gov.br/materiais/id/material/0485908.json Erro=1
+2023-04-24 06:59:05 - Request_json - material - Status do download 502
+2023-04-24 06:59:05 - Request_json - material - 2023-04-24 06:59:05 - Baixando http://compras.dados.gov.br/materiais/id/material/0485908.json Erro=2
+2023-04-24 06:59:05 - Request_json - material - Status do download 502
+2023-04-24 06:59:27 - Request_json - material - 2023-04-24 06:59:27 - Baixando http://compras.dados.gov.br/materiais/id/material/0442070.json Erro=0
+2023-04-24 06:59:27 - Request_json - material - Status do download 502
+2023-04-24 06:59:27 - Request_json - material - 2023-04-24 06:59:27 - Baixando http://compras.dados.gov.br/materiais/id/material/0442070.json Erro=1
+2023-04-24 06:59:28 - Request_json - material - Status do download 502
+2023-04-24 06:59:28 - Request_json - material - 2023-04-24 06:59:28 - Baixando http://compras.dados.gov.br/materiais/id/material/0442070.json Erro=2
+2023-04-24 06:59:28 - Request_json - material - Status do download 502
+2023-04-24 06:59:28 - Request_json - material - 2023-04-24 06:59:28 - Baixando http://compras.dados.gov.br/materiais/id/material/0442070.json Erro=0
+2023-04-24 06:59:28 - Request_json - material - Status do download 502
+2023-04-24 06:59:28 - Request_json - material - 2023-04-24 06:59:28 - Baixando http://compras.dados.gov.br/materiais/id/material/0442070.json Erro=1
+2023-04-24 06:59:29 - Request_json - material - Status do download 502
+2023-04-24 06:59:29 - Request_json - material - 2023-04-24 06:59:29 - Baixando http://compras.dados.gov.br/materiais/id/material/0442070.json Erro=2
+2023-04-24 06:59:29 - Request_json - material - Status do download 502
+2023-04-24 06:59:29 - Request_json - material - 2023-04-24 06:59:29 - Baixando http://compras.dados.gov.br/materiais/id/material/0438043.json Erro=0
+2023-04-24 06:59:30 - Request_json - material - Status do download 502
+2023-04-24 06:59:30 - Request_json - material - 2023-04-24 06:59:30 - Baixando http://compras.dados.gov.br/materiais/id/material/0438043.json Erro=1
+2023-04-24 06:59:30 - Request_json - material - Status do download 502
+2023-04-24 06:59:30 - Request_json - material - 2023-04-24 06:59:30 - Baixando http://compras.dados.gov.br/materiais/id/material/0438043.json Erro=2
+2023-04-24 06:59:30 - Request_json - material - Status do download 502
+2023-04-24 06:59:30 - Request_json - material - 2023-04-24 06:59:30 - Baixando http://compras.dados.gov.br/materiais/id/material/0417244.json Erro=0
+2023-04-24 06:59:31 - Request_json - material - Status do download 502
+2023-04-24 06:59:31 - Request_json - material - 2023-04-24 06:59:31 - Baixando http://compras.dados.gov.br/materiais/id/material/0417244.json Erro=1
+2023-04-24 06:59:31 - Request_json - material - Status do download 502
+2023-04-24 06:59:31 - Request_json - material - 2023-04-24 06:59:31 - Baixando http://compras.dados.gov.br/materiais/id/material/0417244.json Erro=2
+2023-04-24 06:59:32 - Request_json - material - Status do download 502
+2023-04-24 06:59:32 - Request_json - material - 2023-04-24 06:59:32 - Baixando http://compras.dados.gov.br/materiais/id/material/0425224.json Erro=0
+2023-04-24 06:59:32 - Request_json - material - Status do download 502
+2023-04-24 06:59:32 - Request_json - material - 2023-04-24 06:59:32 - Baixando http://compras.dados.gov.br/materiais/id/material/0425224.json Erro=1
+2023-04-24 06:59:33 - Request_json - material - Status do download 502
+2023-04-24 06:59:33 - Request_json - material - 2023-04-24 06:59:33 - Baixando http://compras.dados.gov.br/materiais/id/material/0425224.json Erro=2
+2023-04-24 06:59:33 - Request_json - material - Status do download 502
+2023-04-24 06:59:33 - Request_json - material - 2023-04-24 06:59:33 - Baixando http://compras.dados.gov.br/materiais/id/material/0425224.json Erro=0
+2023-04-24 06:59:33 - Request_json - material - Status do download 502
+2023-04-24 06:59:33 - Request_json - material - 2023-04-24 06:59:33 - Baixando http://compras.dados.gov.br/materiais/id/material/0425224.json Erro=1
+2023-04-24 06:59:34 - Request_json - material - Status do download 502
+2023-04-24 06:59:34 - Request_json - material - 2023-04-24 06:59:34 - Baixando http://compras.dados.gov.br/materiais/id/material/0425224.json Erro=2
+2023-04-24 06:59:34 - Request_json - material - Status do download 502
+2023-04-24 06:59:34 - Request_json - material - 2023-04-24 06:59:34 - Baixando http://compras.dados.gov.br/materiais/id/material/0426017.json Erro=0
+2023-04-24 06:59:35 - Request_json - material - Status do download 502
+2023-04-24 06:59:35 - Request_json - material - 2023-04-24 06:59:35 - Baixando http://compras.dados.gov.br/materiais/id/material/0426017.json Erro=1
+2023-04-24 06:59:35 - Request_json - material - Status do download 502
+2023-04-24 06:59:35 - Request_json - material - 2023-04-24 06:59:35 - Baixando http://compras.dados.gov.br/materiais/id/material/0426017.json Erro=2
+2023-04-24 06:59:35 - Request_json - material - Status do download 502
+2023-04-24 06:59:35 - Request_json - material - 2023-04-24 06:59:35 - Baixando http://compras.dados.gov.br/materiais/id/material/0417244.json Erro=0
+2023-04-24 06:59:36 - Request_json - material - Status do download 502
+2023-04-24 06:59:36 - Request_json - material - 2023-04-24 06:59:36 - Baixando http://compras.dados.gov.br/materiais/id/material/0417244.json Erro=1
+2023-04-24 06:59:36 - Request_json - material - Status do download 502
+2023-04-24 06:59:36 - Request_json - material - 2023-04-24 06:59:36 - Baixando http://compras.dados.gov.br/materiais/id/material/0417244.json Erro=2
+2023-04-24 06:59:36 - Request_json - material - Status do download 502
+2023-04-24 06:59:37 - Request_json - material - 2023-04-24 06:59:37 - Baixando http://compras.dados.gov.br/materiais/id/material/0406150.json Erro=0
+2023-04-24 06:59:38 - Request_json - material - Status do download 502
+2023-04-24 06:59:38 - Request_json - material - 2023-04-24 06:59:38 - Baixando http://compras.dados.gov.br/materiais/id/material/0406150.json Erro=1
+2023-04-24 06:59:38 - Request_json - material - Status do download 502
+2023-04-24 06:59:38 - Request_json - material - 2023-04-24 06:59:38 - Baixando http://compras.dados.gov.br/materiais/id/material/0406150.json Erro=2
+2023-04-24 06:59:38 - Request_json - material - Status do download 502
+2023-04-24 06:59:39 - Request_json - material - 2023-04-24 06:59:39 - Baixando http://compras.dados.gov.br/materiais/id/material/0438305.json Erro=0
+2023-04-24 06:59:39 - Request_json - material - Status do download 502
+2023-04-24 06:59:39 - Request_json - material - 2023-04-24 06:59:39 - Baixando http://compras.dados.gov.br/materiais/id/material/0438305.json Erro=1
+2023-04-24 06:59:39 - Request_json - material - Status do download 502
+2023-04-24 06:59:39 - Request_json - material - 2023-04-24 06:59:39 - Baixando http://compras.dados.gov.br/materiais/id/material/0438305.json Erro=2
+2023-04-24 06:59:40 - Request_json - material - Status do download 502
+2023-04-24 06:59:40 - Request_json - material - 2023-04-24 06:59:40 - Baixando http://compras.dados.gov.br/materiais/id/material/0427069.json Erro=0
+2023-04-24 06:59:40 - Request_json - material - Status do download 502
+2023-04-24 06:59:40 - Request_json - material - 2023-04-24 06:59:40 - Baixando http://compras.dados.gov.br/materiais/id/material/0427069.json Erro=1
+2023-04-24 06:59:40 - Request_json - material - Status do download 502
+2023-04-24 06:59:40 - Request_json - material - 2023-04-24 06:59:40 - Baixando http://compras.dados.gov.br/materiais/id/material/0427069.json Erro=2
+2023-04-24 06:59:41 - Request_json - material - Status do download 502
+2023-04-24 06:59:41 - Request_json - material - 2023-04-24 06:59:41 - Baixando http://compras.dados.gov.br/materiais/id/material/0438664.json Erro=0
+2023-04-24 06:59:41 - Request_json - material - Status do download 502
+2023-04-24 06:59:41 - Request_json - material - 2023-04-24 06:59:41 - Baixando http://compras.dados.gov.br/materiais/id/material/0438664.json Erro=1
+2023-04-24 06:59:41 - Request_json - material - Status do download 502
+2023-04-24 06:59:41 - Request_json - material - 2023-04-24 06:59:41 - Baixando http://compras.dados.gov.br/materiais/id/material/0438664.json Erro=2
+2023-04-24 06:59:42 - Request_json - material - Status do download 502
+2023-04-24 06:59:42 - Request_json - material - 2023-04-24 06:59:42 - Baixando http://compras.dados.gov.br/materiais/id/material/0338686.json Erro=0
+2023-04-24 06:59:47 - Request_json - material - 2023-04-24 06:59:47 - Baixando http://compras.dados.gov.br/materiais/id/material/0338686.json Erro=1
+2023-04-24 06:59:47 - Request_json - material - Status do download 502
+2023-04-24 06:59:47 - Request_json - material - 2023-04-24 06:59:47 - Baixando http://compras.dados.gov.br/materiais/id/material/0338686.json Erro=2
+2023-04-24 06:59:48 - Request_json - material - Status do download 502
+2023-04-24 06:59:48 - Request_json - material - 2023-04-24 06:59:48 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 06:59:48 - Request_json - material - Status do download 502
+2023-04-24 06:59:48 - Request_json - material - 2023-04-24 06:59:48 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 06:59:49 - Request_json - material - Status do download 502
+2023-04-24 06:59:49 - Request_json - material - 2023-04-24 06:59:49 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 06:59:49 - Request_json - material - Status do download 502
+2023-04-24 06:59:49 - Request_json - material - 2023-04-24 06:59:49 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 06:59:49 - Request_json - material - Status do download 502
+2023-04-24 06:59:49 - Request_json - material - 2023-04-24 06:59:49 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 06:59:50 - Request_json - material - Status do download 502
+2023-04-24 06:59:50 - Request_json - material - 2023-04-24 06:59:50 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 06:59:50 - Request_json - material - Status do download 502
+2023-04-24 06:59:50 - Request_json - material - 2023-04-24 06:59:50 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 06:59:50 - Request_json - material - Status do download 502
+2023-04-24 06:59:50 - Request_json - material - 2023-04-24 06:59:50 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 06:59:51 - Request_json - material - Status do download 502
+2023-04-24 06:59:51 - Request_json - material - 2023-04-24 06:59:51 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 06:59:51 - Request_json - material - Status do download 502
+2023-04-24 06:59:51 - Request_json - material - 2023-04-24 06:59:51 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 06:59:52 - Request_json - material - Status do download 502
+2023-04-24 06:59:52 - Request_json - material - 2023-04-24 06:59:52 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 06:59:52 - Request_json - material - Status do download 502
+2023-04-24 06:59:52 - Request_json - material - 2023-04-24 06:59:52 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 06:59:52 - Request_json - material - Status do download 502
+2023-04-24 06:59:52 - Request_json - material - 2023-04-24 06:59:52 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 06:59:53 - Request_json - material - Status do download 502
+2023-04-24 06:59:53 - Request_json - material - 2023-04-24 06:59:53 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 06:59:53 - Request_json - material - Status do download 502
+2023-04-24 06:59:53 - Request_json - material - 2023-04-24 06:59:53 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 06:59:54 - Request_json - material - Status do download 502
+2023-04-24 06:59:54 - Request_json - material - 2023-04-24 06:59:54 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 06:59:54 - Request_json - material - Status do download 502
+2023-04-24 06:59:54 - Request_json - material - 2023-04-24 06:59:54 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 06:59:54 - Request_json - material - Status do download 502
+2023-04-24 06:59:54 - Request_json - material - 2023-04-24 06:59:54 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 06:59:55 - Request_json - material - Status do download 502
+2023-04-24 06:59:55 - Request_json - material - 2023-04-24 06:59:55 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 06:59:55 - Request_json - material - Status do download 502
+2023-04-24 06:59:55 - Request_json - material - 2023-04-24 06:59:55 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 06:59:55 - Request_json - material - Status do download 502
+2023-04-24 06:59:55 - Request_json - material - 2023-04-24 06:59:55 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 06:59:56 - Request_json - material - Status do download 502
+2023-04-24 07:00:16 - Request_json - material - 2023-04-24 07:00:16 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 07:00:16 - Request_json - material - Status do download 502
+2023-04-24 07:00:16 - Request_json - material - 2023-04-24 07:00:16 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 07:00:17 - Request_json - material - Status do download 502
+2023-04-24 07:00:17 - Request_json - material - 2023-04-24 07:00:17 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 07:00:17 - Request_json - material - Status do download 502
+2023-04-24 07:00:17 - Request_json - material - 2023-04-24 07:00:17 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 07:00:17 - Request_json - material - Status do download 502
+2023-04-24 07:00:17 - Request_json - material - 2023-04-24 07:00:17 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 07:00:18 - Request_json - material - Status do download 502
+2023-04-24 07:00:18 - Request_json - material - 2023-04-24 07:00:18 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 07:00:18 - Request_json - material - Status do download 502
+2023-04-24 07:00:18 - Request_json - material - 2023-04-24 07:00:18 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 07:00:18 - Request_json - material - Status do download 502
+2023-04-24 07:00:18 - Request_json - material - 2023-04-24 07:00:18 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 07:00:19 - Request_json - material - Status do download 502
+2023-04-24 07:00:19 - Request_json - material - 2023-04-24 07:00:19 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 07:00:19 - Request_json - material - Status do download 502
+2023-04-24 07:00:19 - Request_json - material - 2023-04-24 07:00:19 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 07:00:19 - Request_json - material - Status do download 502
+2023-04-24 07:00:19 - Request_json - material - 2023-04-24 07:00:19 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 07:00:20 - Request_json - material - Status do download 502
+2023-04-24 07:00:20 - Request_json - material - 2023-04-24 07:00:20 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 07:00:20 - Request_json - material - Status do download 502
+2023-04-24 07:00:20 - Request_json - material - 2023-04-24 07:00:20 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 07:00:20 - Request_json - material - Status do download 502
+2023-04-24 07:00:20 - Request_json - material - 2023-04-24 07:00:20 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 07:00:21 - Request_json - material - Status do download 502
+2023-04-24 07:00:21 - Request_json - material - 2023-04-24 07:00:21 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 07:00:21 - Request_json - material - Status do download 502
+2023-04-24 07:00:21 - Request_json - material - 2023-04-24 07:00:21 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 07:00:21 - Request_json - material - Status do download 502
+2023-04-24 07:00:21 - Request_json - material - 2023-04-24 07:00:21 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 07:00:22 - Request_json - material - Status do download 502
+2023-04-24 07:00:22 - Request_json - material - 2023-04-24 07:00:22 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 07:00:22 - Request_json - material - Status do download 502
+2023-04-24 07:00:22 - Request_json - material - 2023-04-24 07:00:22 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 07:00:22 - Request_json - material - Status do download 502
+2023-04-24 07:00:22 - Request_json - material - 2023-04-24 07:00:22 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 07:00:23 - Request_json - material - Status do download 502
+2023-04-24 07:00:23 - Request_json - material - 2023-04-24 07:00:23 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 07:00:23 - Request_json - material - Status do download 502
+2023-04-24 07:00:23 - Request_json - material - 2023-04-24 07:00:23 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 07:00:23 - Request_json - material - Status do download 502
+2023-04-24 07:00:23 - Request_json - material - 2023-04-24 07:00:23 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 07:00:24 - Request_json - material - Status do download 502
+2023-04-24 07:00:24 - Request_json - material - 2023-04-24 07:00:24 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 07:00:24 - Request_json - material - Status do download 502
+2023-04-24 07:00:24 - Request_json - material - 2023-04-24 07:00:24 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 07:00:24 - Request_json - material - Status do download 502
+2023-04-24 07:00:24 - Request_json - material - 2023-04-24 07:00:24 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 07:00:25 - Request_json - material - Status do download 502
+2023-04-24 07:00:25 - Request_json - material - 2023-04-24 07:00:25 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 07:00:25 - Request_json - material - Status do download 502
+2023-04-24 07:00:25 - Request_json - material - 2023-04-24 07:00:25 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 07:00:25 - Request_json - material - Status do download 502
+2023-04-24 07:00:25 - Request_json - material - 2023-04-24 07:00:25 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 07:00:26 - Request_json - material - Status do download 502
+2023-04-24 07:00:26 - Request_json - material - 2023-04-24 07:00:26 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 07:00:26 - Request_json - material - Status do download 502
+2023-04-24 07:00:26 - Request_json - material - 2023-04-24 07:00:26 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 07:00:26 - Request_json - material - Status do download 502
+2023-04-24 07:00:26 - Request_json - material - 2023-04-24 07:00:26 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 07:00:27 - Request_json - material - Status do download 502
+2023-04-24 07:00:27 - Request_json - material - 2023-04-24 07:00:27 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 07:00:32 - Request_json - material - 2023-04-24 07:00:32 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 07:00:32 - Request_json - material - Status do download 502
+2023-04-24 07:00:32 - Request_json - material - 2023-04-24 07:00:32 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 07:00:33 - Request_json - material - Status do download 502
+2023-04-24 07:00:33 - Request_json - material - 2023-04-24 07:00:33 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 07:00:33 - Request_json - material - Status do download 502
+2023-04-24 07:00:33 - Request_json - material - 2023-04-24 07:00:33 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 07:00:33 - Request_json - material - Status do download 502
+2023-04-24 07:00:33 - Request_json - material - 2023-04-24 07:00:33 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 07:00:33 - Request_json - material - Status do download 502
+2023-04-24 07:00:33 - Request_json - material - 2023-04-24 07:00:33 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 07:00:34 - Request_json - material - Status do download 502
+2023-04-24 07:00:34 - Request_json - material - 2023-04-24 07:00:34 - Baixando http://compras.dados.gov.br/materiais/id/material/0480321.json Erro=0
+2023-04-24 07:00:34 - Request_json - material - Status do download 502
+2023-04-24 07:00:34 - Request_json - material - 2023-04-24 07:00:34 - Baixando http://compras.dados.gov.br/materiais/id/material/0480321.json Erro=1
+2023-04-24 07:00:34 - Request_json - material - Status do download 502
+2023-04-24 07:00:34 - Request_json - material - 2023-04-24 07:00:34 - Baixando http://compras.dados.gov.br/materiais/id/material/0480321.json Erro=2
+2023-04-24 07:00:35 - Request_json - material - Status do download 502
+2023-04-24 07:00:35 - Request_json - material - 2023-04-24 07:00:35 - Baixando http://compras.dados.gov.br/materiais/id/material/0480322.json Erro=0
+2023-04-24 07:00:35 - Request_json - material - Status do download 502
+2023-04-24 07:00:35 - Request_json - material - 2023-04-24 07:00:35 - Baixando http://compras.dados.gov.br/materiais/id/material/0480322.json Erro=1
+2023-04-24 07:00:35 - Request_json - material - Status do download 502
+2023-04-24 07:00:35 - Request_json - material - 2023-04-24 07:00:35 - Baixando http://compras.dados.gov.br/materiais/id/material/0480322.json Erro=2
+2023-04-24 07:00:36 - Request_json - material - Status do download 502
+2023-04-24 07:00:36 - Request_json - material - 2023-04-24 07:00:36 - Baixando http://compras.dados.gov.br/materiais/id/material/0402993.json Erro=0
+2023-04-24 07:00:36 - Request_json - material - Status do download 502
+2023-04-24 07:00:36 - Request_json - material - 2023-04-24 07:00:36 - Baixando http://compras.dados.gov.br/materiais/id/material/0402993.json Erro=1
+2023-04-24 07:00:36 - Request_json - material - Status do download 502
+2023-04-24 07:00:36 - Request_json - material - 2023-04-24 07:00:36 - Baixando http://compras.dados.gov.br/materiais/id/material/0402993.json Erro=2
+2023-04-24 07:00:37 - Request_json - material - Status do download 502
+2023-04-24 07:00:37 - Request_json - material - 2023-04-24 07:00:37 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=0
+2023-04-24 07:00:37 - Request_json - material - Status do download 502
+2023-04-24 07:00:37 - Request_json - material - 2023-04-24 07:00:37 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=1
+2023-04-24 07:00:37 - Request_json - material - Status do download 502
+2023-04-24 07:00:37 - Request_json - material - 2023-04-24 07:00:37 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=2
+2023-04-24 07:00:38 - Request_json - material - Status do download 502
+2023-04-24 07:00:38 - Request_json - material - 2023-04-24 07:00:38 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=0
+2023-04-24 07:00:38 - Request_json - material - Status do download 502
+2023-04-24 07:00:38 - Request_json - material - 2023-04-24 07:00:38 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=1
+2023-04-24 07:00:38 - Request_json - material - Status do download 502
+2023-04-24 07:00:38 - Request_json - material - 2023-04-24 07:00:38 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=2
+2023-04-24 07:00:38 - Request_json - material - Status do download 502
+2023-04-24 07:00:38 - Request_json - material - 2023-04-24 07:00:38 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=0
+2023-04-24 07:00:39 - Request_json - material - Status do download 502
+2023-04-24 07:00:39 - Request_json - material - 2023-04-24 07:00:39 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=1
+2023-04-24 07:00:39 - Request_json - material - Status do download 502
+2023-04-24 07:00:39 - Request_json - material - 2023-04-24 07:00:39 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=2
+2023-04-24 07:00:39 - Request_json - material - Status do download 502
+2023-04-24 07:00:39 - Request_json - material - 2023-04-24 07:00:39 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=0
+2023-04-24 07:00:40 - Request_json - material - Status do download 502
+2023-04-24 07:00:40 - Request_json - material - 2023-04-24 07:00:40 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=1
+2023-04-24 07:00:45 - Request_json - material - 2023-04-24 07:00:45 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=2
+2023-04-24 07:00:45 - Request_json - material - Status do download 502
+2023-04-24 07:00:45 - Request_json - material - 2023-04-24 07:00:45 - Baixando http://compras.dados.gov.br/materiais/id/material/0403086.json Erro=0
+2023-04-24 07:00:51 - Request_json - material - 2023-04-24 07:00:51 - Baixando http://compras.dados.gov.br/materiais/id/material/0403086.json Erro=1
+2023-04-24 07:00:51 - Request_json - material - Status do download 502
+2023-04-24 07:00:51 - Request_json - material - 2023-04-24 07:00:51 - Baixando http://compras.dados.gov.br/materiais/id/material/0403086.json Erro=2
+2023-04-24 07:00:57 - Request_json - material - 2023-04-24 07:00:57 - Baixando http://compras.dados.gov.br/materiais/id/material/0403375.json Erro=0
+2023-04-24 07:00:57 - Request_json - material - Status do download 502
+2023-04-24 07:00:57 - Request_json - material - 2023-04-24 07:00:57 - Baixando http://compras.dados.gov.br/materiais/id/material/0403375.json Erro=1
+2023-04-24 07:00:57 - Request_json - material - Status do download 502
+2023-04-24 07:00:57 - Request_json - material - 2023-04-24 07:00:57 - Baixando http://compras.dados.gov.br/materiais/id/material/0403375.json Erro=2
+2023-04-24 07:00:58 - Request_json - material - Status do download 502
+2023-04-24 07:00:58 - Request_json - material - 2023-04-24 07:00:58 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=0
+2023-04-24 07:00:58 - Request_json - material - Status do download 502
+2023-04-24 07:00:58 - Request_json - material - 2023-04-24 07:00:58 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=1
+2023-04-24 07:00:58 - Request_json - material - Status do download 502
+2023-04-24 07:00:58 - Request_json - material - 2023-04-24 07:00:58 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=2
+2023-04-24 07:00:59 - Request_json - material - Status do download 502
+2023-04-24 07:00:59 - Request_json - material - 2023-04-24 07:00:59 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=0
+2023-04-24 07:01:04 - Request_json - material - 2023-04-24 07:01:04 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=1
+2023-04-24 07:01:04 - Request_json - material - Status do download 502
+2023-04-24 07:01:04 - Request_json - material - 2023-04-24 07:01:04 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=2
+2023-04-24 07:01:05 - Request_json - material - Status do download 502
+2023-04-24 07:01:05 - Request_json - material - 2023-04-24 07:01:05 - Baixando http://compras.dados.gov.br/materiais/id/material/0402981.json Erro=0
+2023-04-24 07:01:05 - Request_json - material - Status do download 502
+2023-04-24 07:01:05 - Request_json - material - 2023-04-24 07:01:05 - Baixando http://compras.dados.gov.br/materiais/id/material/0402981.json Erro=1
+2023-04-24 07:01:05 - Request_json - material - Status do download 502
+2023-04-24 07:01:05 - Request_json - material - 2023-04-24 07:01:05 - Baixando http://compras.dados.gov.br/materiais/id/material/0402981.json Erro=2
+2023-04-24 07:01:06 - Request_json - material - Status do download 502
+2023-04-24 07:01:06 - Request_json - material - 2023-04-24 07:01:06 - Baixando http://compras.dados.gov.br/materiais/id/material/0402981.json Erro=0
+2023-04-24 07:01:06 - Request_json - material - Status do download 502
+2023-04-24 07:01:06 - Request_json - material - 2023-04-24 07:01:06 - Baixando http://compras.dados.gov.br/materiais/id/material/0402981.json Erro=1
+2023-04-24 07:01:06 - Request_json - material - Status do download 502
+2023-04-24 07:01:06 - Request_json - material - 2023-04-24 07:01:06 - Baixando http://compras.dados.gov.br/materiais/id/material/0402981.json Erro=2
+2023-04-24 07:01:07 - Request_json - material - Status do download 502
+2023-04-24 07:01:07 - Request_json - material - 2023-04-24 07:01:07 - Baixando http://compras.dados.gov.br/materiais/id/material/0403088.json Erro=0
+2023-04-24 07:01:07 - Request_json - material - Status do download 502
+2023-04-24 07:01:07 - Request_json - material - 2023-04-24 07:01:07 - Baixando http://compras.dados.gov.br/materiais/id/material/0403088.json Erro=1
+2023-04-24 07:01:07 - Request_json - material - Status do download 502
+2023-04-24 07:01:07 - Request_json - material - 2023-04-24 07:01:07 - Baixando http://compras.dados.gov.br/materiais/id/material/0403088.json Erro=2
+2023-04-24 07:01:08 - Request_json - material - Status do download 502
+2023-04-24 07:01:08 - Request_json - material - 2023-04-24 07:01:08 - Baixando http://compras.dados.gov.br/materiais/id/material/0413072.json Erro=0
+2023-04-24 07:01:08 - Request_json - material - Status do download 502
+2023-04-24 07:01:08 - Request_json - material - 2023-04-24 07:01:08 - Baixando http://compras.dados.gov.br/materiais/id/material/0413072.json Erro=1
+2023-04-24 07:01:08 - Request_json - material - Status do download 502
+2023-04-24 07:01:09 - Request_json - material - 2023-04-24 07:01:09 - Baixando http://compras.dados.gov.br/materiais/id/material/0413072.json Erro=2
+2023-04-24 07:01:09 - Request_json - material - Status do download 502
+2023-04-24 07:01:09 - Request_json - material - 2023-04-24 07:01:09 - Baixando http://compras.dados.gov.br/materiais/id/material/0427327.json Erro=0
+2023-04-24 07:01:09 - Request_json - material - Status do download 502
+2023-04-24 07:01:09 - Request_json - material - 2023-04-24 07:01:09 - Baixando http://compras.dados.gov.br/materiais/id/material/0427327.json Erro=1
+2023-04-24 07:01:10 - Request_json - material - Status do download 502
+2023-04-24 07:01:10 - Request_json - material - 2023-04-24 07:01:10 - Baixando http://compras.dados.gov.br/materiais/id/material/0427327.json Erro=2
+2023-04-24 07:01:10 - Request_json - material - Status do download 502
+2023-04-24 07:01:10 - Request_json - material - 2023-04-24 07:01:10 - Baixando http://compras.dados.gov.br/materiais/id/material/0403093.json Erro=0
+2023-04-24 07:01:10 - Request_json - material - Status do download 502
+2023-04-24 07:01:10 - Request_json - material - 2023-04-24 07:01:10 - Baixando http://compras.dados.gov.br/materiais/id/material/0403093.json Erro=1
+2023-04-24 07:01:11 - Request_json - material - Status do download 502
+2023-04-24 07:01:11 - Request_json - material - 2023-04-24 07:01:11 - Baixando http://compras.dados.gov.br/materiais/id/material/0403093.json Erro=2
+2023-04-24 07:01:11 - Request_json - material - Status do download 502
+2023-04-24 07:01:11 - Request_json - material - 2023-04-24 07:01:11 - Baixando http://compras.dados.gov.br/materiais/id/material/0403168.json Erro=0
+2023-04-24 07:01:11 - Request_json - material - Status do download 502
+2023-04-24 07:01:11 - Request_json - material - 2023-04-24 07:01:11 - Baixando http://compras.dados.gov.br/materiais/id/material/0403168.json Erro=1
+2023-04-24 07:01:12 - Request_json - material - Status do download 502
+2023-04-24 07:01:12 - Request_json - material - 2023-04-24 07:01:12 - Baixando http://compras.dados.gov.br/materiais/id/material/0403168.json Erro=2
+2023-04-24 07:01:12 - Request_json - material - Status do download 502
+2023-04-24 07:01:12 - Request_json - material - 2023-04-24 07:01:12 - Baixando http://compras.dados.gov.br/materiais/id/material/0403394.json Erro=0
+2023-04-24 07:01:12 - Request_json - material - Status do download 502
+2023-04-24 07:01:12 - Request_json - material - 2023-04-24 07:01:12 - Baixando http://compras.dados.gov.br/materiais/id/material/0403394.json Erro=1
+2023-04-24 07:01:13 - Request_json - material - Status do download 502
+2023-04-24 07:01:13 - Request_json - material - 2023-04-24 07:01:13 - Baixando http://compras.dados.gov.br/materiais/id/material/0403394.json Erro=2
+2023-04-24 07:01:13 - Request_json - material - Status do download 502
+2023-04-24 07:01:13 - Request_json - material - 2023-04-24 07:01:13 - Baixando http://compras.dados.gov.br/materiais/id/material/0405831.json Erro=0
+2023-04-24 07:01:14 - Request_json - material - Status do download 502
+2023-04-24 07:01:14 - Request_json - material - 2023-04-24 07:01:14 - Baixando http://compras.dados.gov.br/materiais/id/material/0405831.json Erro=1
+2023-04-24 07:01:14 - Request_json - material - Status do download 502
+2023-04-24 07:01:14 - Request_json - material - 2023-04-24 07:01:14 - Baixando http://compras.dados.gov.br/materiais/id/material/0405831.json Erro=2
+2023-04-24 07:01:14 - Request_json - material - Status do download 502
+2023-04-24 07:01:14 - Request_json - material - 2023-04-24 07:01:14 - Baixando http://compras.dados.gov.br/materiais/id/material/0423509.json Erro=0
+2023-04-24 07:01:15 - Request_json - material - Status do download 502
+2023-04-24 07:01:15 - Request_json - material - 2023-04-24 07:01:15 - Baixando http://compras.dados.gov.br/materiais/id/material/0423509.json Erro=1
+2023-04-24 07:01:15 - Request_json - material - Status do download 502
+2023-04-24 07:01:15 - Request_json - material - 2023-04-24 07:01:15 - Baixando http://compras.dados.gov.br/materiais/id/material/0423509.json Erro=2
+2023-04-24 07:01:15 - Request_json - material - Status do download 502
+2023-04-24 07:01:15 - Request_json - material - 2023-04-24 07:01:15 - Baixando http://compras.dados.gov.br/materiais/id/material/0404904.json Erro=0
+2023-04-24 07:01:15 - Request_json - material - Status do download 502
+2023-04-24 07:01:16 - Request_json - material - 2023-04-24 07:01:16 - Baixando http://compras.dados.gov.br/materiais/id/material/0404904.json Erro=1
+2023-04-24 07:01:16 - Request_json - material - Status do download 502
+2023-04-24 07:01:16 - Request_json - material - 2023-04-24 07:01:16 - Baixando http://compras.dados.gov.br/materiais/id/material/0404904.json Erro=2
+2023-04-24 07:01:16 - Request_json - material - Status do download 502
+2023-04-24 07:01:16 - Request_json - material - 2023-04-24 07:01:16 - Baixando http://compras.dados.gov.br/materiais/id/material/0414852.json Erro=0
+2023-04-24 07:01:16 - Request_json - material - Status do download 502
+2023-04-24 07:01:17 - Request_json - material - 2023-04-24 07:01:17 - Baixando http://compras.dados.gov.br/materiais/id/material/0414852.json Erro=1
+2023-04-24 07:01:17 - Request_json - material - Status do download 502
+2023-04-24 07:01:17 - Request_json - material - 2023-04-24 07:01:17 - Baixando http://compras.dados.gov.br/materiais/id/material/0414852.json Erro=2
+2023-04-24 07:01:22 - Request_json - material - 2023-04-24 07:01:22 - Baixando http://compras.dados.gov.br/materiais/id/material/0403289.json Erro=0
+2023-04-24 07:01:23 - Request_json - material - Status do download 502
+2023-04-24 07:01:23 - Request_json - material - 2023-04-24 07:01:23 - Baixando http://compras.dados.gov.br/materiais/id/material/0403289.json Erro=1
+2023-04-24 07:01:23 - Request_json - material - Status do download 502
+2023-04-24 07:01:23 - Request_json - material - 2023-04-24 07:01:23 - Baixando http://compras.dados.gov.br/materiais/id/material/0403289.json Erro=2
+2023-04-24 07:01:23 - Request_json - material - Status do download 502
+2023-04-24 07:01:23 - Request_json - material - 2023-04-24 07:01:23 - Baixando http://compras.dados.gov.br/materiais/id/material/0423509.json Erro=0
+2023-04-24 07:01:24 - Request_json - material - Status do download 502
+2023-04-24 07:01:24 - Request_json - material - 2023-04-24 07:01:24 - Baixando http://compras.dados.gov.br/materiais/id/material/0423509.json Erro=1
+2023-04-24 07:01:24 - Request_json - material - Status do download 502
+2023-04-24 07:01:24 - Request_json - material - 2023-04-24 07:01:24 - Baixando http://compras.dados.gov.br/materiais/id/material/0423509.json Erro=2
+2023-04-24 07:01:24 - Request_json - material - Status do download 502
+2023-04-24 07:01:24 - Request_json - material - 2023-04-24 07:01:24 - Baixando http://compras.dados.gov.br/materiais/id/material/0423509.json Erro=0
+2023-04-24 07:01:25 - Request_json - material - Status do download 502
+2023-04-24 07:01:25 - Request_json - material - 2023-04-24 07:01:25 - Baixando http://compras.dados.gov.br/materiais/id/material/0423509.json Erro=1
+2023-04-24 07:01:25 - Request_json - material - Status do download 502
+2023-04-24 07:01:25 - Request_json - material - 2023-04-24 07:01:25 - Baixando http://compras.dados.gov.br/materiais/id/material/0423509.json Erro=2
+2023-04-24 07:01:25 - Request_json - material - Status do download 502
+2023-04-24 07:01:25 - Request_json - material - 2023-04-24 07:01:25 - Baixando http://compras.dados.gov.br/materiais/id/material/0423509.json Erro=0
+2023-04-24 07:01:26 - Request_json - material - Status do download 502
+2023-04-24 07:01:26 - Request_json - material - 2023-04-24 07:01:26 - Baixando http://compras.dados.gov.br/materiais/id/material/0423509.json Erro=1
+2023-04-24 07:01:26 - Request_json - material - Status do download 502
+2023-04-24 07:01:26 - Request_json - material - 2023-04-24 07:01:26 - Baixando http://compras.dados.gov.br/materiais/id/material/0423509.json Erro=2
+2023-04-24 07:01:27 - Request_json - material - Status do download 502
+2023-04-24 07:01:27 - Request_json - material - 2023-04-24 07:01:27 - Baixando http://compras.dados.gov.br/materiais/id/material/0485315.json Erro=0
+2023-04-24 07:01:27 - Request_json - material - Status do download 502
+2023-04-24 07:01:27 - Request_json - material - 2023-04-24 07:01:27 - Baixando http://compras.dados.gov.br/materiais/id/material/0485315.json Erro=1
+2023-04-24 07:01:28 - Request_json - material - Status do download 502
+2023-04-24 07:01:28 - Request_json - material - 2023-04-24 07:01:28 - Baixando http://compras.dados.gov.br/materiais/id/material/0485315.json Erro=2
+2023-04-24 07:01:28 - Request_json - material - Status do download 502
+2023-04-24 07:01:28 - Request_json - material - 2023-04-24 07:01:28 - Baixando http://compras.dados.gov.br/materiais/id/material/0427194.json Erro=0
+2023-04-24 07:01:28 - Request_json - material - Status do download 502
+2023-04-24 07:01:28 - Request_json - material - 2023-04-24 07:01:28 - Baixando http://compras.dados.gov.br/materiais/id/material/0427194.json Erro=1
+2023-04-24 07:01:29 - Request_json - material - Status do download 502
+2023-04-24 07:01:29 - Request_json - material - 2023-04-24 07:01:29 - Baixando http://compras.dados.gov.br/materiais/id/material/0427194.json Erro=2
+2023-04-24 07:01:29 - Request_json - material - Status do download 502
+2023-04-24 07:01:29 - Request_json - material - 2023-04-24 07:01:29 - Baixando http://compras.dados.gov.br/materiais/id/material/0427194.json Erro=0
+2023-04-24 07:01:29 - Request_json - material - Status do download 502
+2023-04-24 07:01:29 - Request_json - material - 2023-04-24 07:01:29 - Baixando http://compras.dados.gov.br/materiais/id/material/0427194.json Erro=1
+2023-04-24 07:01:30 - Request_json - material - Status do download 502
+2023-04-24 07:01:30 - Request_json - material - 2023-04-24 07:01:30 - Baixando http://compras.dados.gov.br/materiais/id/material/0427194.json Erro=2
+2023-04-24 07:01:30 - Request_json - material - Status do download 502
+2023-04-24 07:01:30 - Request_json - material - 2023-04-24 07:01:30 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 07:01:30 - Request_json - material - Status do download 502
+2023-04-24 07:01:30 - Request_json - material - 2023-04-24 07:01:30 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 07:01:31 - Request_json - material - Status do download 502
+2023-04-24 07:01:31 - Request_json - material - 2023-04-24 07:01:31 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 07:01:31 - Request_json - material - Status do download 502
+2023-04-24 07:01:31 - Request_json - material - 2023-04-24 07:01:31 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 07:01:31 - Request_json - material - Status do download 502
+2023-04-24 07:01:31 - Request_json - material - 2023-04-24 07:01:31 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 07:01:32 - Request_json - material - Status do download 502
+2023-04-24 07:01:32 - Request_json - material - 2023-04-24 07:01:32 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 07:01:32 - Request_json - material - Status do download 502
+2023-04-24 07:01:32 - Request_json - material - 2023-04-24 07:01:32 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 07:01:33 - Request_json - material - Status do download 502
+2023-04-24 07:01:33 - Request_json - material - 2023-04-24 07:01:33 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 07:01:33 - Request_json - material - Status do download 502
+2023-04-24 07:01:33 - Request_json - material - 2023-04-24 07:01:33 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 07:01:33 - Request_json - material - Status do download 502
+2023-04-24 07:01:33 - Request_json - material - 2023-04-24 07:01:33 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 07:01:34 - Request_json - material - Status do download 502
+2023-04-24 07:01:34 - Request_json - material - 2023-04-24 07:01:34 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 07:01:34 - Request_json - material - Status do download 502
+2023-04-24 07:01:34 - Request_json - material - 2023-04-24 07:01:34 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 07:01:39 - Request_json - material - 2023-04-24 07:01:39 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 07:01:45 - Request_json - material - 2023-04-24 07:01:45 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 07:01:45 - Request_json - material - Status do download 502
+2023-04-24 07:01:45 - Request_json - material - 2023-04-24 07:01:45 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 07:01:45 - Request_json - material - Status do download 502
+2023-04-24 07:01:45 - Request_json - material - 2023-04-24 07:01:45 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 07:01:46 - Request_json - material - Status do download 502
+2023-04-24 07:01:46 - Request_json - material - 2023-04-24 07:01:46 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 07:01:46 - Request_json - material - Status do download 502
+2023-04-24 07:01:46 - Request_json - material - 2023-04-24 07:01:46 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 07:01:46 - Request_json - material - Status do download 502
+2023-04-24 07:01:46 - Request_json - material - 2023-04-24 07:01:46 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 07:01:47 - Request_json - material - Status do download 502
+2023-04-24 07:01:47 - Request_json - material - 2023-04-24 07:01:47 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 07:01:47 - Request_json - material - Status do download 502
+2023-04-24 07:01:47 - Request_json - material - 2023-04-24 07:01:47 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 07:01:47 - Request_json - material - Status do download 502
+2023-04-24 07:01:47 - Request_json - material - 2023-04-24 07:01:47 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 07:01:48 - Request_json - material - Status do download 502
+2023-04-24 07:01:48 - Request_json - material - 2023-04-24 07:01:48 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 07:01:48 - Request_json - material - Status do download 502
+2023-04-24 07:01:48 - Request_json - material - 2023-04-24 07:01:48 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 07:01:48 - Request_json - material - Status do download 502
+2023-04-24 07:01:48 - Request_json - material - 2023-04-24 07:01:48 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 07:01:49 - Request_json - material - Status do download 502
+2023-04-24 07:01:49 - Request_json - material - 2023-04-24 07:01:49 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 07:01:49 - Request_json - material - Status do download 502
+2023-04-24 07:01:49 - Request_json - material - 2023-04-24 07:01:49 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 07:01:49 - Request_json - material - Status do download 502
+2023-04-24 07:01:49 - Request_json - material - 2023-04-24 07:01:49 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 07:01:50 - Request_json - material - Status do download 502
+2023-04-24 07:01:50 - Request_json - material - 2023-04-24 07:01:50 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 07:01:50 - Request_json - material - Status do download 502
+2023-04-24 07:01:50 - Request_json - material - 2023-04-24 07:01:50 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 07:01:50 - Request_json - material - Status do download 502
+2023-04-24 07:01:50 - Request_json - material - 2023-04-24 07:01:50 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 07:01:51 - Request_json - material - Status do download 502
+2023-04-24 07:01:51 - Request_json - material - 2023-04-24 07:01:51 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 07:01:51 - Request_json - material - Status do download 502
+2023-04-24 07:01:51 - Request_json - material - 2023-04-24 07:01:51 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 07:01:56 - Request_json - material - 2023-04-24 07:01:56 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 07:01:57 - Request_json - material - Status do download 502
+2023-04-24 07:01:57 - Request_json - material - 2023-04-24 07:01:57 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 07:01:57 - Request_json - material - Status do download 502
+2023-04-24 07:01:57 - Request_json - material - 2023-04-24 07:01:57 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 07:02:02 - Request_json - material - 2023-04-24 07:02:02 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=0
+2023-04-24 07:02:03 - Request_json - material - Status do download 502
+2023-04-24 07:02:03 - Request_json - material - 2023-04-24 07:02:03 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=1
+2023-04-24 07:02:08 - Request_json - material - 2023-04-24 07:02:08 - Baixando http://compras.dados.gov.br/materiais/id/material/0437731.json Erro=2
+2023-04-24 07:02:13 - Request_json - material - 2023-04-24 07:02:13 - Baixando http://compras.dados.gov.br/materiais/id/material/0480321.json Erro=0
+2023-04-24 07:02:19 - Request_json - material - 2023-04-24 07:02:19 - Baixando http://compras.dados.gov.br/materiais/id/material/0480321.json Erro=1
+2023-04-24 07:02:19 - Request_json - material - Status do download 502
+2023-04-24 07:02:19 - Request_json - material - 2023-04-24 07:02:19 - Baixando http://compras.dados.gov.br/materiais/id/material/0480321.json Erro=2
+2023-04-24 07:02:19 - Request_json - material - Status do download 502
+2023-04-24 07:02:19 - Request_json - material - 2023-04-24 07:02:19 - Baixando http://compras.dados.gov.br/materiais/id/material/0480322.json Erro=0
+2023-04-24 07:02:20 - Request_json - material - Status do download 502
+2023-04-24 07:02:20 - Request_json - material - 2023-04-24 07:02:20 - Baixando http://compras.dados.gov.br/materiais/id/material/0480322.json Erro=1
+2023-04-24 07:02:20 - Request_json - material - Status do download 502
+2023-04-24 07:02:20 - Request_json - material - 2023-04-24 07:02:20 - Baixando http://compras.dados.gov.br/materiais/id/material/0480322.json Erro=2
+2023-04-24 07:02:21 - Request_json - material - Status do download 502
+2023-04-24 07:02:21 - Request_json - material - 2023-04-24 07:02:21 - Baixando http://compras.dados.gov.br/materiais/id/material/0402993.json Erro=0
+2023-04-24 07:02:21 - Request_json - material - Status do download 502
+2023-04-24 07:02:21 - Request_json - material - 2023-04-24 07:02:21 - Baixando http://compras.dados.gov.br/materiais/id/material/0402993.json Erro=1
+2023-04-24 07:02:26 - Request_json - material - 2023-04-24 07:02:26 - Baixando http://compras.dados.gov.br/materiais/id/material/0402993.json Erro=2
+2023-04-24 07:02:27 - Request_json - material - Status do download 502
+2023-04-24 07:02:27 - Request_json - material - 2023-04-24 07:02:27 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=0
+2023-04-24 07:02:27 - Request_json - material - Status do download 502
+2023-04-24 07:02:27 - Request_json - material - 2023-04-24 07:02:27 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=1
+2023-04-24 07:02:27 - Request_json - material - Status do download 502
+2023-04-24 07:02:27 - Request_json - material - 2023-04-24 07:02:27 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=2
+2023-04-24 07:02:28 - Request_json - material - Status do download 502
+2023-04-24 07:02:28 - Request_json - material - 2023-04-24 07:02:28 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=0
+2023-04-24 07:02:28 - Request_json - material - Status do download 502
+2023-04-24 07:02:28 - Request_json - material - 2023-04-24 07:02:28 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=1
+2023-04-24 07:02:28 - Request_json - material - Status do download 502
+2023-04-24 07:02:28 - Request_json - material - 2023-04-24 07:02:28 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=2
+2023-04-24 07:02:29 - Request_json - material - Status do download 502
+2023-04-24 07:02:29 - Request_json - material - 2023-04-24 07:02:29 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=0
+2023-04-24 07:02:29 - Request_json - material - Status do download 502
+2023-04-24 07:02:29 - Request_json - material - 2023-04-24 07:02:29 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=1
+2023-04-24 07:02:29 - Request_json - material - Status do download 502
+2023-04-24 07:02:29 - Request_json - material - 2023-04-24 07:02:29 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=2
+2023-04-24 07:02:30 - Request_json - material - Status do download 502
+2023-04-24 07:02:30 - Request_json - material - 2023-04-24 07:02:30 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=0
+2023-04-24 07:02:30 - Request_json - material - Status do download 502
+2023-04-24 07:02:30 - Request_json - material - 2023-04-24 07:02:30 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=1
+2023-04-24 07:02:30 - Request_json - material - Status do download 502
+2023-04-24 07:02:30 - Request_json - material - 2023-04-24 07:02:30 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=2
+2023-04-24 07:02:31 - Request_json - material - Status do download 502
+2023-04-24 07:02:31 - Request_json - material - 2023-04-24 07:02:31 - Baixando http://compras.dados.gov.br/materiais/id/material/0403086.json Erro=0
+2023-04-24 07:02:31 - Request_json - material - Status do download 502
+2023-04-24 07:02:31 - Request_json - material - 2023-04-24 07:02:31 - Baixando http://compras.dados.gov.br/materiais/id/material/0403086.json Erro=1
+2023-04-24 07:02:31 - Request_json - material - Status do download 502
+2023-04-24 07:02:31 - Request_json - material - 2023-04-24 07:02:31 - Baixando http://compras.dados.gov.br/materiais/id/material/0403086.json Erro=2
+2023-04-24 07:02:32 - Request_json - material - Status do download 502
+2023-04-24 07:02:32 - Request_json - material - 2023-04-24 07:02:32 - Baixando http://compras.dados.gov.br/materiais/id/material/0403375.json Erro=0
+2023-04-24 07:02:32 - Request_json - material - Status do download 502
+2023-04-24 07:02:32 - Request_json - material - 2023-04-24 07:02:32 - Baixando http://compras.dados.gov.br/materiais/id/material/0403375.json Erro=1
+2023-04-24 07:02:32 - Request_json - material - Status do download 502
+2023-04-24 07:02:32 - Request_json - material - 2023-04-24 07:02:32 - Baixando http://compras.dados.gov.br/materiais/id/material/0403375.json Erro=2
+2023-04-24 07:02:33 - Request_json - material - Status do download 502
+2023-04-24 07:02:33 - Request_json - material - 2023-04-24 07:02:33 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=0
+2023-04-24 07:02:33 - Request_json - material - Status do download 502
+2023-04-24 07:02:33 - Request_json - material - 2023-04-24 07:02:33 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=1
+2023-04-24 07:02:33 - Request_json - material - Status do download 502
+2023-04-24 07:02:33 - Request_json - material - 2023-04-24 07:02:33 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=2
+2023-04-24 07:02:34 - Request_json - material - Status do download 502
+2023-04-24 07:02:34 - Request_json - material - 2023-04-24 07:02:34 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=0
+2023-04-24 07:02:34 - Request_json - material - Status do download 502
+2023-04-24 07:02:34 - Request_json - material - 2023-04-24 07:02:34 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=1
+2023-04-24 07:02:34 - Request_json - material - Status do download 502
+2023-04-24 07:02:34 - Request_json - material - 2023-04-24 07:02:34 - Baixando http://compras.dados.gov.br/materiais/id/material/0438007.json Erro=2
+2023-04-24 07:02:35 - Request_json - material - Status do download 502
+2023-04-24 07:02:35 - Request_json - material - 2023-04-24 07:02:35 - Baixando http://compras.dados.gov.br/materiais/id/material/0402981.json Erro=0
+2023-04-24 07:02:40 - Request_json - material - 2023-04-24 07:02:40 - Baixando http://compras.dados.gov.br/materiais/id/material/0402981.json Erro=1
+2023-04-24 07:02:40 - Request_json - material - Status do download 502
+2023-04-24 07:02:40 - Request_json - material - 2023-04-24 07:02:40 - Baixando http://compras.dados.gov.br/materiais/id/material/0402981.json Erro=2
+2023-04-24 07:02:41 - Request_json - material - Status do download 502
+2023-04-24 07:02:41 - Request_json - material - 2023-04-24 07:02:41 - Baixando http://compras.dados.gov.br/materiais/id/material/0402981.json Erro=0
+2023-04-24 07:02:41 - Request_json - material - Status do download 502
+2023-04-24 07:02:41 - Request_json - material - 2023-04-24 07:02:41 - Baixando http://compras.dados.gov.br/materiais/id/material/0402981.json Erro=1
+2023-04-24 07:02:41 - Request_json - material - Status do download 502
+2023-04-24 07:02:41 - Request_json - material - 2023-04-24 07:02:41 - Baixando http://compras.dados.gov.br/materiais/id/material/0402981.json Erro=2
+2023-04-24 07:02:42 - Request_json - material - Status do download 502
+2023-04-24 07:02:42 - Request_json - material - 2023-04-24 07:02:42 - Baixando http://compras.dados.gov.br/materiais/id/material/0403088.json Erro=0
+2023-04-24 07:02:42 - Request_json - material - Status do download 502
+2023-04-24 07:02:42 - Request_json - material - 2023-04-24 07:02:42 - Baixando http://compras.dados.gov.br/materiais/id/material/0403088.json Erro=1
+2023-04-24 07:02:47 - Request_json - material - 2023-04-24 07:02:47 - Baixando http://compras.dados.gov.br/materiais/id/material/0403088.json Erro=2
+2023-04-24 07:02:48 - Request_json - material - Status do download 502
+2023-04-24 07:02:48 - Request_json - material - 2023-04-24 07:02:48 - Baixando http://compras.dados.gov.br/materiais/id/material/0413072.json Erro=0
+2023-04-24 07:02:48 - Request_json - material - Status do download 502
+2023-04-24 07:02:48 - Request_json - material - 2023-04-24 07:02:48 - Baixando http://compras.dados.gov.br/materiais/id/material/0413072.json Erro=1
+2023-04-24 07:02:48 - Request_json - material - Status do download 502
+2023-04-24 07:02:48 - Request_json - material - 2023-04-24 07:02:48 - Baixando http://compras.dados.gov.br/materiais/id/material/0413072.json Erro=2
+2023-04-24 07:02:49 - Request_json - material - Status do download 502
+2023-04-24 07:02:49 - Request_json - material - 2023-04-24 07:02:49 - Baixando http://compras.dados.gov.br/materiais/id/material/0427327.json Erro=0
+2023-04-24 07:02:49 - Request_json - material - Status do download 502
+2023-04-24 07:02:49 - Request_json - material - 2023-04-24 07:02:49 - Baixando http://compras.dados.gov.br/materiais/id/material/0427327.json Erro=1
+2023-04-24 07:02:49 - Request_json - material - Status do download 502
+2023-04-24 07:02:49 - Request_json - material - 2023-04-24 07:02:49 - Baixando http://compras.dados.gov.br/materiais/id/material/0427327.json Erro=2
+2023-04-24 07:02:50 - Request_json - material - Status do download 502
+2023-04-24 07:02:50 - Request_json - material - 2023-04-24 07:02:50 - Baixando http://compras.dados.gov.br/materiais/id/material/0403093.json Erro=0
+2023-04-24 07:02:50 - Request_json - material - Status do download 502
+2023-04-24 07:02:50 - Request_json - material - 2023-04-24 07:02:50 - Baixando http://compras.dados.gov.br/materiais/id/material/0403093.json Erro=1
+2023-04-24 07:02:50 - Request_json - material - Status do download 502
+2023-04-24 07:02:50 - Request_json - material - 2023-04-24 07:02:50 - Baixando http://compras.dados.gov.br/materiais/id/material/0403093.json Erro=2
+2023-04-24 07:02:51 - Request_json - material - Status do download 502
+2023-04-24 07:02:51 - Request_json - material - 2023-04-24 07:02:51 - Baixando http://compras.dados.gov.br/materiais/id/material/0403168.json Erro=0
+2023-04-24 07:02:56 - Request_json - material - 2023-04-24 07:02:56 - Baixando http://compras.dados.gov.br/materiais/id/material/0403168.json Erro=1
+2023-04-24 07:02:57 - Request_json - material - Status do download 502
+2023-04-24 07:02:57 - Request_json - material - 2023-04-24 07:02:57 - Baixando http://compras.dados.gov.br/materiais/id/material/0403168.json Erro=2
+2023-04-24 07:02:57 - Request_json - material - Status do download 502
+2023-04-24 07:02:57 - Request_json - material - 2023-04-24 07:02:57 - Baixando http://compras.dados.gov.br/materiais/id/material/0403394.json Erro=0
+2023-04-24 07:02:57 - Request_json - material - Status do download 502
+2023-04-24 07:02:57 - Request_json - material - 2023-04-24 07:02:57 - Baixando http://compras.dados.gov.br/materiais/id/material/0403394.json Erro=1
+2023-04-24 07:02:58 - Request_json - material - Status do download 502
+2023-04-24 07:02:58 - Request_json - material - 2023-04-24 07:02:58 - Baixando http://compras.dados.gov.br/materiais/id/material/0403394.json Erro=2
+2023-04-24 07:02:58 - Request_json - material - Status do download 502
+2023-04-24 07:02:58 - Request_json - material - 2023-04-24 07:02:58 - Baixando http://compras.dados.gov.br/materiais/id/material/0405831.json Erro=0
+2023-04-24 07:02:58 - Request_json - material - Status do download 502
+2023-04-24 07:02:58 - Request_json - material - 2023-04-24 07:02:58 - Baixando http://compras.dados.gov.br/materiais/id/material/0405831.json Erro=1
+2023-04-24 07:02:59 - Request_json - material - Status do download 502
+2023-04-24 07:02:59 - Request_json - material - 2023-04-24 07:02:59 - Baixando http://compras.dados.gov.br/materiais/id/material/0405831.json Erro=2
+2023-04-24 07:02:59 - Request_json - material - Status do download 502
+2023-04-24 07:02:59 - Request_json - material - 2023-04-24 07:02:59 - Baixando http://compras.dados.gov.br/materiais/id/material/0423509.json Erro=0
+2023-04-24 07:02:59 - Request_json - material - Status do download 502
+2023-04-24 07:02:59 - Request_json - material - 2023-04-24 07:02:59 - Baixando http://compras.dados.gov.br/materiais/id/material/0423509.json Erro=1
+2023-04-24 07:03:00 - Request_json - material - Status do download 502
+2023-04-24 07:03:00 - Request_json - material - 2023-04-24 07:03:00 - Baixando http://compras.dados.gov.br/materiais/id/material/0423509.json Erro=2
+2023-04-24 07:03:00 - Request_json - material - Status do download 502
+2023-04-24 07:03:00 - Request_json - material - 2023-04-24 07:03:00 - Baixando http://compras.dados.gov.br/materiais/id/material/0404904.json Erro=0
+2023-04-24 07:03:00 - Request_json - material - Status do download 502
+2023-04-24 07:03:00 - Request_json - material - 2023-04-24 07:03:00 - Baixando http://compras.dados.gov.br/materiais/id/material/0404904.json Erro=1
+2023-04-24 07:03:01 - Request_json - material - Status do download 502
+2023-04-24 07:03:01 - Request_json - material - 2023-04-24 07:03:01 - Baixando http://compras.dados.gov.br/materiais/id/material/0404904.json Erro=2
+2023-04-24 07:03:01 - Request_json - material - Status do download 502
+2023-04-24 07:03:01 - Request_json - material - 2023-04-24 07:03:01 - Baixando http://compras.dados.gov.br/materiais/id/material/0414852.json Erro=0
+2023-04-24 07:03:01 - Request_json - material - Status do download 502
+2023-04-24 07:03:01 - Request_json - material - 2023-04-24 07:03:01 - Baixando http://compras.dados.gov.br/materiais/id/material/0414852.json Erro=1
+2023-04-24 07:03:02 - Request_json - material - Status do download 502
+2023-04-24 07:03:02 - Request_json - material - 2023-04-24 07:03:02 - Baixando http://compras.dados.gov.br/materiais/id/material/0414852.json Erro=2
+2023-04-24 07:03:02 - Request_json - material - Status do download 502
+2023-04-24 07:03:02 - Request_json - material - 2023-04-24 07:03:02 - Baixando http://compras.dados.gov.br/materiais/id/material/0403289.json Erro=0
+2023-04-24 07:03:02 - Request_json - material - Status do download 502
+2023-04-24 07:03:02 - Request_json - material - 2023-04-24 07:03:02 - Baixando http://compras.dados.gov.br/materiais/id/material/0403289.json Erro=1
+2023-04-24 07:03:03 - Request_json - material - Status do download 502
+2023-04-24 07:03:03 - Request_json - material - 2023-04-24 07:03:03 - Baixando http://compras.dados.gov.br/materiais/id/material/0403289.json Erro=2
+2023-04-24 07:03:03 - Request_json - material - Status do download 502
+2023-04-24 07:03:03 - Request_json - material - 2023-04-24 07:03:03 - Baixando http://compras.dados.gov.br/materiais/id/material/0478584.json Erro=0
+2023-04-24 07:03:03 - Request_json - material - Status do download 502
+2023-04-24 07:03:03 - Request_json - material - 2023-04-24 07:03:03 - Baixando http://compras.dados.gov.br/materiais/id/material/0478584.json Erro=1
+2023-04-24 07:03:04 - Request_json - material - Status do download 502
+2023-04-24 07:03:04 - Request_json - material - 2023-04-24 07:03:04 - Baixando http://compras.dados.gov.br/materiais/id/material/0478584.json Erro=2
+2023-04-24 07:03:04 - Request_json - material - Status do download 502
+2023-04-24 07:03:10 - Request_json - material - 2023-04-24 07:03:10 - Baixando http://compras.dados.gov.br/materiais/id/material/0478584.json Erro=0
+2023-04-24 07:03:10 - Request_json - material - Status do download 502
+2023-04-24 07:03:10 - Request_json - material - 2023-04-24 07:03:10 - Baixando http://compras.dados.gov.br/materiais/id/material/0478584.json Erro=1
+2023-04-24 07:03:10 - Request_json - material - Status do download 502
+2023-04-24 07:03:10 - Request_json - material - 2023-04-24 07:03:10 - Baixando http://compras.dados.gov.br/materiais/id/material/0478584.json Erro=2
+2023-04-24 07:03:11 - Request_json - material - Status do download 502
+2023-04-24 07:03:11 - Request_json - material - 2023-04-24 07:03:11 - Baixando http://compras.dados.gov.br/materiais/id/material/0478584.json Erro=0
+2023-04-24 07:03:11 - Request_json - material - Status do download 502
+2023-04-24 07:03:11 - Request_json - material - 2023-04-24 07:03:11 - Baixando http://compras.dados.gov.br/materiais/id/material/0478584.json Erro=1
+2023-04-24 07:03:11 - Request_json - material - Status do download 502
+2023-04-24 07:03:11 - Request_json - material - 2023-04-24 07:03:11 - Baixando http://compras.dados.gov.br/materiais/id/material/0478584.json Erro=2
+2023-04-24 07:11:32 - Request_json - material - 2023-04-24 07:11:32 - Baixando http://compras.dados.gov.br/materiais/id/material/0486706.json Erro=0
+2023-04-24 07:11:38 - Request_json - material - 2023-04-24 07:11:38 - Baixando http://compras.dados.gov.br/materiais/id/material/0486706.json Erro=1
+2023-04-24 07:11:38 - Request_json - material - Status do download 502
+2023-04-24 07:11:38 - Request_json - material - 2023-04-24 07:11:38 - Baixando http://compras.dados.gov.br/materiais/id/material/0486706.json Erro=2
+2023-04-24 07:11:39 - Request_json - material - Status do download 502
+2023-04-24 07:11:43 - Request_json - material - 2023-04-24 07:11:43 - Baixando http://compras.dados.gov.br/materiais/id/material/0486706.json Erro=0
+2023-04-24 07:11:44 - Request_json - material - Status do download 502
+2023-04-24 07:11:44 - Request_json - material - 2023-04-24 07:11:44 - Baixando http://compras.dados.gov.br/materiais/id/material/0486706.json Erro=1
+2023-04-24 07:11:44 - Request_json - material - Status do download 502
+2023-04-24 07:11:44 - Request_json - material - 2023-04-24 07:11:44 - Baixando http://compras.dados.gov.br/materiais/id/material/0486706.json Erro=2
+2023-04-24 07:11:44 - Request_json - material - Status do download 502
+2023-04-24 07:11:44 - Request_json - material - 2023-04-24 07:11:44 - Baixando http://compras.dados.gov.br/materiais/id/material/0484528.json Erro=0
+2023-04-24 07:11:45 - Request_json - material - Status do download 502
+2023-04-24 07:11:45 - Request_json - material - 2023-04-24 07:11:45 - Baixando http://compras.dados.gov.br/materiais/id/material/0484528.json Erro=1
+2023-04-24 07:11:50 - Request_json - material - 2023-04-24 07:11:50 - Baixando http://compras.dados.gov.br/materiais/id/material/0484528.json Erro=2
+2023-04-24 07:11:50 - Request_json - material - Status do download 502
+2023-04-24 07:11:50 - Request_json - material - 2023-04-24 07:11:50 - Baixando http://compras.dados.gov.br/materiais/id/material/0484528.json Erro=0
+2023-04-24 07:11:51 - Request_json - material - Status do download 502
+2023-04-24 07:11:51 - Request_json - material - 2023-04-24 07:11:51 - Baixando http://compras.dados.gov.br/materiais/id/material/0484528.json Erro=1
+2023-04-24 07:11:56 - Request_json - material - 2023-04-24 07:11:56 - Baixando http://compras.dados.gov.br/materiais/id/material/0484528.json Erro=2
+2023-04-24 07:11:57 - Request_json - material - Status do download 502
+2023-04-24 07:12:59 - Request_json - material - 2023-04-24 07:12:59 - Baixando http://compras.dados.gov.br/materiais/id/material/0483430.json Erro=0
+2023-04-24 07:12:59 - Request_json - material - Status do download 502
+2023-04-24 07:12:59 - Request_json - material - 2023-04-24 07:12:59 - Baixando http://compras.dados.gov.br/materiais/id/material/0483430.json Erro=1
+2023-04-24 07:12:59 - Request_json - material - Status do download 502
+2023-04-24 07:12:59 - Request_json - material - 2023-04-24 07:12:59 - Baixando http://compras.dados.gov.br/materiais/id/material/0483430.json Erro=2
+2023-04-24 07:13:00 - Request_json - material - Status do download 502
+2023-04-24 07:15:06 - Request_json - material - 2023-04-24 07:15:06 - Baixando http://compras.dados.gov.br/materiais/id/material/0474217.json Erro=0
+2023-04-24 07:15:07 - Request_json - material - Status do download 502
+2023-04-24 07:15:07 - Request_json - material - 2023-04-24 07:15:07 - Baixando http://compras.dados.gov.br/materiais/id/material/0474217.json Erro=1
+2023-04-24 07:15:07 - Request_json - material - Status do download 502
+2023-04-24 07:15:07 - Request_json - material - 2023-04-24 07:15:07 - Baixando http://compras.dados.gov.br/materiais/id/material/0474217.json Erro=2
+2023-04-24 07:15:08 - Request_json - material - Status do download 502
+2023-04-24 07:15:08 - Request_json - material - 2023-04-24 07:15:08 - Baixando http://compras.dados.gov.br/materiais/id/material/0473420.json Erro=0
+2023-04-24 07:15:08 - Request_json - material - Status do download 502
+2023-04-24 07:15:08 - Request_json - material - 2023-04-24 07:15:08 - Baixando http://compras.dados.gov.br/materiais/id/material/0473420.json Erro=1
+2023-04-24 07:15:14 - Request_json - material - 2023-04-24 07:15:14 - Baixando http://compras.dados.gov.br/materiais/id/material/0473420.json Erro=2
+2023-04-24 07:15:14 - Request_json - material - Status do download 502
+2023-04-24 07:15:14 - Request_json - material - 2023-04-24 07:15:14 - Baixando http://compras.dados.gov.br/materiais/id/material/0481372.json Erro=0
+2023-04-24 07:15:20 - Request_json - material - 2023-04-24 07:15:20 - Baixando http://compras.dados.gov.br/materiais/id/material/0481372.json Erro=1
+2023-04-24 07:15:20 - Request_json - material - Status do download 502
+2023-04-24 07:15:20 - Request_json - material - 2023-04-24 07:15:20 - Baixando http://compras.dados.gov.br/materiais/id/material/0481372.json Erro=2
+2023-04-24 07:15:52 - Request_json - material - 2023-04-24 07:15:52 - Baixando http://compras.dados.gov.br/materiais/id/material/0473420.json Erro=0
+2023-04-24 07:15:57 - Request_json - material - 2023-04-24 07:15:57 - Baixando http://compras.dados.gov.br/materiais/id/material/0473420.json Erro=1
+2023-04-24 07:16:02 - Request_json - material - 2023-04-24 07:16:02 - Baixando http://compras.dados.gov.br/materiais/id/material/0473420.json Erro=2
+2023-04-24 07:16:03 - Request_json - material - Status do download 502
+2023-04-24 07:16:24 - Request_json - material - 2023-04-24 07:16:24 - Baixando http://compras.dados.gov.br/materiais/id/material/0473293.json Erro=0
+2023-04-24 07:16:30 - Request_json - material - 2023-04-24 07:16:30 - Baixando http://compras.dados.gov.br/materiais/id/material/0473293.json Erro=1
+2023-04-24 07:16:30 - Request_json - material - Status do download 502
+2023-04-24 07:16:30 - Request_json - material - 2023-04-24 07:16:30 - Baixando http://compras.dados.gov.br/materiais/id/material/0473293.json Erro=2
+2023-04-24 07:16:31 - Request_json - material - Status do download 502
+2023-04-24 07:16:55 - Request_json - material - 2023-04-24 07:16:55 - Baixando http://compras.dados.gov.br/materiais/id/material/0482079.json Erro=0
+2023-04-24 07:16:56 - Request_json - material - Status do download 502
+2023-04-24 07:16:56 - Request_json - material - 2023-04-24 07:16:56 - Baixando http://compras.dados.gov.br/materiais/id/material/0482079.json Erro=1
+2023-04-24 07:16:56 - Request_json - material - Status do download 502
+2023-04-24 07:16:56 - Request_json - material - 2023-04-24 07:16:56 - Baixando http://compras.dados.gov.br/materiais/id/material/0482079.json Erro=2
+2023-04-24 07:16:56 - Request_json - material - Status do download 502
+2023-04-24 07:16:56 - Request_json - material - 2023-04-24 07:16:56 - Baixando http://compras.dados.gov.br/materiais/id/material/0486632.json Erro=0
+2023-04-24 07:17:02 - Request_json - material - 2023-04-24 07:17:02 - Baixando http://compras.dados.gov.br/materiais/id/material/0486632.json Erro=1
+2023-04-24 07:17:02 - Request_json - material - Status do download 502
+2023-04-24 07:17:02 - Request_json - material - 2023-04-24 07:17:02 - Baixando http://compras.dados.gov.br/materiais/id/material/0486632.json Erro=2
+2023-04-24 07:17:02 - Request_json - material - Status do download 502
+2023-04-24 07:17:02 - Request_json - material - 2023-04-24 07:17:02 - Baixando http://compras.dados.gov.br/materiais/id/material/0601939.json Erro=0
+2023-04-24 07:17:03 - Request_json - material - Status do download 502
+2023-04-24 07:17:03 - Request_json - material - 2023-04-24 07:17:03 - Baixando http://compras.dados.gov.br/materiais/id/material/0601939.json Erro=1
+2023-04-24 07:17:03 - Request_json - material - Status do download 502
+2023-04-24 07:17:03 - Request_json - material - 2023-04-24 07:17:03 - Baixando http://compras.dados.gov.br/materiais/id/material/0601939.json Erro=2
+2023-04-24 07:17:03 - Request_json - material - Status do download 502
+2023-04-24 07:17:03 - Request_json - material - 2023-04-24 07:17:03 - Baixando http://compras.dados.gov.br/materiais/id/material/0602320.json Erro=0
+2023-04-24 07:17:04 - Request_json - material - Status do download 502
+2023-04-24 07:17:04 - Request_json - material - 2023-04-24 07:17:04 - Baixando http://compras.dados.gov.br/materiais/id/material/0602320.json Erro=1
+2023-04-24 07:17:04 - Request_json - material - Status do download 502
+2023-04-24 07:17:04 - Request_json - material - 2023-04-24 07:17:04 - Baixando http://compras.dados.gov.br/materiais/id/material/0602320.json Erro=2
+2023-04-24 07:17:04 - Request_json - material - Status do download 502
+2023-04-24 07:17:04 - Request_json - material - 2023-04-24 07:17:04 - Baixando http://compras.dados.gov.br/materiais/id/material/0478477.json Erro=0
+2023-04-24 07:17:05 - Request_json - material - Status do download 502
+2023-04-24 07:17:05 - Request_json - material - 2023-04-24 07:17:05 - Baixando http://compras.dados.gov.br/materiais/id/material/0478477.json Erro=1
+2023-04-24 07:17:05 - Request_json - material - Status do download 502
+2023-04-24 07:17:05 - Request_json - material - 2023-04-24 07:17:05 - Baixando http://compras.dados.gov.br/materiais/id/material/0478477.json Erro=2
+2023-04-24 07:17:05 - Request_json - material - Status do download 502
+2023-04-24 07:17:05 - Request_json - material - 2023-04-24 07:17:05 - Baixando http://compras.dados.gov.br/materiais/id/material/0481338.json Erro=0
+2023-04-24 07:17:06 - Request_json - material - Status do download 502
+2023-04-24 07:17:06 - Request_json - material - 2023-04-24 07:17:06 - Baixando http://compras.dados.gov.br/materiais/id/material/0481338.json Erro=1
+2023-04-24 07:17:06 - Request_json - material - Status do download 502
+2023-04-24 07:17:06 - Request_json - material - 2023-04-24 07:17:06 - Baixando http://compras.dados.gov.br/materiais/id/material/0481338.json Erro=2
+2023-04-24 07:17:06 - Request_json - material - Status do download 502
+2023-04-24 07:17:07 - Request_json - material - 2023-04-24 07:17:07 - Baixando http://compras.dados.gov.br/materiais/id/material/0602320.json Erro=0
+2023-04-24 07:17:07 - Request_json - material - Status do download 502
+2023-04-24 07:17:07 - Request_json - material - 2023-04-24 07:17:07 - Baixando http://compras.dados.gov.br/materiais/id/material/0602320.json Erro=1
+2023-04-24 07:17:12 - Request_json - material - 2023-04-24 07:17:12 - Baixando http://compras.dados.gov.br/materiais/id/material/0602320.json Erro=2
+2023-04-24 07:17:13 - Request_json - material - Status do download 502
+2023-04-24 07:17:13 - Request_json - material - 2023-04-24 07:17:13 - Baixando http://compras.dados.gov.br/materiais/id/material/0602320.json Erro=0
+2023-04-24 07:17:13 - Request_json - material - Status do download 502
+2023-04-24 07:17:13 - Request_json - material - 2023-04-24 07:17:13 - Baixando http://compras.dados.gov.br/materiais/id/material/0602320.json Erro=1
+2023-04-24 07:17:13 - Request_json - material - Status do download 502
+2023-04-24 07:17:13 - Request_json - material - 2023-04-24 07:17:13 - Baixando http://compras.dados.gov.br/materiais/id/material/0602320.json Erro=2
+2023-04-24 07:17:13 - Request_json - material - Status do download 502
+2023-04-24 07:17:13 - Request_json - material - 2023-04-24 07:17:13 - Baixando http://compras.dados.gov.br/materiais/id/material/0486278.json Erro=0
+2023-04-24 07:17:14 - Request_json - material - Status do download 502
+2023-04-24 07:17:14 - Request_json - material - 2023-04-24 07:17:14 - Baixando http://compras.dados.gov.br/materiais/id/material/0486278.json Erro=1
+2023-04-24 07:17:14 - Request_json - material - Status do download 502
+2023-04-24 07:17:14 - Request_json - material - 2023-04-24 07:17:14 - Baixando http://compras.dados.gov.br/materiais/id/material/0486278.json Erro=2
+2023-04-24 07:17:14 - Request_json - material - Status do download 502
+2023-04-24 07:17:14 - Request_json - material - 2023-04-24 07:17:14 - Baixando http://compras.dados.gov.br/materiais/id/material/0486278.json Erro=0
+2023-04-24 07:17:20 - Request_json - material - 2023-04-24 07:17:20 - Baixando http://compras.dados.gov.br/materiais/id/material/0486278.json Erro=1
+2023-04-24 07:17:20 - Request_json - material - Status do download 502
+2023-04-24 07:17:20 - Request_json - material - 2023-04-24 07:17:20 - Baixando http://compras.dados.gov.br/materiais/id/material/0486278.json Erro=2
+2023-04-24 07:17:25 - Request_json - material - 2023-04-24 07:17:25 - Baixando http://compras.dados.gov.br/materiais/id/material/0482653.json Erro=0
+2023-04-24 07:17:26 - Request_json - material - Status do download 502
+2023-04-24 07:17:26 - Request_json - material - 2023-04-24 07:17:26 - Baixando http://compras.dados.gov.br/materiais/id/material/0482653.json Erro=1
+2023-04-24 07:17:26 - Request_json - material - Status do download 502
+2023-04-24 07:17:26 - Request_json - material - 2023-04-24 07:17:26 - Baixando http://compras.dados.gov.br/materiais/id/material/0482653.json Erro=2
+2023-04-24 07:17:26 - Request_json - material - Status do download 502
+2023-04-24 07:17:26 - Request_json - material - 2023-04-24 07:17:26 - Baixando http://compras.dados.gov.br/materiais/id/material/0431108.json Erro=0
+2023-04-24 07:17:27 - Request_json - material - Status do download 502
+2023-04-24 07:17:27 - Request_json - material - 2023-04-24 07:17:27 - Baixando http://compras.dados.gov.br/materiais/id/material/0431108.json Erro=1
+2023-04-24 07:17:27 - Request_json - material - Status do download 502
+2023-04-24 07:17:27 - Request_json - material - 2023-04-24 07:17:27 - Baixando http://compras.dados.gov.br/materiais/id/material/0431108.json Erro=2
+2023-04-24 07:17:27 - Request_json - material - Status do download 502
+2023-04-24 07:17:27 - Request_json - material - 2023-04-24 07:17:27 - Baixando http://compras.dados.gov.br/materiais/id/material/0483293.json Erro=0
+2023-04-24 07:17:28 - Request_json - material - Status do download 502
+2023-04-24 07:17:28 - Request_json - material - 2023-04-24 07:17:28 - Baixando http://compras.dados.gov.br/materiais/id/material/0483293.json Erro=1
+2023-04-24 07:17:28 - Request_json - material - Status do download 502
+2023-04-24 07:17:28 - Request_json - material - 2023-04-24 07:17:28 - Baixando http://compras.dados.gov.br/materiais/id/material/0483293.json Erro=2
+2023-04-24 07:17:28 - Request_json - material - Status do download 502
+2023-04-24 07:17:51 - Request_json - material - 2023-04-24 07:17:51 - Baixando http://compras.dados.gov.br/materiais/id/material/0602089.json Erro=0
+2023-04-24 07:17:51 - Request_json - material - Status do download 502
+2023-04-24 07:17:51 - Request_json - material - 2023-04-24 07:17:51 - Baixando http://compras.dados.gov.br/materiais/id/material/0602089.json Erro=1
+2023-04-24 07:17:51 - Request_json - material - Status do download 502
+2023-04-24 07:17:51 - Request_json - material - 2023-04-24 07:17:51 - Baixando http://compras.dados.gov.br/materiais/id/material/0602089.json Erro=2
+2023-04-24 07:17:57 - Request_json - material - 2023-04-24 07:17:57 - Baixando http://compras.dados.gov.br/materiais/id/material/0480929.json Erro=0
+2023-04-24 07:17:57 - Request_json - material - Status do download 502
+2023-04-24 07:17:57 - Request_json - material - 2023-04-24 07:17:57 - Baixando http://compras.dados.gov.br/materiais/id/material/0480929.json Erro=1
+2023-04-24 07:17:57 - Request_json - material - Status do download 502
+2023-04-24 07:17:57 - Request_json - material - 2023-04-24 07:17:57 - Baixando http://compras.dados.gov.br/materiais/id/material/0480929.json Erro=2
+2023-04-24 07:17:58 - Request_json - material - Status do download 502
+2023-04-24 07:17:58 - Request_json - material - 2023-04-24 07:17:58 - Baixando http://compras.dados.gov.br/materiais/id/material/0480929.json Erro=0
+2023-04-24 07:17:58 - Request_json - material - Status do download 502
+2023-04-24 07:17:58 - Request_json - material - 2023-04-24 07:17:58 - Baixando http://compras.dados.gov.br/materiais/id/material/0480929.json Erro=1
+2023-04-24 07:17:58 - Request_json - material - Status do download 502
+2023-04-24 07:17:59 - Request_json - material - 2023-04-24 07:17:59 - Baixando http://compras.dados.gov.br/materiais/id/material/0480929.json Erro=2
+2023-04-24 07:17:59 - Request_json - material - Status do download 502
+2023-04-24 07:17:59 - Request_json - material - 2023-04-24 07:17:59 - Baixando http://compras.dados.gov.br/materiais/id/material/0478027.json Erro=0
+2023-04-24 07:17:59 - Request_json - material - Status do download 502
+2023-04-24 07:17:59 - Request_json - material - 2023-04-24 07:17:59 - Baixando http://compras.dados.gov.br/materiais/id/material/0478027.json Erro=1
+2023-04-24 07:18:00 - Request_json - material - Status do download 502
+2023-04-24 07:18:00 - Request_json - material - 2023-04-24 07:18:00 - Baixando http://compras.dados.gov.br/materiais/id/material/0478027.json Erro=2
+2023-04-24 07:18:00 - Request_json - material - Status do download 502
+2023-04-24 07:18:01 - Request_json - material - 2023-04-24 07:18:01 - Baixando http://compras.dados.gov.br/materiais/id/material/0473418.json Erro=0
+2023-04-24 07:18:01 - Request_json - material - Status do download 502
+2023-04-24 07:18:01 - Request_json - material - 2023-04-24 07:18:01 - Baixando http://compras.dados.gov.br/materiais/id/material/0473418.json Erro=1
+2023-04-24 07:18:01 - Request_json - material - Status do download 502
+2023-04-24 07:18:01 - Request_json - material - 2023-04-24 07:18:01 - Baixando http://compras.dados.gov.br/materiais/id/material/0473418.json Erro=2
+2023-04-24 07:18:02 - Request_json - material - Status do download 502
+2023-04-24 07:18:02 - Request_json - material - 2023-04-24 07:18:02 - Baixando http://compras.dados.gov.br/materiais/id/material/0477915.json Erro=0
+2023-04-24 07:18:03 - Request_json - material - Status do download 502
+2023-04-24 07:18:03 - Request_json - material - 2023-04-24 07:18:03 - Baixando http://compras.dados.gov.br/materiais/id/material/0477915.json Erro=1
+2023-04-24 07:18:03 - Request_json - material - Status do download 502
+2023-04-24 07:18:03 - Request_json - material - 2023-04-24 07:18:03 - Baixando http://compras.dados.gov.br/materiais/id/material/0477915.json Erro=2
+2023-04-24 07:18:03 - Request_json - material - Status do download 502
+2023-04-24 07:18:03 - Request_json - material - 2023-04-24 07:18:03 - Baixando http://compras.dados.gov.br/materiais/id/material/0473612.json Erro=0
+2023-04-24 07:18:04 - Request_json - material - Status do download 502
+2023-04-24 07:18:04 - Request_json - material - 2023-04-24 07:18:04 - Baixando http://compras.dados.gov.br/materiais/id/material/0473612.json Erro=1
+2023-04-24 07:18:04 - Request_json - material - Status do download 502
+2023-04-24 07:18:04 - Request_json - material - 2023-04-24 07:18:04 - Baixando http://compras.dados.gov.br/materiais/id/material/0473612.json Erro=2
+2023-04-24 07:18:05 - Request_json - material - Status do download 502
+2023-04-24 07:18:05 - Request_json - material - 2023-04-24 07:18:05 - Baixando http://compras.dados.gov.br/materiais/id/material/0473613.json Erro=0
+2023-04-24 07:18:05 - Request_json - material - Status do download 502
+2023-04-24 07:18:05 - Request_json - material - 2023-04-24 07:18:05 - Baixando http://compras.dados.gov.br/materiais/id/material/0473613.json Erro=1
+2023-04-24 07:18:05 - Request_json - material - Status do download 502
+2023-04-24 07:18:05 - Request_json - material - 2023-04-24 07:18:05 - Baixando http://compras.dados.gov.br/materiais/id/material/0473613.json Erro=2
+2023-04-24 07:18:06 - Request_json - material - Status do download 502
+2023-04-24 07:18:06 - Request_json - material - 2023-04-24 07:18:06 - Baixando http://compras.dados.gov.br/materiais/id/material/0474917.json Erro=0
+2023-04-24 07:18:06 - Request_json - material - Status do download 502
+2023-04-24 07:18:06 - Request_json - material - 2023-04-24 07:18:06 - Baixando http://compras.dados.gov.br/materiais/id/material/0474917.json Erro=1
+2023-04-24 07:18:11 - Request_json - material - 2023-04-24 07:18:11 - Baixando http://compras.dados.gov.br/materiais/id/material/0474917.json Erro=2
+2023-04-24 07:18:12 - Request_json - material - Status do download 502
+2023-04-24 07:18:12 - Request_json - material - 2023-04-24 07:18:12 - Baixando http://compras.dados.gov.br/materiais/id/material/0481451.json Erro=0
+2023-04-24 07:18:12 - Request_json - material - Status do download 502
+2023-04-24 07:18:12 - Request_json - material - 2023-04-24 07:18:12 - Baixando http://compras.dados.gov.br/materiais/id/material/0481451.json Erro=1
+2023-04-24 07:18:12 - Request_json - material - Status do download 502
+2023-04-24 07:18:12 - Request_json - material - 2023-04-24 07:18:12 - Baixando http://compras.dados.gov.br/materiais/id/material/0481451.json Erro=2
+2023-04-24 07:18:13 - Request_json - material - Status do download 502
+2023-04-24 07:18:20 - Request_json - material - 2023-04-24 07:18:20 - Baixando http://compras.dados.gov.br/materiais/id/material/0480927.json Erro=0
+2023-04-24 07:18:21 - Request_json - material - Status do download 502
+2023-04-24 07:18:21 - Request_json - material - 2023-04-24 07:18:21 - Baixando http://compras.dados.gov.br/materiais/id/material/0480927.json Erro=1
+2023-04-24 07:18:21 - Request_json - material - Status do download 502
+2023-04-24 07:18:21 - Request_json - material - 2023-04-24 07:18:21 - Baixando http://compras.dados.gov.br/materiais/id/material/0480927.json Erro=2
+2023-04-24 07:18:22 - Request_json - material - Status do download 502
+2023-04-24 07:18:22 - Request_json - material - 2023-04-24 07:18:22 - Baixando http://compras.dados.gov.br/materiais/id/material/0480927.json Erro=0
+2023-04-24 07:18:22 - Request_json - material - Status do download 502
+2023-04-24 07:18:22 - Request_json - material - 2023-04-24 07:18:22 - Baixando http://compras.dados.gov.br/materiais/id/material/0480927.json Erro=1
+2023-04-24 07:18:23 - Request_json - material - Status do download 502
+2023-04-24 07:18:23 - Request_json - material - 2023-04-24 07:18:23 - Baixando http://compras.dados.gov.br/materiais/id/material/0480927.json Erro=2
+2023-04-24 07:18:23 - Request_json - material - Status do download 502
+2023-04-24 07:18:23 - Request_json - material - 2023-04-24 07:18:23 - Baixando http://compras.dados.gov.br/materiais/id/material/0482854.json Erro=0
+2023-04-24 07:18:23 - Request_json - material - Status do download 502
+2023-04-24 07:18:23 - Request_json - material - 2023-04-24 07:18:23 - Baixando http://compras.dados.gov.br/materiais/id/material/0482854.json Erro=1
+2023-04-24 07:18:24 - Request_json - material - Status do download 502
+2023-04-24 07:18:24 - Request_json - material - 2023-04-24 07:18:24 - Baixando http://compras.dados.gov.br/materiais/id/material/0482854.json Erro=2
+2023-04-24 07:18:24 - Request_json - material - Status do download 502
+2023-04-24 07:18:24 - Request_json - material - 2023-04-24 07:18:24 - Baixando http://compras.dados.gov.br/materiais/id/material/0603333.json Erro=0
+2023-04-24 07:18:24 - Request_json - material - Status do download 502
+2023-04-24 07:18:24 - Request_json - material - 2023-04-24 07:18:24 - Baixando http://compras.dados.gov.br/materiais/id/material/0603333.json Erro=1
+2023-04-24 07:18:25 - Request_json - material - Status do download 502
+2023-04-24 07:18:25 - Request_json - material - 2023-04-24 07:18:25 - Baixando http://compras.dados.gov.br/materiais/id/material/0603333.json Erro=2
+2023-04-24 07:18:25 - Request_json - material - Status do download 502
+2023-04-24 07:18:25 - Request_json - material - 2023-04-24 07:18:25 - Baixando http://compras.dados.gov.br/materiais/id/material/0464804.json Erro=0
+2023-04-24 07:18:25 - Request_json - material - Status do download 502
+2023-04-24 07:18:25 - Request_json - material - 2023-04-24 07:18:25 - Baixando http://compras.dados.gov.br/materiais/id/material/0464804.json Erro=1
+2023-04-24 07:18:26 - Request_json - material - Status do download 502
+2023-04-24 07:18:26 - Request_json - material - 2023-04-24 07:18:26 - Baixando http://compras.dados.gov.br/materiais/id/material/0464804.json Erro=2
+2023-04-24 07:18:26 - Request_json - material - Status do download 502
+2023-04-24 07:18:26 - Request_json - material - 2023-04-24 07:18:26 - Baixando http://compras.dados.gov.br/materiais/id/material/0485814.json Erro=0
+2023-04-24 07:18:27 - Request_json - material - Status do download 502
+2023-04-24 07:18:27 - Request_json - material - 2023-04-24 07:18:27 - Baixando http://compras.dados.gov.br/materiais/id/material/0485814.json Erro=1
+2023-04-24 07:18:27 - Request_json - material - Status do download 502
+2023-04-24 07:18:27 - Request_json - material - 2023-04-24 07:18:27 - Baixando http://compras.dados.gov.br/materiais/id/material/0485814.json Erro=2
+2023-04-24 07:18:27 - Request_json - material - Status do download 502
+2023-04-24 07:18:27 - Request_json - material - 2023-04-24 07:18:27 - Baixando http://compras.dados.gov.br/materiais/id/material/0601912.json Erro=0
+2023-04-24 07:18:28 - Request_json - material - Status do download 502
+2023-04-24 07:18:28 - Request_json - material - 2023-04-24 07:18:28 - Baixando http://compras.dados.gov.br/materiais/id/material/0601912.json Erro=1
+2023-04-24 07:18:28 - Request_json - material - Status do download 502
+2023-04-24 07:18:28 - Request_json - material - 2023-04-24 07:18:28 - Baixando http://compras.dados.gov.br/materiais/id/material/0601912.json Erro=2
+2023-04-24 07:18:28 - Request_json - material - Status do download 502
+2023-04-24 07:18:28 - Request_json - material - 2023-04-24 07:18:28 - Baixando http://compras.dados.gov.br/materiais/id/material/0482908.json Erro=0
+2023-04-24 07:18:29 - Request_json - material - Status do download 502
+2023-04-24 07:18:29 - Request_json - material - 2023-04-24 07:18:29 - Baixando http://compras.dados.gov.br/materiais/id/material/0482908.json Erro=1
+2023-04-24 07:18:29 - Request_json - material - Status do download 502
+2023-04-24 07:18:29 - Request_json - material - 2023-04-24 07:18:29 - Baixando http://compras.dados.gov.br/materiais/id/material/0482908.json Erro=2
+2023-04-24 07:18:29 - Request_json - material - Status do download 502
+2023-04-24 07:18:29 - Request_json - material - 2023-04-24 07:18:29 - Baixando http://compras.dados.gov.br/materiais/id/material/0482908.json Erro=0
+2023-04-24 07:18:30 - Request_json - material - Status do download 502
+2023-04-24 07:18:30 - Request_json - material - 2023-04-24 07:18:30 - Baixando http://compras.dados.gov.br/materiais/id/material/0482908.json Erro=1
+2023-04-24 07:18:30 - Request_json - material - Status do download 502
+2023-04-24 07:18:30 - Request_json - material - 2023-04-24 07:18:30 - Baixando http://compras.dados.gov.br/materiais/id/material/0482908.json Erro=2
+2023-04-24 07:18:30 - Request_json - material - Status do download 502
+2023-04-24 07:18:30 - Request_json - material - 2023-04-24 07:18:30 - Baixando http://compras.dados.gov.br/materiais/id/material/0479058.json Erro=0
+2023-04-24 07:18:31 - Request_json - material - Status do download 502
+2023-04-24 07:18:31 - Request_json - material - 2023-04-24 07:18:31 - Baixando http://compras.dados.gov.br/materiais/id/material/0479058.json Erro=1
+2023-04-24 07:18:31 - Request_json - material - Status do download 502
+2023-04-24 07:18:31 - Request_json - material - 2023-04-24 07:18:31 - Baixando http://compras.dados.gov.br/materiais/id/material/0479058.json Erro=2
+2023-04-24 07:18:31 - Request_json - material - Status do download 502
+2023-04-24 07:19:47 - Request_json - material - 2023-04-24 07:19:47 - Baixando http://compras.dados.gov.br/materiais/id/material/0439805.json Erro=0
+2023-04-24 07:19:48 - Request_json - material - Status do download 502
+2023-04-24 07:19:48 - Request_json - material - 2023-04-24 07:19:48 - Baixando http://compras.dados.gov.br/materiais/id/material/0439805.json Erro=1
+2023-04-24 07:19:48 - Request_json - material - Status do download 502
+2023-04-24 07:19:48 - Request_json - material - 2023-04-24 07:19:48 - Baixando http://compras.dados.gov.br/materiais/id/material/0439805.json Erro=2
+2023-04-24 07:19:48 - Request_json - material - Status do download 502
+2023-04-24 07:19:48 - Request_json - material - 2023-04-24 07:19:48 - Baixando http://compras.dados.gov.br/materiais/id/material/0466444.json Erro=0
+2023-04-24 07:19:49 - Request_json - material - Status do download 502
+2023-04-24 07:19:49 - Request_json - material - 2023-04-24 07:19:49 - Baixando http://compras.dados.gov.br/materiais/id/material/0466444.json Erro=1
+2023-04-24 07:19:49 - Request_json - material - Status do download 502
+2023-04-24 07:19:49 - Request_json - material - 2023-04-24 07:19:49 - Baixando http://compras.dados.gov.br/materiais/id/material/0466444.json Erro=2
+2023-04-24 07:19:49 - Request_json - material - Status do download 502
+2023-04-24 07:19:50 - Request_json - material - 2023-04-24 07:19:50 - Baixando http://compras.dados.gov.br/materiais/id/material/0434398.json Erro=0
+2023-04-24 07:19:50 - Request_json - material - Status do download 502
+2023-04-24 07:19:50 - Request_json - material - 2023-04-24 07:19:50 - Baixando http://compras.dados.gov.br/materiais/id/material/0434398.json Erro=1
+2023-04-24 07:19:50 - Request_json - material - Status do download 502
+2023-04-24 07:19:50 - Request_json - material - 2023-04-24 07:19:50 - Baixando http://compras.dados.gov.br/materiais/id/material/0434398.json Erro=2
+2023-04-24 07:19:51 - Request_json - material - Status do download 502
+2023-04-24 07:19:51 - Request_json - material - 2023-04-24 07:19:51 - Baixando http://compras.dados.gov.br/materiais/id/material/0279764.json Erro=0
+2023-04-24 07:19:51 - Request_json - material - Status do download 502
+2023-04-24 07:19:51 - Request_json - material - 2023-04-24 07:19:51 - Baixando http://compras.dados.gov.br/materiais/id/material/0279764.json Erro=1
+2023-04-24 07:19:51 - Request_json - material - Status do download 502
+2023-04-24 07:19:51 - Request_json - material - 2023-04-24 07:19:51 - Baixando http://compras.dados.gov.br/materiais/id/material/0279764.json Erro=2
+2023-04-24 07:19:52 - Request_json - material - Status do download 502
+2023-04-24 07:19:52 - Request_json - material - 2023-04-24 07:19:52 - Baixando http://compras.dados.gov.br/materiais/id/material/0461302.json Erro=0
+2023-04-24 07:19:52 - Request_json - material - Status do download 502
+2023-04-24 07:19:52 - Request_json - material - 2023-04-24 07:19:52 - Baixando http://compras.dados.gov.br/materiais/id/material/0461302.json Erro=1
+2023-04-24 07:19:52 - Request_json - material - Status do download 502
+2023-04-24 07:19:52 - Request_json - material - 2023-04-24 07:19:52 - Baixando http://compras.dados.gov.br/materiais/id/material/0461302.json Erro=2
+2023-04-24 07:19:58 - Request_json - material - 2023-04-24 07:19:58 - Baixando http://compras.dados.gov.br/materiais/id/material/0461299.json Erro=0
+2023-04-24 07:19:58 - Request_json - material - Status do download 502
+2023-04-24 07:19:58 - Request_json - material - 2023-04-24 07:19:58 - Baixando http://compras.dados.gov.br/materiais/id/material/0461299.json Erro=1
+2023-04-24 07:19:59 - Request_json - material - Status do download 502
+2023-04-24 07:19:59 - Request_json - material - 2023-04-24 07:19:59 - Baixando http://compras.dados.gov.br/materiais/id/material/0461299.json Erro=2
+2023-04-24 07:19:59 - Request_json - material - Status do download 502
+2023-04-24 07:19:59 - Request_json - material - 2023-04-24 07:19:59 - Baixando http://compras.dados.gov.br/materiais/id/material/0461298.json Erro=0
+2023-04-24 07:19:59 - Request_json - material - Status do download 502
+2023-04-24 07:19:59 - Request_json - material - 2023-04-24 07:19:59 - Baixando http://compras.dados.gov.br/materiais/id/material/0461298.json Erro=1
+2023-04-24 07:20:00 - Request_json - material - Status do download 502
+2023-04-24 07:20:00 - Request_json - material - 2023-04-24 07:20:00 - Baixando http://compras.dados.gov.br/materiais/id/material/0461298.json Erro=2
+2023-04-24 07:20:00 - Request_json - material - Status do download 502
+2023-04-24 07:20:00 - Request_json - material - 2023-04-24 07:20:00 - Baixando http://compras.dados.gov.br/materiais/id/material/0461254.json Erro=0
+2023-04-24 07:20:00 - Request_json - material - Status do download 502
+2023-04-24 07:20:01 - Request_json - material - 2023-04-24 07:20:01 - Baixando http://compras.dados.gov.br/materiais/id/material/0461254.json Erro=1
+2023-04-24 07:20:01 - Request_json - material - Status do download 502
+2023-04-24 07:20:01 - Request_json - material - 2023-04-24 07:20:01 - Baixando http://compras.dados.gov.br/materiais/id/material/0461254.json Erro=2
+2023-04-24 07:20:01 - Request_json - material - Status do download 502
+2023-04-24 07:20:01 - Request_json - material - 2023-04-24 07:20:01 - Baixando http://compras.dados.gov.br/materiais/id/material/0461254.json Erro=0
+2023-04-24 07:20:07 - Request_json - material - 2023-04-24 07:20:07 - Baixando http://compras.dados.gov.br/materiais/id/material/0461254.json Erro=1
+2023-04-24 07:20:12 - Request_json - material - 2023-04-24 07:20:12 - Baixando http://compras.dados.gov.br/materiais/id/material/0461254.json Erro=2
+2023-04-24 07:20:17 - Request_json - material - 2023-04-24 07:20:17 - Baixando http://compras.dados.gov.br/materiais/id/material/0281874.json Erro=0
+2023-04-24 07:20:23 - Request_json - material - 2023-04-24 07:20:23 - Baixando http://compras.dados.gov.br/materiais/id/material/0281874.json Erro=1
+2023-04-24 07:20:23 - Request_json - material - Status do download 502
+2023-04-24 07:20:23 - Request_json - material - 2023-04-24 07:20:23 - Baixando http://compras.dados.gov.br/materiais/id/material/0281874.json Erro=2
+2023-04-24 07:20:24 - Request_json - material - Status do download 502
+2023-04-24 07:20:24 - Request_json - material - 2023-04-24 07:20:24 - Baixando http://compras.dados.gov.br/materiais/id/material/0475840.json Erro=0
+2023-04-24 07:20:24 - Request_json - material - Status do download 502
+2023-04-24 07:20:24 - Request_json - material - 2023-04-24 07:20:24 - Baixando http://compras.dados.gov.br/materiais/id/material/0475840.json Erro=1
+2023-04-24 07:20:24 - Request_json - material - Status do download 502
+2023-04-24 07:20:24 - Request_json - material - 2023-04-24 07:20:24 - Baixando http://compras.dados.gov.br/materiais/id/material/0475840.json Erro=2
+2023-04-24 07:20:25 - Request_json - material - Status do download 502
+2023-04-24 07:20:25 - Request_json - material - 2023-04-24 07:20:25 - Baixando http://compras.dados.gov.br/materiais/id/material/0475098.json Erro=0
+2023-04-24 07:20:25 - Request_json - material - Status do download 502
+2023-04-24 07:20:25 - Request_json - material - 2023-04-24 07:20:25 - Baixando http://compras.dados.gov.br/materiais/id/material/0475098.json Erro=1
+2023-04-24 07:20:25 - Request_json - material - Status do download 502
+2023-04-24 07:20:25 - Request_json - material - 2023-04-24 07:20:25 - Baixando http://compras.dados.gov.br/materiais/id/material/0475098.json Erro=2
+2023-04-24 07:20:26 - Request_json - material - Status do download 502
+2023-04-24 07:20:26 - Request_json - material - 2023-04-24 07:20:26 - Baixando http://compras.dados.gov.br/materiais/id/material/0389556.json Erro=0
+2023-04-24 07:20:26 - Request_json - material - Status do download 502
+2023-04-24 07:20:26 - Request_json - material - 2023-04-24 07:20:26 - Baixando http://compras.dados.gov.br/materiais/id/material/0389556.json Erro=1
+2023-04-24 07:20:27 - Request_json - material - Status do download 502
+2023-04-24 07:20:27 - Request_json - material - 2023-04-24 07:20:27 - Baixando http://compras.dados.gov.br/materiais/id/material/0389556.json Erro=2
+2023-04-24 07:20:32 - Request_json - material - 2023-04-24 07:20:32 - Baixando http://compras.dados.gov.br/materiais/id/material/0439662.json Erro=0
+2023-04-24 07:20:33 - Request_json - material - Status do download 502
+2023-04-24 07:20:33 - Request_json - material - 2023-04-24 07:20:33 - Baixando http://compras.dados.gov.br/materiais/id/material/0439662.json Erro=1
+2023-04-24 07:20:33 - Request_json - material - Status do download 502
+2023-04-24 07:20:33 - Request_json - material - 2023-04-24 07:20:33 - Baixando http://compras.dados.gov.br/materiais/id/material/0439662.json Erro=2
+2023-04-24 07:20:33 - Request_json - material - Status do download 502
+2023-04-24 07:20:33 - Request_json - material - 2023-04-24 07:20:33 - Baixando http://compras.dados.gov.br/materiais/id/material/0438409.json Erro=0
+2023-04-24 07:20:34 - Request_json - material - Status do download 502
+2023-04-24 07:20:34 - Request_json - material - 2023-04-24 07:20:34 - Baixando http://compras.dados.gov.br/materiais/id/material/0438409.json Erro=1
+2023-04-24 07:20:34 - Request_json - material - Status do download 502
+2023-04-24 07:20:34 - Request_json - material - 2023-04-24 07:20:34 - Baixando http://compras.dados.gov.br/materiais/id/material/0438409.json Erro=2
+2023-04-24 07:20:35 - Request_json - material - Status do download 502
+2023-04-24 07:20:54 - Request_json - material - 2023-04-24 07:20:54 - Baixando http://compras.dados.gov.br/materiais/id/material/0484659.json Erro=0
+2023-04-24 07:21:00 - Request_json - material - 2023-04-24 07:21:00 - Baixando http://compras.dados.gov.br/materiais/id/material/0484659.json Erro=1
+2023-04-24 07:21:00 - Request_json - material - Status do download 502
+2023-04-24 07:21:00 - Request_json - material - 2023-04-24 07:21:00 - Baixando http://compras.dados.gov.br/materiais/id/material/0484659.json Erro=2
+2023-04-24 07:21:00 - Request_json - material - Status do download 502
+2023-04-24 07:21:07 - Request_json - material - 2023-04-24 07:21:07 - Baixando http://compras.dados.gov.br/materiais/id/material/0437515.json Erro=0
+2023-04-24 07:21:07 - Request_json - material - Status do download 502
+2023-04-24 07:21:07 - Request_json - material - 2023-04-24 07:21:07 - Baixando http://compras.dados.gov.br/materiais/id/material/0437515.json Erro=1
+2023-04-24 07:21:07 - Request_json - material - Status do download 502
+2023-04-24 07:21:07 - Request_json - material - 2023-04-24 07:21:07 - Baixando http://compras.dados.gov.br/materiais/id/material/0437515.json Erro=2
+2023-04-24 07:21:13 - Request_json - material - 2023-04-24 07:21:13 - Baixando http://compras.dados.gov.br/materiais/id/material/0437515.json Erro=0
+2023-04-24 07:21:13 - Request_json - material - Status do download 502
+2023-04-24 07:21:13 - Request_json - material - 2023-04-24 07:21:13 - Baixando http://compras.dados.gov.br/materiais/id/material/0437515.json Erro=1
+2023-04-24 07:21:13 - Request_json - material - Status do download 502
+2023-04-24 07:21:13 - Request_json - material - 2023-04-24 07:21:13 - Baixando http://compras.dados.gov.br/materiais/id/material/0437515.json Erro=2
+2023-04-24 07:21:14 - Request_json - material - Status do download 502
+2023-04-24 07:21:14 - Request_json - material - 2023-04-24 07:21:14 - Baixando http://compras.dados.gov.br/materiais/id/material/0485165.json Erro=0
+2023-04-24 07:21:14 - Request_json - material - Status do download 502
+2023-04-24 07:21:14 - Request_json - material - 2023-04-24 07:21:14 - Baixando http://compras.dados.gov.br/materiais/id/material/0485165.json Erro=1
+2023-04-24 07:21:14 - Request_json - material - Status do download 502
+2023-04-24 07:21:14 - Request_json - material - 2023-04-24 07:21:14 - Baixando http://compras.dados.gov.br/materiais/id/material/0485165.json Erro=2
+2023-04-24 07:21:15 - Request_json - material - Status do download 502
+2023-04-24 07:21:15 - Request_json - material - 2023-04-24 07:21:15 - Baixando http://compras.dados.gov.br/materiais/id/material/0478500.json Erro=0
+2023-04-24 07:21:15 - Request_json - material - Status do download 502
+2023-04-24 07:21:15 - Request_json - material - 2023-04-24 07:21:15 - Baixando http://compras.dados.gov.br/materiais/id/material/0478500.json Erro=1
+2023-04-24 07:21:15 - Request_json - material - Status do download 502
+2023-04-24 07:21:15 - Request_json - material - 2023-04-24 07:21:15 - Baixando http://compras.dados.gov.br/materiais/id/material/0478500.json Erro=2
+2023-04-24 07:21:21 - Request_json - material - 2023-04-24 07:21:21 - Baixando http://compras.dados.gov.br/materiais/id/material/0478501.json Erro=0
+2023-04-24 07:21:21 - Request_json - material - Status do download 502
+2023-04-24 07:21:21 - Request_json - material - 2023-04-24 07:21:21 - Baixando http://compras.dados.gov.br/materiais/id/material/0478501.json Erro=1
+2023-04-24 07:21:22 - Request_json - material - Status do download 502
+2023-04-24 07:21:22 - Request_json - material - 2023-04-24 07:21:22 - Baixando http://compras.dados.gov.br/materiais/id/material/0478501.json Erro=2
+2023-04-24 07:21:22 - Request_json - material - Status do download 502
+2023-04-24 07:21:22 - Request_json - material - 2023-04-24 07:21:22 - Baixando http://compras.dados.gov.br/materiais/id/material/0477476.json Erro=0
+2023-04-24 07:21:22 - Request_json - material - Status do download 502
+2023-04-24 07:21:22 - Request_json - material - 2023-04-24 07:21:22 - Baixando http://compras.dados.gov.br/materiais/id/material/0477476.json Erro=1
+2023-04-24 07:21:22 - Request_json - material - Status do download 502
+2023-04-24 07:21:22 - Request_json - material - 2023-04-24 07:21:22 - Baixando http://compras.dados.gov.br/materiais/id/material/0477476.json Erro=2
+2023-04-24 07:21:23 - Request_json - material - Status do download 502
+2023-04-24 07:21:23 - Request_json - material - 2023-04-24 07:21:23 - Baixando http://compras.dados.gov.br/materiais/id/material/0387602.json Erro=0
+2023-04-24 07:21:23 - Request_json - material - Status do download 502
+2023-04-24 07:21:23 - Request_json - material - 2023-04-24 07:21:23 - Baixando http://compras.dados.gov.br/materiais/id/material/0387602.json Erro=1
+2023-04-24 07:21:23 - Request_json - material - Status do download 502
+2023-04-24 07:21:23 - Request_json - material - 2023-04-24 07:21:23 - Baixando http://compras.dados.gov.br/materiais/id/material/0387602.json Erro=2
+2023-04-24 07:21:24 - Request_json - material - Status do download 502
+2023-04-24 07:21:24 - Request_json - material - 2023-04-24 07:21:24 - Baixando http://compras.dados.gov.br/materiais/id/material/0472723.json Erro=0
+2023-04-24 07:21:24 - Request_json - material - Status do download 502
+2023-04-24 07:21:24 - Request_json - material - 2023-04-24 07:21:24 - Baixando http://compras.dados.gov.br/materiais/id/material/0472723.json Erro=1
+2023-04-24 07:21:25 - Request_json - material - Status do download 502
+2023-04-24 07:21:25 - Request_json - material - 2023-04-24 07:21:25 - Baixando http://compras.dados.gov.br/materiais/id/material/0472723.json Erro=2
+2023-04-24 07:21:25 - Request_json - material - Status do download 502
+2023-04-24 07:21:31 - Request_json - material - 2023-04-24 07:21:31 - Baixando http://compras.dados.gov.br/materiais/id/material/0481982.json Erro=0
+2023-04-24 07:21:32 - Request_json - material - Status do download 502
+2023-04-24 07:21:32 - Request_json - material - 2023-04-24 07:21:32 - Baixando http://compras.dados.gov.br/materiais/id/material/0481982.json Erro=1
+2023-04-24 07:21:32 - Request_json - material - Status do download 502
+2023-04-24 07:21:32 - Request_json - material - 2023-04-24 07:21:32 - Baixando http://compras.dados.gov.br/materiais/id/material/0481982.json Erro=2
+2023-04-24 07:21:32 - Request_json - material - Status do download 502
+2023-04-24 07:21:39 - Request_json - material - 2023-04-24 07:21:39 - Baixando http://compras.dados.gov.br/materiais/id/material/0481982.json Erro=0
+2023-04-24 07:21:39 - Request_json - material - Status do download 502
+2023-04-24 07:21:39 - Request_json - material - 2023-04-24 07:21:39 - Baixando http://compras.dados.gov.br/materiais/id/material/0481982.json Erro=1
+2023-04-24 07:21:40 - Request_json - material - Status do download 502
+2023-04-24 07:21:40 - Request_json - material - 2023-04-24 07:21:40 - Baixando http://compras.dados.gov.br/materiais/id/material/0481982.json Erro=2
+2023-04-24 07:21:40 - Request_json - material - Status do download 502
+2023-04-24 07:22:13 - Request_json - material - 2023-04-24 07:22:13 - Baixando http://compras.dados.gov.br/materiais/id/material/0482247.json Erro=0
+2023-04-24 07:22:13 - Request_json - material - Status do download 502
+2023-04-24 07:22:13 - Request_json - material - 2023-04-24 07:22:13 - Baixando http://compras.dados.gov.br/materiais/id/material/0482247.json Erro=1
+2023-04-24 07:22:14 - Request_json - material - Status do download 502
+2023-04-24 07:22:14 - Request_json - material - 2023-04-24 07:22:14 - Baixando http://compras.dados.gov.br/materiais/id/material/0482247.json Erro=2
+2023-04-24 07:22:14 - Request_json - material - Status do download 502
+2023-04-24 07:23:09 - Request_json - material - 2023-04-24 07:23:09 - Baixando http://compras.dados.gov.br/materiais/id/material/0481354.json Erro=0
+2023-04-24 07:23:15 - Request_json - material - 2023-04-24 07:23:15 - Baixando http://compras.dados.gov.br/materiais/id/material/0481354.json Erro=1
+2023-04-24 07:23:15 - Request_json - material - Status do download 502
+2023-04-24 07:23:15 - Request_json - material - 2023-04-24 07:23:15 - Baixando http://compras.dados.gov.br/materiais/id/material/0481354.json Erro=2
+2023-04-24 07:23:15 - Request_json - material - Status do download 502
+2023-04-24 07:23:22 - Request_json - material - 2023-04-24 07:23:22 - Baixando http://compras.dados.gov.br/materiais/id/material/0481354.json Erro=0
+2023-04-24 07:23:23 - Request_json - material - Status do download 502
+2023-04-24 07:23:23 - Request_json - material - 2023-04-24 07:23:23 - Baixando http://compras.dados.gov.br/materiais/id/material/0481354.json Erro=1
+2023-04-24 07:23:23 - Request_json - material - Status do download 502
+2023-04-24 07:23:23 - Request_json - material - 2023-04-24 07:23:23 - Baixando http://compras.dados.gov.br/materiais/id/material/0481354.json Erro=2
+2023-04-24 07:23:24 - Request_json - material - Status do download 502
+2023-04-24 07:23:47 - Request_json - material - 2023-04-24 07:23:47 - Baixando http://compras.dados.gov.br/materiais/id/material/0479196.json Erro=0
+2023-04-24 07:23:53 - Request_json - material - 2023-04-24 07:23:53 - Baixando http://compras.dados.gov.br/materiais/id/material/0479196.json Erro=1
+2023-04-24 07:23:58 - Request_json - material - 2023-04-24 07:23:58 - Baixando http://compras.dados.gov.br/materiais/id/material/0479196.json Erro=2
+2023-04-24 07:23:58 - Request_json - material - Status do download 502
+2023-04-24 07:23:58 - Request_json - material - 2023-04-24 07:23:58 - Baixando http://compras.dados.gov.br/materiais/id/material/0479196.json Erro=0
+2023-04-24 07:23:59 - Request_json - material - Status do download 502
+2023-04-24 07:23:59 - Request_json - material - 2023-04-24 07:23:59 - Baixando http://compras.dados.gov.br/materiais/id/material/0479196.json Erro=1
+2023-04-24 07:23:59 - Request_json - material - Status do download 502
+2023-04-24 07:23:59 - Request_json - material - 2023-04-24 07:23:59 - Baixando http://compras.dados.gov.br/materiais/id/material/0479196.json Erro=2
+2023-04-24 07:23:59 - Request_json - material - Status do download 502
+2023-04-24 07:24:00 - Request_json - material - 2023-04-24 07:24:00 - Baixando http://compras.dados.gov.br/materiais/id/material/0281657.json Erro=0
+2023-04-24 07:24:00 - Request_json - material - Status do download 502
+2023-04-24 07:24:00 - Request_json - material - 2023-04-24 07:24:00 - Baixando http://compras.dados.gov.br/materiais/id/material/0281657.json Erro=1
+2023-04-24 07:24:00 - Request_json - material - Status do download 502
+2023-04-24 07:24:00 - Request_json - material - 2023-04-24 07:24:00 - Baixando http://compras.dados.gov.br/materiais/id/material/0281657.json Erro=2
+2023-04-24 07:24:01 - Request_json - material - Status do download 502
+2023-04-24 07:24:01 - Request_json - material - 2023-04-24 07:24:01 - Baixando http://compras.dados.gov.br/materiais/id/material/0279764.json Erro=0
+2023-04-24 07:24:01 - Request_json - material - Status do download 502
+2023-04-24 07:24:01 - Request_json - material - 2023-04-24 07:24:01 - Baixando http://compras.dados.gov.br/materiais/id/material/0279764.json Erro=1
+2023-04-24 07:24:07 - Request_json - material - 2023-04-24 07:24:07 - Baixando http://compras.dados.gov.br/materiais/id/material/0279764.json Erro=2
+2023-04-24 07:24:12 - Request_json - material - 2023-04-24 07:24:12 - Baixando http://compras.dados.gov.br/materiais/id/material/0269587.json Erro=0
+2023-04-24 07:24:13 - Request_json - material - Status do download 502
+2023-04-24 07:24:13 - Request_json - material - 2023-04-24 07:24:13 - Baixando http://compras.dados.gov.br/materiais/id/material/0269587.json Erro=1
+2023-04-24 07:24:13 - Request_json - material - Status do download 502
+2023-04-24 07:24:13 - Request_json - material - 2023-04-24 07:24:13 - Baixando http://compras.dados.gov.br/materiais/id/material/0269587.json Erro=2
+2023-04-24 07:24:13 - Request_json - material - Status do download 502
+2023-04-24 07:24:13 - Request_json - material - 2023-04-24 07:24:13 - Baixando http://compras.dados.gov.br/materiais/id/material/0484782.json Erro=0
+2023-04-24 07:24:14 - Request_json - material - Status do download 502
+2023-04-24 07:24:14 - Request_json - material - 2023-04-24 07:24:14 - Baixando http://compras.dados.gov.br/materiais/id/material/0484782.json Erro=1
+2023-04-24 07:24:14 - Request_json - material - Status do download 502
+2023-04-24 07:24:14 - Request_json - material - 2023-04-24 07:24:14 - Baixando http://compras.dados.gov.br/materiais/id/material/0484782.json Erro=2
+2023-04-24 07:24:14 - Request_json - material - Status do download 502
+2023-04-24 07:24:59 - Request_json - material - 2023-04-24 07:24:59 - Baixando http://compras.dados.gov.br/materiais/id/material/0461298.json Erro=0
+2023-04-24 07:24:59 - Request_json - material - Status do download 502
+2023-04-24 07:24:59 - Request_json - material - 2023-04-24 07:24:59 - Baixando http://compras.dados.gov.br/materiais/id/material/0461298.json Erro=1
+2023-04-24 07:25:00 - Request_json - material - Status do download 502
+2023-04-24 07:25:00 - Request_json - material - 2023-04-24 07:25:00 - Baixando http://compras.dados.gov.br/materiais/id/material/0461298.json Erro=2
+2023-04-24 07:25:00 - Request_json - material - Status do download 502
+2023-04-24 07:25:11 - Request_json - material - 2023-04-24 07:25:11 - Baixando http://compras.dados.gov.br/materiais/id/material/0461299.json Erro=0
+2023-04-24 07:25:12 - Request_json - material - Status do download 502
+2023-04-24 07:25:13 - Request_json - material - 2023-04-24 07:25:13 - Baixando http://compras.dados.gov.br/materiais/id/material/0461299.json Erro=1
+2023-04-24 07:25:13 - Request_json - material - Status do download 502
+2023-04-24 07:25:13 - Request_json - material - 2023-04-24 07:25:13 - Baixando http://compras.dados.gov.br/materiais/id/material/0461299.json Erro=2
+2023-04-24 07:25:14 - Request_json - material - Status do download 502
+2023-04-24 07:25:24 - Request_json - material - 2023-04-24 07:25:24 - Baixando http://compras.dados.gov.br/materiais/id/material/0437860.json Erro=0
+2023-04-24 07:25:31 - Request_json - material - Status do download 502
+2023-04-24 07:25:31 - Request_json - material - 2023-04-24 07:25:31 - Baixando http://compras.dados.gov.br/materiais/id/material/0437860.json Erro=1
+2023-04-24 07:25:37 - Request_json - material - 2023-04-24 07:25:37 - Baixando http://compras.dados.gov.br/materiais/id/material/0437860.json Erro=2
+2023-04-24 07:25:42 - Request_json - material - 2023-04-24 07:25:42 - Baixando http://compras.dados.gov.br/materiais/id/material/0479754.json Erro=0
+2023-04-24 07:25:44 - Request_json - material - Status do download 502
+2023-04-24 07:25:44 - Request_json - material - 2023-04-24 07:25:44 - Baixando http://compras.dados.gov.br/materiais/id/material/0479754.json Erro=1
+2023-04-24 07:25:45 - Request_json - material - Status do download 502
+2023-04-24 07:25:45 - Request_json - material - 2023-04-24 07:25:45 - Baixando http://compras.dados.gov.br/materiais/id/material/0479754.json Erro=2
+2023-04-24 07:25:46 - Request_json - material - Status do download 502
+2023-04-24 07:25:47 - Request_json - material - 2023-04-24 07:25:47 - Baixando http://compras.dados.gov.br/materiais/id/material/0479758.json Erro=0
+2023-04-24 07:25:55 - Request_json - material - 2023-04-24 07:25:55 - Baixando http://compras.dados.gov.br/materiais/id/material/0479758.json Erro=1
+2023-04-24 07:26:00 - Request_json - material - 2023-04-24 07:26:00 - Baixando http://compras.dados.gov.br/materiais/id/material/0479758.json Erro=2
+2023-04-24 07:26:05 - Request_json - material - Status do download 502
+2023-04-24 07:26:14 - Request_json - material - 2023-04-24 07:26:14 - Baixando http://compras.dados.gov.br/materiais/id/material/0487664.json Erro=0
+2023-04-24 07:26:15 - Request_json - material - Status do download 502
+2023-04-24 07:26:15 - Request_json - material - 2023-04-24 07:26:15 - Baixando http://compras.dados.gov.br/materiais/id/material/0487664.json Erro=1
+2023-04-24 07:26:22 - Request_json - material - 2023-04-24 07:26:22 - Baixando http://compras.dados.gov.br/materiais/id/material/0487664.json Erro=2
+2023-04-24 07:26:22 - Request_json - material - Status do download 502
+2023-04-24 07:26:22 - Request_json - material - 2023-04-24 07:26:22 - Baixando http://compras.dados.gov.br/materiais/id/material/0428628.json Erro=0
+2023-04-24 07:26:23 - Request_json - material - Status do download 502
+2023-04-24 07:26:23 - Request_json - material - 2023-04-24 07:26:23 - Baixando http://compras.dados.gov.br/materiais/id/material/0428628.json Erro=1
+2023-04-24 07:26:23 - Request_json - material - Status do download 502
+2023-04-24 07:26:23 - Request_json - material - 2023-04-24 07:26:23 - Baixando http://compras.dados.gov.br/materiais/id/material/0428628.json Erro=2
+2023-04-24 07:26:24 - Request_json - material - Status do download 502
+2023-04-24 07:26:34 - Request_json - material - 2023-04-24 07:26:34 - Baixando http://compras.dados.gov.br/materiais/id/material/0385798.json Erro=0
+2023-04-24 07:26:39 - Request_json - material - 2023-04-24 07:26:39 - Baixando http://compras.dados.gov.br/materiais/id/material/0385798.json Erro=1
+2023-04-24 07:26:39 - Request_json - material - Status do download 502
+2023-04-24 07:26:39 - Request_json - material - 2023-04-24 07:26:39 - Baixando http://compras.dados.gov.br/materiais/id/material/0385798.json Erro=2
+2023-04-24 07:26:43 - Request_json - material - Status do download 502
+2023-04-24 07:26:43 - Request_json - material - 2023-04-24 07:26:43 - Baixando http://compras.dados.gov.br/materiais/id/material/0439662.json Erro=0
+2023-04-24 07:26:45 - Request_json - material - Status do download 502
+2023-04-24 07:26:45 - Request_json - material - 2023-04-24 07:26:45 - Baixando http://compras.dados.gov.br/materiais/id/material/0439662.json Erro=1
+2023-04-24 07:26:45 - Request_json - material - Status do download 502
+2023-04-24 07:26:45 - Request_json - material - 2023-04-24 07:26:45 - Baixando http://compras.dados.gov.br/materiais/id/material/0439662.json Erro=2
+2023-04-24 07:26:50 - Request_json - material - 2023-04-24 07:26:50 - Baixando http://compras.dados.gov.br/materiais/id/material/0438409.json Erro=0
+2023-04-24 07:26:53 - Request_json - material - Status do download 502
+2023-04-24 07:26:54 - Request_json - material - 2023-04-24 07:26:54 - Baixando http://compras.dados.gov.br/materiais/id/material/0438409.json Erro=1
+2023-04-24 07:26:54 - Request_json - material - Status do download 502
+2023-04-24 07:26:54 - Request_json - material - 2023-04-24 07:26:54 - Baixando http://compras.dados.gov.br/materiais/id/material/0438409.json Erro=2
+2023-04-24 07:26:56 - Request_json - material - Status do download 502
+2023-04-24 07:28:00 - Request_json - material - 2023-04-24 07:28:00 - Baixando http://compras.dados.gov.br/materiais/id/material/0460206.json Erro=0
+2023-04-24 07:28:00 - Request_json - material - Status do download 502
+2023-04-24 07:28:00 - Request_json - material - 2023-04-24 07:28:00 - Baixando http://compras.dados.gov.br/materiais/id/material/0460206.json Erro=1
+2023-04-24 07:28:01 - Request_json - material - Status do download 502
+2023-04-24 07:28:01 - Request_json - material - 2023-04-24 07:28:01 - Baixando http://compras.dados.gov.br/materiais/id/material/0460206.json Erro=2
+2023-04-24 07:28:01 - Request_json - material - Status do download 502
+2023-04-24 07:28:01 - Request_json - material - 2023-04-24 07:28:01 - Baixando http://compras.dados.gov.br/materiais/id/material/0478756.json Erro=0
+2023-04-24 07:28:01 - Request_json - material - Status do download 502
+2023-04-24 07:28:02 - Request_json - material - 2023-04-24 07:28:02 - Baixando http://compras.dados.gov.br/materiais/id/material/0478756.json Erro=1
+2023-04-24 07:28:04 - Request_json - material - Status do download 502
+2023-04-24 07:28:04 - Request_json - material - 2023-04-24 07:28:04 - Baixando http://compras.dados.gov.br/materiais/id/material/0478756.json Erro=2
+2023-04-24 07:28:07 - Request_json - material - Status do download 502
+2023-04-24 07:28:08 - Request_json - material - 2023-04-24 07:28:08 - Baixando http://compras.dados.gov.br/materiais/id/material/0410738.json Erro=0
+2023-04-24 07:28:08 - Request_json - material - Status do download 502
+2023-04-24 07:28:08 - Request_json - material - 2023-04-24 07:28:08 - Baixando http://compras.dados.gov.br/materiais/id/material/0410738.json Erro=1
+2023-04-24 07:28:09 - Request_json - material - Status do download 502
+2023-04-24 07:28:09 - Request_json - material - 2023-04-24 07:28:09 - Baixando http://compras.dados.gov.br/materiais/id/material/0410738.json Erro=2
+2023-04-24 07:28:10 - Request_json - material - Status do download 502
+2023-04-24 07:28:12 - Request_json - material - 2023-04-24 07:28:12 - Baixando http://compras.dados.gov.br/materiais/id/material/0480142.json Erro=0
+2023-04-24 07:28:19 - Request_json - material - 2023-04-24 07:28:19 - Baixando http://compras.dados.gov.br/materiais/id/material/0480142.json Erro=1
+2023-04-24 07:28:20 - Request_json - material - Status do download 502
+2023-04-24 07:28:20 - Request_json - material - 2023-04-24 07:28:20 - Baixando http://compras.dados.gov.br/materiais/id/material/0480142.json Erro=2
+2023-04-24 07:28:21 - Request_json - material - Status do download 502
+2023-04-24 07:28:24 - Request_json - material - 2023-04-24 07:28:24 - Baixando http://compras.dados.gov.br/materiais/id/material/0486320.json Erro=0
+2023-04-24 07:28:25 - Request_json - material - Status do download 502
+2023-04-24 07:28:25 - Request_json - material - 2023-04-24 07:28:25 - Baixando http://compras.dados.gov.br/materiais/id/material/0486320.json Erro=1
+2023-04-24 07:28:25 - Request_json - material - Status do download 502
+2023-04-24 07:28:25 - Request_json - material - 2023-04-24 07:28:25 - Baixando http://compras.dados.gov.br/materiais/id/material/0486320.json Erro=2
+2023-04-24 07:28:26 - Request_json - material - Status do download 502
+2023-04-24 07:28:27 - Request_json - material - 2023-04-24 07:28:27 - Baixando http://compras.dados.gov.br/materiais/id/material/0486320.json Erro=0
+2023-04-24 07:28:29 - Request_json - material - Status do download 502
+2023-04-24 07:28:29 - Request_json - material - 2023-04-24 07:28:29 - Baixando http://compras.dados.gov.br/materiais/id/material/0486320.json Erro=1
+2023-04-24 07:28:32 - Request_json - material - Status do download 502
+2023-04-24 07:28:32 - Request_json - material - 2023-04-24 07:28:32 - Baixando http://compras.dados.gov.br/materiais/id/material/0486320.json Erro=2
+2023-04-24 07:28:35 - Request_json - material - Status do download 502
+2023-04-24 07:28:35 - Request_json - material - 2023-04-24 07:28:35 - Baixando http://compras.dados.gov.br/materiais/id/material/0486320.json Erro=0
+2023-04-24 07:28:35 - Request_json - material - Status do download 502
+2023-04-24 07:28:35 - Request_json - material - 2023-04-24 07:28:35 - Baixando http://compras.dados.gov.br/materiais/id/material/0486320.json Erro=1
+2023-04-24 07:28:36 - Request_json - material - Status do download 502
+2023-04-24 07:28:36 - Request_json - material - 2023-04-24 07:28:36 - Baixando http://compras.dados.gov.br/materiais/id/material/0486320.json Erro=2
+2023-04-24 07:28:37 - Request_json - material - Status do download 502
+2023-04-24 07:28:38 - Request_json - material - 2023-04-24 07:28:38 - Baixando http://compras.dados.gov.br/materiais/id/material/0486320.json Erro=0
+2023-04-24 07:28:39 - Request_json - material - Status do download 502
+2023-04-24 07:28:39 - Request_json - material - 2023-04-24 07:28:39 - Baixando http://compras.dados.gov.br/materiais/id/material/0486320.json Erro=1
+2023-04-24 07:28:41 - Request_json - material - Status do download 502
+2023-04-24 07:28:41 - Request_json - material - 2023-04-24 07:28:41 - Baixando http://compras.dados.gov.br/materiais/id/material/0486320.json Erro=2
+2023-04-24 07:28:42 - Request_json - material - Status do download 502
+2023-04-24 07:28:42 - Request_json - material - 2023-04-24 07:28:42 - Baixando http://compras.dados.gov.br/materiais/id/material/0601503.json Erro=0
+2023-04-24 07:28:42 - Request_json - material - Status do download 502
+2023-04-24 07:28:42 - Request_json - material - 2023-04-24 07:28:42 - Baixando http://compras.dados.gov.br/materiais/id/material/0601503.json Erro=1
+2023-04-24 07:28:44 - Request_json - material - Status do download 502
+2023-04-24 07:28:44 - Request_json - material - 2023-04-24 07:28:44 - Baixando http://compras.dados.gov.br/materiais/id/material/0601503.json Erro=2
+2023-04-24 07:28:45 - Request_json - material - Status do download 502
+2023-04-24 07:28:45 - Request_json - material - 2023-04-24 07:28:45 - Baixando http://compras.dados.gov.br/materiais/id/material/0383835.json Erro=0
+2023-04-24 07:28:51 - Request_json - material - 2023-04-24 07:28:51 - Baixando http://compras.dados.gov.br/materiais/id/material/0383835.json Erro=1
+2023-04-24 07:28:52 - Request_json - material - Status do download 502
+2023-04-24 07:28:52 - Request_json - material - 2023-04-24 07:28:52 - Baixando http://compras.dados.gov.br/materiais/id/material/0383835.json Erro=2
+2023-04-24 07:28:52 - Request_json - material - Status do download 502
+2023-04-24 07:28:53 - Request_json - material - 2023-04-24 07:28:53 - Baixando http://compras.dados.gov.br/materiais/id/material/0438836.json Erro=0
+2023-04-24 07:28:53 - Request_json - material - Status do download 502
+2023-04-24 07:28:53 - Request_json - material - 2023-04-24 07:28:53 - Baixando http://compras.dados.gov.br/materiais/id/material/0438836.json Erro=1
+2023-04-24 07:28:54 - Request_json - material - Status do download 502
+2023-04-24 07:28:54 - Request_json - material - 2023-04-24 07:28:54 - Baixando http://compras.dados.gov.br/materiais/id/material/0438836.json Erro=2
+2023-04-24 07:28:59 - Request_json - material - 2023-04-24 07:28:59 - Baixando http://compras.dados.gov.br/materiais/id/material/0438836.json Erro=0
+2023-04-24 07:29:01 - Request_json - material - Status do download 502
+2023-04-24 07:29:01 - Request_json - material - 2023-04-24 07:29:01 - Baixando http://compras.dados.gov.br/materiais/id/material/0438836.json Erro=1
+2023-04-24 07:29:05 - Request_json - material - Status do download 502
+2023-04-24 07:29:05 - Request_json - material - 2023-04-24 07:29:05 - Baixando http://compras.dados.gov.br/materiais/id/material/0438836.json Erro=2
+2023-04-24 07:29:06 - Request_json - material - Status do download 502
+2023-04-24 07:29:06 - Request_json - material - 2023-04-24 07:29:06 - Baixando http://compras.dados.gov.br/materiais/id/material/0399772.json Erro=0
+2023-04-24 07:29:07 - Request_json - material - Status do download 502
+2023-04-24 07:29:07 - Request_json - material - 2023-04-24 07:29:07 - Baixando http://compras.dados.gov.br/materiais/id/material/0399772.json Erro=1
+2023-04-24 07:29:07 - Request_json - material - Status do download 502
+2023-04-24 07:29:07 - Request_json - material - 2023-04-24 07:29:07 - Baixando http://compras.dados.gov.br/materiais/id/material/0399772.json Erro=2
+2023-04-24 07:29:08 - Request_json - material - Status do download 502
+2023-04-24 07:29:08 - Request_json - material - 2023-04-24 07:29:08 - Baixando http://compras.dados.gov.br/materiais/id/material/0400769.json Erro=0
+2023-04-24 07:29:09 - Request_json - material - Status do download 502
+2023-04-24 07:29:09 - Request_json - material - 2023-04-24 07:29:09 - Baixando http://compras.dados.gov.br/materiais/id/material/0400769.json Erro=1
+2023-04-24 07:29:10 - Request_json - material - Status do download 502
+2023-04-24 07:29:10 - Request_json - material - 2023-04-24 07:29:10 - Baixando http://compras.dados.gov.br/materiais/id/material/0400769.json Erro=2
+2023-04-24 07:29:10 - Request_json - material - Status do download 502
+2023-04-24 07:29:11 - Request_json - material - 2023-04-24 07:29:11 - Baixando http://compras.dados.gov.br/materiais/id/material/0429214.json Erro=0
+2023-04-24 07:29:12 - Request_json - material - Status do download 502
+2023-04-24 07:29:12 - Request_json - material - 2023-04-24 07:29:12 - Baixando http://compras.dados.gov.br/materiais/id/material/0429214.json Erro=1
+2023-04-24 07:29:13 - Request_json - material - Status do download 502
+2023-04-24 07:29:13 - Request_json - material - 2023-04-24 07:29:13 - Baixando http://compras.dados.gov.br/materiais/id/material/0429214.json Erro=2
+2023-04-24 07:29:15 - Request_json - material - Status do download 502
