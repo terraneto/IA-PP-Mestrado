@@ -45,8 +45,8 @@ menta;
 • Levantar as técnicas, métodos e boas práticas mais recentes utilizados na detecções de
 fraudes em compras;
 
-• Treinar e utilizar um modelo de Inteligência Artificial na estimativa de preços e detecção
-de sobrepreço nas contratações de TI do banco de dados preparado;
+• Treinar e utilizar um modelo de Inteligência Artificial na detecção
+de sobrepreço nas contratações do banco de dados preparado;
 
 • Prover uma ferramenta de avaliação de indícios de sobrepreços para uso efetivo no Senado
 Federal;
@@ -57,7 +57,17 @@ Federal;
 
 ## Estrutura do Repositório
 
-[Setembro-2022](Setembro-2022/setembro.md)
+[Novembro-2022](Novembro-2022/novembro.md)
+[PesqPrecos]
+classes.csv
+comprasContratos.csv
+grupos.csv
+itens.csv
+itensLicitacao.csv
+licitacoes.csv
+materiais.csv
+pdms.csv
+uasgs.csv
 
 ## Relatório de pesquisa do Mestrado Profissional em Poder Legislativo da Câmara dos Deputados
 
