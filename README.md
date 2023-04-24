@@ -58,8 +58,11 @@ Federal;
 ## Estrutura do Repositório
 
 [Novembro-2022](Novembro-2022/novembro.md)
-[PesqPrecos]
-[classes.csv]
+
+[PesqPrecos](Pesqprecos)
+
+[classes.csv](Repositório de classes)
+
 [comprasContratos.csv]
 [grupos.csv]
 [itens.csv]
