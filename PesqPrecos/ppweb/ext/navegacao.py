@@ -1,5 +1,9 @@
+import collections.abc
+import collections
+collections.MutableMapping = collections.abc.MutableMapping
 from flask_nav import Nav
 from flask_nav.elements import Navbar, View, Subgroup, Text, Separator
+
 
 # , Link
 

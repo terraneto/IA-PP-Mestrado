@@ -412,7 +412,7 @@ def create_itenslicitacao_from_dataframe(df):
             itemlicitacao.descricao_item = df_licitacao['descricao_item']
             itemlicitacao.sustentavel = df_licitacao['sustentavel']
             itemlicitacao.quantidade = df_licitacao['quantidade']
-            itemlicitacao.unidade = df_licitacao['unidade']
+            itemlicitacao.unidade = df_licitacao['unidade'].title()
             itemlicitacao.cnpj_fornecedor = df_licitacao['cnpj_fornecedor']
             itemlicitacao.cpfVencedor = df_licitacao['cpfVencedor']
             itemlicitacao.beneficio = df_licitacao['beneficio']
@@ -449,8 +449,8 @@ def create_itensprecospraticados_from_dataframe(df):
             itemprecopraticado.codigo_item_servico = df_licitacao['codigo_item_servico']
             itemprecopraticado.codigo_item_material = df_licitacao['codigo_item_material']
             itemprecopraticado.cnpj_fornecedor = df_licitacao['cnpj_fornecedor']
-            itemprecopraticado.marca = df_licitacao['marca']
-            itemprecopraticado.unidade = df_licitacao['unidade']
+            itemprecopraticado.marca = df_licitacao['marca'].capitalize()
+            itemprecopraticado.unidade = df_licitacao['unidade'].title()
             itemprecopraticado.quantidade = df_licitacao['quantidade']
             itemprecopraticado.valor_unitario = df_licitacao['valor_unitario']
             itemprecopraticado.valor_total = df_licitacao['valor_total']
