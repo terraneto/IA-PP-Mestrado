@@ -16,7 +16,7 @@ def busca_data(id):
 def busca_data_licitacao(uasg, modalidade, numero_aviso):
     print('entrei na busca da data licitacao')
     licitacao = Licitacao.query.filter_by(uasg=uasg, modalidade=modalidade,
-                                       numero_aviso=numero_aviso).first()
+                                          numero_aviso=numero_aviso).first()
     if licitacao is None:
         print('licitacao não encontrada')
         return '1970-01-01'
@@ -25,7 +25,6 @@ def busca_data_licitacao(uasg, modalidade, numero_aviso):
 
 
 def busca_material(catmat):
-    print('entrei na busca do material')
     material = Material.query.filter_by(codigo=catmat).first()
     if material is None:
         material = baixa_json_material(catmat)
@@ -35,13 +34,13 @@ def busca_material(catmat):
 
 
 def atualiza_materiais():
-    registros = Itens.query.filter(pdm_id=0).all()
+    registros = Itens.query.all()
     i = 0
     n = len(registros)
     for item in registros:
         i = i + 1
         print('processando item ' + str(i) + ' de ' + str(n))
-        material = busca_material(item.catmat_id)
+        busca_material(item.catmat_id)
 
 
 def carrega_itens_contratos():
@@ -50,6 +49,8 @@ def carrega_itens_contratos():
         catmat = 0
         itens = Itenscontratos.query.filter(tipo_id='Material').all()
         i = 0
+        if i == 0:
+            print('não achou')
         for itemc in itens:
             try:
                 i = i + 1
@@ -103,7 +104,7 @@ def carrega_itens_licitacoes():
                 print('processando item de licitação ' + str(i) + ' de ' + str(len(itens)))
                 id = int(iteml.id_licitacao)
                 item = Itens.query.filter_by(id=id,
-                                          licitacao_contrato=iteml.numero_item_licitacao).first()
+                                             licitacao_contrato=iteml.numero_item_licitacao).first()
                 if item is None:
                     exists = False
                     item = Itens()
@@ -112,6 +113,7 @@ def carrega_itens_licitacoes():
                 item.licitacao_contrato = iteml.numero_item_licitacao
                 item.id = id
                 item.data = busca_data_licitacao(iteml.uasg, iteml.modalidade, iteml.numero_aviso)
+                print(item.data)
                 item.catmat_id = iteml.codigo_item_material
                 item.quantidade = iteml.quantidade
                 item.unidade = iteml.unidade
@@ -123,6 +125,7 @@ def carrega_itens_licitacoes():
                 else:
                     item.valor_unitario = iteml.valor_unitario
                 item.valor_total = iteml.valor_total
+                item.uf_uasg = 'UF'
                 if exists:
                     item.verified = True
                 else:
@@ -132,7 +135,7 @@ def carrega_itens_licitacoes():
                 print('Erro no item = ' + str(i))
                 print(ex.args)
                 print(ex.__traceback__)
-                continue
+                break
     except Exception as excecao:
         print("Erro na gravação no banco " + str(excecao.__cause__))
         print(excecao.args)

@@ -1,0 +1,636 @@
+2023-05-06 08:45:47 - Request_json - licitacoes/2023/diario - 2023-05-06 08:45:47 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120071&data_publicacao=2023-02-01 Erro=0
+2023-05-06 08:45:48 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:45:48 - Request_json - licitacoes/2023/diario - 2023-05-06 08:45:48 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120071&data_publicacao=2023-02-02 Erro=0
+2023-05-06 08:45:48 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:45:48 - Request_json - licitacoes/2023/diario - 2023-05-06 08:45:48 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120071&data_publicacao=2023-02-03 Erro=0
+2023-05-06 08:45:48 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:45:48 - Request_json - licitacoes/2023/diario - 2023-05-06 08:45:48 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120071&data_publicacao=2023-02-04 Erro=0
+2023-05-06 08:45:49 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:45:49 - Request_json - licitacoes/2023/diario - 2023-05-06 08:45:49 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120071&data_publicacao=2023-02-05 Erro=0
+2023-05-06 08:45:49 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:45:49 - Request_json - licitacoes/2023/diario - 2023-05-06 08:45:49 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120071&data_publicacao=2023-02-06 Erro=0
+2023-05-06 08:45:49 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:45:49 - Request_json - licitacoes/2023/diario - 2023-05-06 08:45:49 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120071&data_publicacao=2023-02-07 Erro=0
+2023-05-06 08:45:50 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:45:50 - Request_json - licitacoes/2023/diario - 2023-05-06 08:45:50 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120071&data_publicacao=2023-02-08 Erro=0
+2023-05-06 08:45:50 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:45:50 - Request_json - licitacoes/2023/diario - 2023-05-06 08:45:50 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120071&data_publicacao=2023-02-09 Erro=0
+2023-05-06 08:45:50 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:45:50 - Request_json - licitacoes/2023/diario - 2023-05-06 08:45:50 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120071&data_publicacao=2023-02-10 Erro=0
+2023-05-06 08:45:51 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:45:51 - Request_json - licitacoes/2023/diario - 2023-05-06 08:45:51 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120071&data_publicacao=2023-02-11 Erro=0
+2023-05-06 08:45:51 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:45:51 - Request_json - licitacoes/2023/diario - 2023-05-06 08:45:51 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120071&data_publicacao=2023-02-12 Erro=0
+2023-05-06 08:45:51 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:45:51 - Request_json - licitacoes/2023/diario - 2023-05-06 08:45:51 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120071&data_publicacao=2023-02-13 Erro=0
+2023-05-06 08:45:52 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:45:52 - Request_json - licitacoes/2023/diario - 2023-05-06 08:45:52 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120071&data_publicacao=2023-02-14 Erro=0
+2023-05-06 08:45:52 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:45:52 - Request_json - licitacoes/2023/diario - 2023-05-06 08:45:52 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120071&data_publicacao=2023-02-15 Erro=0
+2023-05-06 08:45:52 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:45:52 - Request_json - licitacoes/2023/diario - 2023-05-06 08:45:52 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120071&data_publicacao=2023-02-16 Erro=0
+2023-05-06 08:45:53 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:45:53 - Request_json - licitacoes/2023/diario - 2023-05-06 08:45:53 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120071&data_publicacao=2023-02-17 Erro=0
+2023-05-06 08:45:53 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:45:53 - Request_json - licitacoes/2023/diario - 2023-05-06 08:45:53 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120071&data_publicacao=2023-02-18 Erro=0
+2023-05-06 08:45:53 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:45:53 - Request_json - licitacoes/2023/diario - 2023-05-06 08:45:53 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120071&data_publicacao=2023-02-19 Erro=0
+2023-05-06 08:45:54 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:45:54 - Request_json - licitacoes/2023/diario - 2023-05-06 08:45:54 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120071&data_publicacao=2023-02-20 Erro=0
+2023-05-06 08:45:54 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:45:54 - Request_json - licitacoes/2023/diario - 2023-05-06 08:45:54 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120071&data_publicacao=2023-02-21 Erro=0
+2023-05-06 08:45:54 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:45:54 - Request_json - licitacoes/2023/diario - 2023-05-06 08:45:54 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120071&data_publicacao=2023-02-22 Erro=0
+2023-05-06 08:45:55 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:45:55 - Request_json - licitacoes/2023/diario - 2023-05-06 08:45:55 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120071&data_publicacao=2023-02-23 Erro=0
+2023-05-06 08:45:55 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:45:55 - Request_json - licitacoes/2023/diario - 2023-05-06 08:45:55 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120071&data_publicacao=2023-02-24 Erro=0
+2023-05-06 08:45:55 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:45:55 - Request_json - licitacoes/2023/diario - 2023-05-06 08:45:55 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120071&data_publicacao=2023-02-25 Erro=0
+2023-05-06 08:45:56 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:45:56 - Request_json - licitacoes/2023/diario - 2023-05-06 08:45:56 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120071&data_publicacao=2023-02-26 Erro=0
+2023-05-06 08:45:56 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:45:56 - Request_json - licitacoes/2023/diario - 2023-05-06 08:45:56 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120071&data_publicacao=2023-02-27 Erro=0
+2023-05-06 08:45:56 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:45:56 - Request_json - licitacoes/2023/diario - 2023-05-06 08:45:56 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120071&data_publicacao=2023-02-28 Erro=0
+2023-05-06 08:46:02 - Request_json - licitacoes/2023/diario - 2023-05-06 08:46:02 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120071&data_publicacao=2023-02-28 Erro=1
+2023-05-06 08:46:02 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:47:23 - Request_json - licitacoes/2023/diario - 2023-05-06 08:47:23 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120637&data_publicacao=2023-02-01 Erro=0
+2023-05-06 08:47:28 - Request_json - licitacoes/2023/diario - 2023-05-06 08:47:28 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120637&data_publicacao=2023-02-01 Erro=1
+2023-05-06 08:47:33 - Request_json - licitacoes/2023/diario - 2023-05-06 08:47:33 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120637&data_publicacao=2023-02-01 Erro=2
+2023-05-06 08:47:38 - Request_json - licitacoes/2023/diario - 2023-05-06 08:47:38 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120637&data_publicacao=2023-02-02 Erro=0
+2023-05-06 08:47:39 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:47:39 - Request_json - licitacoes/2023/diario - 2023-05-06 08:47:39 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120637&data_publicacao=2023-02-03 Erro=0
+2023-05-06 08:47:39 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:47:39 - Request_json - licitacoes/2023/diario - 2023-05-06 08:47:39 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120637&data_publicacao=2023-02-04 Erro=0
+2023-05-06 08:47:39 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:47:39 - Request_json - licitacoes/2023/diario - 2023-05-06 08:47:39 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120637&data_publicacao=2023-02-05 Erro=0
+2023-05-06 08:47:40 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:47:40 - Request_json - licitacoes/2023/diario - 2023-05-06 08:47:40 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120637&data_publicacao=2023-02-06 Erro=0
+2023-05-06 08:47:40 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:47:40 - Request_json - licitacoes/2023/diario - 2023-05-06 08:47:40 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120637&data_publicacao=2023-02-07 Erro=0
+2023-05-06 08:47:40 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:47:40 - Request_json - licitacoes/2023/diario - 2023-05-06 08:47:40 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120637&data_publicacao=2023-02-08 Erro=0
+2023-05-06 08:47:41 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:47:41 - Request_json - licitacoes/2023/diario - 2023-05-06 08:47:41 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120637&data_publicacao=2023-02-09 Erro=0
+2023-05-06 08:47:41 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:47:41 - Request_json - licitacoes/2023/diario - 2023-05-06 08:47:41 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120637&data_publicacao=2023-02-10 Erro=0
+2023-05-06 08:47:41 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:47:41 - Request_json - licitacoes/2023/diario - 2023-05-06 08:47:41 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120637&data_publicacao=2023-02-11 Erro=0
+2023-05-06 08:47:41 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:47:41 - Request_json - licitacoes/2023/diario - 2023-05-06 08:47:41 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120637&data_publicacao=2023-02-12 Erro=0
+2023-05-06 08:47:42 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:47:42 - Request_json - licitacoes/2023/diario - 2023-05-06 08:47:42 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120637&data_publicacao=2023-02-13 Erro=0
+2023-05-06 08:47:42 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:47:42 - Request_json - licitacoes/2023/diario - 2023-05-06 08:47:42 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120637&data_publicacao=2023-02-14 Erro=0
+2023-05-06 08:47:42 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:47:42 - Request_json - licitacoes/2023/diario - 2023-05-06 08:47:42 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120637&data_publicacao=2023-02-15 Erro=0
+2023-05-06 08:47:43 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:47:43 - Request_json - licitacoes/2023/diario - 2023-05-06 08:47:43 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120637&data_publicacao=2023-02-16 Erro=0
+2023-05-06 08:47:43 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:47:43 - Request_json - licitacoes/2023/diario - 2023-05-06 08:47:43 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120637&data_publicacao=2023-02-17 Erro=0
+2023-05-06 08:47:43 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:47:43 - Request_json - licitacoes/2023/diario - 2023-05-06 08:47:43 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120637&data_publicacao=2023-02-18 Erro=0
+2023-05-06 08:47:49 - Request_json - licitacoes/2023/diario - 2023-05-06 08:47:49 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120637&data_publicacao=2023-02-18 Erro=1
+2023-05-06 08:47:49 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:47:49 - Request_json - licitacoes/2023/diario - 2023-05-06 08:47:49 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120637&data_publicacao=2023-02-19 Erro=0
+2023-05-06 08:47:49 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:47:49 - Request_json - licitacoes/2023/diario - 2023-05-06 08:47:49 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120637&data_publicacao=2023-02-20 Erro=0
+2023-05-06 08:47:50 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:47:50 - Request_json - licitacoes/2023/diario - 2023-05-06 08:47:50 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120637&data_publicacao=2023-02-21 Erro=0
+2023-05-06 08:47:50 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:47:50 - Request_json - licitacoes/2023/diario - 2023-05-06 08:47:50 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120637&data_publicacao=2023-02-22 Erro=0
+2023-05-06 08:47:50 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:47:50 - Request_json - licitacoes/2023/diario - 2023-05-06 08:47:50 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120637&data_publicacao=2023-02-23 Erro=0
+2023-05-06 08:47:51 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:47:51 - Request_json - licitacoes/2023/diario - 2023-05-06 08:47:51 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120637&data_publicacao=2023-02-24 Erro=0
+2023-05-06 08:47:51 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:47:51 - Request_json - licitacoes/2023/diario - 2023-05-06 08:47:51 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120637&data_publicacao=2023-02-25 Erro=0
+2023-05-06 08:47:51 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:47:51 - Request_json - licitacoes/2023/diario - 2023-05-06 08:47:51 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120637&data_publicacao=2023-02-26 Erro=0
+2023-05-06 08:47:52 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:47:52 - Request_json - licitacoes/2023/diario - 2023-05-06 08:47:52 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120637&data_publicacao=2023-02-27 Erro=0
+2023-05-06 08:47:52 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 08:47:52 - Request_json - licitacoes/2023/diario - 2023-05-06 08:47:52 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120637&data_publicacao=2023-02-28 Erro=0
+2023-05-06 08:47:52 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:12:06 - Request_json - licitacoes/2023/diario - 2023-05-06 09:12:06 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-01 Erro=0
+2023-05-06 09:12:06 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:12:06 - Request_json - licitacoes/2023/diario - 2023-05-06 09:12:06 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-02 Erro=0
+2023-05-06 09:12:07 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:12:07 - Request_json - licitacoes/2023/diario - 2023-05-06 09:12:07 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-03 Erro=0
+2023-05-06 09:12:07 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:12:07 - Request_json - licitacoes/2023/diario - 2023-05-06 09:12:07 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-04 Erro=0
+2023-05-06 09:12:07 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:12:07 - Request_json - licitacoes/2023/diario - 2023-05-06 09:12:07 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-05 Erro=0
+2023-05-06 09:12:08 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:12:08 - Request_json - licitacoes/2023/diario - 2023-05-06 09:12:08 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-06 Erro=0
+2023-05-06 09:12:08 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:12:08 - Request_json - licitacoes/2023/diario - 2023-05-06 09:12:08 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-07 Erro=0
+2023-05-06 09:12:08 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:12:08 - Request_json - licitacoes/2023/diario - 2023-05-06 09:12:08 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-08 Erro=0
+2023-05-06 09:12:09 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:12:09 - Request_json - licitacoes/2023/diario - 2023-05-06 09:12:09 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-09 Erro=0
+2023-05-06 09:12:09 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:12:09 - Request_json - licitacoes/2023/diario - 2023-05-06 09:12:09 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-10 Erro=0
+2023-05-06 09:12:09 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:12:09 - Request_json - licitacoes/2023/diario - 2023-05-06 09:12:09 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-11 Erro=0
+2023-05-06 09:12:10 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:12:10 - Request_json - licitacoes/2023/diario - 2023-05-06 09:12:10 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-12 Erro=0
+2023-05-06 09:12:10 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:12:10 - Request_json - licitacoes/2023/diario - 2023-05-06 09:12:10 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-13 Erro=0
+2023-05-06 09:12:10 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:12:10 - Request_json - licitacoes/2023/diario - 2023-05-06 09:12:10 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-14 Erro=0
+2023-05-06 09:12:11 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:12:11 - Request_json - licitacoes/2023/diario - 2023-05-06 09:12:11 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-15 Erro=0
+2023-05-06 09:12:11 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:12:11 - Request_json - licitacoes/2023/diario - 2023-05-06 09:12:11 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-16 Erro=0
+2023-05-06 09:12:11 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:12:11 - Request_json - licitacoes/2023/diario - 2023-05-06 09:12:11 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-17 Erro=0
+2023-05-06 09:12:12 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:12:12 - Request_json - licitacoes/2023/diario - 2023-05-06 09:12:12 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-18 Erro=0
+2023-05-06 09:12:12 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:12:12 - Request_json - licitacoes/2023/diario - 2023-05-06 09:12:12 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-19 Erro=0
+2023-05-06 09:12:12 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:12:12 - Request_json - licitacoes/2023/diario - 2023-05-06 09:12:12 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-20 Erro=0
+2023-05-06 09:12:13 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:12:13 - Request_json - licitacoes/2023/diario - 2023-05-06 09:12:13 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-21 Erro=0
+2023-05-06 09:12:13 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:12:13 - Request_json - licitacoes/2023/diario - 2023-05-06 09:12:13 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-22 Erro=0
+2023-05-06 09:12:13 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:12:13 - Request_json - licitacoes/2023/diario - 2023-05-06 09:12:13 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-23 Erro=0
+2023-05-06 09:12:14 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:12:14 - Request_json - licitacoes/2023/diario - 2023-05-06 09:12:14 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-24 Erro=0
+2023-05-06 09:12:19 - Request_json - licitacoes/2023/diario - 2023-05-06 09:12:19 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-24 Erro=1
+2023-05-06 09:12:19 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:12:19 - Request_json - licitacoes/2023/diario - 2023-05-06 09:12:19 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-25 Erro=0
+2023-05-06 09:12:20 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:12:20 - Request_json - licitacoes/2023/diario - 2023-05-06 09:12:20 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-26 Erro=0
+2023-05-06 09:12:20 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:12:20 - Request_json - licitacoes/2023/diario - 2023-05-06 09:12:20 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-27 Erro=0
+2023-05-06 09:12:20 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:12:20 - Request_json - licitacoes/2023/diario - 2023-05-06 09:12:20 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-28 Erro=0
+2023-05-06 09:12:26 - Request_json - licitacoes/2023/diario - 2023-05-06 09:12:26 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-28 Erro=1
+2023-05-06 09:12:26 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:21:04 - Request_json - licitacoes/2023/diario - 2023-05-06 09:21:04 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=154054&data_publicacao=2023-02-01 Erro=0
+2023-05-06 09:21:05 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:21:05 - Request_json - licitacoes/2023/diario - 2023-05-06 09:21:05 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=154054&data_publicacao=2023-02-02 Erro=0
+2023-05-06 09:21:05 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:21:05 - Request_json - licitacoes/2023/diario - 2023-05-06 09:21:05 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=154054&data_publicacao=2023-02-03 Erro=0
+2023-05-06 09:21:05 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:21:05 - Request_json - licitacoes/2023/diario - 2023-05-06 09:21:05 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=154054&data_publicacao=2023-02-04 Erro=0
+2023-05-06 09:21:06 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:21:06 - Request_json - licitacoes/2023/diario - 2023-05-06 09:21:06 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=154054&data_publicacao=2023-02-05 Erro=0
+2023-05-06 09:21:06 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:21:06 - Request_json - licitacoes/2023/diario - 2023-05-06 09:21:06 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=154054&data_publicacao=2023-02-06 Erro=0
+2023-05-06 09:21:07 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:21:07 - Request_json - licitacoes/2023/diario - 2023-05-06 09:21:07 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=154054&data_publicacao=2023-02-07 Erro=0
+2023-05-06 09:21:07 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:21:07 - Request_json - licitacoes/2023/diario - 2023-05-06 09:21:07 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=154054&data_publicacao=2023-02-08 Erro=0
+2023-05-06 09:21:08 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:21:08 - Request_json - licitacoes/2023/diario - 2023-05-06 09:21:08 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=154054&data_publicacao=2023-02-09 Erro=0
+2023-05-06 09:21:08 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:21:08 - Request_json - licitacoes/2023/diario - 2023-05-06 09:21:08 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=154054&data_publicacao=2023-02-10 Erro=0
+2023-05-06 09:21:08 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:21:08 - Request_json - licitacoes/2023/diario - 2023-05-06 09:21:08 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=154054&data_publicacao=2023-02-11 Erro=0
+2023-05-06 09:21:09 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:21:09 - Request_json - licitacoes/2023/diario - 2023-05-06 09:21:09 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=154054&data_publicacao=2023-02-12 Erro=0
+2023-05-06 09:21:09 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:21:09 - Request_json - licitacoes/2023/diario - 2023-05-06 09:21:09 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=154054&data_publicacao=2023-02-13 Erro=0
+2023-05-06 09:21:10 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:21:10 - Request_json - licitacoes/2023/diario - 2023-05-06 09:21:10 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=154054&data_publicacao=2023-02-14 Erro=0
+2023-05-06 09:21:10 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:21:10 - Request_json - licitacoes/2023/diario - 2023-05-06 09:21:10 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=154054&data_publicacao=2023-02-15 Erro=0
+2023-05-06 09:21:10 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:21:11 - Request_json - licitacoes/2023/diario - 2023-05-06 09:21:11 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=154054&data_publicacao=2023-02-16 Erro=0
+2023-05-06 09:21:11 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:21:11 - Request_json - licitacoes/2023/diario - 2023-05-06 09:21:11 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=154054&data_publicacao=2023-02-17 Erro=0
+2023-05-06 09:21:11 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:21:11 - Request_json - licitacoes/2023/diario - 2023-05-06 09:21:11 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=154054&data_publicacao=2023-02-18 Erro=0
+2023-05-06 09:21:12 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:21:12 - Request_json - licitacoes/2023/diario - 2023-05-06 09:21:12 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=154054&data_publicacao=2023-02-19 Erro=0
+2023-05-06 09:21:12 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:21:12 - Request_json - licitacoes/2023/diario - 2023-05-06 09:21:12 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=154054&data_publicacao=2023-02-20 Erro=0
+2023-05-06 09:21:12 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:21:12 - Request_json - licitacoes/2023/diario - 2023-05-06 09:21:12 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=154054&data_publicacao=2023-02-21 Erro=0
+2023-05-06 09:21:13 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:21:13 - Request_json - licitacoes/2023/diario - 2023-05-06 09:21:13 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=154054&data_publicacao=2023-02-22 Erro=0
+2023-05-06 09:21:13 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:21:13 - Request_json - licitacoes/2023/diario - 2023-05-06 09:21:13 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=154054&data_publicacao=2023-02-23 Erro=0
+2023-05-06 09:21:14 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:21:14 - Request_json - licitacoes/2023/diario - 2023-05-06 09:21:14 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=154054&data_publicacao=2023-02-24 Erro=0
+2023-05-06 09:21:14 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:21:14 - Request_json - licitacoes/2023/diario - 2023-05-06 09:21:14 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=154054&data_publicacao=2023-02-25 Erro=0
+2023-05-06 09:21:14 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:21:14 - Request_json - licitacoes/2023/diario - 2023-05-06 09:21:14 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=154054&data_publicacao=2023-02-26 Erro=0
+2023-05-06 09:21:15 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:21:15 - Request_json - licitacoes/2023/diario - 2023-05-06 09:21:15 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=154054&data_publicacao=2023-02-27 Erro=0
+2023-05-06 09:21:15 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:21:15 - Request_json - licitacoes/2023/diario - 2023-05-06 09:21:15 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=154054&data_publicacao=2023-02-28 Erro=0
+2023-05-06 09:21:15 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:26:22 - Request_json - licitacoes/2023/diario - 2023-05-06 09:26:22 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=158146&data_publicacao=2023-02-01 Erro=0
+2023-05-06 09:26:22 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:26:22 - Request_json - licitacoes/2023/diario - 2023-05-06 09:26:22 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=158146&data_publicacao=2023-02-02 Erro=0
+2023-05-06 09:26:22 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:26:22 - Request_json - licitacoes/2023/diario - 2023-05-06 09:26:22 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=158146&data_publicacao=2023-02-03 Erro=0
+2023-05-06 09:26:23 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:26:23 - Request_json - licitacoes/2023/diario - 2023-05-06 09:26:23 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=158146&data_publicacao=2023-02-04 Erro=0
+2023-05-06 09:26:23 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:26:23 - Request_json - licitacoes/2023/diario - 2023-05-06 09:26:23 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=158146&data_publicacao=2023-02-05 Erro=0
+2023-05-06 09:26:23 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:26:23 - Request_json - licitacoes/2023/diario - 2023-05-06 09:26:23 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=158146&data_publicacao=2023-02-06 Erro=0
+2023-05-06 09:26:24 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:26:24 - Request_json - licitacoes/2023/diario - 2023-05-06 09:26:24 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=158146&data_publicacao=2023-02-07 Erro=0
+2023-05-06 09:26:24 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:26:24 - Request_json - licitacoes/2023/diario - 2023-05-06 09:26:24 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=158146&data_publicacao=2023-02-08 Erro=0
+2023-05-06 09:26:24 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:26:24 - Request_json - licitacoes/2023/diario - 2023-05-06 09:26:24 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=158146&data_publicacao=2023-02-09 Erro=0
+2023-05-06 09:26:30 - Request_json - licitacoes/2023/diario - 2023-05-06 09:26:30 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=158146&data_publicacao=2023-02-09 Erro=1
+2023-05-06 09:26:30 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:26:30 - Request_json - licitacoes/2023/diario - 2023-05-06 09:26:30 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=158146&data_publicacao=2023-02-10 Erro=0
+2023-05-06 09:26:31 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:26:31 - Request_json - licitacoes/2023/diario - 2023-05-06 09:26:31 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=158146&data_publicacao=2023-02-11 Erro=0
+2023-05-06 09:26:31 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:26:31 - Request_json - licitacoes/2023/diario - 2023-05-06 09:26:31 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=158146&data_publicacao=2023-02-12 Erro=0
+2023-05-06 09:26:31 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:26:31 - Request_json - licitacoes/2023/diario - 2023-05-06 09:26:31 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=158146&data_publicacao=2023-02-13 Erro=0
+2023-05-06 09:26:32 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:26:32 - Request_json - licitacoes/2023/diario - 2023-05-06 09:26:32 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=158146&data_publicacao=2023-02-14 Erro=0
+2023-05-06 09:26:32 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:26:32 - Request_json - licitacoes/2023/diario - 2023-05-06 09:26:32 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=158146&data_publicacao=2023-02-15 Erro=0
+2023-05-06 09:26:32 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:26:32 - Request_json - licitacoes/2023/diario - 2023-05-06 09:26:32 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=158146&data_publicacao=2023-02-16 Erro=0
+2023-05-06 09:26:33 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:26:33 - Request_json - licitacoes/2023/diario - 2023-05-06 09:26:33 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=158146&data_publicacao=2023-02-17 Erro=0
+2023-05-06 09:26:33 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:26:33 - Request_json - licitacoes/2023/diario - 2023-05-06 09:26:33 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=158146&data_publicacao=2023-02-18 Erro=0
+2023-05-06 09:26:33 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:26:33 - Request_json - licitacoes/2023/diario - 2023-05-06 09:26:33 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=158146&data_publicacao=2023-02-19 Erro=0
+2023-05-06 09:26:39 - Request_json - licitacoes/2023/diario - 2023-05-06 09:26:39 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=158146&data_publicacao=2023-02-19 Erro=1
+2023-05-06 09:26:39 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:26:39 - Request_json - licitacoes/2023/diario - 2023-05-06 09:26:39 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=158146&data_publicacao=2023-02-20 Erro=0
+2023-05-06 09:26:39 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:26:39 - Request_json - licitacoes/2023/diario - 2023-05-06 09:26:39 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=158146&data_publicacao=2023-02-21 Erro=0
+2023-05-06 09:26:40 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:26:40 - Request_json - licitacoes/2023/diario - 2023-05-06 09:26:40 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=158146&data_publicacao=2023-02-22 Erro=0
+2023-05-06 09:26:40 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:26:40 - Request_json - licitacoes/2023/diario - 2023-05-06 09:26:40 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=158146&data_publicacao=2023-02-23 Erro=0
+2023-05-06 09:26:45 - Request_json - licitacoes/2023/diario - 2023-05-06 09:26:45 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=158146&data_publicacao=2023-02-23 Erro=1
+2023-05-06 09:26:45 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:26:45 - Request_json - licitacoes/2023/diario - 2023-05-06 09:26:45 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=158146&data_publicacao=2023-02-24 Erro=0
+2023-05-06 09:26:46 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:26:46 - Request_json - licitacoes/2023/diario - 2023-05-06 09:26:46 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=158146&data_publicacao=2023-02-25 Erro=0
+2023-05-06 09:26:46 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:26:46 - Request_json - licitacoes/2023/diario - 2023-05-06 09:26:46 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=158146&data_publicacao=2023-02-26 Erro=0
+2023-05-06 09:26:46 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:26:46 - Request_json - licitacoes/2023/diario - 2023-05-06 09:26:46 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=158146&data_publicacao=2023-02-27 Erro=0
+2023-05-06 09:26:47 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:26:47 - Request_json - licitacoes/2023/diario - 2023-05-06 09:26:47 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=158146&data_publicacao=2023-02-28 Erro=0
+2023-05-06 09:26:47 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:32:14 - Request_json - licitacoes/2023/diario - 2023-05-06 09:32:14 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160021&data_publicacao=2023-02-01 Erro=0
+2023-05-06 09:32:14 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:32:14 - Request_json - licitacoes/2023/diario - 2023-05-06 09:32:14 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160021&data_publicacao=2023-02-02 Erro=0
+2023-05-06 09:32:14 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:32:14 - Request_json - licitacoes/2023/diario - 2023-05-06 09:32:14 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160021&data_publicacao=2023-02-03 Erro=0
+2023-05-06 09:32:15 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:32:15 - Request_json - licitacoes/2023/diario - 2023-05-06 09:32:15 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160021&data_publicacao=2023-02-04 Erro=0
+2023-05-06 09:32:15 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:32:15 - Request_json - licitacoes/2023/diario - 2023-05-06 09:32:15 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160021&data_publicacao=2023-02-05 Erro=0
+2023-05-06 09:32:15 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:32:15 - Request_json - licitacoes/2023/diario - 2023-05-06 09:32:15 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160021&data_publicacao=2023-02-06 Erro=0
+2023-05-06 09:32:16 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:32:16 - Request_json - licitacoes/2023/diario - 2023-05-06 09:32:16 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160021&data_publicacao=2023-02-07 Erro=0
+2023-05-06 09:32:16 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:32:16 - Request_json - licitacoes/2023/diario - 2023-05-06 09:32:16 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160021&data_publicacao=2023-02-08 Erro=0
+2023-05-06 09:32:16 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:32:16 - Request_json - licitacoes/2023/diario - 2023-05-06 09:32:16 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160021&data_publicacao=2023-02-09 Erro=0
+2023-05-06 09:32:17 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:32:17 - Request_json - licitacoes/2023/diario - 2023-05-06 09:32:17 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160021&data_publicacao=2023-02-10 Erro=0
+2023-05-06 09:32:17 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:32:17 - Request_json - licitacoes/2023/diario - 2023-05-06 09:32:17 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160021&data_publicacao=2023-02-11 Erro=0
+2023-05-06 09:32:17 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:32:17 - Request_json - licitacoes/2023/diario - 2023-05-06 09:32:17 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160021&data_publicacao=2023-02-12 Erro=0
+2023-05-06 09:32:18 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:32:18 - Request_json - licitacoes/2023/diario - 2023-05-06 09:32:18 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160021&data_publicacao=2023-02-13 Erro=0
+2023-05-06 09:32:18 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:32:18 - Request_json - licitacoes/2023/diario - 2023-05-06 09:32:18 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160021&data_publicacao=2023-02-14 Erro=0
+2023-05-06 09:32:18 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:32:18 - Request_json - licitacoes/2023/diario - 2023-05-06 09:32:18 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160021&data_publicacao=2023-02-15 Erro=0
+2023-05-06 09:32:19 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:32:19 - Request_json - licitacoes/2023/diario - 2023-05-06 09:32:19 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160021&data_publicacao=2023-02-16 Erro=0
+2023-05-06 09:32:19 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:32:19 - Request_json - licitacoes/2023/diario - 2023-05-06 09:32:19 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160021&data_publicacao=2023-02-17 Erro=0
+2023-05-06 09:32:19 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:32:19 - Request_json - licitacoes/2023/diario - 2023-05-06 09:32:19 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160021&data_publicacao=2023-02-18 Erro=0
+2023-05-06 09:32:20 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:32:20 - Request_json - licitacoes/2023/diario - 2023-05-06 09:32:20 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160021&data_publicacao=2023-02-19 Erro=0
+2023-05-06 09:32:20 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:32:20 - Request_json - licitacoes/2023/diario - 2023-05-06 09:32:20 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160021&data_publicacao=2023-02-20 Erro=0
+2023-05-06 09:32:20 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:32:20 - Request_json - licitacoes/2023/diario - 2023-05-06 09:32:20 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160021&data_publicacao=2023-02-21 Erro=0
+2023-05-06 09:32:21 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:32:21 - Request_json - licitacoes/2023/diario - 2023-05-06 09:32:21 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160021&data_publicacao=2023-02-22 Erro=0
+2023-05-06 09:32:21 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:32:21 - Request_json - licitacoes/2023/diario - 2023-05-06 09:32:21 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160021&data_publicacao=2023-02-23 Erro=0
+2023-05-06 09:32:21 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:32:21 - Request_json - licitacoes/2023/diario - 2023-05-06 09:32:21 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160021&data_publicacao=2023-02-24 Erro=0
+2023-05-06 09:32:22 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:32:22 - Request_json - licitacoes/2023/diario - 2023-05-06 09:32:22 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160021&data_publicacao=2023-02-25 Erro=0
+2023-05-06 09:32:22 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:32:22 - Request_json - licitacoes/2023/diario - 2023-05-06 09:32:22 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160021&data_publicacao=2023-02-26 Erro=0
+2023-05-06 09:32:22 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:32:22 - Request_json - licitacoes/2023/diario - 2023-05-06 09:32:22 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160021&data_publicacao=2023-02-27 Erro=0
+2023-05-06 09:32:23 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:32:23 - Request_json - licitacoes/2023/diario - 2023-05-06 09:32:23 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160021&data_publicacao=2023-02-28 Erro=0
+2023-05-06 09:32:23 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:43:37 - Request_json - licitacoes/2023/diario - 2023-05-06 09:43:37 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160203&data_publicacao=2023-02-01 Erro=0
+2023-05-06 09:43:38 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:43:38 - Request_json - licitacoes/2023/diario - 2023-05-06 09:43:38 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160203&data_publicacao=2023-02-02 Erro=0
+2023-05-06 09:43:38 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:43:38 - Request_json - licitacoes/2023/diario - 2023-05-06 09:43:38 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160203&data_publicacao=2023-02-03 Erro=0
+2023-05-06 09:43:38 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:43:38 - Request_json - licitacoes/2023/diario - 2023-05-06 09:43:38 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160203&data_publicacao=2023-02-04 Erro=0
+2023-05-06 09:43:39 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:43:39 - Request_json - licitacoes/2023/diario - 2023-05-06 09:43:39 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160203&data_publicacao=2023-02-05 Erro=0
+2023-05-06 09:43:39 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:43:39 - Request_json - licitacoes/2023/diario - 2023-05-06 09:43:39 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160203&data_publicacao=2023-02-06 Erro=0
+2023-05-06 09:43:39 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:43:39 - Request_json - licitacoes/2023/diario - 2023-05-06 09:43:39 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160203&data_publicacao=2023-02-07 Erro=0
+2023-05-06 09:43:40 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:43:40 - Request_json - licitacoes/2023/diario - 2023-05-06 09:43:40 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160203&data_publicacao=2023-02-08 Erro=0
+2023-05-06 09:43:40 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:43:40 - Request_json - licitacoes/2023/diario - 2023-05-06 09:43:40 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160203&data_publicacao=2023-02-09 Erro=0
+2023-05-06 09:43:40 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:43:40 - Request_json - licitacoes/2023/diario - 2023-05-06 09:43:40 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160203&data_publicacao=2023-02-10 Erro=0
+2023-05-06 09:43:41 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:43:41 - Request_json - licitacoes/2023/diario - 2023-05-06 09:43:41 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160203&data_publicacao=2023-02-11 Erro=0
+2023-05-06 09:43:41 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:43:41 - Request_json - licitacoes/2023/diario - 2023-05-06 09:43:41 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160203&data_publicacao=2023-02-12 Erro=0
+2023-05-06 09:43:41 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:43:41 - Request_json - licitacoes/2023/diario - 2023-05-06 09:43:41 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160203&data_publicacao=2023-02-13 Erro=0
+2023-05-06 09:43:42 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:43:42 - Request_json - licitacoes/2023/diario - 2023-05-06 09:43:42 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160203&data_publicacao=2023-02-14 Erro=0
+2023-05-06 09:43:42 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:43:42 - Request_json - licitacoes/2023/diario - 2023-05-06 09:43:42 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160203&data_publicacao=2023-02-15 Erro=0
+2023-05-06 09:43:42 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:43:42 - Request_json - licitacoes/2023/diario - 2023-05-06 09:43:42 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160203&data_publicacao=2023-02-16 Erro=0
+2023-05-06 09:43:43 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:43:43 - Request_json - licitacoes/2023/diario - 2023-05-06 09:43:43 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160203&data_publicacao=2023-02-17 Erro=0
+2023-05-06 09:43:43 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:43:43 - Request_json - licitacoes/2023/diario - 2023-05-06 09:43:43 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160203&data_publicacao=2023-02-18 Erro=0
+2023-05-06 09:43:43 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:43:43 - Request_json - licitacoes/2023/diario - 2023-05-06 09:43:43 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160203&data_publicacao=2023-02-19 Erro=0
+2023-05-06 09:43:44 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:43:44 - Request_json - licitacoes/2023/diario - 2023-05-06 09:43:44 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160203&data_publicacao=2023-02-20 Erro=0
+2023-05-06 09:43:49 - Request_json - licitacoes/2023/diario - 2023-05-06 09:43:49 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160203&data_publicacao=2023-02-20 Erro=1
+2023-05-06 09:43:49 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:43:49 - Request_json - licitacoes/2023/diario - 2023-05-06 09:43:49 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160203&data_publicacao=2023-02-21 Erro=0
+2023-05-06 09:43:50 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:43:50 - Request_json - licitacoes/2023/diario - 2023-05-06 09:43:50 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160203&data_publicacao=2023-02-22 Erro=0
+2023-05-06 09:43:50 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:43:50 - Request_json - licitacoes/2023/diario - 2023-05-06 09:43:50 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160203&data_publicacao=2023-02-23 Erro=0
+2023-05-06 09:43:50 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:43:50 - Request_json - licitacoes/2023/diario - 2023-05-06 09:43:50 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160203&data_publicacao=2023-02-24 Erro=0
+2023-05-06 09:43:55 - Request_json - licitacoes/2023/diario - 2023-05-06 09:43:55 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160203&data_publicacao=2023-02-24 Erro=1
+2023-05-06 09:43:56 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:43:56 - Request_json - licitacoes/2023/diario - 2023-05-06 09:43:56 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160203&data_publicacao=2023-02-25 Erro=0
+2023-05-06 09:43:56 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:43:56 - Request_json - licitacoes/2023/diario - 2023-05-06 09:43:56 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160203&data_publicacao=2023-02-26 Erro=0
+2023-05-06 09:43:57 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:43:57 - Request_json - licitacoes/2023/diario - 2023-05-06 09:43:57 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160203&data_publicacao=2023-02-27 Erro=0
+2023-05-06 09:43:57 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:43:57 - Request_json - licitacoes/2023/diario - 2023-05-06 09:43:57 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160203&data_publicacao=2023-02-28 Erro=0
+2023-05-06 09:43:57 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:46:55 - Request_json - licitacoes/2023/diario - 2023-05-06 09:46:55 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160322&data_publicacao=2023-02-01 Erro=0
+2023-05-06 09:46:56 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:46:56 - Request_json - licitacoes/2023/diario - 2023-05-06 09:46:56 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160322&data_publicacao=2023-02-02 Erro=0
+2023-05-06 09:46:57 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:46:57 - Request_json - licitacoes/2023/diario - 2023-05-06 09:46:57 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160322&data_publicacao=2023-02-03 Erro=0
+2023-05-06 09:46:57 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:46:57 - Request_json - licitacoes/2023/diario - 2023-05-06 09:46:57 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160322&data_publicacao=2023-02-04 Erro=0
+2023-05-06 09:46:58 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:46:58 - Request_json - licitacoes/2023/diario - 2023-05-06 09:46:58 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160322&data_publicacao=2023-02-05 Erro=0
+2023-05-06 09:46:58 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:46:58 - Request_json - licitacoes/2023/diario - 2023-05-06 09:46:58 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160322&data_publicacao=2023-02-06 Erro=0
+2023-05-06 09:46:58 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:46:58 - Request_json - licitacoes/2023/diario - 2023-05-06 09:46:58 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160322&data_publicacao=2023-02-07 Erro=0
+2023-05-06 09:46:59 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:46:59 - Request_json - licitacoes/2023/diario - 2023-05-06 09:46:59 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160322&data_publicacao=2023-02-08 Erro=0
+2023-05-06 09:47:04 - Request_json - licitacoes/2023/diario - 2023-05-06 09:47:04 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160322&data_publicacao=2023-02-08 Erro=1
+2023-05-06 09:47:05 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:47:05 - Request_json - licitacoes/2023/diario - 2023-05-06 09:47:05 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160322&data_publicacao=2023-02-09 Erro=0
+2023-05-06 09:47:05 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:47:05 - Request_json - licitacoes/2023/diario - 2023-05-06 09:47:05 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160322&data_publicacao=2023-02-10 Erro=0
+2023-05-06 09:47:05 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:47:05 - Request_json - licitacoes/2023/diario - 2023-05-06 09:47:05 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160322&data_publicacao=2023-02-11 Erro=0
+2023-05-06 09:47:06 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:47:06 - Request_json - licitacoes/2023/diario - 2023-05-06 09:47:06 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160322&data_publicacao=2023-02-12 Erro=0
+2023-05-06 09:47:06 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:47:06 - Request_json - licitacoes/2023/diario - 2023-05-06 09:47:06 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160322&data_publicacao=2023-02-13 Erro=0
+2023-05-06 09:47:06 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:47:06 - Request_json - licitacoes/2023/diario - 2023-05-06 09:47:06 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160322&data_publicacao=2023-02-14 Erro=0
+2023-05-06 09:47:07 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:47:07 - Request_json - licitacoes/2023/diario - 2023-05-06 09:47:07 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160322&data_publicacao=2023-02-15 Erro=0
+2023-05-06 09:47:07 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:47:07 - Request_json - licitacoes/2023/diario - 2023-05-06 09:47:07 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160322&data_publicacao=2023-02-16 Erro=0
+2023-05-06 09:47:07 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:47:07 - Request_json - licitacoes/2023/diario - 2023-05-06 09:47:07 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160322&data_publicacao=2023-02-17 Erro=0
+2023-05-06 09:47:08 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:47:08 - Request_json - licitacoes/2023/diario - 2023-05-06 09:47:08 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160322&data_publicacao=2023-02-18 Erro=0
+2023-05-06 09:47:08 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:47:08 - Request_json - licitacoes/2023/diario - 2023-05-06 09:47:08 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160322&data_publicacao=2023-02-19 Erro=0
+2023-05-06 09:47:08 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:47:08 - Request_json - licitacoes/2023/diario - 2023-05-06 09:47:08 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160322&data_publicacao=2023-02-20 Erro=0
+2023-05-06 09:47:09 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:47:09 - Request_json - licitacoes/2023/diario - 2023-05-06 09:47:09 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160322&data_publicacao=2023-02-21 Erro=0
+2023-05-06 09:47:09 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:47:09 - Request_json - licitacoes/2023/diario - 2023-05-06 09:47:09 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160322&data_publicacao=2023-02-22 Erro=0
+2023-05-06 09:47:09 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:47:09 - Request_json - licitacoes/2023/diario - 2023-05-06 09:47:09 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160322&data_publicacao=2023-02-23 Erro=0
+2023-05-06 09:47:10 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:47:10 - Request_json - licitacoes/2023/diario - 2023-05-06 09:47:10 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160322&data_publicacao=2023-02-24 Erro=0
+2023-05-06 09:47:10 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:47:10 - Request_json - licitacoes/2023/diario - 2023-05-06 09:47:10 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160322&data_publicacao=2023-02-25 Erro=0
+2023-05-06 09:47:10 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:47:10 - Request_json - licitacoes/2023/diario - 2023-05-06 09:47:10 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160322&data_publicacao=2023-02-26 Erro=0
+2023-05-06 09:47:16 - Request_json - licitacoes/2023/diario - 2023-05-06 09:47:16 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160322&data_publicacao=2023-02-26 Erro=1
+2023-05-06 09:47:16 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:47:16 - Request_json - licitacoes/2023/diario - 2023-05-06 09:47:16 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160322&data_publicacao=2023-02-27 Erro=0
+2023-05-06 09:47:17 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:47:17 - Request_json - licitacoes/2023/diario - 2023-05-06 09:47:17 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160322&data_publicacao=2023-02-28 Erro=0
+2023-05-06 09:47:17 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:49:54 - Request_json - licitacoes/2023/diario - 2023-05-06 09:49:54 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160356&data_publicacao=2023-02-01 Erro=0
+2023-05-06 09:49:55 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:49:55 - Request_json - licitacoes/2023/diario - 2023-05-06 09:49:55 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160356&data_publicacao=2023-02-02 Erro=0
+2023-05-06 09:49:56 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:49:56 - Request_json - licitacoes/2023/diario - 2023-05-06 09:49:56 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160356&data_publicacao=2023-02-03 Erro=0
+2023-05-06 09:49:56 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:49:56 - Request_json - licitacoes/2023/diario - 2023-05-06 09:49:56 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160356&data_publicacao=2023-02-04 Erro=0
+2023-05-06 09:49:57 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:49:57 - Request_json - licitacoes/2023/diario - 2023-05-06 09:49:57 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160356&data_publicacao=2023-02-05 Erro=0
+2023-05-06 09:49:57 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:49:57 - Request_json - licitacoes/2023/diario - 2023-05-06 09:49:57 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160356&data_publicacao=2023-02-06 Erro=0
+2023-05-06 09:49:58 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:49:58 - Request_json - licitacoes/2023/diario - 2023-05-06 09:49:58 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160356&data_publicacao=2023-02-07 Erro=0
+2023-05-06 09:49:58 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:49:58 - Request_json - licitacoes/2023/diario - 2023-05-06 09:49:58 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160356&data_publicacao=2023-02-08 Erro=0
+2023-05-06 09:50:04 - Request_json - licitacoes/2023/diario - 2023-05-06 09:50:04 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160356&data_publicacao=2023-02-08 Erro=1
+2023-05-06 09:50:04 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:50:04 - Request_json - licitacoes/2023/diario - 2023-05-06 09:50:04 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160356&data_publicacao=2023-02-09 Erro=0
+2023-05-06 09:50:05 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:50:05 - Request_json - licitacoes/2023/diario - 2023-05-06 09:50:05 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160356&data_publicacao=2023-02-10 Erro=0
+2023-05-06 09:50:05 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:50:05 - Request_json - licitacoes/2023/diario - 2023-05-06 09:50:05 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160356&data_publicacao=2023-02-11 Erro=0
+2023-05-06 09:50:06 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:50:06 - Request_json - licitacoes/2023/diario - 2023-05-06 09:50:06 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160356&data_publicacao=2023-02-12 Erro=0
+2023-05-06 09:50:06 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:50:06 - Request_json - licitacoes/2023/diario - 2023-05-06 09:50:06 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160356&data_publicacao=2023-02-13 Erro=0
+2023-05-06 09:50:07 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:50:07 - Request_json - licitacoes/2023/diario - 2023-05-06 09:50:07 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160356&data_publicacao=2023-02-14 Erro=0
+2023-05-06 09:50:08 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:50:08 - Request_json - licitacoes/2023/diario - 2023-05-06 09:50:08 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160356&data_publicacao=2023-02-15 Erro=0
+2023-05-06 09:50:13 - Request_json - licitacoes/2023/diario - 2023-05-06 09:50:13 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160356&data_publicacao=2023-02-15 Erro=1
+2023-05-06 09:50:13 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:50:13 - Request_json - licitacoes/2023/diario - 2023-05-06 09:50:13 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160356&data_publicacao=2023-02-16 Erro=0
+2023-05-06 09:50:14 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:50:14 - Request_json - licitacoes/2023/diario - 2023-05-06 09:50:14 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160356&data_publicacao=2023-02-17 Erro=0
+2023-05-06 09:50:14 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:50:14 - Request_json - licitacoes/2023/diario - 2023-05-06 09:50:14 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160356&data_publicacao=2023-02-18 Erro=0
+2023-05-06 09:50:15 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:50:15 - Request_json - licitacoes/2023/diario - 2023-05-06 09:50:15 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160356&data_publicacao=2023-02-19 Erro=0
+2023-05-06 09:50:15 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:50:15 - Request_json - licitacoes/2023/diario - 2023-05-06 09:50:15 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160356&data_publicacao=2023-02-20 Erro=0
+2023-05-06 09:50:15 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:50:15 - Request_json - licitacoes/2023/diario - 2023-05-06 09:50:15 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160356&data_publicacao=2023-02-21 Erro=0
+2023-05-06 09:50:16 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:50:16 - Request_json - licitacoes/2023/diario - 2023-05-06 09:50:16 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160356&data_publicacao=2023-02-22 Erro=0
+2023-05-06 09:50:16 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:50:16 - Request_json - licitacoes/2023/diario - 2023-05-06 09:50:16 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160356&data_publicacao=2023-02-23 Erro=0
+2023-05-06 09:50:17 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:50:17 - Request_json - licitacoes/2023/diario - 2023-05-06 09:50:17 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160356&data_publicacao=2023-02-24 Erro=0
+2023-05-06 09:50:17 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:50:17 - Request_json - licitacoes/2023/diario - 2023-05-06 09:50:17 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160356&data_publicacao=2023-02-25 Erro=0
+2023-05-06 09:50:17 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:50:17 - Request_json - licitacoes/2023/diario - 2023-05-06 09:50:17 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160356&data_publicacao=2023-02-26 Erro=0
+2023-05-06 09:50:18 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:50:18 - Request_json - licitacoes/2023/diario - 2023-05-06 09:50:18 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160356&data_publicacao=2023-02-27 Erro=0
+2023-05-06 09:50:23 - Request_json - licitacoes/2023/diario - 2023-05-06 09:50:23 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160356&data_publicacao=2023-02-27 Erro=1
+2023-05-06 09:50:23 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:50:23 - Request_json - licitacoes/2023/diario - 2023-05-06 09:50:23 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160356&data_publicacao=2023-02-28 Erro=0
+2023-05-06 09:50:29 - Request_json - licitacoes/2023/diario - 2023-05-06 09:50:29 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160356&data_publicacao=2023-02-28 Erro=1
+2023-05-06 09:50:29 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:53:06 - Request_json - licitacoes/2023/diario - 2023-05-06 09:53:06 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160421&data_publicacao=2023-02-01 Erro=0
+2023-05-06 09:53:07 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:53:07 - Request_json - licitacoes/2023/diario - 2023-05-06 09:53:07 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160421&data_publicacao=2023-02-02 Erro=0
+2023-05-06 09:53:07 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:53:07 - Request_json - licitacoes/2023/diario - 2023-05-06 09:53:07 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160421&data_publicacao=2023-02-03 Erro=0
+2023-05-06 09:53:07 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:53:07 - Request_json - licitacoes/2023/diario - 2023-05-06 09:53:07 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160421&data_publicacao=2023-02-04 Erro=0
+2023-05-06 09:53:08 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:53:08 - Request_json - licitacoes/2023/diario - 2023-05-06 09:53:08 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160421&data_publicacao=2023-02-05 Erro=0
+2023-05-06 09:53:08 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:53:08 - Request_json - licitacoes/2023/diario - 2023-05-06 09:53:08 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160421&data_publicacao=2023-02-06 Erro=0
+2023-05-06 09:53:09 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:53:09 - Request_json - licitacoes/2023/diario - 2023-05-06 09:53:09 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160421&data_publicacao=2023-02-07 Erro=0
+2023-05-06 09:53:09 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:53:09 - Request_json - licitacoes/2023/diario - 2023-05-06 09:53:09 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160421&data_publicacao=2023-02-08 Erro=0
+2023-05-06 09:53:09 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:53:09 - Request_json - licitacoes/2023/diario - 2023-05-06 09:53:09 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160421&data_publicacao=2023-02-09 Erro=0
+2023-05-06 09:53:10 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:53:10 - Request_json - licitacoes/2023/diario - 2023-05-06 09:53:10 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160421&data_publicacao=2023-02-10 Erro=0
+2023-05-06 09:53:10 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:53:10 - Request_json - licitacoes/2023/diario - 2023-05-06 09:53:10 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160421&data_publicacao=2023-02-11 Erro=0
+2023-05-06 09:53:15 - Request_json - licitacoes/2023/diario - 2023-05-06 09:53:15 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160421&data_publicacao=2023-02-11 Erro=1
+2023-05-06 09:53:16 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:53:16 - Request_json - licitacoes/2023/diario - 2023-05-06 09:53:16 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160421&data_publicacao=2023-02-12 Erro=0
+2023-05-06 09:53:16 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:53:16 - Request_json - licitacoes/2023/diario - 2023-05-06 09:53:16 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160421&data_publicacao=2023-02-13 Erro=0
+2023-05-06 09:53:16 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:53:16 - Request_json - licitacoes/2023/diario - 2023-05-06 09:53:16 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160421&data_publicacao=2023-02-14 Erro=0
+2023-05-06 09:53:17 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:53:17 - Request_json - licitacoes/2023/diario - 2023-05-06 09:53:17 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160421&data_publicacao=2023-02-15 Erro=0
+2023-05-06 09:53:17 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:53:17 - Request_json - licitacoes/2023/diario - 2023-05-06 09:53:17 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160421&data_publicacao=2023-02-16 Erro=0
+2023-05-06 09:53:17 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:53:17 - Request_json - licitacoes/2023/diario - 2023-05-06 09:53:17 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160421&data_publicacao=2023-02-17 Erro=0
+2023-05-06 09:53:18 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:53:18 - Request_json - licitacoes/2023/diario - 2023-05-06 09:53:18 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160421&data_publicacao=2023-02-18 Erro=0
+2023-05-06 09:53:18 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:53:18 - Request_json - licitacoes/2023/diario - 2023-05-06 09:53:18 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160421&data_publicacao=2023-02-19 Erro=0
+2023-05-06 09:53:23 - Request_json - licitacoes/2023/diario - 2023-05-06 09:53:23 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160421&data_publicacao=2023-02-19 Erro=1
+2023-05-06 09:53:24 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:53:24 - Request_json - licitacoes/2023/diario - 2023-05-06 09:53:24 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160421&data_publicacao=2023-02-20 Erro=0
+2023-05-06 09:53:24 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:53:24 - Request_json - licitacoes/2023/diario - 2023-05-06 09:53:24 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160421&data_publicacao=2023-02-21 Erro=0
+2023-05-06 09:53:24 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:53:24 - Request_json - licitacoes/2023/diario - 2023-05-06 09:53:24 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160421&data_publicacao=2023-02-22 Erro=0
+2023-05-06 09:53:25 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:53:25 - Request_json - licitacoes/2023/diario - 2023-05-06 09:53:25 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160421&data_publicacao=2023-02-23 Erro=0
+2023-05-06 09:53:25 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:53:25 - Request_json - licitacoes/2023/diario - 2023-05-06 09:53:25 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160421&data_publicacao=2023-02-24 Erro=0
+2023-05-06 09:53:25 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:53:25 - Request_json - licitacoes/2023/diario - 2023-05-06 09:53:25 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160421&data_publicacao=2023-02-25 Erro=0
+2023-05-06 09:53:26 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:53:26 - Request_json - licitacoes/2023/diario - 2023-05-06 09:53:26 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160421&data_publicacao=2023-02-26 Erro=0
+2023-05-06 09:53:26 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:53:26 - Request_json - licitacoes/2023/diario - 2023-05-06 09:53:26 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160421&data_publicacao=2023-02-27 Erro=0
+2023-05-06 09:53:28 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 09:53:28 - Request_json - licitacoes/2023/diario - 2023-05-06 09:53:28 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=160421&data_publicacao=2023-02-28 Erro=0
+2023-05-06 09:53:28 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 17:48:28 - Request_json - licitacoes/2023/diario - 2023-05-06 17:48:28 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-01 Erro=0
+2023-05-06 17:48:29 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 17:48:30 - Request_json - licitacoes/2023/diario - 2023-05-06 17:48:30 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-02 Erro=0
+2023-05-06 17:48:31 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 17:48:31 - Request_json - licitacoes/2023/diario - 2023-05-06 17:48:31 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-03 Erro=0
+2023-05-06 17:48:33 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 17:48:33 - Request_json - licitacoes/2023/diario - 2023-05-06 17:48:33 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-04 Erro=0
+2023-05-06 17:48:34 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 17:48:34 - Request_json - licitacoes/2023/diario - 2023-05-06 17:48:34 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-05 Erro=0
+2023-05-06 17:48:35 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 17:48:36 - Request_json - licitacoes/2023/diario - 2023-05-06 17:48:36 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-06 Erro=0
+2023-05-06 17:48:38 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 17:48:38 - Request_json - licitacoes/2023/diario - 2023-05-06 17:48:38 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-07 Erro=0
+2023-05-06 17:48:40 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 17:48:40 - Request_json - licitacoes/2023/diario - 2023-05-06 17:48:40 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-08 Erro=0
+2023-05-06 17:48:42 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 17:48:42 - Request_json - licitacoes/2023/diario - 2023-05-06 17:48:42 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-09 Erro=0
+2023-05-06 17:48:44 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 17:48:44 - Request_json - licitacoes/2023/diario - 2023-05-06 17:48:44 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-10 Erro=0
+2023-05-06 17:48:46 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 17:48:46 - Request_json - licitacoes/2023/diario - 2023-05-06 17:48:46 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-11 Erro=0
+2023-05-06 17:48:47 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 17:48:47 - Request_json - licitacoes/2023/diario - 2023-05-06 17:48:47 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-12 Erro=0
+2023-05-06 17:48:49 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 17:48:50 - Request_json - licitacoes/2023/diario - 2023-05-06 17:48:50 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-13 Erro=0
+2023-05-06 17:48:51 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 17:48:52 - Request_json - licitacoes/2023/diario - 2023-05-06 17:48:52 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-14 Erro=0
+2023-05-06 17:48:54 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 17:48:54 - Request_json - licitacoes/2023/diario - 2023-05-06 17:48:54 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-15 Erro=0
+2023-05-06 17:49:01 - Request_json - licitacoes/2023/diario - 2023-05-06 17:49:01 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-15 Erro=1
+2023-05-06 17:49:02 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 17:49:02 - Request_json - licitacoes/2023/diario - 2023-05-06 17:49:02 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-16 Erro=0
+2023-05-06 17:49:03 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 17:49:04 - Request_json - licitacoes/2023/diario - 2023-05-06 17:49:04 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-17 Erro=0
+2023-05-06 17:49:05 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 17:49:05 - Request_json - licitacoes/2023/diario - 2023-05-06 17:49:05 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-18 Erro=0
+2023-05-06 17:49:11 - Request_json - licitacoes/2023/diario - 2023-05-06 17:49:11 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-18 Erro=1
+2023-05-06 17:49:12 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 17:49:12 - Request_json - licitacoes/2023/diario - 2023-05-06 17:49:12 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-19 Erro=0
+2023-05-06 17:49:14 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 17:49:14 - Request_json - licitacoes/2023/diario - 2023-05-06 17:49:14 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-20 Erro=0
+2023-05-06 17:49:16 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 17:49:17 - Request_json - licitacoes/2023/diario - 2023-05-06 17:49:17 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-21 Erro=0
+2023-05-06 17:49:18 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 17:49:19 - Request_json - licitacoes/2023/diario - 2023-05-06 17:49:19 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-22 Erro=0
+2023-05-06 17:49:20 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 17:49:20 - Request_json - licitacoes/2023/diario - 2023-05-06 17:49:20 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-23 Erro=0
+2023-05-06 17:49:21 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 17:49:22 - Request_json - licitacoes/2023/diario - 2023-05-06 17:49:22 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-24 Erro=0
+2023-05-06 17:49:23 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 17:49:23 - Request_json - licitacoes/2023/diario - 2023-05-06 17:49:23 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-25 Erro=0
+2023-05-06 17:49:25 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 17:49:25 - Request_json - licitacoes/2023/diario - 2023-05-06 17:49:25 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-26 Erro=0
+2023-05-06 17:49:27 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 17:49:27 - Request_json - licitacoes/2023/diario - 2023-05-06 17:49:27 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-27 Erro=0
+2023-05-06 17:49:28 - Request_json - licitacoes/2023/diario - Status do download 200
+2023-05-06 17:49:29 - Request_json - licitacoes/2023/diario - 2023-05-06 17:49:29 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=153164&data_publicacao=2023-02-28 Erro=0
+2023-05-06 17:49:30 - Request_json - licitacoes/2023/diario - Status do download 200

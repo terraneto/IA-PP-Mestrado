@@ -27,6 +27,7 @@ class Uasg(db.Model, SerializerMixin):
     unidade_cadastradora = db.Column(db.Integer)
     ativo = db.Column(db.Integer)
 
+
 class Fornecedor(db.Model, SerializerMixin):
     __tablename__ = "fornecedores"
     id = db.Column(db.Integer, primary_key=True)
@@ -206,7 +207,7 @@ class Itenscontratos(db.Model, SerializerMixin):
 
 
 class Itens(db.Model, SerializerMixin):
-    __tablename__ = "itens"
+    __tablename__ = "itens2"
     licitacao_contrato = db.Column(db.Integer, primary_key=True)
     id = db.Column(db.Integer, primary_key=True)
     data = db.Column(db.Text)

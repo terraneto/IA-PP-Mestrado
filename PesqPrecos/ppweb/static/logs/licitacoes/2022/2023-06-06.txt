@@ -1,0 +1,3 @@
+2023-06-06 19:32:39 - Request_json - licitacoes/2022 - 2023-06-06 19:32:39 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=10001&data_publicacao_min=2022-01-01&data_publicacao_max=2022-12-31 Erro=0
+2023-06-06 19:32:45 - Request_json - licitacoes/2022 - 2023-06-06 19:32:45 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=10001&data_publicacao_min=2022-01-01&data_publicacao_max=2022-12-31 Erro=1
+2023-06-06 19:32:50 - Request_json - licitacoes/2022 - 2023-06-06 19:32:50 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=10001&data_publicacao_min=2022-01-01&data_publicacao_max=2022-12-31 Erro=2
