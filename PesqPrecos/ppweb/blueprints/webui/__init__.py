@@ -9,7 +9,7 @@ from .views import index, dir_listing, \
     view_baixa_json_licitacao_uasg_mensal, view_itenscontratos, view_itens, view_carrega_itens_contratos, \
     view_baixa_json_itensprecospraticados, view_carrega_itens_licitacoes, \
     view_cargaseltipo, view_carrega_dados, carrega_dados, view_licitacoesseltipo, \
-    process_data_licitacao
+    process_data_licitacao, view_avalia_pesquisa_precos
 
 bp = Blueprint("webui", __name__, template_folder="templates")
 
@@ -100,6 +100,9 @@ bp.add_url_rule("/_process_data_licitacao", view_func=process_data_licitacao, en
 
 bp.add_url_rule("/_carrega_dados", view_func=carrega_dados,
                 endpoint="carrega_dados")
+
+bp.add_url_rule("/avalia_pp", view_func=view_avalia_pesquisa_precos,
+                endpoint="view_avalia_pesquisa_precos")
 
 def init_app(app):
     app.register_blueprint(bp)

@@ -1,16 +1,19 @@
 from flask import abort, render_template, send_file, request, jsonify
+from sqlalchemy import distinct
+from sqlalchemy.orm import aliased
 
 from ppweb.cargajson import carrega_json
 
 from ppweb.contratosdf import baixa_json_contrato_mensal, baixa_json_itenscontrato, baixa_json_contrato_anual, \
     baixa_json_contrato_mes
 from ppweb.dadosia import carrega_itens_contratos, carrega_itens_licitacoes
+from ppweb.ext.database import db
 from ppweb.licitacoesdf import baixa_json_itenslicitacao, \
     baixa_json_uasg_licitacoes_mensal, baixa_json_licitacao_uasg_mensal, baixa_json_licitacao_uasg_trimestral, \
     baixa_json_itensprecospraticados, baixa_json_licitacao_uasg_anual_geral, baixa_uasg_diario_material_geral, \
     baixa_uasg_mensal_geral, baixa_uasg_mensal_diario_geral, baixa_uasg_diario_classe_geral
 
-from ppweb.models import Uasg, ComprasContratos, Itenslicitacao, Itenscontratos, Itens, Itensprecospraticados
+from ppweb.models import Uasg, ComprasContratos, Itenslicitacao, Itenscontratos, Itens, Itensprecospraticados, Material
 
 import os
 
@@ -105,6 +108,18 @@ def view_seltipo():
     return render_template('seltipo.html',
                            all_classes=default_classes,
                            all_entries=default_values)
+
+
+def view_avalia_pesquisa_precos():
+    #materiais = Itens.query.distinct(Itens.catmat_id).order_by(Itens.catmat_id).all()
+    #mat_desc = materiais.join(Material, Itens.catmat_id == Material.codigo).add_columns(
+    #Material.descricao).order_by(Itens.catmat_id)
+    materiaisq1d = db.session.query(Itens.catmat_id).order_by(Itens.catmat_id).distinct().subquery()
+    print(materiaisq1d)
+    materiais = db.session.query(materiaisq1d, Material.descricao).join(Material, materiaisq1d.c.catmat_id == Material.codigo).all()
+    print(materiais)
+    return render_template('avaliapp.html',
+                           all_materiais=materiais)
 
 
 def view_licitacoesseltipo():

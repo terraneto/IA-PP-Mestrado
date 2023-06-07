@@ -1,3 +1,5 @@
+from sqlalchemy import ForeignKey
+
 from ppweb.ext.database import db
 from sqlalchemy_serializer import SerializerMixin
 
@@ -211,7 +213,7 @@ class Itens(db.Model, SerializerMixin):
     licitacao_contrato = db.Column(db.Integer, primary_key=True)
     id = db.Column(db.Integer, primary_key=True)
     data = db.Column(db.Text)
-    catmat_id = db.Column(db.Integer)
+    catmat_id = db.Column(db.Integer, ForeignKey(Material.codigo))
     quantidade = db.Column(db.Integer)
     unidade = db.Column(db.Text)
     valor_unitario = db.Column(db.Float)

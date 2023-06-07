@@ -51,7 +51,9 @@ def mynavbar():
                  Text('Licitações'),
                  View('Carrega itens de preços praticados', 'webui.view_carrega_itens_licitacoes'),
                  ),
-
+        Subgroup('Avaliação da Pesquisa de Preços',
+                 View('Avalia pesquisa de preços', 'webui.view_avalia_pesquisa_precos')
+                 ),
         #        Link('Tech Support', 'http://www.google.com'),
     )
 
