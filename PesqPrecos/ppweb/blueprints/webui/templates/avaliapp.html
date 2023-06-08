@@ -1,45 +1,59 @@
 {% extends "index.html" %}
-
 {% block content %}
 <div class="container">
     <h1>Avaliar Pesquisa de Preços</h1>
-<br>
-      <div class="row">
-        <div class="form-group col-xs-6">
-          <label for="all_materiais">Selecione o Material</label>
-          <select class="form-control" id="all_materiais">
-            {% for m in all_materiais %}
-                    <option value="{{ m.catmat_id }}">{{m.catmat_id}} - {{m.descricao[:60]}}...</option>
-            {% endfor %}
-          </select>
+    <br>
+    <div class="row">
+        <div class="column">
+            <div class="form-group col-xs-6">
+                <label>Selecione o Material
+                    <select class="form-control"  id="all_materiais">
+                    {% for m in all_materiais %}
+                    <option value="{{ m.catmat_id }}">{{m.catmat_id}} - {{m.descricao[:30]}}</option>
+                    {% endfor %}
+                    </select>
+                </label>
+                <br>
+                <label for="descricao">Descrição</label>
+                <br>
+                <textarea id="descricao" name="descricao" rows="4" cols="76" disabled>{{material.descricao}}</textarea>
+            </div>
         </div>
-      </div>
-          <br>
-      <input type="date" id="date">
-      <div>
-        <button type="button" id="process_input">Baixar json</button>
-        <button type="button" id="go_index">Fechar</button>
-      </div>
-</div>
+        <div class="column">
+            <div class="form-group col-xs-6">
+                <label for="data_selecionada">Data inicial de preços para validação
+                <br>
+                <input class="form-control" type="date" id="data_selecionada"
+                       name="data_selecionada" min="{{anopassado}}" max="{{ontem}}" value="{{anopassado}}">
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="column"></div>
+    <div class="column">
+        <div>
+            <button type="button" id="process_input">Avaliar</button>
+            <button type="button" id="go_index">Voltar</button>
+        </div>
+    </div>
     <script src="https://code.jquery.com/jquery-1.12.4.js" type="text/javascript"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
-
         $('#all_materiais').change(function(){
-
-          $.getJSON('/_update_dropdown', {
-            selected_material: $('#all_materiais').val()
-
+          $.getJSON('/_selecao_material', {
+            material_selecionado: $('#all_materiais').val()
           }).success(function(data) {
-           })
+                document.getElementById('descricao').textContent= data.descricao
+                          })
         });
         $('#go_index').bind('click', function() {
              window.location.replace("/");
         });
         $('#process_input').bind('click', function() {
-             $.getJSON('/_process_data', {
-                selected_material: $('#all_materiais').val(),
+             $.getJSON('/_avaliacao_pp', {
+                material_selecionado: $('#all_materiais').val(),
+                data_selecionada: $('#data_selecionada').val()
             }).success(function(data) {
 
             })
@@ -54,20 +68,25 @@
             url: "~/pythoncode.py",
             data: { param: text}
       }).done(function( o ) {
-                window.location.replace("/");
+          window.location.replace("/");
       });
+
+
+
     </script>
-<br>
+</div>
 {% block footer %}
-<br>
 <footer class="footer hidden-xs">
-    <div class="container-fluid" style="position: absolute; height: 2.4rem; width: 100%; bottom: 0" >
+    <div class="container-fluid" style="position: absolute; height: auto; width: 100%; bottom: 0">
         <div class="row">
-           <div class="col-md-12">
-             <p class="texto text-center" style="background-image: url({{url_for('static', filename='RODAPE_BG.PNG')}}); color: white; "  >Senado Federal - Praça dos Três Poderes - Brasília DF - CEP 70165-900 - Fone: (61)3303-4141</p>
-           </div>
+            <div class="col-md-12">
+                <p class="texto text-center"
+                   style="background-image: url({{url_for('static', filename='RODAPE_BG.PNG')}}); color: white; ">Senado
+                    Federal - Praça dos Três Poderes - Brasília DF - CEP 70165-900 - Fone: (61)3303-4141</p>
+            </div>
         </div>
     </div>
 </footer>
+{%- endblock footer%}
 {% endblock %}
-{% endblock %}
+

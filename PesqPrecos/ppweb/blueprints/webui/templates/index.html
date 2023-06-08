@@ -1,11 +1,9 @@
 {% extends "bootstrap/base.html" %}
-
 {% block title %}
 {{config.get('TITLE')}}
 {% endblock %}
-
 {% block navbar %}
-<div class="bg-image" id="jumboid">
+<div class="bg-image" id="jumboid" >
   <p style="background-image: url({{url_for('static', filename='TOPO_bgimg.jpg')}}); height: 80px; width: 100%;display: inline-block;padding: 20px" >
     <img src="{{url_for('static', filename='logosenado.png')}}"  alt="logosenado"  width="200" >
     <label style="color: white;font-size: 20px;padding-left: 10px;">  IA para Pesquisa de Preços</label>
@@ -13,27 +11,21 @@
 </div>
 {{nav.mynavbar.render()}}
 {% endblock %}
-
-{% block content %}
+{%- block content %}
+{{super()}}
 <div class="container">
-<h1>{{config.get('TITLE')}}</h1>
-
-    <div class="jumbotron">
-        <ul class="list-group">
-            <li class="list-group-item">
-            </li>
-        </ul>
-    </div>
 </div>
-{% endblock %}
 {% block footer %}
 <footer class="footer hidden-xs">
-    <div class="container-fluid" style="position: absolute; height: 2.4rem; width: 100%; bottom: 0" >
+    <div class="container-fluid" style="position: absolute; height: auto; width: 100%; bottom: 0">
         <div class="row">
-           <div class="col-md-12">
-             <p class="texto text-center" style="background-image: url({{url_for('static', filename='RODAPE_BG.PNG')}}); color: white; "  >Senado Federal - Praça dos Três Poderes - Brasília DF - CEP 70165-900 - Fone: (61)3303-4141</p>
-           </div>
+            <div class="col-md-12">
+                <p class="texto text-center"
+                   style="background-image: url({{url_for('static', filename='RODAPE_BG.PNG')}}); color: white; ">Senado
+                    Federal - Praça dos Três Poderes - Brasília DF - CEP 70165-900 - Fone: (61)3303-4141</p>
+            </div>
         </div>
     </div>
 </footer>
-{% endblock %}
+{%- endblock footer%}
+{%- endblock %}

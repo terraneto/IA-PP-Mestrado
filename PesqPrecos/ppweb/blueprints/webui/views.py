@@ -1,6 +1,6 @@
+from datetime import datetime, timedelta
+
 from flask import abort, render_template, send_file, request, jsonify
-from sqlalchemy import distinct
-from sqlalchemy.orm import aliased
 
 from ppweb.cargajson import carrega_json
 
@@ -58,6 +58,18 @@ def update_dropdown():
     return jsonify(html_string_selected=html_string_selected)
 
 
+def selecao_material():
+    material_selecionado = request.args.get('material_selecionado', type=int)
+    material = Material.query.filter_by(codigo=material_selecionado).first()
+    return material.to_dict()
+
+def avaliacao_pp():
+    material_selecionado = request.args.get('material_selecionado', type=int)
+    data_selecionada= request.args.get('data_selecionada', type=str)
+    print(material_selecionado)
+    print(data_selecionada)
+    return render_template('index.html')
+
 def process_data():
     selected_class = request.args.get('selected_class', type=str)
     selected_entry = request.args.get('selected_entry', type=str)
@@ -111,15 +123,14 @@ def view_seltipo():
 
 
 def view_avalia_pesquisa_precos():
-    #materiais = Itens.query.distinct(Itens.catmat_id).order_by(Itens.catmat_id).all()
-    #mat_desc = materiais.join(Material, Itens.catmat_id == Material.codigo).add_columns(
-    #Material.descricao).order_by(Itens.catmat_id)
+    ontem = (datetime.now() - timedelta(30)).strftime('%Y-%m-%d')
+    anopassado = (datetime.now() - timedelta(365)).strftime('%Y-%m-%d')
     materiaisq1d = db.session.query(Itens.catmat_id).order_by(Itens.catmat_id).distinct().subquery()
-    print(materiaisq1d)
-    materiais = db.session.query(materiaisq1d, Material.descricao).join(Material, materiaisq1d.c.catmat_id == Material.codigo).all()
-    print(materiais)
+    materiais = db.session.query(materiaisq1d, Material.descricao).join(Material,
+                                                                        materiaisq1d.c.catmat_id == Material.codigo).all()
+    material = materiais[0]
     return render_template('avaliapp.html',
-                           all_materiais=materiais)
+                           all_materiais=materiais, material=material, ontem=ontem, anopassado=anopassado)
 
 
 def view_licitacoesseltipo():
