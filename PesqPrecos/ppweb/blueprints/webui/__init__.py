@@ -17,14 +17,14 @@ bp.add_url_rule("/", view_func=index)
 
 bp.add_url_rule("/uasgs", view_func=uasg)
 
-#bp.add_url_rule(
+# bp.add_url_rule(
 #    "/product/<product_id>", view_func=product, endpoint="productview"
-#)
+# )
 
 
-#3bp.add_url_rule(
+# 3bp.add_url_rule(
 #    "/home", view_func=view_home, endpoint="view_home"
-#)
+# )
 
 bp.add_url_rule("/json", view_func=dir_listing, endpoint="json")
 
@@ -50,21 +50,14 @@ bp.add_url_rule("/json/itensprecospraticados", view_func=view_baixa_json_itenspr
 bp.add_url_rule("/json/licitacoes/ano/<vano>/mes/<vmes>", view_func=view_baixa_json_licitacoes_mes,
                 endpoint="view_baixa_json_licitacoes_mes")
 
-
 bp.add_url_rule("/json/itenscontrato", view_func=view_baixa_json_itenscontrato,
                 endpoint="view_baixa_json_itenscontrato")
-
 
 bp.add_url_rule("/json/uasg/licitacao/mensal/<vano>/<vmes>", view_func=view_baixa_json_licitacao_uasg_mensal,
                 endpoint="view_baixa_json_licitacao_uasg_mensal")
 
-
-
-
-
 bp.add_url_rule("/carregadb/contratos", view_func=view_carrega_json_contratos_mensais,
                 endpoint="view_carrega_json_contratos_mensais")
-
 
 bp.add_url_rule("/carregadb/itenscontratos", view_func=view_carrega_json_itenscontratos,
                 endpoint="view_carrega_json_itenscontratos")
@@ -108,7 +101,8 @@ bp.add_url_rule("/_selecao_material", view_func=selecao_material,
                 endpoint="selecao_material")
 
 bp.add_url_rule("/_avaliacao_pp", view_func=avaliacao_pp,
-                endpoint="avaliacao_pp" )
+                endpoint="avaliacao_pp", methods=['GET', 'POST'])
+
 
 def init_app(app):
     app.register_blueprint(bp)

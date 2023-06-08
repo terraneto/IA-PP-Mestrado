@@ -1,27 +1,41 @@
 {% extends "index.html" %}
 
 {% block content %}
-<div class="container">
-<h1>UASGS</h1>
-
-        <ul class="list-group">
-            {% for uasg in uasgs %}
-            <li class="list-group-item">
-                {{uasg.id}} - {{uasg.nome}} - {{uasg.id_orgao}}
-            </li>
-            {% endfor %}
-        </ul>
-
+<div>
+    <p class="titulo_pagina" style="background-color: Gainsboro;  color: navy; margin-left: 0 !important;
+                                        padding: 20 !important; width: 100%; font-size: 160%">
+        <span style="margin-left: 110px;"><strong>UASGS</strong></span>
+    </p>
+</div>
+<div class="container" style="width: 100%; height:300px; overflow-y: scroll;  scroll-behavior: smooth;">
+    <ul class="list-group">
+        {% for uasg in uasgs %}
+        <li class="list-group-item">
+            {{uasg.id}} - {{uasg.nome}} - {{uasg.id_orgao}}
+        </li>
+        {% endfor %}
+    </ul>
 </div>
 {% block footer %}
-<footer class="footer hidden-xs">
-    <div class="container-fluid" style="position: absolute; height: 2.4rem; width: 100%; bottom: 0" >
-        <div class="row">
-           <div class="col-md-12">
-             <p class="texto text-center" style="background-image: url({{url_for('static', filename='RODAPE_BG.PNG')}}); color: white; "  >Senado Federal - Praça dos Três Poderes - Brasília DF - CEP 70165-900 - Fone: (61)3303-4141</p>
-           </div>
+<div  style="padding-left: 0 !important; padding-right: 0 !important; margin: -15px !important; width:80% !important; height: auto; ">
+    <footer class="footer hidden-xs"
+            style="padding-left: 0 !important; padding-right: 0 !important; margin: 0 !important; height: auto ">
+        <div style="height: auto; bottom: 0; margin: 0 !important;padding-left: 0 !important; padding-right: 0 !important; ">
+            <div
+                 style="width: 100%; position: absolute; height: auto; bottom: 0; margin: 0 !important;padding-left: 0 !important; padding-right: 0 !important; ">
+                <div class="col-md-12"
+                     style="position: absolute; height: auto; bottom: 0; margin: 0 !important;  width: 100% !important;">
+                    <div style="position: absolute; height: auto; bottom: 0; margin: 0 !important; width: 100% !important;">
+                        <p class="texto text-center" style="background-image: url({{url_for('static', filename='RODAPE_BG.PNG')}}); color: white; margin-left: 0 !important;
+                                        width: 100% !important;">
+                            Senado Federal - Praça dos Três Poderes - Brasília DF - CEP 70165-900 - Fone: (61)3303-4141
+                        </p>
+                    </div>
+
+                </div>
+            </div>
         </div>
-    </div>
-</footer>
+    </footer>
+</div>
 {% endblock %}
 {% endblock %}

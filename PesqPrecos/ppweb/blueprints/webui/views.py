@@ -1,7 +1,8 @@
 from datetime import datetime, timedelta
 
-from flask import abort, render_template, send_file, request, jsonify
+from flask import abort, render_template, send_file, request, jsonify, url_for
 
+from ppweb.blueprints import webui
 from ppweb.cargajson import carrega_json
 
 from ppweb.contratosdf import baixa_json_contrato_mensal, baixa_json_itenscontrato, baixa_json_contrato_anual, \
@@ -21,7 +22,6 @@ from ppweb.utils import baixa_json
 
 
 def index():
-    # products = Product.query.all()
     return render_template("index.html")
 
 
@@ -63,12 +63,18 @@ def selecao_material():
     material = Material.query.filter_by(codigo=material_selecionado).first()
     return material.to_dict()
 
+
 def avaliacao_pp():
-    material_selecionado = request.args.get('material_selecionado', type=int)
-    data_selecionada= request.args.get('data_selecionada', type=str)
+    if request.method == 'POST':
+        material_selecionado = request.form.get('all_materiais', type=int)
+        data_selecionada = request.form.get('data_selecionada', type=str)
+    else:
+        material_selecionado = request.args.get('material_selecionado', type=int)
+        data_selecionada = request.args.get('data_selecionada', type=str)
     print(material_selecionado)
     print(data_selecionada)
-    return render_template('index.html')
+    return render_template("avaliacao_pesquisa.html", material=material_selecionado, data=data_selecionada)
+
 
 def process_data():
     selected_class = request.args.get('selected_class', type=str)

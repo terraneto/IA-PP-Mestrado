@@ -1,0 +1,54 @@
+{% extends "index.html" %}
+{% block content %}
+<div style="padding-left: 0 !important; padding-right: 0 !important; margin: 0 !important; ">
+    <p class="titulo_pagina" style="background-color: Gainsboro;  color: navy; margin-left: 0 !important;
+                                        padding: 20 !important; width: 100%; font-size: 160%">
+        <span style="margin-left: 110px;"><strong>Avaliação de Pesquisa de Preços</strong></span>
+    </p>
+</div>
+<br>
+<div class="container">
+    <form action="{{ url_for('webui.avaliacao_pp')}}" method="post">
+        Material = {{material}}
+        Data = {{data}}
+        <div class="row">
+            <div class="form-group col-xs-6">
+                <label for="data_selecionada">Data inicial de preços para validação
+                    <br>
+                    <input class="form-control" type="date" id="data_selecionada"
+                           name="data_selecionada" min="{{anopassado}}" max="{{ontem}}" value="{{anopassado}}">
+                </label>
+            </div>
+        </div>
+        <div class="column"></div>
+        <div class="column">
+            <div>
+                <button type="submit" class="button btn-primary" id="avaliar">Avaliar</button>
+                <button type="button" class="button btn-primary" id="go_index">Voltar</button>
+            </div>
+        </div>
+    </form>
+</div>
+{% block footer %}
+<div style="padding-left: 0 !important; padding-right: 0 !important; margin: -15px !important; width:100% !important; height: auto; ">
+    <footer class="footer hidden-xs"
+            style="padding-left: 0 !important; padding-right: 0 !important; margin: 0 !important; height: auto ">
+        <div style="height: auto; bottom: 0; margin: 0 !important;padding-left: 0 !important; padding-right: 0 !important; ">
+            <div
+                    style="width: 100%; position: absolute; height: auto; bottom: 0; margin: 0 !important;padding-left: 0 !important; padding-right: 0 !important; ">
+                <div class="col-md-12"
+                     style="position: absolute; height: auto; bottom: 0; margin: 0 !important;  width: 100% !important;">
+                    <div style="position: absolute; height: auto; bottom: 0; margin: 0 !important; width: 100% !important;">
+                        <p class="texto text-center" style="background-image: url({{url_for('static', filename='RODAPE_BG.PNG')}}); color: white; margin-left: 0 !important;
+                                        width: 100% !important;">
+                            Senado Federal - Praça dos Três Poderes - Brasília DF - CEP 70165-900 - Fone: (61)3303-4141
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+{%- endblock footer%}
+{% endblock %}
+
