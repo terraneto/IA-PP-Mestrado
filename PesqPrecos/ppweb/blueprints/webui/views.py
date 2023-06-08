@@ -9,6 +9,7 @@ from ppweb.contratosdf import baixa_json_contrato_mensal, baixa_json_itenscontra
     baixa_json_contrato_mes
 from ppweb.dadosia import carrega_itens_contratos, carrega_itens_licitacoes
 from ppweb.ext.database import db
+from ppweb.ia import recuperar_itens_catmat, retirar_extremos, treina_modelo
 from ppweb.licitacoesdf import baixa_json_itenslicitacao, \
     baixa_json_uasg_licitacoes_mensal, baixa_json_licitacao_uasg_mensal, baixa_json_licitacao_uasg_trimestral, \
     baixa_json_itensprecospraticados, baixa_json_licitacao_uasg_anual_geral, baixa_uasg_diario_material_geral, \
@@ -71,9 +72,11 @@ def avaliacao_pp():
     else:
         material_selecionado = request.args.get('material_selecionado', type=int)
         data_selecionada = request.args.get('data_selecionada', type=str)
-    print(material_selecionado)
-    print(data_selecionada)
-    return render_template("avaliacao_pesquisa.html", material=material_selecionado, data=data_selecionada)
+    df = recuperar_itens_catmat(material_selecionado, data_selecionada)
+    df = retirar_extremos(df)
+    clf, clfdeep = treina_modelo(df, 0.08)
+    return render_template("avaliacao_pesquisa.html", material=material_selecionado, data=data_selecionada,
+                           numreg=len(df) )
 
 
 def process_data():
