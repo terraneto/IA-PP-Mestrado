@@ -1,15 +1,14 @@
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, date
 
-from flask import abort, render_template, send_file, request, jsonify, url_for
-
-from ppweb.blueprints import webui
+import pandas as pd
+from flask import abort, render_template, send_file, request, jsonify
 from ppweb.cargajson import carrega_json
 
 from ppweb.contratosdf import baixa_json_contrato_mensal, baixa_json_itenscontrato, baixa_json_contrato_anual, \
     baixa_json_contrato_mes
 from ppweb.dadosia import carrega_itens_contratos, carrega_itens_licitacoes
 from ppweb.ext.database import db
-from ppweb.ia import recuperar_itens_catmat, retirar_extremos, treina_modelo
+from ppweb.ia import recuperar_itens_catmat, retirar_extremos, treina_modelo, avalia_dados
 from ppweb.licitacoesdf import baixa_json_itenslicitacao, \
     baixa_json_uasg_licitacoes_mensal, baixa_json_licitacao_uasg_mensal, baixa_json_licitacao_uasg_trimestral, \
     baixa_json_itensprecospraticados, baixa_json_licitacao_uasg_anual_geral, baixa_uasg_diario_material_geral, \
@@ -62,7 +61,9 @@ def update_dropdown():
 def selecao_material():
     material_selecionado = request.args.get('material_selecionado', type=int)
     material = Material.query.filter_by(codigo=material_selecionado).first()
-    return material.to_dict()
+    retorno = material.to_dict()
+    print(retorno)
+    return retorno
 
 
 def avaliacao_pp():
@@ -72,11 +73,46 @@ def avaliacao_pp():
     else:
         material_selecionado = request.args.get('material_selecionado', type=int)
         data_selecionada = request.args.get('data_selecionada', type=str)
+    material = Material.query.filter_by(codigo=material_selecionado).first()
+    dataformatada = date.fromisoformat(data_selecionada).strftime('%d/%m/%Y')
     df = recuperar_itens_catmat(material_selecionado, data_selecionada)
     df = retirar_extremos(df)
+    min = "{:.2f}".format(df['valor_unitario'].min())
+    min = f"\t{min.replace('.', ',')}"
+    max = "{:.2f}".format(df['valor_unitario'].max())
+    max = f"\t{max.replace('.', ',')}"
+    media = "{:.2f}".format(df['valor_unitario'].mean())
+    media = f"\t{media.replace('.', ',')}"
+    mediana = "{:.2f}".format(df['valor_unitario'].median())
+    mediana = f"\t{mediana.replace('.', ',')}"
+    qmin = f"\t{str(df['quantidade'].min()).replace('.', ',')}"
+    qmax = f"\t{str(df['quantidade'].max()).replace('.', ',')}"
+    qmedia = "{:.2f}".format(df['quantidade'].mean())
+    qmedia = f"\t{qmedia.replace('.', ',')}"
+    qmediana = "{:.2f}".format(df['quantidade'].median())
+    qmediana = f"\t{qmediana.replace('.', ',')}"
+    return render_template("avaliacao_pesquisa.html", material=material, datainicio=dataformatada, min=min, max=max,
+                           media=media, qmin=qmin, qmax=qmax, qmedia=qmedia, qmediana=qmediana, numreg=len(df),
+                           mediana=mediana)
+
+
+def testa_sobrepreco():
+    quantidade = request.args.get('qtd', type=int)
+    valor = request.args.get('valor', type=str)
+    valor = float(f"\t{valor.replace(',', '.')}")
+    catmat = request.args.get('catmat', type=int)
+    datainicio = request.args.get('datainicio', type=str)
+    print(datainicio)
+    df = recuperar_itens_catmat(catmat, datainicio)
+    df = retirar_extremos(df)
     clf, clfdeep = treina_modelo(df, 0.08)
-    return render_template("avaliacao_pesquisa.html", material=material_selecionado, data=data_selecionada,
-                           numreg=len(df) )
+    predicao = int(avalia_dados(clf, clfdeep, quantidade, valor))
+    if predicao == 0:
+        retorno = {'predicao': 'Valor aceitável'}
+    else:
+        retorno = {'predicao': 'Valor não aceitável'}
+    print(retorno)
+    return retorno
 
 
 def process_data():
@@ -134,12 +170,19 @@ def view_seltipo():
 def view_avalia_pesquisa_precos():
     ontem = (datetime.now() - timedelta(30)).strftime('%Y-%m-%d')
     anopassado = (datetime.now() - timedelta(365)).strftime('%Y-%m-%d')
-    materiaisq1d = db.session.query(Itens.catmat_id).order_by(Itens.catmat_id).distinct().subquery()
-    materiais = db.session.query(materiaisq1d, Material.descricao).join(Material,
-                                                                        materiaisq1d.c.catmat_id == Material.codigo).all()
-    material = materiais[0]
+    # materiaisq1d = db.session.query(Itens.catmat_id).order_by(Itens.catmat_id).distinct().subquery()
+    # materiais = db.session.query(materiaisq1d, Material.descricao).join(Material,
+    #                                                                    materiaisq1d.c.catmat_id == Material.codigo).all()
+    # material = materiais[0]
+    # materiais = Itens.query(Itens.catmat_id).distinct()
+
+    sql = 'select  itens2.catmat_id as catmat_id, count(*) as qtd, materiais.descricao   from itens2  inner join ' \
+          'materiais on itens2.catmat_id = materiais.codigo group by catmat_id order by qtd desc'
+    materiais = db.engine.execute(sql).all()
+    materiaisfiltrados = [materiais for materiais in materiais if materiais['qtd'] > 35]
+    material = materiaisfiltrados[0]
     return render_template('avaliapp.html',
-                           all_materiais=materiais, material=material, ontem=ontem, anopassado=anopassado)
+                           all_materiais=materiaisfiltrados, material=material, ontem=ontem, anopassado=anopassado)
 
 
 def view_licitacoesseltipo():
@@ -169,14 +212,6 @@ def uasg():
 #        404, "produto nao encontrado"
 #    )
 #    return render_template("product.html", product=product)
-
-
-# def view_home():
-#    product = Product.query.filter_by(id=1).first() or abort(
-#        404, "produto nao encontrado"
-#    )
-#    return render_template("product.html", product=product)
-
 
 def dir_listing(req_path):
     BASE_DIR = './static/json/'

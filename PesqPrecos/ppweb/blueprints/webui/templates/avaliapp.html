@@ -16,7 +16,7 @@
                         <label>Selecione o Material
                             <select class="form-control" id="all_materiais" name="all_materiais">
                                 {% for m in all_materiais %}
-                                <option value="{{ m.catmat_id }}">{{m.catmat_id}} - {{m.descricao[:30]}}</option>
+                                <option value="{{ m.catmat_id }}">{{m.catmat_id}} - {{m.descricao[:40]}}</option>
                                 {% endfor %}
                             </select>
                         </label>
@@ -30,8 +30,8 @@
                         </label>
                         <br>
                         <br>
-                        <button type="submit" class="button btn-primary" id="avaliar">Avaliar</button>
-                        <button type="button" class="button btn-primary" id="go_index">Voltar</button>
+                        <button type="submit" class="btn btn-primary btn-lg" id="avaliar">Avaliar</button>
+                        <button type="button" class="btn btn-primary btn-lg" id="go_index">Voltar</button>
                     </div>
                 </div>
                 <div class="column">

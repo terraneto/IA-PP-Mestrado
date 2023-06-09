@@ -24,7 +24,7 @@ def recuperar_itens_catmat(catmat, data):
     sqlEngine = create_engine('mysql+pymysql://siasg:siasg@192.168.2.135/siasg', pool_recycle=3600)
     dbConnection = sqlEngine.connect()
     df = pd.read_sql(
-        'SELECT  quantidade, valor_unitario FROM siasg.itens2 where catmat_id=' + catmat + ' and data>' + data,
+        'SELECT  quantidade, valor_unitario FROM siasg.itens2 where catmat_id=' + str(catmat) + ' and data>' + data,
         dbConnection);
     return df
 
