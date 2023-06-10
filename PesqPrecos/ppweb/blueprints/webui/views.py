@@ -105,12 +105,21 @@ def testa_sobrepreco():
     print(datainicio)
     df = recuperar_itens_catmat(catmat, datainicio)
     df = retirar_extremos(df)
-    clf, clfdeep = treina_modelo(df, 0.08)
-    predicao = int(avalia_dados(clf, clfdeep, quantidade, valor))
-    if predicao == 0:
+    mediana = df['valor_unitario'].mediana()
+    if valor <= mediana:
         retorno = {'predicao': 'Valor aceitável'}
     else:
-        retorno = {'predicao': 'Valor não aceitável'}
+        minimo = df['valor_unitario'].min()
+        if valor < minimo:
+            qmax = df['quantidade'].max()
+            if quantidade < qmax:
+                retorno = {'predicao': 'Possibilidade de preço inexequivel'}
+        clf, clfdeep = treina_modelo(df, 0.08)
+        predicao = int(avalia_dados(clf, clfdeep, quantidade, valor))
+        if predicao == 0:
+            retorno = {'predicao': 'Valor aceitável'}
+        else:
+            retorno = {'predicao': 'Possibilidade de sobrepreço'}
     print(retorno)
     return retorno
 
