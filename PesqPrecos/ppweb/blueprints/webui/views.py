@@ -1,6 +1,4 @@
 from datetime import datetime, timedelta, date
-
-import pandas as pd
 from flask import abort, render_template, send_file, request, jsonify
 from ppweb.cargajson import carrega_json
 
@@ -97,30 +95,35 @@ def avaliacao_pp():
 
 
 def testa_sobrepreco():
-    quantidade = request.args.get('qtd', type=int)
-    valor = request.args.get('valor', type=str)
-    valor = float(f"\t{valor.replace(',', '.')}")
-    catmat = request.args.get('catmat', type=int)
-    datainicio = request.args.get('datainicio', type=str)
-    print(datainicio)
-    df = recuperar_itens_catmat(catmat, datainicio)
-    df = retirar_extremos(df)
-    mediana = df['valor_unitario'].mediana()
-    if valor <= mediana:
-        retorno = {'predicao': 'Valor aceitável'}
-    else:
+    try:
+        quantidade = request.args.get('qtd', type=int)
+        valor = request.args.get('valor', type=str)
+        valor = float(f"\t{valor.replace(',', '.')}")
+        catmat = request.args.get('catmat', type=int)
+        datainicio = request.args.get('datainicio', type=str)
+        print(datainicio)
+        df = recuperar_itens_catmat(catmat, datainicio)
+        df = retirar_extremos(df)
+        mediana = df['valor_unitario'].median()
         minimo = df['valor_unitario'].min()
         if valor < minimo:
             qmax = df['quantidade'].max()
             if quantidade < qmax:
                 retorno = {'predicao': 'Possibilidade de preço inexequivel'}
-        clf, clfdeep = treina_modelo(df, 0.08)
-        predicao = int(avalia_dados(clf, clfdeep, quantidade, valor))
-        if predicao == 0:
-            retorno = {'predicao': 'Valor aceitável'}
+            else:
+                retorno = {'predicao': 'Valor aceitável'}
         else:
-            retorno = {'predicao': 'Possibilidade de sobrepreço'}
-    print(retorno)
+            if valor <= mediana:
+                retorno = {'predicao': 'Valor aceitável'}
+            else:
+                clf, clfdeep = treina_modelo(df, 0.08)
+                predicao = int(avalia_dados(clf, clfdeep, quantidade, valor))
+                if predicao == 0:
+                    retorno = {'predicao': 'Valor aceitável'}
+                else:
+                    retorno = {'predicao': 'Possibilidade de sobrepreço'}
+    except:
+        retorno = {'predicao': 'Parâmetros inválidos ou erro no cálculo'}
     return retorno
 
 

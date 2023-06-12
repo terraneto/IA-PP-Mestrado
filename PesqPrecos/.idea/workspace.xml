@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1166254f-e780-4544-b1bc-ff4fcc248a1a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Jupyter/Geração Tabela 1 - Ajustado com funções sklearn.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Jupyter/Geração Tabela 1 - Ajustado com funções sklearn.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppweb/blueprints/webui/templates/avaliapp.html" beforeDir="false" afterPath="$PROJECT_DIR$/ppweb/blueprints/webui/templates/avaliapp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ppweb/blueprints/webui/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppweb/blueprints/webui/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppweb/ia.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppweb/ia.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
