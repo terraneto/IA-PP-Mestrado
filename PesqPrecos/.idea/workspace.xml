@@ -5,10 +5,118 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1166254f-e780-4544-b1bc-ff4fcc248a1a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Jupyter/Geração Tabela 1 - Ajustado com funções sklearn.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Jupyter/Geração Tabela 1 - Ajustado com funções sklearn.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000012022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000012023.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000022022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000022023.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000032022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000032023.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000042022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000042023.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000052022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000052023.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000062022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000072022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000072023.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000082022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000082023.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000092022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000102022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000112022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000112023.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000122022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000122023.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000132022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000132023.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000142022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000142023.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000152022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000152023.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000162022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000162023.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000182022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000182023.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000192022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000202022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000202023.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000212022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000222023.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000232022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000232023.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000242022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000252022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000262022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000262023.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000272022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000282022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000292022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000292023.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000302023.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000312022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000322022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000332022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000342022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000352022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000362022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000372022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000382022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000392022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000402022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000412022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000422022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000432022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000442022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000452022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000462022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000472022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000482022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000492022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000502022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000512022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000522022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000532022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000542022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000552022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000562022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000572022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000582022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000592022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000602022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000622022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000632022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000642022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000652022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000662022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000682022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000692022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000702022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000712022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000722022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000742022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000752022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000762022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000772022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000782022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000792022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000802022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000812022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000822022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000832022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000842022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000852022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000862022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000872022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000882022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000902022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000912022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000922022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000932022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000942022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/json/itenslicitacao/01000105000982022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppweb/static/logs/itenslicitacao/2023-07-31.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ppweb/blueprints/webui/templates/avaliapp.html" beforeDir="false" afterPath="$PROJECT_DIR$/ppweb/blueprints/webui/templates/avaliapp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ppweb/blueprints/webui/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppweb/blueprints/webui/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppweb/ext/navegacao.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppweb/ext/navegacao.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ppweb/ia.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppweb/ia.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,10 +213,6 @@
           <url>file://$PROJECT_DIR$/../../../Python310/Lib/site-packages/flask_sqlalchemy/extension.py</url>
           <line>987</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ppweb/dadosia.py</url>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

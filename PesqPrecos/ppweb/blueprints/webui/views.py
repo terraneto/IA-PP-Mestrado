@@ -103,7 +103,6 @@ def testa_sobrepreco():
         datainicio = request.args.get('datainicio', type=str)
         print(datainicio)
         df = recuperar_itens_catmat(catmat, datainicio)
-        df = retirar_extremos(df)
         mediana = df['valor_unitario'].median()
         minimo = df['valor_unitario'].min()
         if valor < minimo:
@@ -116,8 +115,8 @@ def testa_sobrepreco():
             if valor <= mediana:
                 retorno = {'predicao': 'Valor aceitável'}
             else:
-                clf, clfdeep = treina_modelo(df, 0.08)
-                predicao = int(avalia_dados(clf, clfdeep, quantidade, valor))
+                clf = treina_modelo(df, 0.1)
+                predicao = int(avalia_dados(clf, quantidade, valor))
                 if predicao == 0:
                     retorno = {'predicao': 'Valor aceitável'}
                 else:
@@ -182,16 +181,11 @@ def view_seltipo():
 def view_avalia_pesquisa_precos():
     ontem = (datetime.now() - timedelta(30)).strftime('%Y-%m-%d')
     anopassado = (datetime.now() - timedelta(365)).strftime('%Y-%m-%d')
-    # materiaisq1d = db.session.query(Itens.catmat_id).order_by(Itens.catmat_id).distinct().subquery()
-    # materiais = db.session.query(materiaisq1d, Material.descricao).join(Material,
-    #                                                                    materiaisq1d.c.catmat_id == Material.codigo).all()
-    # material = materiais[0]
-    # materiais = Itens.query(Itens.catmat_id).distinct()
-
+    anopassado = '2022-01-01'
     sql = 'select  itens2.catmat_id as catmat_id, count(*) as qtd, materiais.descricao   from itens2  inner join ' \
           'materiais on itens2.catmat_id = materiais.codigo group by catmat_id order by qtd desc'
     materiais = db.engine.execute(sql).all()
-    materiaisfiltrados = [materiais for materiais in materiais if materiais['qtd'] > 35]
+    materiaisfiltrados = [materiais for materiais in materiais if materiais['qtd'] > 30]
     material = materiaisfiltrados[0]
     return render_template('avaliapp.html',
                            all_materiais=materiaisfiltrados, material=material, ontem=ontem, anopassado=anopassado)

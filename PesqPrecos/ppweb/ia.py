@@ -1,16 +1,9 @@
 import pandas as pd
 from sqlalchemy import create_engine
 from pyod.models.suod import SUOD
-from pyod.models.iforest import IForest
 from pyod.models.pca import PCA
-from pyod.models.hbos import HBOS
 from pyod.models.ecod import ECOD
-from pyod.models.copod import COPOD
-from pyod.models.gmm import GMM
-from pyod.models.cblof import CBLOF
 from pyod.models.lof import LOF
-from pyod.models.deep_svdd import DeepSVDD
-
 
 ###################################################################
 # Funcao recuperar_itens_catmat
@@ -73,10 +66,7 @@ def treina_modelo(df, contamination):
     # treina o modelo utilizando o SUOD através da função treina_modelo_suod
     clf = treina_modelo_SUOD(df, contamination)
 
-    # treina o modelo utilizando o DeepSVDD através da função treina_modelo_DeepSVDD
-    clfdeep = treina_modelo_DeepSVDD(df, contamination)
-
-    return clf, clfdeep
+    return clf
 
 
 ##################################################################################
@@ -88,42 +78,12 @@ def treina_modelo(df, contamination):
 ##################################################################################
 def treina_modelo_SUOD(df, contamination):
     # definição de parâmetros que serão utilizados no algoritmo HBOS
-    #
-    # Por escolha decidiu-se utilizar como 1º parâmetro metade da quantidade de dados
-    numerobins = len(df) // 2
-    if numerobins < 2: numerobins = 2  # caso seja menos que 2, o número de bins será 2
-    #
-    # Por escolha decidiu-se utilizar como 2º parâmetro metade do primeiro parâmetro
-    nbins2 = numerobins // 2
-    if nbins2 < 2: nbins2 = 2  # caso seja menos que 2, o número de bins será 2
+    contamination = 0.1
 
-    # definição de parâmetros que serão utilizados no algoritmo IFOREST
-    #
-    # Por escolha decidiu-se utilizar como 1º parâmetro metade da quantidade de dados
-    estimadores = len(df) // 2
-    if estimadores < 2: estimadores = 2  # caso seja menos que 2, o número será 2
-    # Por escolha decidiu-se utilizar como 2º parâmetro 1/5 da quantidade do primeiro
-    estimadores2 = estimadores // 5
-    if estimadores2 < 2: estimadores2 = 2  # caso seja menos que 2, o número será 2
-
-    # definição de parâmetros que serão utilizados no algoritmo LOF
-    #
-    # Por escolha decidiu-se utilizar como 1º parâmetro 6% da quantidade de dados
-    numero_vizinhos = int(round(len(df) * 0.06, 0))
-
-    contamination2 = contamination + 0.03
     # Lista de detectores
-    detector_list = [HBOS(n_bins=numerobins, alpha=contamination, contamination=contamination),
-                     HBOS(n_bins=nbins2, alpha=contamination, contamination=contamination),
-                     ECOD(contamination=contamination),
-                     COPOD(contamination=contamination),
-                     GMM(contamination=contamination),
-                     PCA(n_components=2, n_selected_components=2, contamination=contamination),
+    detector_list = [ECOD(contamination=contamination),
                      PCA(n_components=2, n_selected_components=1, contamination=contamination),
-                     IForest(n_estimators=estimadores, contamination=contamination),
-                     IForest(n_estimators=estimadores2, contamination=contamination),
-                     CBLOF(contamination=contamination),
-                     LOF(n_neighbors=numero_vizinhos, contamination=contamination)
+                     LOF(n_neighbors=21, contamination=contamination)
                      ]
 
     clf = SUOD(base_estimators=detector_list, n_jobs=2, combination='maximization', contamination=contamination,
@@ -131,25 +91,12 @@ def treina_modelo_SUOD(df, contamination):
     clf.fit(df)
     return clf
 
-
-def treina_modelo_DeepSVDD(df, contamination):
-    clfdeep = DeepSVDD(verbose=0, preprocessing=True, contamination=contamination)
-    clfdeep.fit(df)
-    return clfdeep
-
-
-def avalia_dados(clf, clfdeep, quantidade, valor):
+def avalia_dados(clf, quantidade, valor):
     dfteste = pd.DataFrame({'quantidade': quantidade, 'valor_unitario': valor}, index=[0])
-    clf.predict(dfteste, return_confidence=False)
-    clfdeep.predict(dfteste, return_confidence=False)
-    predicao = clf.predict(dfteste) + clfdeep.predict(dfteste)
-    predicao[predicao > 1] = 1
+    predicao = clf.predict(dfteste)
     return predicao
 
 
-def avalia_dados_dataframe(clf, clfdeep, df):
-    clf.predict(df, return_confidence=False)
-    clfdeep.predict(df, return_confidence=False)
-    predicao = clf.predict(df) + clfdeep.predict(df)
-    predicao[predicao > 1] = 1
+def avalia_dados_dataframe(clf, df):
+    predicao = clf.predict(df)
     return predicao

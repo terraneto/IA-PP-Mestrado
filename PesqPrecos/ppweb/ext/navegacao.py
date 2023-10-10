@@ -1,9 +1,9 @@
 import collections.abc
 import collections
+
 collections.MutableMapping = collections.abc.MutableMapping
 from flask_nav import Nav
 from flask_nav.elements import Navbar, View, Subgroup, Text, Separator
-
 
 # , Link
 
@@ -14,14 +14,14 @@ nav = Nav()
 def mynavbar():
     return Navbar(
         'IAPP',
-        View('Home', 'webui.index'),
-        Subgroup('Listagens',
-                 Text('Módulo Contratos desde 2021'),
-                 View('Itens dos Contratos', 'webui.view_itenscontratos'),
-                 Separator(),
-                 View('Uasgs', 'webui.uasg'),
-                 View('Listar Jsons', 'webui.jsonpath', req_path='uasgs'),
-                 ),
+        # View('Home', 'webui.index'),
+        # Subgroup('Listagens',
+        #         Text('Módulo Contratos desde 2021'),
+        #         View('Itens dos Contratos', 'webui.view_itenscontratos'),
+        #         Separator(),
+        #         View('Uasgs', 'webui.uasg'),
+        #         View('Listar Jsons', 'webui.jsonpath', req_path='uasgs'),
+        #         ),
         Subgroup('Preparação do Repositório',
                  Separator(),
                  Text('Baixar Jsons'),
@@ -40,17 +40,17 @@ def mynavbar():
                  View('Carregar json de Itens dos Contratos', 'webui.view_carrega_json_itenscontratos')
                  ),
         Subgroup('Licitações',
-                 View('Itens das licitações', 'webui.view_baixa_json_itenslicitacao'),
-                 View('Licitações do mês', 'webui.view_baixa_json_licitacoes_mes', vano=2022, vmes=12),
-                 View('Licitações mensais', 'webui.view_baixa_json_licitacao_uasg_mensal', vano=2022, vmes=12),
-                 View('Preços praticados', 'webui.view_baixa_json_itensprecospraticados'),
+                 #         View('Itens das licitações', 'webui.view_baixa_json_itenslicitacao'),
+                 #         View('Licitações do mês', 'webui.view_baixa_json_licitacoes_mes', vano=2022, vmes=12),
+                 #         View('Licitações mensais', 'webui.view_baixa_json_licitacao_uasg_mensal', vano=2022, vmes=12),
+                 #         View('Preços praticados', 'webui.view_baixa_json_itensprecospraticados'),
                  ),
-        Subgroup('Preparação de Dados',
-                 Text('Módulo Contratos desde 2021'),
-                 View('Carrega itens de contratos de material', 'webui.view_carrega_itens_contratos'),
-                 Text('Licitações'),
-                 View('Carrega itens de preços praticados', 'webui.view_carrega_itens_licitacoes'),
-                 ),
+        # Subgroup('Preparação de Dados',
+        #         Text('Módulo Contratos desde 2021'),
+        #         View('Carrega itens de contratos de material', 'webui.view_carrega_itens_contratos'),
+        #         Text('Licitações'),
+        #         View('Carrega itens de preços praticados', 'webui.view_carrega_itens_licitacoes'),
+        #         ),
         Subgroup('Avaliação da Pesquisa de Preços',
                  View('Avalia pesquisa de preços', 'webui.view_avalia_pesquisa_precos')
                  ),

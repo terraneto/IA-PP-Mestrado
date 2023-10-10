@@ -1,0 +1,460 @@
+2023-07-31 07:13:40 - baixando itens - 1
+2023-07-31 07:13:40 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000012022/itens.json
+2023-07-31 07:13:40 - Request_json - itenslicitacao - 2023-07-31 07:13:40 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000012022/itens.json Erro=0
+2023-07-31 07:13:45 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:13:45 - baixando itens - 2
+2023-07-31 07:13:45 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000012023/itens.json
+2023-07-31 07:13:45 - Request_json - itenslicitacao - 2023-07-31 07:13:45 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000012023/itens.json Erro=0
+2023-07-31 07:14:41 - baixando itens - 1
+2023-07-31 07:14:41 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000012022/itens.json
+2023-07-31 07:14:41 - baixando itens - 2
+2023-07-31 07:14:41 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000012023/itens.json
+2023-07-31 07:14:41 - Request_json - itenslicitacao - 2023-07-31 07:14:41 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000012023/itens.json Erro=0
+2023-07-31 07:14:42 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:14:42 - baixando itens - 3
+2023-07-31 07:14:42 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000022022/itens.json
+2023-07-31 07:14:42 - Request_json - itenslicitacao - 2023-07-31 07:14:42 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000022022/itens.json Erro=0
+2023-07-31 07:14:44 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:14:44 - baixando itens - 4
+2023-07-31 07:14:44 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000022023/itens.json
+2023-07-31 07:14:44 - Request_json - itenslicitacao - 2023-07-31 07:14:44 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000022023/itens.json Erro=0
+2023-07-31 07:14:45 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:14:45 - baixando itens - 5
+2023-07-31 07:14:45 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000032022/itens.json
+2023-07-31 07:14:45 - Request_json - itenslicitacao - 2023-07-31 07:14:45 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000032022/itens.json Erro=0
+2023-07-31 07:14:46 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:14:46 - baixando itens - 6
+2023-07-31 07:14:46 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000032023/itens.json
+2023-07-31 07:14:46 - Request_json - itenslicitacao - 2023-07-31 07:14:46 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000032023/itens.json Erro=0
+2023-07-31 07:14:47 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:14:47 - baixando itens - 7
+2023-07-31 07:14:47 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000042022/itens.json
+2023-07-31 07:14:47 - Request_json - itenslicitacao - 2023-07-31 07:14:47 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000042022/itens.json Erro=0
+2023-07-31 07:14:48 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:14:48 - baixando itens - 8
+2023-07-31 07:14:48 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000042023/itens.json
+2023-07-31 07:14:48 - Request_json - itenslicitacao - 2023-07-31 07:14:48 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000042023/itens.json Erro=0
+2023-07-31 07:14:49 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:14:49 - baixando itens - 9
+2023-07-31 07:14:49 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000052022/itens.json
+2023-07-31 07:14:49 - Request_json - itenslicitacao - 2023-07-31 07:14:49 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000052022/itens.json Erro=0
+2023-07-31 07:14:50 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:14:50 - baixando itens - 10
+2023-07-31 07:14:50 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000052023/itens.json
+2023-07-31 07:14:50 - Request_json - itenslicitacao - 2023-07-31 07:14:50 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000052023/itens.json Erro=0
+2023-07-31 07:14:50 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:14:50 - baixando itens - 11
+2023-07-31 07:14:50 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000062022/itens.json
+2023-07-31 07:14:50 - Request_json - itenslicitacao - 2023-07-31 07:14:50 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000062022/itens.json Erro=0
+2023-07-31 07:14:54 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:14:54 - baixando itens - 12
+2023-07-31 07:14:54 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000072022/itens.json
+2023-07-31 07:14:54 - Request_json - itenslicitacao - 2023-07-31 07:14:54 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000072022/itens.json Erro=0
+2023-07-31 07:14:57 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:14:57 - baixando itens - 13
+2023-07-31 07:14:57 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000072023/itens.json
+2023-07-31 07:14:57 - Request_json - itenslicitacao - 2023-07-31 07:14:57 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000072023/itens.json Erro=0
+2023-07-31 07:14:58 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:14:58 - baixando itens - 14
+2023-07-31 07:14:58 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000082022/itens.json
+2023-07-31 07:14:58 - Request_json - itenslicitacao - 2023-07-31 07:14:58 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000082022/itens.json Erro=0
+2023-07-31 07:14:58 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:14:58 - baixando itens - 15
+2023-07-31 07:14:58 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000082023/itens.json
+2023-07-31 07:14:58 - Request_json - itenslicitacao - 2023-07-31 07:14:58 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000082023/itens.json Erro=0
+2023-07-31 07:14:59 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:14:59 - baixando itens - 16
+2023-07-31 07:14:59 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000092022/itens.json
+2023-07-31 07:14:59 - Request_json - itenslicitacao - 2023-07-31 07:14:59 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000092022/itens.json Erro=0
+2023-07-31 07:15:00 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:15:00 - baixando itens - 17
+2023-07-31 07:15:00 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000102022/itens.json
+2023-07-31 07:15:00 - Request_json - itenslicitacao - 2023-07-31 07:15:00 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000102022/itens.json Erro=0
+2023-07-31 07:15:00 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:15:00 - baixando itens - 18
+2023-07-31 07:15:01 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000112022/itens.json
+2023-07-31 07:15:01 - Request_json - itenslicitacao - 2023-07-31 07:15:01 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000112022/itens.json Erro=0
+2023-07-31 07:15:01 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:15:01 - baixando itens - 19
+2023-07-31 07:15:01 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000112023/itens.json
+2023-07-31 07:15:01 - Request_json - itenslicitacao - 2023-07-31 07:15:01 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000112023/itens.json Erro=0
+2023-07-31 07:15:02 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:15:02 - baixando itens - 20
+2023-07-31 07:15:02 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000122022/itens.json
+2023-07-31 07:15:02 - Request_json - itenslicitacao - 2023-07-31 07:15:02 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000122022/itens.json Erro=0
+2023-07-31 07:15:03 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:15:03 - baixando itens - 21
+2023-07-31 07:15:03 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000122023/itens.json
+2023-07-31 07:15:03 - Request_json - itenslicitacao - 2023-07-31 07:15:03 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000122023/itens.json Erro=0
+2023-07-31 07:15:04 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:15:04 - baixando itens - 22
+2023-07-31 07:15:04 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000132022/itens.json
+2023-07-31 07:15:04 - Request_json - itenslicitacao - 2023-07-31 07:15:04 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000132022/itens.json Erro=0
+2023-07-31 07:15:05 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:15:05 - baixando itens - 23
+2023-07-31 07:15:05 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000132023/itens.json
+2023-07-31 07:15:05 - Request_json - itenslicitacao - 2023-07-31 07:15:05 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000132023/itens.json Erro=0
+2023-07-31 07:15:06 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:15:06 - baixando itens - 24
+2023-07-31 07:15:06 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000142022/itens.json
+2023-07-31 07:15:06 - Request_json - itenslicitacao - 2023-07-31 07:15:06 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000142022/itens.json Erro=0
+2023-07-31 07:15:06 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:15:06 - baixando itens - 25
+2023-07-31 07:15:06 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000142023/itens.json
+2023-07-31 07:15:06 - Request_json - itenslicitacao - 2023-07-31 07:15:06 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000142023/itens.json Erro=0
+2023-07-31 07:15:07 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:15:07 - baixando itens - 26
+2023-07-31 07:15:07 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000152022/itens.json
+2023-07-31 07:15:07 - Request_json - itenslicitacao - 2023-07-31 07:15:07 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000152022/itens.json Erro=0
+2023-07-31 07:15:07 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:15:07 - baixando itens - 27
+2023-07-31 07:15:07 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000152023/itens.json
+2023-07-31 07:15:08 - Request_json - itenslicitacao - 2023-07-31 07:15:08 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000152023/itens.json Erro=0
+2023-07-31 07:15:10 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:15:10 - baixando itens - 28
+2023-07-31 07:15:10 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000162022/itens.json
+2023-07-31 07:15:10 - Request_json - itenslicitacao - 2023-07-31 07:15:10 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000162022/itens.json Erro=0
+2023-07-31 07:15:12 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:15:12 - baixando itens - 29
+2023-07-31 07:15:12 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000162023/itens.json
+2023-07-31 07:15:12 - Request_json - itenslicitacao - 2023-07-31 07:15:12 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000162023/itens.json Erro=0
+2023-07-31 07:15:14 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:15:14 - baixando itens - 30
+2023-07-31 07:15:14 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000182022/itens.json
+2023-07-31 07:15:14 - Request_json - itenslicitacao - 2023-07-31 07:15:14 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000182022/itens.json Erro=0
+2023-07-31 07:15:15 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:15:15 - baixando itens - 31
+2023-07-31 07:15:15 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000182023/itens.json
+2023-07-31 07:15:15 - Request_json - itenslicitacao - 2023-07-31 07:15:15 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000182023/itens.json Erro=0
+2023-07-31 07:15:16 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:15:16 - baixando itens - 32
+2023-07-31 07:15:16 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000192022/itens.json
+2023-07-31 07:15:16 - Request_json - itenslicitacao - 2023-07-31 07:15:16 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000192022/itens.json Erro=0
+2023-07-31 07:15:20 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:15:20 - baixando itens - 33
+2023-07-31 07:15:20 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000202022/itens.json
+2023-07-31 07:15:20 - Request_json - itenslicitacao - 2023-07-31 07:15:20 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000202022/itens.json Erro=0
+2023-07-31 07:15:23 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:15:23 - baixando itens - 34
+2023-07-31 07:15:23 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000202023/itens.json
+2023-07-31 07:15:23 - Request_json - itenslicitacao - 2023-07-31 07:15:23 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000202023/itens.json Erro=0
+2023-07-31 07:15:24 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:15:24 - baixando itens - 35
+2023-07-31 07:15:24 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000212022/itens.json
+2023-07-31 07:15:24 - Request_json - itenslicitacao - 2023-07-31 07:15:24 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000212022/itens.json Erro=0
+2023-07-31 07:15:25 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:15:25 - baixando itens - 36
+2023-07-31 07:15:25 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000222022/itens.json
+2023-07-31 07:15:25 - Request_json - itenslicitacao - 2023-07-31 07:15:25 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000222022/itens.json Erro=0
+2023-07-31 07:15:30 - Request_json - itenslicitacao - 2023-07-31 07:15:30 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000222022/itens.json Erro=1
+2023-07-31 07:15:36 - Request_json - itenslicitacao - 2023-07-31 07:15:36 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000222022/itens.json Erro=2
+2023-07-31 07:15:41 - baixando itens - 37
+2023-07-31 07:15:41 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000222023/itens.json
+2023-07-31 07:15:41 - Request_json - itenslicitacao - 2023-07-31 07:15:41 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000222023/itens.json Erro=0
+2023-07-31 07:15:47 - Request_json - itenslicitacao - 2023-07-31 07:15:47 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000222023/itens.json Erro=1
+2023-07-31 07:15:52 - Request_json - itenslicitacao - 2023-07-31 07:15:52 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000222023/itens.json Erro=2
+2023-07-31 07:15:56 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:15:56 - baixando itens - 38
+2023-07-31 07:15:56 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000232022/itens.json
+2023-07-31 07:15:56 - Request_json - itenslicitacao - 2023-07-31 07:15:56 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000232022/itens.json Erro=0
+2023-07-31 07:15:57 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:15:57 - baixando itens - 39
+2023-07-31 07:15:57 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000232023/itens.json
+2023-07-31 07:15:57 - Request_json - itenslicitacao - 2023-07-31 07:15:57 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000232023/itens.json Erro=0
+2023-07-31 07:16:00 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:16:00 - baixando itens - 40
+2023-07-31 07:16:00 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000242022/itens.json
+2023-07-31 07:16:00 - Request_json - itenslicitacao - 2023-07-31 07:16:00 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000242022/itens.json Erro=0
+2023-07-31 07:16:05 - Request_json - itenslicitacao - 2023-07-31 07:16:05 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000242022/itens.json Erro=1
+2023-07-31 07:16:09 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:16:09 - baixando itens - 41
+2023-07-31 07:16:09 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000252022/itens.json
+2023-07-31 07:16:09 - Request_json - itenslicitacao - 2023-07-31 07:16:09 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000252022/itens.json Erro=0
+2023-07-31 07:16:10 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:16:10 - baixando itens - 42
+2023-07-31 07:16:10 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000262022/itens.json
+2023-07-31 07:16:10 - Request_json - itenslicitacao - 2023-07-31 07:16:10 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000262022/itens.json Erro=0
+2023-07-31 07:16:11 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:16:11 - baixando itens - 43
+2023-07-31 07:16:11 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000262023/itens.json
+2023-07-31 07:16:11 - Request_json - itenslicitacao - 2023-07-31 07:16:11 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000262023/itens.json Erro=0
+2023-07-31 07:16:12 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:16:12 - baixando itens - 44
+2023-07-31 07:16:12 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000272022/itens.json
+2023-07-31 07:16:12 - Request_json - itenslicitacao - 2023-07-31 07:16:12 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000272022/itens.json Erro=0
+2023-07-31 07:16:13 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:16:13 - baixando itens - 45
+2023-07-31 07:16:13 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000282022/itens.json
+2023-07-31 07:16:13 - Request_json - itenslicitacao - 2023-07-31 07:16:13 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000282022/itens.json Erro=0
+2023-07-31 07:16:15 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:16:15 - baixando itens - 46
+2023-07-31 07:16:15 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000292022/itens.json
+2023-07-31 07:16:15 - Request_json - itenslicitacao - 2023-07-31 07:16:15 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000292022/itens.json Erro=0
+2023-07-31 07:16:21 - Request_json - itenslicitacao - 2023-07-31 07:16:21 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000292022/itens.json Erro=1
+2023-07-31 07:16:22 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:16:22 - baixando itens - 47
+2023-07-31 07:16:22 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000292023/itens.json
+2023-07-31 07:16:22 - Request_json - itenslicitacao - 2023-07-31 07:16:22 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000292023/itens.json Erro=0
+2023-07-31 07:16:23 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:16:23 - baixando itens - 48
+2023-07-31 07:16:23 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000302022/itens.json
+2023-07-31 07:16:23 - Request_json - itenslicitacao - 2023-07-31 07:16:23 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000302022/itens.json Erro=0
+2023-07-31 07:16:28 - Request_json - itenslicitacao - 2023-07-31 07:16:28 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000302022/itens.json Erro=1
+2023-07-31 07:16:33 - Request_json - itenslicitacao - 2023-07-31 07:16:33 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000302022/itens.json Erro=2
+2023-07-31 07:16:39 - baixando itens - 49
+2023-07-31 07:16:39 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000302023/itens.json
+2023-07-31 07:16:39 - Request_json - itenslicitacao - 2023-07-31 07:16:39 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000302023/itens.json Erro=0
+2023-07-31 07:16:41 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:16:41 - baixando itens - 50
+2023-07-31 07:16:41 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000312022/itens.json
+2023-07-31 07:16:41 - Request_json - itenslicitacao - 2023-07-31 07:16:41 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000312022/itens.json Erro=0
+2023-07-31 07:16:44 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:16:44 - baixando itens - 51
+2023-07-31 07:16:44 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000322022/itens.json
+2023-07-31 07:16:44 - Request_json - itenslicitacao - 2023-07-31 07:16:44 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000322022/itens.json Erro=0
+2023-07-31 07:16:44 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:16:44 - baixando itens - 52
+2023-07-31 07:16:44 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000332022/itens.json
+2023-07-31 07:16:44 - Request_json - itenslicitacao - 2023-07-31 07:16:44 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000332022/itens.json Erro=0
+2023-07-31 07:16:45 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:16:45 - baixando itens - 53
+2023-07-31 07:16:45 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000342022/itens.json
+2023-07-31 07:16:45 - Request_json - itenslicitacao - 2023-07-31 07:16:45 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000342022/itens.json Erro=0
+2023-07-31 07:16:51 - Request_json - itenslicitacao - 2023-07-31 07:16:51 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000342022/itens.json Erro=1
+2023-07-31 07:16:54 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:16:54 - baixando itens - 54
+2023-07-31 07:16:54 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000352022/itens.json
+2023-07-31 07:16:54 - Request_json - itenslicitacao - 2023-07-31 07:16:54 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000352022/itens.json Erro=0
+2023-07-31 07:16:59 - Request_json - itenslicitacao - 2023-07-31 07:16:59 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000352022/itens.json Erro=1
+2023-07-31 07:17:01 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:17:01 - baixando itens - 55
+2023-07-31 07:17:01 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000362022/itens.json
+2023-07-31 07:17:01 - Request_json - itenslicitacao - 2023-07-31 07:17:01 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000362022/itens.json Erro=0
+2023-07-31 07:17:07 - Request_json - itenslicitacao - 2023-07-31 07:17:07 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000362022/itens.json Erro=1
+2023-07-31 07:17:12 - Request_json - itenslicitacao - 2023-07-31 07:17:12 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000362022/itens.json Erro=2
+2023-07-31 07:17:12 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:17:12 - baixando itens - 56
+2023-07-31 07:17:12 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000372022/itens.json
+2023-07-31 07:17:12 - Request_json - itenslicitacao - 2023-07-31 07:17:12 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000372022/itens.json Erro=0
+2023-07-31 07:17:18 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:17:18 - baixando itens - 57
+2023-07-31 07:17:18 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000382022/itens.json
+2023-07-31 07:17:18 - Request_json - itenslicitacao - 2023-07-31 07:17:18 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000382022/itens.json Erro=0
+2023-07-31 07:17:23 - Request_json - itenslicitacao - 2023-07-31 07:17:23 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000382022/itens.json Erro=1
+2023-07-31 07:17:28 - Request_json - itenslicitacao - 2023-07-31 07:17:28 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000382022/itens.json Erro=2
+2023-07-31 07:17:29 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:17:29 - baixando itens - 58
+2023-07-31 07:17:29 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000392022/itens.json
+2023-07-31 07:17:29 - Request_json - itenslicitacao - 2023-07-31 07:17:29 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000392022/itens.json Erro=0
+2023-07-31 07:17:30 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:17:30 - baixando itens - 59
+2023-07-31 07:17:30 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000402022/itens.json
+2023-07-31 07:17:30 - Request_json - itenslicitacao - 2023-07-31 07:17:30 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000402022/itens.json Erro=0
+2023-07-31 07:17:35 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:17:35 - baixando itens - 60
+2023-07-31 07:17:35 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000412022/itens.json
+2023-07-31 07:17:35 - Request_json - itenslicitacao - 2023-07-31 07:17:35 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000412022/itens.json Erro=0
+2023-07-31 07:17:37 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:17:37 - baixando itens - 61
+2023-07-31 07:17:37 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000422022/itens.json
+2023-07-31 07:17:37 - Request_json - itenslicitacao - 2023-07-31 07:17:37 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000422022/itens.json Erro=0
+2023-07-31 07:17:38 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:17:38 - baixando itens - 62
+2023-07-31 07:17:38 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000432022/itens.json
+2023-07-31 07:17:38 - Request_json - itenslicitacao - 2023-07-31 07:17:38 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000432022/itens.json Erro=0
+2023-07-31 07:17:41 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:17:41 - baixando itens - 63
+2023-07-31 07:17:41 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000442022/itens.json
+2023-07-31 07:17:42 - Request_json - itenslicitacao - 2023-07-31 07:17:42 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000442022/itens.json Erro=0
+2023-07-31 07:17:44 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:17:44 - baixando itens - 64
+2023-07-31 07:17:44 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000452022/itens.json
+2023-07-31 07:17:44 - Request_json - itenslicitacao - 2023-07-31 07:17:44 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000452022/itens.json Erro=0
+2023-07-31 07:17:44 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:17:44 - baixando itens - 65
+2023-07-31 07:17:44 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000462022/itens.json
+2023-07-31 07:17:44 - Request_json - itenslicitacao - 2023-07-31 07:17:44 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000462022/itens.json Erro=0
+2023-07-31 07:17:46 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:17:46 - baixando itens - 66
+2023-07-31 07:17:46 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000472022/itens.json
+2023-07-31 07:17:46 - Request_json - itenslicitacao - 2023-07-31 07:17:46 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000472022/itens.json Erro=0
+2023-07-31 07:17:46 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:17:46 - baixando itens - 67
+2023-07-31 07:17:46 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000482022/itens.json
+2023-07-31 07:17:46 - Request_json - itenslicitacao - 2023-07-31 07:17:46 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000482022/itens.json Erro=0
+2023-07-31 07:17:49 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:17:49 - baixando itens - 68
+2023-07-31 07:17:49 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000492022/itens.json
+2023-07-31 07:17:49 - Request_json - itenslicitacao - 2023-07-31 07:17:49 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000492022/itens.json Erro=0
+2023-07-31 07:17:50 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:17:50 - baixando itens - 69
+2023-07-31 07:17:50 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000502022/itens.json
+2023-07-31 07:17:50 - Request_json - itenslicitacao - 2023-07-31 07:17:50 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000502022/itens.json Erro=0
+2023-07-31 07:17:50 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:17:50 - baixando itens - 70
+2023-07-31 07:17:50 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000512022/itens.json
+2023-07-31 07:17:50 - Request_json - itenslicitacao - 2023-07-31 07:17:50 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000512022/itens.json Erro=0
+2023-07-31 07:17:53 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:17:53 - baixando itens - 71
+2023-07-31 07:17:53 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000522022/itens.json
+2023-07-31 07:17:53 - Request_json - itenslicitacao - 2023-07-31 07:17:53 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000522022/itens.json Erro=0
+2023-07-31 07:17:54 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:17:54 - baixando itens - 72
+2023-07-31 07:17:54 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000532022/itens.json
+2023-07-31 07:17:54 - Request_json - itenslicitacao - 2023-07-31 07:17:54 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000532022/itens.json Erro=0
+2023-07-31 07:17:55 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:17:55 - baixando itens - 73
+2023-07-31 07:17:55 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000542022/itens.json
+2023-07-31 07:17:55 - Request_json - itenslicitacao - 2023-07-31 07:17:55 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000542022/itens.json Erro=0
+2023-07-31 07:17:55 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:17:55 - baixando itens - 74
+2023-07-31 07:17:55 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000552022/itens.json
+2023-07-31 07:17:55 - Request_json - itenslicitacao - 2023-07-31 07:17:55 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000552022/itens.json Erro=0
+2023-07-31 07:17:56 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:17:56 - baixando itens - 75
+2023-07-31 07:17:56 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000562022/itens.json
+2023-07-31 07:17:56 - Request_json - itenslicitacao - 2023-07-31 07:17:56 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000562022/itens.json Erro=0
+2023-07-31 07:17:57 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:17:57 - baixando itens - 76
+2023-07-31 07:17:57 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000572022/itens.json
+2023-07-31 07:17:57 - Request_json - itenslicitacao - 2023-07-31 07:17:57 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000572022/itens.json Erro=0
+2023-07-31 07:17:57 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:17:57 - baixando itens - 77
+2023-07-31 07:17:57 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000582022/itens.json
+2023-07-31 07:17:57 - Request_json - itenslicitacao - 2023-07-31 07:17:57 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000582022/itens.json Erro=0
+2023-07-31 07:17:58 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:17:58 - baixando itens - 78
+2023-07-31 07:17:58 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000592022/itens.json
+2023-07-31 07:17:58 - Request_json - itenslicitacao - 2023-07-31 07:17:58 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000592022/itens.json Erro=0
+2023-07-31 07:17:59 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:17:59 - baixando itens - 79
+2023-07-31 07:17:59 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000602022/itens.json
+2023-07-31 07:17:59 - Request_json - itenslicitacao - 2023-07-31 07:17:59 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000602022/itens.json Erro=0
+2023-07-31 07:17:59 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:17:59 - baixando itens - 80
+2023-07-31 07:17:59 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000622022/itens.json
+2023-07-31 07:17:59 - Request_json - itenslicitacao - 2023-07-31 07:17:59 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000622022/itens.json Erro=0
+2023-07-31 07:18:00 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:18:01 - baixando itens - 81
+2023-07-31 07:18:01 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000632022/itens.json
+2023-07-31 07:18:01 - Request_json - itenslicitacao - 2023-07-31 07:18:01 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000632022/itens.json Erro=0
+2023-07-31 07:18:01 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:18:01 - baixando itens - 82
+2023-07-31 07:18:01 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000642022/itens.json
+2023-07-31 07:18:01 - Request_json - itenslicitacao - 2023-07-31 07:18:01 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000642022/itens.json Erro=0
+2023-07-31 07:18:02 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:18:02 - baixando itens - 83
+2023-07-31 07:18:02 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000652022/itens.json
+2023-07-31 07:18:02 - Request_json - itenslicitacao - 2023-07-31 07:18:02 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000652022/itens.json Erro=0
+2023-07-31 07:18:03 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:18:03 - baixando itens - 84
+2023-07-31 07:18:03 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000662022/itens.json
+2023-07-31 07:18:03 - Request_json - itenslicitacao - 2023-07-31 07:18:03 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000662022/itens.json Erro=0
+2023-07-31 07:18:03 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:18:03 - baixando itens - 85
+2023-07-31 07:18:03 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000682022/itens.json
+2023-07-31 07:18:03 - Request_json - itenslicitacao - 2023-07-31 07:18:03 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000682022/itens.json Erro=0
+2023-07-31 07:18:04 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:18:04 - baixando itens - 86
+2023-07-31 07:18:04 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000692022/itens.json
+2023-07-31 07:18:04 - Request_json - itenslicitacao - 2023-07-31 07:18:04 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000692022/itens.json Erro=0
+2023-07-31 07:18:04 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:18:04 - baixando itens - 87
+2023-07-31 07:18:04 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000702022/itens.json
+2023-07-31 07:18:04 - Request_json - itenslicitacao - 2023-07-31 07:18:04 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000702022/itens.json Erro=0
+2023-07-31 07:18:05 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:18:05 - baixando itens - 88
+2023-07-31 07:18:05 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000712022/itens.json
+2023-07-31 07:18:05 - Request_json - itenslicitacao - 2023-07-31 07:18:05 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000712022/itens.json Erro=0
+2023-07-31 07:18:06 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:18:06 - baixando itens - 89
+2023-07-31 07:18:06 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000722022/itens.json
+2023-07-31 07:18:06 - Request_json - itenslicitacao - 2023-07-31 07:18:06 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000722022/itens.json Erro=0
+2023-07-31 07:18:07 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:18:07 - baixando itens - 90
+2023-07-31 07:18:07 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000742022/itens.json
+2023-07-31 07:18:07 - Request_json - itenslicitacao - 2023-07-31 07:18:07 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000742022/itens.json Erro=0
+2023-07-31 07:18:07 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:18:07 - baixando itens - 91
+2023-07-31 07:18:07 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000752022/itens.json
+2023-07-31 07:18:07 - Request_json - itenslicitacao - 2023-07-31 07:18:07 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000752022/itens.json Erro=0
+2023-07-31 07:18:08 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:18:08 - baixando itens - 92
+2023-07-31 07:18:08 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000762022/itens.json
+2023-07-31 07:18:08 - Request_json - itenslicitacao - 2023-07-31 07:18:08 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000762022/itens.json Erro=0
+2023-07-31 07:18:08 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:18:08 - baixando itens - 93
+2023-07-31 07:18:08 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000772022/itens.json
+2023-07-31 07:18:08 - Request_json - itenslicitacao - 2023-07-31 07:18:08 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000772022/itens.json Erro=0
+2023-07-31 07:18:09 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:18:09 - baixando itens - 94
+2023-07-31 07:18:09 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000782022/itens.json
+2023-07-31 07:18:09 - Request_json - itenslicitacao - 2023-07-31 07:18:09 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000782022/itens.json Erro=0
+2023-07-31 07:18:10 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:18:10 - baixando itens - 95
+2023-07-31 07:18:10 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000792022/itens.json
+2023-07-31 07:18:10 - Request_json - itenslicitacao - 2023-07-31 07:18:10 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000792022/itens.json Erro=0
+2023-07-31 07:18:11 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:18:11 - baixando itens - 96
+2023-07-31 07:18:11 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000802022/itens.json
+2023-07-31 07:18:11 - Request_json - itenslicitacao - 2023-07-31 07:18:11 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000802022/itens.json Erro=0
+2023-07-31 07:18:11 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:18:11 - baixando itens - 97
+2023-07-31 07:18:11 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000812022/itens.json
+2023-07-31 07:18:11 - Request_json - itenslicitacao - 2023-07-31 07:18:11 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000812022/itens.json Erro=0
+2023-07-31 07:18:12 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:18:12 - baixando itens - 98
+2023-07-31 07:18:12 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000822022/itens.json
+2023-07-31 07:18:12 - Request_json - itenslicitacao - 2023-07-31 07:18:12 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000822022/itens.json Erro=0
+2023-07-31 07:18:12 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:18:12 - baixando itens - 99
+2023-07-31 07:18:12 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000832022/itens.json
+2023-07-31 07:18:12 - Request_json - itenslicitacao - 2023-07-31 07:18:12 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000832022/itens.json Erro=0
+2023-07-31 07:18:13 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:18:13 - baixando itens - 100
+2023-07-31 07:18:13 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000842022/itens.json
+2023-07-31 07:18:13 - Request_json - itenslicitacao - 2023-07-31 07:18:13 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000842022/itens.json Erro=0
+2023-07-31 07:18:14 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:18:14 - baixando itens - 101
+2023-07-31 07:18:14 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000852022/itens.json
+2023-07-31 07:18:14 - Request_json - itenslicitacao - 2023-07-31 07:18:14 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000852022/itens.json Erro=0
+2023-07-31 07:18:15 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:18:15 - baixando itens - 102
+2023-07-31 07:18:15 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000862022/itens.json
+2023-07-31 07:18:15 - Request_json - itenslicitacao - 2023-07-31 07:18:15 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000862022/itens.json Erro=0
+2023-07-31 07:18:15 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:18:15 - baixando itens - 103
+2023-07-31 07:18:15 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000872022/itens.json
+2023-07-31 07:18:15 - Request_json - itenslicitacao - 2023-07-31 07:18:15 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000872022/itens.json Erro=0
+2023-07-31 07:18:16 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:18:16 - baixando itens - 104
+2023-07-31 07:18:16 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000882022/itens.json
+2023-07-31 07:18:16 - Request_json - itenslicitacao - 2023-07-31 07:18:16 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000882022/itens.json Erro=0
+2023-07-31 07:18:16 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:18:16 - baixando itens - 105
+2023-07-31 07:18:16 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000902022/itens.json
+2023-07-31 07:18:16 - Request_json - itenslicitacao - 2023-07-31 07:18:16 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000902022/itens.json Erro=0
+2023-07-31 07:18:17 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:18:17 - baixando itens - 106
+2023-07-31 07:18:17 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000912022/itens.json
+2023-07-31 07:18:17 - Request_json - itenslicitacao - 2023-07-31 07:18:17 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000912022/itens.json Erro=0
+2023-07-31 07:18:17 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:18:17 - baixando itens - 107
+2023-07-31 07:18:17 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000922022/itens.json
+2023-07-31 07:18:17 - Request_json - itenslicitacao - 2023-07-31 07:18:17 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000922022/itens.json Erro=0
+2023-07-31 07:18:18 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:18:18 - baixando itens - 108
+2023-07-31 07:18:18 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000932022/itens.json
+2023-07-31 07:18:18 - Request_json - itenslicitacao - 2023-07-31 07:18:18 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000932022/itens.json Erro=0
+2023-07-31 07:18:18 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:18:18 - baixando itens - 109
+2023-07-31 07:18:18 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000942022/itens.json
+2023-07-31 07:18:18 - Request_json - itenslicitacao - 2023-07-31 07:18:18 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000942022/itens.json Erro=0
+2023-07-31 07:18:19 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:18:19 - baixando itens - 110
+2023-07-31 07:18:19 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000982022/itens.json
+2023-07-31 07:18:19 - Request_json - itenslicitacao - 2023-07-31 07:18:19 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000982022/itens.json Erro=0
+2023-07-31 07:18:20 - Request_json - itenslicitacao - Status do download 200
+2023-07-31 07:18:20 - baixando itens - 111
+2023-07-31 07:18:20 - http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000992022/itens.json
+2023-07-31 07:18:20 - Request_json - itenslicitacao - 2023-07-31 07:18:20 - Baixando http://compras.dados.gov.br/licitacoes/id/licitacao/01000105000992022/itens.json Erro=0
