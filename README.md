@@ -57,6 +57,8 @@ Federal;
 
 ## Estrutura do Repositório
 
+[Dados-APIComprasGovernamentais]
+
 [Novembro-2022](Novembro-2022/novembro.md)
 
 [PesqPrecos](Pesqprecos)
@@ -73,6 +75,8 @@ Federal;
 [uasgs.csv]
 
 ## Relatório de pesquisa do Mestrado Profissional em Poder Legislativo da Câmara dos Deputados
+
+[Relat%C3%B3rio%20T%C3%A9cnico/TCC___Mestrado___PosQualificacao.pdf](Relatório Técnico, TCC do Mestrado Profissional)
 
 ## Referências Bibliográficas da Pesquisa
 
