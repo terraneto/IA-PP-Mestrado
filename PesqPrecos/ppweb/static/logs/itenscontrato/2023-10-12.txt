@@ -1,0 +1,8 @@
+2023-10-12 09:20:35 - Request_json - itenscontrato - 2023-10-12 09:20:35 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/362/itens_compras_contratos.json Erro=0
+2023-10-12 09:20:40 - Request_json - itenscontrato - 2023-10-12 09:20:40 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/362/itens_compras_contratos.json Erro=1
+2023-10-12 09:20:45 - Request_json - itenscontrato - 2023-10-12 09:20:45 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/362/itens_compras_contratos.json Erro=2
+2023-10-12 09:20:51 - Request_json - itenscontrato - 2023-10-12 09:20:51 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/4241/itens_compras_contratos.json Erro=0
+2023-10-12 09:20:56 - Request_json - itenscontrato - 2023-10-12 09:20:56 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/4241/itens_compras_contratos.json Erro=1
+2023-10-12 09:21:01 - Request_json - itenscontrato - 2023-10-12 09:21:01 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/4241/itens_compras_contratos.json Erro=2
+2023-10-12 09:21:06 - Request_json - itenscontrato - 2023-10-12 09:21:06 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/17655/itens_compras_contratos.json Erro=0
+2023-10-12 09:21:12 - Request_json - itenscontrato - 2023-10-12 09:21:12 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/17655/itens_compras_contratos.json Erro=1

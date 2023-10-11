@@ -1,0 +1,3 @@
+2023-10-12 09:07:12 - Iniciou download mês 1 número páginas=1
+2023-10-12 09:07:12 - Request_json - contratos - 2023-10-12 09:07:12 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2023-01-01&data_assinatura_max=2023-01-31&offset=0 Erro=0
+2023-10-12 09:07:17 - Request_json - contratos - 2023-10-12 09:07:17 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2023-01-01&data_assinatura_max=2023-01-31&offset=0 Erro=1
