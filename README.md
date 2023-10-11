@@ -55,16 +55,22 @@ Federal;
 
 ## Estrutura do Repositório
 
+### Dados consolidados das diversas tabelas da API de Compras Governamentais 
+
 [Dados-APIComprasGovernamentais](Dados-APIComprasGovernamentais/dadosapi.md)
+
+### JupyterNotebooks utilizados para a geração das tabelas do relatório
 
 [Jupyter](Jupyter/jupyter.md)
 
 [Novembro-2022](Novembro-2022/novembro.md)
 
+### Fontes do aplicativo desenvolvido
+
 [PesqPrecos](Pesqprecos/pesqprecos.md)
 
 
-## Relatório de pesquisa do Mestrado Profissional em Poder Legislativo da Câmara dos Deputados
+### Relatório de pesquisa do Mestrado Profissional em Poder Legislativo da Câmara dos Deputados
 
 [Relatório Técnico, TCC do Mestrado Profissional](Relat%C3%B3rio%20T%C3%A9cnico/TCC___Mestrado___PosQualificacao.pdf)
 
