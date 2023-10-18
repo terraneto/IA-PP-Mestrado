@@ -17,6 +17,7 @@ class Config(db.Model, SerializerMixin):
 
 
 class Uasg(db.Model, SerializerMixin):
+    __tablename__ = "uasg"
     id = db.Column(db.Integer, primary_key=True)
     nome = db.Column(db.String(55))
     id_orgao = db.Column(db.Integer)
@@ -71,7 +72,7 @@ class Material(db.Model, SerializerMixin):
 
 
 class Grupo(db.Model, SerializerMixin):
-    __tablename__ = "grupo"
+    __tablename__ = "grupos"
     codigo = db.Column(db.Integer, primary_key=True)
     descricao = db.Column(db.String(130))
 
@@ -237,3 +238,41 @@ class Itensprecospraticados(db.Model, SerializerMixin):
     valor_total = db.Column(db.Float)
     beneficio = db.Column(db.Text)
     id_licitacao = db.Column(db.Text)
+
+
+class Pregao(db.Model, SerializerMixin):
+    __tablename__ = "pregoes"
+    numero = db.Column(db.Integer, primary_key=True)
+    co_portaria = db.Column(db.Text)
+    dtPortaria = db.Column(db.Text)
+    co_processo = db.Column(db.Text)
+    ds_tipo_pregao = db.Column(db.Text)
+    ds_tipo_pregao_compra = db.Column(db.Text)
+    tx_objeto = db.Column(db.Text)
+    valorHomologadoTotal = db.Column(db.Float)
+    valorEstimadoTotal = db.Column(db.Float)
+    co_uasg = db.Column(db.Integer)
+    ds_situacao_pregao = db.Column(db.Text)
+    dtDataEdital = db.Column(db.Text)
+    dtInicioProposta = db.Column(db.Text)
+    dtFimProposta = db.Column(db.Text)
+
+
+class Itempregao(db.Model, SerializerMixin):
+    __tablename__ = "itenspregoes"
+    id = db.Column(db.Integer, primary_key=True)
+    id_pregao = db.Column(db.Integer)
+    num_item = db.Column(db.Integer)
+    descricao_item = db.Column(db.Text)
+    quantidade_item = db.Column(db.Integer)
+    valor_estimado_item = db.Column(db.Float)
+    descricao_detalhada_item = db.Column(db.Text)
+    tratamento_diferenciado = db.Column(db.Text)
+    decreto_7174 = db.Column(db.Integer)
+    margem_preferencial = db.Column(db.Integer)
+    unidade_fornecimento = db.Column(db.Text)
+    situacao_item = db.Column(db.Text)
+    fornecedor_vencedor = db.Column(db.Text)
+    menor_lance = db.Column(db.Float)
+    valorHomologadoItem = db.Column(db.Float)
+    valor_negociado = db.Column(db.Float)

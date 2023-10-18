@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta, date
 from flask import abort, render_template, send_file, request, jsonify
-from ppweb.cargajson import carrega_json
+from ppweb.cargajson import carrega_json, carrega_json_licitacoes_ano, carrega_json_pregoes
 
 from ppweb.contratosdf import baixa_json_contrato_mensal, baixa_json_itenscontrato, baixa_json_contrato_anual, \
     baixa_json_contrato_mes
@@ -12,11 +12,12 @@ from ppweb.licitacoesdf import baixa_json_itenslicitacao, \
     baixa_json_itensprecospraticados, baixa_json_licitacao_uasg_anual_geral, baixa_uasg_diario_material_geral, \
     baixa_uasg_mensal_geral, baixa_uasg_mensal_diario_geral, baixa_uasg_diario_classe_geral
 
-from ppweb.models import Uasg, ComprasContratos, Itenslicitacao, Itenscontratos, Itens, Itensprecospraticados, Material
+from ppweb.models import Uasg, ComprasContratos, Itenslicitacao, Itenscontratos, Itens, Itensprecospraticados, Material, \
+    Pregao
 
 import os
 
-from ppweb.utils import baixa_json
+from ppweb.utils import baixa_json, baixa_json_pregoes, baixa_json_itens_pregoes
 
 
 def index():
@@ -129,7 +130,7 @@ def testa_sobrepreco():
 def process_data():
     selected_class = request.args.get('selected_class', type=str)
     selected_entry = request.args.get('selected_entry', type=str)
-    baixa_json(selected_class, selected_entry, None)
+    baixa_json(selected_class, selected_entry)
     return dir_listing(selected_entry)
 
 
@@ -153,11 +154,20 @@ def process_data_licitacao():
                 case '2':
                     baixa_uasg_mensal_geral(ano, recursivo)
                 case '3':
-                    baixa_uasg_mensal_diario_geral(ano, recursivo)
+                    baixa_uasg_mensal_diario_geral(ano)
                 case '4':
                     baixa_uasg_diario_classe_geral(ano, recursivo)
                 case '5':
                     baixa_uasg_diario_material_geral(ano)
+    return dir_listing('licitacoes')
+
+
+def process_ano_licitacao():
+    if request.method == 'POST':
+        result = request.form
+        ano = result.get('select_ano')
+        print(ano)
+        carrega_json_licitacoes_ano(ano)
     return dir_listing('licitacoes')
 
 
@@ -193,6 +203,16 @@ def view_avalia_pesquisa_precos():
 
 def view_licitacoesseltipo():
     return render_template('licitacoesseltipo.html')
+
+
+def view_cargalicitacaoano():
+    return render_template('licitacoesselano.html')
+
+
+def view_carrega_json_pregoes():
+    carrega_json_pregoes()
+    pregoes = Pregao.query.all()
+    return render_template('pregoes.html', pregoes=pregoes)
 
 
 def view_cargaseltipo():
@@ -232,8 +252,18 @@ def dir_listing(req_path):
 
 def view_baixa_json(vmodulo, vtipo):
     print('view baixa tipo de ' + vmodulo + '. Tipo=' + vtipo)
-    baixa_json(vmodulo, vtipo, None)
+    baixa_json(vmodulo, vtipo)
     return dir_listing(vtipo)
+
+
+def view_baixa_json_pregoes():
+    baixa_json_pregoes()
+    return dir_listing('pregões')
+
+
+def view_baixa_json_itens_pregoes():
+    baixa_json_itens_pregoes()
+    return dir_listing('itenspregao')
 
 
 def view_baixa_json_contrato_mensal(vano):

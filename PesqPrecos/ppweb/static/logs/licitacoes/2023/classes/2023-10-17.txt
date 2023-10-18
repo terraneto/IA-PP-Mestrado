@@ -1,0 +1,522 @@
+2023-10-17 06:23:14 - Request_json - licitacoes/2023/classes - 2023-10-17 06:23:14 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1005 Erro=0
+2023-10-17 06:23:19 - Request_json - licitacoes/2023/classes - 2023-10-17 06:23:19 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1005 Erro=1
+2023-10-17 06:23:24 - Request_json - licitacoes/2023/classes - 2023-10-17 06:23:24 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1005 Erro=2
+2023-10-17 06:23:29 - Request_json - licitacoes/2023/classes - 2023-10-17 06:23:29 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1010 Erro=0
+2023-10-17 06:23:34 - Request_json - licitacoes/2023/classes - 2023-10-17 06:23:34 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1010 Erro=1
+2023-10-17 06:23:40 - Request_json - licitacoes/2023/classes - 2023-10-17 06:23:40 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1010 Erro=2
+2023-10-17 06:23:45 - Request_json - licitacoes/2023/classes - 2023-10-17 06:23:45 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1015 Erro=0
+2023-10-17 06:23:50 - Request_json - licitacoes/2023/classes - 2023-10-17 06:23:50 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1015 Erro=1
+2023-10-17 06:23:55 - Request_json - licitacoes/2023/classes - 2023-10-17 06:23:55 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1015 Erro=2
+2023-10-17 06:24:00 - Request_json - licitacoes/2023/classes - 2023-10-17 06:24:00 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1020 Erro=0
+2023-10-17 06:24:05 - Request_json - licitacoes/2023/classes - 2023-10-17 06:24:05 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1020 Erro=1
+2023-10-17 06:24:11 - Request_json - licitacoes/2023/classes - 2023-10-17 06:24:11 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1020 Erro=2
+2023-10-17 06:24:16 - Request_json - licitacoes/2023/classes - 2023-10-17 06:24:16 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1025 Erro=0
+2023-10-17 06:24:21 - Request_json - licitacoes/2023/classes - 2023-10-17 06:24:21 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1025 Erro=1
+2023-10-17 06:24:26 - Request_json - licitacoes/2023/classes - 2023-10-17 06:24:26 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1025 Erro=2
+2023-10-17 06:24:32 - Request_json - licitacoes/2023/classes - 2023-10-17 06:24:32 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1030 Erro=0
+2023-10-17 06:24:37 - Request_json - licitacoes/2023/classes - 2023-10-17 06:24:37 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1030 Erro=1
+2023-10-17 06:24:42 - Request_json - licitacoes/2023/classes - 2023-10-17 06:24:42 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1030 Erro=2
+2023-10-17 06:24:48 - Request_json - licitacoes/2023/classes - 2023-10-17 06:24:48 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1035 Erro=0
+2023-10-17 06:24:53 - Request_json - licitacoes/2023/classes - 2023-10-17 06:24:53 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1035 Erro=1
+2023-10-17 06:24:58 - Request_json - licitacoes/2023/classes - 2023-10-17 06:24:58 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1035 Erro=2
+2023-10-17 06:25:03 - Request_json - licitacoes/2023/classes - 2023-10-17 06:25:03 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1040 Erro=0
+2023-10-17 06:25:09 - Request_json - licitacoes/2023/classes - 2023-10-17 06:25:09 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1040 Erro=1
+2023-10-17 06:25:14 - Request_json - licitacoes/2023/classes - 2023-10-17 06:25:14 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1040 Erro=2
+2023-10-17 06:25:19 - Request_json - licitacoes/2023/classes - 2023-10-17 06:25:19 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1045 Erro=0
+2023-10-17 06:25:24 - Request_json - licitacoes/2023/classes - 2023-10-17 06:25:24 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1045 Erro=1
+2023-10-17 06:25:30 - Request_json - licitacoes/2023/classes - 2023-10-17 06:25:30 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1045 Erro=2
+2023-10-17 06:25:35 - Request_json - licitacoes/2023/classes - 2023-10-17 06:25:35 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1055 Erro=0
+2023-10-17 06:25:40 - Request_json - licitacoes/2023/classes - 2023-10-17 06:25:40 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1055 Erro=1
+2023-10-17 06:25:45 - Request_json - licitacoes/2023/classes - 2023-10-17 06:25:45 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1055 Erro=2
+2023-10-17 06:25:50 - Request_json - licitacoes/2023/classes - 2023-10-17 06:25:50 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1070 Erro=0
+2023-10-17 06:25:55 - Request_json - licitacoes/2023/classes - 2023-10-17 06:25:55 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1070 Erro=1
+2023-10-17 06:26:01 - Request_json - licitacoes/2023/classes - 2023-10-17 06:26:01 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1070 Erro=2
+2023-10-17 06:26:06 - Request_json - licitacoes/2023/classes - 2023-10-17 06:26:06 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1075 Erro=0
+2023-10-17 06:26:11 - Request_json - licitacoes/2023/classes - 2023-10-17 06:26:11 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1075 Erro=1
+2023-10-17 06:26:16 - Request_json - licitacoes/2023/classes - 2023-10-17 06:26:16 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1075 Erro=2
+2023-10-17 06:26:21 - Request_json - licitacoes/2023/classes - 2023-10-17 06:26:21 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1080 Erro=0
+2023-10-17 06:26:26 - Request_json - licitacoes/2023/classes - 2023-10-17 06:26:26 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1080 Erro=1
+2023-10-17 06:26:32 - Request_json - licitacoes/2023/classes - 2023-10-17 06:26:32 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1080 Erro=2
+2023-10-17 06:26:37 - Request_json - licitacoes/2023/classes - 2023-10-17 06:26:37 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1090 Erro=0
+2023-10-17 06:26:42 - Request_json - licitacoes/2023/classes - 2023-10-17 06:26:42 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1090 Erro=1
+2023-10-17 06:26:47 - Request_json - licitacoes/2023/classes - 2023-10-17 06:26:47 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1090 Erro=2
+2023-10-17 06:26:52 - Request_json - licitacoes/2023/classes - 2023-10-17 06:26:52 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1095 Erro=0
+2023-10-17 06:26:58 - Request_json - licitacoes/2023/classes - 2023-10-17 06:26:58 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1095 Erro=1
+2023-10-17 06:27:03 - Request_json - licitacoes/2023/classes - 2023-10-17 06:27:03 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1095 Erro=2
+2023-10-17 06:27:08 - Request_json - licitacoes/2023/classes - 2023-10-17 06:27:08 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1105 Erro=0
+2023-10-17 06:27:13 - Request_json - licitacoes/2023/classes - 2023-10-17 06:27:13 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1105 Erro=1
+2023-10-17 06:27:18 - Request_json - licitacoes/2023/classes - 2023-10-17 06:27:18 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1105 Erro=2
+2023-10-17 06:27:23 - Request_json - licitacoes/2023/classes - 2023-10-17 06:27:23 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1110 Erro=0
+2023-10-17 06:27:29 - Request_json - licitacoes/2023/classes - 2023-10-17 06:27:29 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1110 Erro=1
+2023-10-17 06:27:34 - Request_json - licitacoes/2023/classes - 2023-10-17 06:27:34 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1110 Erro=2
+2023-10-17 06:27:39 - Request_json - licitacoes/2023/classes - 2023-10-17 06:27:39 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1115 Erro=0
+2023-10-17 06:27:44 - Request_json - licitacoes/2023/classes - 2023-10-17 06:27:44 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1115 Erro=1
+2023-10-17 06:27:49 - Request_json - licitacoes/2023/classes - 2023-10-17 06:27:49 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1115 Erro=2
+2023-10-17 06:27:55 - Request_json - licitacoes/2023/classes - 2023-10-17 06:27:55 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1120 Erro=0
+2023-10-17 06:28:00 - Request_json - licitacoes/2023/classes - 2023-10-17 06:28:00 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1120 Erro=1
+2023-10-17 06:28:05 - Request_json - licitacoes/2023/classes - 2023-10-17 06:28:05 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1120 Erro=2
+2023-10-17 06:28:10 - Request_json - licitacoes/2023/classes - 2023-10-17 06:28:10 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1125 Erro=0
+2023-10-17 06:28:15 - Request_json - licitacoes/2023/classes - 2023-10-17 06:28:15 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1125 Erro=1
+2023-10-17 06:28:20 - Request_json - licitacoes/2023/classes - 2023-10-17 06:28:20 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1125 Erro=2
+2023-10-17 06:28:26 - Request_json - licitacoes/2023/classes - 2023-10-17 06:28:26 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1127 Erro=0
+2023-10-17 06:28:31 - Request_json - licitacoes/2023/classes - 2023-10-17 06:28:31 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1127 Erro=1
+2023-10-17 06:28:36 - Request_json - licitacoes/2023/classes - 2023-10-17 06:28:36 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1127 Erro=2
+2023-10-17 06:28:41 - Request_json - licitacoes/2023/classes - 2023-10-17 06:28:41 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1130 Erro=0
+2023-10-17 06:28:46 - Request_json - licitacoes/2023/classes - 2023-10-17 06:28:46 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1130 Erro=1
+2023-10-17 06:28:52 - Request_json - licitacoes/2023/classes - 2023-10-17 06:28:52 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1130 Erro=2
+2023-10-17 06:28:57 - Request_json - licitacoes/2023/classes - 2023-10-17 06:28:57 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1135 Erro=0
+2023-10-17 06:29:02 - Request_json - licitacoes/2023/classes - 2023-10-17 06:29:02 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1135 Erro=1
+2023-10-17 06:29:07 - Request_json - licitacoes/2023/classes - 2023-10-17 06:29:07 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1135 Erro=2
+2023-10-17 06:29:12 - Request_json - licitacoes/2023/classes - 2023-10-17 06:29:12 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1140 Erro=0
+2023-10-17 06:29:17 - Request_json - licitacoes/2023/classes - 2023-10-17 06:29:17 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1140 Erro=1
+2023-10-17 06:29:23 - Request_json - licitacoes/2023/classes - 2023-10-17 06:29:23 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1140 Erro=2
+2023-10-17 06:29:28 - Request_json - licitacoes/2023/classes - 2023-10-17 06:29:28 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1145 Erro=0
+2023-10-17 06:29:33 - Request_json - licitacoes/2023/classes - 2023-10-17 06:29:33 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1145 Erro=1
+2023-10-17 06:29:38 - Request_json - licitacoes/2023/classes - 2023-10-17 06:29:38 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1145 Erro=2
+2023-10-17 06:29:43 - Request_json - licitacoes/2023/classes - 2023-10-17 06:29:43 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1190 Erro=0
+2023-10-17 06:29:48 - Request_json - licitacoes/2023/classes - 2023-10-17 06:29:48 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1190 Erro=1
+2023-10-17 06:29:54 - Request_json - licitacoes/2023/classes - 2023-10-17 06:29:54 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1190 Erro=2
+2023-10-17 06:29:59 - Request_json - licitacoes/2023/classes - 2023-10-17 06:29:59 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1195 Erro=0
+2023-10-17 06:30:04 - Request_json - licitacoes/2023/classes - 2023-10-17 06:30:04 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1195 Erro=1
+2023-10-17 06:30:09 - Request_json - licitacoes/2023/classes - 2023-10-17 06:30:09 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1195 Erro=2
+2023-10-17 06:30:14 - Request_json - licitacoes/2023/classes - 2023-10-17 06:30:14 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1210 Erro=0
+2023-10-17 06:30:19 - Request_json - licitacoes/2023/classes - 2023-10-17 06:30:19 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1210 Erro=1
+2023-10-17 06:30:25 - Request_json - licitacoes/2023/classes - 2023-10-17 06:30:25 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1210 Erro=2
+2023-10-17 06:30:30 - Request_json - licitacoes/2023/classes - 2023-10-17 06:30:30 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1220 Erro=0
+2023-10-17 06:30:35 - Request_json - licitacoes/2023/classes - 2023-10-17 06:30:35 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1220 Erro=1
+2023-10-17 06:30:40 - Request_json - licitacoes/2023/classes - 2023-10-17 06:30:40 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1220 Erro=2
+2023-10-17 06:30:45 - Request_json - licitacoes/2023/classes - 2023-10-17 06:30:45 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1230 Erro=0
+2023-10-17 06:30:50 - Request_json - licitacoes/2023/classes - 2023-10-17 06:30:50 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1230 Erro=1
+2023-10-17 06:30:55 - Request_json - licitacoes/2023/classes - 2023-10-17 06:30:55 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1230 Erro=2
+2023-10-17 06:31:01 - Request_json - licitacoes/2023/classes - 2023-10-17 06:31:01 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1240 Erro=0
+2023-10-17 06:31:06 - Request_json - licitacoes/2023/classes - 2023-10-17 06:31:06 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1240 Erro=1
+2023-10-17 06:31:11 - Request_json - licitacoes/2023/classes - 2023-10-17 06:31:11 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1240 Erro=2
+2023-10-17 06:31:16 - Request_json - licitacoes/2023/classes - 2023-10-17 06:31:16 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1250 Erro=0
+2023-10-17 06:31:21 - Request_json - licitacoes/2023/classes - 2023-10-17 06:31:21 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1250 Erro=1
+2023-10-17 06:31:27 - Request_json - licitacoes/2023/classes - 2023-10-17 06:31:27 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1250 Erro=2
+2023-10-17 06:31:32 - Request_json - licitacoes/2023/classes - 2023-10-17 06:31:32 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1260 Erro=0
+2023-10-17 06:31:37 - Request_json - licitacoes/2023/classes - 2023-10-17 06:31:37 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1260 Erro=1
+2023-10-17 06:31:42 - Request_json - licitacoes/2023/classes - 2023-10-17 06:31:42 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1260 Erro=2
+2023-10-17 06:31:47 - Request_json - licitacoes/2023/classes - 2023-10-17 06:31:47 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1265 Erro=0
+2023-10-17 06:31:52 - Request_json - licitacoes/2023/classes - 2023-10-17 06:31:52 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1265 Erro=1
+2023-10-17 06:31:57 - Request_json - licitacoes/2023/classes - 2023-10-17 06:31:57 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1265 Erro=2
+2023-10-17 06:32:03 - Request_json - licitacoes/2023/classes - 2023-10-17 06:32:03 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1270 Erro=0
+2023-10-17 06:32:08 - Request_json - licitacoes/2023/classes - 2023-10-17 06:32:08 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1270 Erro=1
+2023-10-17 06:32:13 - Request_json - licitacoes/2023/classes - 2023-10-17 06:32:13 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1270 Erro=2
+2023-10-17 06:32:18 - Request_json - licitacoes/2023/classes - 2023-10-17 06:32:18 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1280 Erro=0
+2023-10-17 06:32:23 - Request_json - licitacoes/2023/classes - 2023-10-17 06:32:23 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1280 Erro=1
+2023-10-17 06:32:28 - Request_json - licitacoes/2023/classes - 2023-10-17 06:32:28 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1280 Erro=2
+2023-10-17 06:32:34 - Request_json - licitacoes/2023/classes - 2023-10-17 06:32:34 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1285 Erro=0
+2023-10-17 06:32:39 - Request_json - licitacoes/2023/classes - 2023-10-17 06:32:39 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1285 Erro=1
+2023-10-17 06:32:44 - Request_json - licitacoes/2023/classes - 2023-10-17 06:32:44 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1285 Erro=2
+2023-10-17 06:32:49 - Request_json - licitacoes/2023/classes - 2023-10-17 06:32:49 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1287 Erro=0
+2023-10-17 06:32:54 - Request_json - licitacoes/2023/classes - 2023-10-17 06:32:54 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1287 Erro=1
+2023-10-17 06:32:59 - Request_json - licitacoes/2023/classes - 2023-10-17 06:32:59 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1287 Erro=2
+2023-10-17 06:33:05 - Request_json - licitacoes/2023/classes - 2023-10-17 06:33:05 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1290 Erro=0
+2023-10-17 06:33:10 - Request_json - licitacoes/2023/classes - 2023-10-17 06:33:10 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1290 Erro=1
+2023-10-17 06:33:15 - Request_json - licitacoes/2023/classes - 2023-10-17 06:33:15 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1290 Erro=2
+2023-10-17 06:33:20 - Request_json - licitacoes/2023/classes - 2023-10-17 06:33:20 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1295 Erro=0
+2023-10-17 06:33:25 - Request_json - licitacoes/2023/classes - 2023-10-17 06:33:25 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1295 Erro=1
+2023-10-17 06:33:30 - Request_json - licitacoes/2023/classes - 2023-10-17 06:33:30 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1295 Erro=2
+2023-10-17 06:33:36 - Request_json - licitacoes/2023/classes - 2023-10-17 06:33:36 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1305 Erro=0
+2023-10-17 06:33:41 - Request_json - licitacoes/2023/classes - 2023-10-17 06:33:41 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1305 Erro=1
+2023-10-17 06:33:46 - Request_json - licitacoes/2023/classes - 2023-10-17 06:33:46 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1305 Erro=2
+2023-10-17 06:33:51 - Request_json - licitacoes/2023/classes - 2023-10-17 06:33:51 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1310 Erro=0
+2023-10-17 06:33:56 - Request_json - licitacoes/2023/classes - 2023-10-17 06:33:56 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1310 Erro=1
+2023-10-17 06:34:02 - Request_json - licitacoes/2023/classes - 2023-10-17 06:34:02 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1310 Erro=2
+2023-10-17 06:34:07 - Request_json - licitacoes/2023/classes - 2023-10-17 06:34:07 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1315 Erro=0
+2023-10-17 06:34:12 - Request_json - licitacoes/2023/classes - 2023-10-17 06:34:12 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1315 Erro=1
+2023-10-17 06:34:17 - Request_json - licitacoes/2023/classes - 2023-10-17 06:34:17 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1315 Erro=2
+2023-10-17 06:34:22 - Request_json - licitacoes/2023/classes - 2023-10-17 06:34:22 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1320 Erro=0
+2023-10-17 06:34:27 - Request_json - licitacoes/2023/classes - 2023-10-17 06:34:27 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1320 Erro=1
+2023-10-17 06:34:32 - Request_json - licitacoes/2023/classes - 2023-10-17 06:34:32 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1320 Erro=2
+2023-10-17 06:34:38 - Request_json - licitacoes/2023/classes - 2023-10-17 06:34:38 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1325 Erro=0
+2023-10-17 06:34:43 - Request_json - licitacoes/2023/classes - 2023-10-17 06:34:43 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1325 Erro=1
+2023-10-17 06:34:48 - Request_json - licitacoes/2023/classes - 2023-10-17 06:34:48 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1325 Erro=2
+2023-10-17 06:34:53 - Request_json - licitacoes/2023/classes - 2023-10-17 06:34:53 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1330 Erro=0
+2023-10-17 06:34:58 - Request_json - licitacoes/2023/classes - 2023-10-17 06:34:58 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1330 Erro=1
+2023-10-17 06:35:04 - Request_json - licitacoes/2023/classes - 2023-10-17 06:35:04 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1330 Erro=2
+2023-10-17 06:35:09 - Request_json - licitacoes/2023/classes - 2023-10-17 06:35:09 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1336 Erro=0
+2023-10-17 06:35:14 - Request_json - licitacoes/2023/classes - 2023-10-17 06:35:14 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1336 Erro=1
+2023-10-17 06:35:19 - Request_json - licitacoes/2023/classes - 2023-10-17 06:35:19 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1336 Erro=2
+2023-10-17 06:35:24 - Request_json - licitacoes/2023/classes - 2023-10-17 06:35:24 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1337 Erro=0
+2023-10-17 06:35:29 - Request_json - licitacoes/2023/classes - 2023-10-17 06:35:29 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1337 Erro=1
+2023-10-17 06:35:35 - Request_json - licitacoes/2023/classes - 2023-10-17 06:35:35 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1337 Erro=2
+2023-10-17 06:35:40 - Request_json - licitacoes/2023/classes - 2023-10-17 06:35:40 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1338 Erro=0
+2023-10-17 06:35:45 - Request_json - licitacoes/2023/classes - 2023-10-17 06:35:45 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1338 Erro=1
+2023-10-17 06:35:50 - Request_json - licitacoes/2023/classes - 2023-10-17 06:35:50 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1338 Erro=2
+2023-10-17 06:35:55 - Request_json - licitacoes/2023/classes - 2023-10-17 06:35:55 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1340 Erro=0
+2023-10-17 06:36:00 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:00 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1340 Erro=1
+2023-10-17 06:36:01 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:01 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:01 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1345 Erro=0
+2023-10-17 06:36:06 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:06 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1345 Erro=1
+2023-10-17 06:36:12 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:12 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1345 Erro=2
+2023-10-17 06:36:12 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:12 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:12 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1346 Erro=0
+2023-10-17 06:36:13 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:13 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:13 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1350 Erro=0
+2023-10-17 06:36:13 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:13 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:13 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1351 Erro=0
+2023-10-17 06:36:14 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:14 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:14 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1352 Erro=0
+2023-10-17 06:36:14 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:14 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:14 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1353 Erro=0
+2023-10-17 06:36:15 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:15 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:15 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1355 Erro=0
+2023-10-17 06:36:15 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:15 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:15 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1356 Erro=0
+2023-10-17 06:36:20 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:20 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1356 Erro=1
+2023-10-17 06:36:21 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:21 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:21 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1360 Erro=0
+2023-10-17 06:36:21 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:21 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:21 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1361 Erro=0
+2023-10-17 06:36:22 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:22 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:22 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1365 Erro=0
+2023-10-17 06:36:23 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:23 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:23 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1367 Erro=0
+2023-10-17 06:36:23 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:23 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:23 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1370 Erro=0
+2023-10-17 06:36:24 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:24 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:24 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1375 Erro=0
+2023-10-17 06:36:24 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:24 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:24 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1376 Erro=0
+2023-10-17 06:36:25 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:25 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:25 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1377 Erro=0
+2023-10-17 06:36:26 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:26 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:26 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1380 Erro=0
+2023-10-17 06:36:28 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:28 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:28 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1385 Erro=0
+2023-10-17 06:36:29 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:29 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:29 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1386 Erro=0
+2023-10-17 06:36:29 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:29 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:29 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1390 Erro=0
+2023-10-17 06:36:30 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:30 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:30 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1395 Erro=0
+2023-10-17 06:36:31 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:31 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:31 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1398 Erro=0
+2023-10-17 06:36:32 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:32 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:32 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1410 Erro=0
+2023-10-17 06:36:32 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:32 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:32 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1420 Erro=0
+2023-10-17 06:36:37 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:37 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1420 Erro=1
+2023-10-17 06:36:38 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:38 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:38 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1425 Erro=0
+2023-10-17 06:36:39 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:39 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:39 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1427 Erro=0
+2023-10-17 06:36:40 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:40 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:40 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1430 Erro=0
+2023-10-17 06:36:40 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:40 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:40 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1440 Erro=0
+2023-10-17 06:36:41 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:41 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:41 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1450 Erro=0
+2023-10-17 06:36:41 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:41 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:41 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1495 Erro=0
+2023-10-17 06:36:42 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:42 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:42 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1505 Erro=0
+2023-10-17 06:36:43 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:43 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:43 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1510 Erro=0
+2023-10-17 06:36:43 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:43 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:43 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1515 Erro=0
+2023-10-17 06:36:48 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:48 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1515 Erro=1
+2023-10-17 06:36:50 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:50 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:50 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1520 Erro=0
+2023-10-17 06:36:50 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:50 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:50 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1525 Erro=0
+2023-10-17 06:36:50 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:50 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:50 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1530 Erro=0
+2023-10-17 06:36:51 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:51 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:51 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1535 Erro=0
+2023-10-17 06:36:51 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:51 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:51 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1540 Erro=0
+2023-10-17 06:36:52 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:52 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:52 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1550 Erro=0
+2023-10-17 06:36:52 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:52 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:52 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1560 Erro=0
+2023-10-17 06:36:52 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:52 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:52 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1595 Erro=0
+2023-10-17 06:36:53 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:53 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:53 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1610 Erro=0
+2023-10-17 06:36:54 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:54 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:54 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1615 Erro=0
+2023-10-17 06:36:54 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:54 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:54 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1620 Erro=0
+2023-10-17 06:36:55 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:55 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:55 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1630 Erro=0
+2023-10-17 06:36:56 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:56 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:56 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1650 Erro=0
+2023-10-17 06:36:56 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:56 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:56 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1660 Erro=0
+2023-10-17 06:36:56 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:56 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:56 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1670 Erro=0
+2023-10-17 06:36:57 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:57 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:57 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1680 Erro=0
+2023-10-17 06:36:57 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:57 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:57 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1695 Erro=0
+2023-10-17 06:36:57 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:57 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:57 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1705 Erro=0
+2023-10-17 06:36:58 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:36:58 - Request_json - licitacoes/2023/classes - 2023-10-17 06:36:58 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1710 Erro=0
+2023-10-17 06:37:00 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:00 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:00 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1720 Erro=0
+2023-10-17 06:37:05 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:05 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1720 Erro=1
+2023-10-17 06:37:05 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:05 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:05 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1730 Erro=0
+2023-10-17 06:37:06 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:06 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:06 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1740 Erro=0
+2023-10-17 06:37:06 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:06 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:06 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1795 Erro=0
+2023-10-17 06:37:11 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:11 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1795 Erro=1
+2023-10-17 06:37:13 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:13 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:13 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1805 Erro=0
+2023-10-17 06:37:14 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:14 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:14 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1810 Erro=0
+2023-10-17 06:37:14 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:14 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:14 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1820 Erro=0
+2023-10-17 06:37:15 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:15 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:15 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1830 Erro=0
+2023-10-17 06:37:15 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:15 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:15 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1840 Erro=0
+2023-10-17 06:37:15 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:15 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:15 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1850 Erro=0
+2023-10-17 06:37:21 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:21 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1850 Erro=1
+2023-10-17 06:37:21 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:21 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:21 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1860 Erro=0
+2023-10-17 06:37:22 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:22 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:22 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1895 Erro=0
+2023-10-17 06:37:23 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:23 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:23 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1905 Erro=0
+2023-10-17 06:37:23 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:23 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:23 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1910 Erro=0
+2023-10-17 06:37:24 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:24 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:24 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1915 Erro=0
+2023-10-17 06:37:24 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:24 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:24 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1920 Erro=0
+2023-10-17 06:37:28 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:28 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:28 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1925 Erro=0
+2023-10-17 06:37:28 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:28 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:28 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1930 Erro=0
+2023-10-17 06:37:29 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:29 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:29 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1935 Erro=0
+2023-10-17 06:37:29 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:29 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:29 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1940 Erro=0
+2023-10-17 06:37:29 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:29 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:29 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1945 Erro=0
+2023-10-17 06:37:35 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:35 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1945 Erro=1
+2023-10-17 06:37:35 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:35 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:35 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1950 Erro=0
+2023-10-17 06:37:37 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:37 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:37 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1955 Erro=0
+2023-10-17 06:37:37 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:37 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:37 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1990 Erro=0
+2023-10-17 06:37:38 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:38 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:38 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2010 Erro=0
+2023-10-17 06:37:40 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:40 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:40 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2020 Erro=0
+2023-10-17 06:37:40 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:40 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:40 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2030 Erro=0
+2023-10-17 06:37:41 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:41 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:41 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2040 Erro=0
+2023-10-17 06:37:41 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:41 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:41 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2050 Erro=0
+2023-10-17 06:37:42 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:42 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:42 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2060 Erro=0
+2023-10-17 06:37:42 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:42 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:42 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2090 Erro=0
+2023-10-17 06:37:43 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:43 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:43 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2210 Erro=0
+2023-10-17 06:37:43 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:43 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:43 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2220 Erro=0
+2023-10-17 06:37:44 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:44 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:44 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2230 Erro=0
+2023-10-17 06:37:44 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:44 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:44 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2240 Erro=0
+2023-10-17 06:37:46 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:46 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:46 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2250 Erro=0
+2023-10-17 06:37:49 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:49 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:49 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2305 Erro=0
+2023-10-17 06:37:51 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:51 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:51 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2310 Erro=0
+2023-10-17 06:37:51 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:51 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:51 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2315 Erro=0
+2023-10-17 06:37:53 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:53 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:53 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2320 Erro=0
+2023-10-17 06:37:54 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:54 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:54 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2330 Erro=0
+2023-10-17 06:37:55 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:56 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:56 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2340 Erro=0
+2023-10-17 06:37:56 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:56 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:56 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2350 Erro=0
+2023-10-17 06:37:58 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:37:58 - Request_json - licitacoes/2023/classes - 2023-10-17 06:37:58 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2410 Erro=0
+2023-10-17 06:38:03 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:04 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:04 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2420 Erro=0
+2023-10-17 06:38:07 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:07 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:07 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2430 Erro=0
+2023-10-17 06:38:08 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:08 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:08 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2510 Erro=0
+2023-10-17 06:38:10 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:10 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:10 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2520 Erro=0
+2023-10-17 06:38:12 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:12 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:12 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2530 Erro=0
+2023-10-17 06:38:16 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:16 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:16 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2540 Erro=0
+2023-10-17 06:38:18 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:18 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:18 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2541 Erro=0
+2023-10-17 06:38:19 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:19 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:19 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2590 Erro=0
+2023-10-17 06:38:19 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:19 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:19 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2610 Erro=0
+2023-10-17 06:38:20 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:20 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:20 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2620 Erro=0
+2023-10-17 06:38:21 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:21 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:21 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2630 Erro=0
+2023-10-17 06:38:21 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:21 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:21 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2640 Erro=0
+2023-10-17 06:38:23 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:23 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:23 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2805 Erro=0
+2023-10-17 06:38:24 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:24 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:24 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2810 Erro=0
+2023-10-17 06:38:25 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:25 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:25 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2815 Erro=0
+2023-10-17 06:38:25 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:25 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:25 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2820 Erro=0
+2023-10-17 06:38:26 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:26 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:26 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2825 Erro=0
+2023-10-17 06:38:26 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:27 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:27 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2830 Erro=0
+2023-10-17 06:38:28 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:28 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:28 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2835 Erro=0
+2023-10-17 06:38:30 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:30 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:30 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2840 Erro=0
+2023-10-17 06:38:31 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:32 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:32 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2845 Erro=0
+2023-10-17 06:38:33 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:33 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:33 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2850 Erro=0
+2023-10-17 06:38:37 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:37 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:37 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2895 Erro=0
+2023-10-17 06:38:38 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:38 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:38 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2910 Erro=0
+2023-10-17 06:38:39 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:39 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:39 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2915 Erro=0
+2023-10-17 06:38:41 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:41 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:41 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2920 Erro=0
+2023-10-17 06:38:42 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:42 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:42 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2925 Erro=0
+2023-10-17 06:38:42 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:42 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:42 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2930 Erro=0
+2023-10-17 06:38:42 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:42 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:42 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2935 Erro=0
+2023-10-17 06:38:43 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:43 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:43 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2940 Erro=0
+2023-10-17 06:38:44 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:44 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:44 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2945 Erro=0
+2023-10-17 06:38:47 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:47 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:47 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2950 Erro=0
+2023-10-17 06:38:50 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:52 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:52 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2990 Erro=0
+2023-10-17 06:38:53 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:53 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:53 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=2995 Erro=0
+2023-10-17 06:38:54 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:55 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:55 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3010 Erro=0
+2023-10-17 06:38:55 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:55 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:55 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3020 Erro=0
+2023-10-17 06:38:56 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:56 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:56 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3030 Erro=0
+2023-10-17 06:38:56 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:56 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:56 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3040 Erro=0
+2023-10-17 06:38:57 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:57 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:57 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3110 Erro=0
+2023-10-17 06:38:58 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:58 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:58 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3120 Erro=0
+2023-10-17 06:38:58 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:59 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:59 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3130 Erro=0
+2023-10-17 06:38:59 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:38:59 - Request_json - licitacoes/2023/classes - 2023-10-17 06:38:59 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3210 Erro=0
+2023-10-17 06:39:01 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:39:01 - Request_json - licitacoes/2023/classes - 2023-10-17 06:39:01 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3220 Erro=0
+2023-10-17 06:39:05 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:39:05 - Request_json - licitacoes/2023/classes - 2023-10-17 06:39:05 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3230 Erro=0
+2023-10-17 06:39:07 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:39:07 - Request_json - licitacoes/2023/classes - 2023-10-17 06:39:07 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3405 Erro=0
+2023-10-17 06:39:08 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:39:08 - Request_json - licitacoes/2023/classes - 2023-10-17 06:39:08 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3408 Erro=0
+2023-10-17 06:39:08 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:39:08 - Request_json - licitacoes/2023/classes - 2023-10-17 06:39:08 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3410 Erro=0
+2023-10-17 06:39:10 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:39:10 - Request_json - licitacoes/2023/classes - 2023-10-17 06:39:10 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3411 Erro=0
+2023-10-17 06:39:10 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:39:10 - Request_json - licitacoes/2023/classes - 2023-10-17 06:39:10 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3412 Erro=0
+2023-10-17 06:39:15 - Request_json - licitacoes/2023/classes - 2023-10-17 06:39:15 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3412 Erro=1
+2023-10-17 06:39:16 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:39:16 - Request_json - licitacoes/2023/classes - 2023-10-17 06:39:16 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3413 Erro=0
+2023-10-17 06:39:17 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:39:17 - Request_json - licitacoes/2023/classes - 2023-10-17 06:39:17 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3414 Erro=0
+2023-10-17 06:39:18 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:39:19 - Request_json - licitacoes/2023/classes - 2023-10-17 06:39:19 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3415 Erro=0
+2023-10-17 06:39:24 - Request_json - licitacoes/2023/classes - 2023-10-17 06:39:24 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3415 Erro=1
+2023-10-17 06:39:25 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:39:25 - Request_json - licitacoes/2023/classes - 2023-10-17 06:39:25 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3416 Erro=0
+2023-10-17 06:39:25 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:39:25 - Request_json - licitacoes/2023/classes - 2023-10-17 06:39:25 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3417 Erro=0
+2023-10-17 06:39:26 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:39:26 - Request_json - licitacoes/2023/classes - 2023-10-17 06:39:26 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3418 Erro=0
+2023-10-17 06:39:26 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:39:26 - Request_json - licitacoes/2023/classes - 2023-10-17 06:39:26 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3419 Erro=0
+2023-10-17 06:39:26 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:39:26 - Request_json - licitacoes/2023/classes - 2023-10-17 06:39:26 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3422 Erro=0
+2023-10-17 06:39:27 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:39:27 - Request_json - licitacoes/2023/classes - 2023-10-17 06:39:27 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3424 Erro=0
+2023-10-17 06:39:27 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:39:27 - Request_json - licitacoes/2023/classes - 2023-10-17 06:39:27 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3426 Erro=0
+2023-10-17 06:39:29 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:39:29 - Request_json - licitacoes/2023/classes - 2023-10-17 06:39:29 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3427 Erro=0
+2023-10-17 06:39:30 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:39:30 - Request_json - licitacoes/2023/classes - 2023-10-17 06:39:30 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3431 Erro=0
+2023-10-17 06:39:31 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:39:31 - Request_json - licitacoes/2023/classes - 2023-10-17 06:39:31 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3432 Erro=0
+2023-10-17 06:39:33 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:39:33 - Request_json - licitacoes/2023/classes - 2023-10-17 06:39:33 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3433 Erro=0
+2023-10-17 06:39:34 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:39:34 - Request_json - licitacoes/2023/classes - 2023-10-17 06:39:34 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3436 Erro=0
+2023-10-17 06:39:35 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:39:35 - Request_json - licitacoes/2023/classes - 2023-10-17 06:39:35 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=3438 Erro=0
+2023-10-17 06:40:06 - Request_json - licitacoes/2023/classes - 2023-10-17 06:40:06 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1005 Erro=0
+2023-10-17 06:40:07 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:40:07 - Request_json - licitacoes/2023/classes - 2023-10-17 06:40:07 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1010 Erro=0
+2023-10-17 06:40:07 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:40:07 - Request_json - licitacoes/2023/classes - 2023-10-17 06:40:07 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1015 Erro=0
+2023-10-17 06:40:08 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:40:08 - Request_json - licitacoes/2023/classes - 2023-10-17 06:40:08 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1020 Erro=0
+2023-10-17 06:40:09 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:40:09 - Request_json - licitacoes/2023/classes - 2023-10-17 06:40:09 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1025 Erro=0
+2023-10-17 06:40:14 - Request_json - licitacoes/2023/classes - 2023-10-17 06:40:14 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1025 Erro=1
+2023-10-17 06:40:15 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:40:15 - Request_json - licitacoes/2023/classes - 2023-10-17 06:40:15 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1030 Erro=0
+2023-10-17 06:40:17 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:40:17 - Request_json - licitacoes/2023/classes - 2023-10-17 06:40:17 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1035 Erro=0
+2023-10-17 06:40:18 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:40:18 - Request_json - licitacoes/2023/classes - 2023-10-17 06:40:18 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1040 Erro=0
+2023-10-17 06:40:18 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:40:18 - Request_json - licitacoes/2023/classes - 2023-10-17 06:40:18 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1045 Erro=0
+2023-10-17 06:40:19 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:40:19 - Request_json - licitacoes/2023/classes - 2023-10-17 06:40:19 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1055 Erro=0
+2023-10-17 06:40:19 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:40:19 - Request_json - licitacoes/2023/classes - 2023-10-17 06:40:19 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1070 Erro=0
+2023-10-17 06:40:20 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:40:20 - Request_json - licitacoes/2023/classes - 2023-10-17 06:40:20 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1075 Erro=0
+2023-10-17 06:40:21 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:40:21 - Request_json - licitacoes/2023/classes - 2023-10-17 06:40:21 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1080 Erro=0
+2023-10-17 06:40:23 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:40:23 - Request_json - licitacoes/2023/classes - 2023-10-17 06:40:23 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1090 Erro=0
+2023-10-17 06:40:24 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:40:24 - Request_json - licitacoes/2023/classes - 2023-10-17 06:40:24 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1095 Erro=0
+2023-10-17 06:40:25 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:40:25 - Request_json - licitacoes/2023/classes - 2023-10-17 06:40:25 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1105 Erro=0
+2023-10-17 06:40:26 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:40:26 - Request_json - licitacoes/2023/classes - 2023-10-17 06:40:26 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1110 Erro=0
+2023-10-17 06:40:26 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:40:26 - Request_json - licitacoes/2023/classes - 2023-10-17 06:40:26 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1115 Erro=0
+2023-10-17 06:40:27 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:40:27 - Request_json - licitacoes/2023/classes - 2023-10-17 06:40:27 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1120 Erro=0
+2023-10-17 06:40:27 - Request_json - licitacoes/2023/classes - Status do download 200
+2023-10-17 06:40:27 - Request_json - licitacoes/2023/classes - 2023-10-17 06:40:27 - Baixando http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=120669&data_publicacao=2023-03-28&item_material_classificacao=1125 Erro=0

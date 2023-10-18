@@ -130,13 +130,13 @@ def baixa_uasg_diario(uasg, dvano, dvmes):
     for ddia in range(1, dudia + 1):
         dsmes = str(dano).zfill(4) + '-' + str(dmes).zfill(2)
         vdia = dsmes + '-' + str(ddia).zfill(2)
-        if not os.path.exists('./static/json/licitacoes/'+dvano+'/diario'):
-            os.mkdir('./static/json/licitacoes/'+dvano+'/diario')
+        if not os.path.exists('./static/json/licitacoes/' + dvano + '/diario'):
+            os.mkdir('./static/json/licitacoes/' + dvano + '/diario')
         url = 'http://compras.dados.gov.br/' + 'licitacoes' + '/v1/' + 'licitacoes' + '.json?uasg=' + str(vid) + \
               '&data_publicacao=' + vdia
         logs('licitacoes', url)
         darquivo = 'licitacoes-' + str(vid).zfill(6) + '-' + dsmes + '-' + str(ddia).zfill(2) + '.json'
-        request_json(url, 'licitacoes/'+dvano+'/diario', darquivo)
+        request_json(url, 'licitacoes/' + dvano + '/diario', darquivo)
     return True
 
 
@@ -293,7 +293,7 @@ def create_uasg_from_dataframe(df):
     try:
         if '_links' in df.columns:
             del df['_links']
-        #if 'total_fornecedores_recadastrados' in df.columns:
+        # if 'total_fornecedores_recadastrados' in df.columns:
         #    del df['total_fornecedores_recadastrados']
 
         for index, df_uasg in df.iterrows():
@@ -464,9 +464,9 @@ def create_itensprecospraticados_from_dataframe(df):
     except Exception as excecao:
         print("Erro na gravação no banco " + str(excecao.__cause__))
 
-
+########################################################### Funcões recursivas para baixar licitações
 def baixa_uasg_diario_material_geral(ano):
-    path = './static/json/licitacoes/'+ano+'/classes'
+    path = './static/json/licitacoes/' + ano + '/classes'
     directories = os.listdir(path)
     i = 0
     numdir = len(directories)
@@ -477,7 +477,8 @@ def baixa_uasg_diario_material_geral(ano):
         try:
             with open(path + "//" + nomearq, encoding="utf8") as json_file:
                 data_json = json.loads(json_file.read())
-        except:
+        except Exception as excecao:
+            print("Erro na abertura do arquivo " + str(excecao.__cause__) + nomearq)
             continue
         numero = data_json["count"]
         if numero != 500:
@@ -492,21 +493,21 @@ def baixa_uasg_diario_material_geral(ano):
         m = 0
         for material in materiais:
             m = m + 1
-            if not os.path.exists('./static/json/licitacoes/'+ano + '/material'):
-                os.mkdir('./static/json/licitacoes/'+ano + '/material')
+            if not os.path.exists('./static/json/licitacoes/' + ano + '/material'):
+                os.mkdir('./static/json/licitacoes/' + ano + '/material')
             url = 'http://compras.dados.gov.br/' + 'licitacoes' + '/v1/' + 'licitacoes' + '.json?uasg=' + str(vid) + \
                   '&data_publicacao=' + vdia + '&item_material=' + str(material.codigo)
             dmarquivo = 'licitacoes-' + str(vid).zfill(6) + '-' + vdia + '-' + vclasse + '-' + str(
                 material.codigo) + '.json'
-            dmpatharquivod = './static/json/licitacoes/'+ano + '/material' + '/' + dmarquivo
+            dmpatharquivod = './static/json/licitacoes/' + ano + '/material' + '/' + dmarquivo
             if not os.path.exists(dmpatharquivod):
                 print(str(i) + '/' + str(numdir) + ' - ' + url + ' - ' + str(m) + ' de ' + totalm)
-                request_json(url, 'licitacoes/'+ano + '/material', dmarquivo)
+                request_json(url, 'licitacoes/' + ano + '/material', dmarquivo)
     return True
 
 
 def baixa_uasg_diario_classe_geral(ano, recursivo):
-    path = './static/json/licitacoes/'+ano+'/diario'
+    path = './static/json/licitacoes/' + ano + '/diario'
     directories = os.listdir(path)
     i = 0
     numdir = len(directories)
@@ -517,7 +518,8 @@ def baixa_uasg_diario_classe_geral(ano, recursivo):
         try:
             with open(path + "//" + nomearq, encoding="utf8") as json_file:
                 data_json = json.loads(json_file.read())
-        except:
+        except Exception as excecao:
+            print("Erro na abertura do arquivo " + str(excecao.__cause__) + nomearq)
             continue
         numero = data_json["count"]
         if numero != 500:
@@ -533,23 +535,23 @@ def baixa_uasg_diario_classe_geral(ano, recursivo):
             logs('baixa_uasg_dia_classe',
                  'Classe ' + str(classe.codigo) + ' de um total de ' + str(c) + '/' + str(len(classes)))
             idclasse = str(classe.codigo).zfill(4)
-            if not os.path.exists('./static/json/licitacoes/'+ano + '/classes'):
-                os.mkdir('./static/json/licitacoes/'+ano + '/classes')
+            if not os.path.exists('./static/json/licitacoes/' + ano + '/classes'):
+                os.mkdir('./static/json/licitacoes/' + ano + '/classes')
             url = 'http://compras.dados.gov.br/' + 'licitacoes' + '/v1/' + 'licitacoes' + '.json?uasg=' + str(vid) + \
                   '&data_publicacao=' + vdia + '&item_material_classificacao=' + idclasse
             logs('licitacoes', url)
             dcarquivo = 'licitacoes-' + str(vid).zfill(6) + '-' + vdia + '-' + idclasse + '.json'
-            dcpatharquivod = './static/json/licitacoes/'+ano + '/classes/' + dcarquivo
+            dcpatharquivod = './static/json/licitacoes/' + ano + '/classes/' + dcarquivo
             if not os.path.exists(dcpatharquivod):
                 print('diario ' + str(i) + '/' + str(numdir) + ' Classe ' + str(c) + ' de ' + str(nclasses) + ' ' + url)
-                request_json(url, 'licitacoes/'+ano + '/classes', dcarquivo)
+                request_json(url, 'licitacoes/' + ano + '/classes', dcarquivo)
     if recursivo == 'S':
         baixa_uasg_diario_material_geral(ano)
     return True
 
 
 def baixa_uasg_mensal_diario_geral(ano, recursivo):
-    path = './static/json/licitacoes/'+ano+'/mensal'
+    path = './static/json/licitacoes/' + ano + '/mensal'
     directories = os.listdir(path)
     i = 0
     numdir = len(directories)
@@ -560,7 +562,8 @@ def baixa_uasg_mensal_diario_geral(ano, recursivo):
         try:
             with open(path + "//" + nomearq, encoding="utf8") as json_file:
                 data_json = json.loads(json_file.read())
-        except:
+        except Exception as excecao:
+            print("Erro na abertura do arquivo " + str(excecao.__cause__) + nomearq)
             continue
         numero = data_json["count"]
         if numero != 500:
@@ -575,23 +578,23 @@ def baixa_uasg_mensal_diario_geral(ano, recursivo):
         for ddia in range(1, dudia + 1):
             dsmes = str(dano).zfill(4) + '-' + str(dmes).zfill(2)
             vdia = dsmes + '-' + str(ddia).zfill(2)
-            if not os.path.exists('./static/json/licitacoes/'+ano+'/diario'):
-                os.mkdir('./static/json/licitacoes/'+ano+'/diario')
+            if not os.path.exists('./static/json/licitacoes/' + ano + '/diario'):
+                os.mkdir('./static/json/licitacoes/' + ano + '/diario')
             url = 'http://compras.dados.gov.br/' + 'licitacoes' + '/v1/' + 'licitacoes' + '.json?uasg=' + str(vid) + \
                   '&data_publicacao=' + vdia
             logs('licitacoes', url)
             darquivo = 'licitacoes-' + str(vid).zfill(6) + '-' + dsmes + '-' + str(ddia).zfill(2) + '.json'
-            dpatharquivod = './static/json/licitacoes/'+ano+'/diario' + '/' + darquivo
+            dpatharquivod = './static/json/licitacoes/' + ano + '/diario' + '/' + darquivo
             if not os.path.exists(dpatharquivod):
                 print('Mês ' + str(i) + '/' + str(numdir) + ' dia ' + str(ddia) + ' de ' + str(dudia) + ' ' + url)
-                request_json(url, 'licitacoes/'+ano+'/diario', darquivo)
+                request_json(url, 'licitacoes/' + ano + '/diario', darquivo)
     if recursivo == 'S':
-        baixa_uasg_diario_classe_geral(ano)
+        baixa_uasg_diario_classe_geral(ano, recursivo)
     return True
 
 
 def baixa_uasg_mensal_geral(ano, recursivo):
-    path = './static/json/licitacoes/'+ano
+    path = './static/json/licitacoes/' + ano
     directories = os.listdir(path)
     i = 0
     numdir = len(directories)
@@ -602,7 +605,8 @@ def baixa_uasg_mensal_geral(ano, recursivo):
         try:
             with open(path + "//" + nomearq, encoding="utf8") as json_file:
                 data_json = json.loads(json_file.read())
-        except:
+        except Exception as excecao:
+            print("Erro na abertura do arquivo " + str(excecao.__cause__) + nomearq)
             continue
         numero = data_json["count"]
         if numero != 500:
@@ -620,22 +624,22 @@ def baixa_uasg_mensal_geral(ano, recursivo):
             minicio = msmes + '-' + str(mdiainicio).zfill(2)
             mfim = msmes + '-' + str(mdiafim).zfill(2)
             logs('licitacoes', 'Iniciou download mês ' + str(mmes) + ' - ' + svid)
-            if not os.path.exists('./static/json/licitacoes/'+ano+'/mensal/'):
-                os.mkdir('./static/json/licitacoes/'+ano+'/mensal/')
+            if not os.path.exists('./static/json/licitacoes/' + ano + '/mensal/'):
+                os.mkdir('./static/json/licitacoes/' + ano + '/mensal/')
             url = 'http://compras.dados.gov.br/' + 'licitacoes' + '/v1/' + 'licitacoes' + '.json?uasg=' + str(vid) + \
                   '&data_publicacao_min=' + minicio + '&data_publicacao_max=' + mfim
             logs('licitacoes', url)
             marquivo = 'licitacoes-' + svid + '-' + msmes + '.json'
-            mpatharquivom = './static/json/licitacoes/'+ano+'/mensal/' + marquivo
+            mpatharquivom = './static/json/licitacoes/' + ano + '/mensal/' + marquivo
             if not os.path.exists(mpatharquivom):
-                request_json(url, 'licitacoes/'+ano+'/mensal', marquivo)
+                request_json(url, 'licitacoes/' + ano + '/mensal', marquivo)
     if recursivo == 'S':
-        baixa_uasg_mensal_diario_geral(ano)
+        baixa_uasg_mensal_diario_geral(ano, recursivo)
     return True
 
 
 def baixa_json_licitacao_uasg_anual_geral(vano, recursivo):
-    tipo = 'licitacoes/'+vano
+    tipo = 'licitacoes/' + vano
     from sqlalchemy import text
 
     t = text(" id "
@@ -644,27 +648,17 @@ def baixa_json_licitacao_uasg_anual_geral(vano, recursivo):
              )
 
     uasgs = db.session.query(t).all()
-   # query = db.session.query(Uasg).filter_by(Uasg.ativo == 1).query
-
-    #uasgs = [row.uasg for row in query1.all()]
-
-    #itemprecopraticado = Itensprecospraticados.query.filter_by(uasg=df_licitacao['uasg'],
-    #                                                           modalidade=df_licitacao['modalidade'],
-    #                                                           numero_aviso=df_licitacao['numero_aviso'],
-    #                                                           numero_item_licitacao=df_licitacao[
-    #                                                               'numero_item_licitacao']
-    #                                                           ).first()
     numu = len(uasgs)
     u = 0
     for uasg in uasgs:
         u = u + 1
         vid = uasg[0]
-        print('baixando Json de  licitacoes por Uasg do ano de '+vano+' ' + str(u) + '/' + str(numu))
+        print('baixando Json de  licitacoes por Uasg do ano de ' + vano + ' ' + str(u) + '/' + str(numu))
         inicio = vano + '-01-01'
         fim = vano + '-12-31'
         logs('licitacoes', 'Iniciou download anual geral ' + vano + ' - ' + str(vid))
-        if not os.path.exists('./static/json/licitacoes/'+vano):
-            os.mkdir('./static/json/licitacoes/'+vano)
+        if not os.path.exists('./static/json/licitacoes/' + vano):
+            os.mkdir('./static/json/licitacoes/' + vano)
         url = 'http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?uasg=' + str(vid) + \
               '&data_publicacao_min=' + inicio + '&data_publicacao_max=' + fim
         logs('licitacoes', url)
@@ -675,3 +669,5 @@ def baixa_json_licitacao_uasg_anual_geral(vano, recursivo):
     if recursivo == 'S':
         baixa_uasg_mensal_geral(vano, recursivo)
     return True
+
+

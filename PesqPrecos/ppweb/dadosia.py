@@ -1,7 +1,7 @@
 from ppweb.ext.database import db
 from ppweb.models import Itenscontratos, Itens, ComprasContratos, Licitacao, Material, \
-    Itensprecospraticados
-from ppweb.utils import baixa_json_material
+    Itensprecospraticados, Fornecedor
+from ppweb.utils import baixa_json_material, baixa_json_fornecedor_pj
 
 
 def busca_data(id):
@@ -31,6 +31,15 @@ def busca_material(catmat):
         if material is None:
             print('não achei o material')
     return material
+
+
+def busca_fornecedor_pj(cnpj_fornecedor):
+    fornecedor = Fornecedor.query.filter_by(cnpj=cnpj_fornecedor).first()
+    if fornecedor is None:
+        fornecedor = baixa_json_fornecedor_pj(cnpj_fornecedor)
+        if fornecedor is None:
+            print('não achei o fornecedor')
+    return fornecedor
 
 
 def atualiza_materiais():

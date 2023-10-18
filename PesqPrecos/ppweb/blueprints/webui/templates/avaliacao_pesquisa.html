@@ -12,16 +12,7 @@
     {% set dataretorno = datainicio[6:10] ~ '-' ~ datainicio[3:5] ~ '-' ~ datainicio[0:2] %}
     Material selecionado = {{material.codigo}} - {{material.descricao}}
     <br><br>
-    Dados avaliados desde de {{datainicio}}
-    <br><br>
-    Valor unitário está entre R$ {{min}} e R$ {{max}} com média= R$ {{media}} e mediana= R$ {{mediana}}
-    <br><br>
-    Quantidade adquirida está entre {{qmin}} e {{qmax}} com média= {{qmedia}} e mediana= {{qmediana}}
-    <br><br>
-    Número de registros do item = {{numreg}}
-    <br>
-    <br>
-    <div class="form-group">
+        <div class="form-group">
         <div class="col-xs-3">
             <label for="qtd">Quantidade a ser adquirida</label><br>
             <input class="form-control" type="number" id="qtd" name="qtd" size="20"><br>
@@ -41,8 +32,24 @@
         <br>
     </div>
     <br>
+    Dados avaliados desde de {{datainicio}}
+    <br><br>Valor unitário está entre R$ <textarea id="mini" name="mini" rows="1" cols="15" style=" resize: none;" disabled>{{min}}</textarea>
+    e R$ <textarea id="maxi" name="maxi" rows="1" cols="15" style=" resize: none;" disabled>{{max}}</textarea>,
+    com média= R$ <textarea id="mediat" name="mediat" rows="1" cols="15" style=" resize: none;" disabled>{{media}}</textarea>
+    e mediana= R$ <textarea id="medianat" name="medianat" rows="1" cols="15" style=" resize: none;" disabled>{{mediana}}</textarea>
+    <br><br>
+    Quantidade adquirida está entre <textarea id="qmint" name="qmint" rows="1" cols="15" style=" resize: none;" disabled>{{qmin}}</textarea>
+    e <textarea id="qmaxt" name="qmaxt" rows="1" cols="15" style=" resize: none;" disabled>{{qmax}}</textarea>,
+    com média= R$ <textarea id="qmediat" name="qmediat" rows="1" cols="15" style=" resize: none;" disabled>{{qmedia}}</textarea>
+    e mediana= R$ <textarea id="qmedianat" name="qmedianat" rows="1" cols="15" style=" resize: none;" disabled>{{qmediana}}</textarea>
+    <br><br>
+    Número de registros do item = <textarea id="numregt" name="numregt" rows="1" cols="15" style=" resize: none;" disabled>{{numreg}}</textarea>
+    <br>
+    <br>
+    <br>
     <label for="descricao">Resultado da avaliação</label><br>
     <textarea id="descricao" name="descricao" rows="1" cols="76" style=" resize: none;"></textarea>
+    <button type="button" class="btn btn-primary btn-lg" id="go_licitacoes" name="go_licitacoes">Preços analisados</button>
     <script src="https://code.jquery.com/jquery-1.12.4.js" type="text/javascript"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript">
@@ -61,6 +68,9 @@
         });
 
         $('#go_index').bind('click', function() {
+             window.history.back();
+        });
+        $('#go_licitacoes').bind('click', function() {
              window.history.back();
         });
       });

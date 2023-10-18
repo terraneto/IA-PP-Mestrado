@@ -9,7 +9,9 @@ from .views import index, dir_listing, \
     view_baixa_json_licitacao_uasg_mensal, view_itenscontratos, view_itens, view_carrega_itens_contratos, \
     view_baixa_json_itensprecospraticados, view_carrega_itens_licitacoes, \
     view_cargaseltipo, view_carrega_dados, carrega_dados, view_licitacoesseltipo, \
-    process_data_licitacao, view_avalia_pesquisa_precos, selecao_material, avaliacao_pp, testa_sobrepreco
+    process_data_licitacao, view_avalia_pesquisa_precos, selecao_material, avaliacao_pp, testa_sobrepreco, \
+    view_cargalicitacaoano, process_ano_licitacao, view_baixa_json_pregoes, view_carrega_json_pregoes, \
+    view_baixa_json_itens_pregoes
 
 bp = Blueprint("webui", __name__, template_folder="templates")
 
@@ -31,6 +33,10 @@ bp.add_url_rule("/json", view_func=dir_listing, endpoint="json")
 bp.add_url_rule("/json/<req_path>", view_func=dir_listing, endpoint="jsonpath")
 
 bp.add_url_rule("/json/<vmodulo>/<vtipo>", view_func=view_baixa_json, endpoint="view_baixa_json")
+
+bp.add_url_rule("/json/pregoes/pregao", view_func=view_baixa_json_pregoes, endpoint="view_baixa_json_pregoes")
+
+bp.add_url_rule("/json/pregoes/itens", view_func=view_baixa_json_itens_pregoes, endpoint="view_baixa_json_itens_pregoes")
 
 bp.add_url_rule("/json/comprascontratos/<vano>", view_func=view_baixa_json_contrato_mensal,
                 endpoint="view_baixa_json_contrato_mensal")
@@ -62,11 +68,17 @@ bp.add_url_rule("/carregadb/contratos", view_func=view_carrega_json_contratos_me
 bp.add_url_rule("/carregadb/itenscontratos", view_func=view_carrega_json_itenscontratos,
                 endpoint="view_carrega_json_itenscontratos")
 
+bp.add_url_rule("/carregadb/pregoes", view_func=view_carrega_json_pregoes,
+                endpoint="view_carrega_json_pregoes")
+
 bp.add_url_rule("/seltipo", view_func=view_seltipo,
                 endpoint="view_seltipo")
 
 bp.add_url_rule("/cargaseltipo", view_func=view_cargaseltipo,
                 endpoint="view_cargaseltipo")
+
+bp.add_url_rule("/cargalicitacaoano", view_func=view_cargalicitacaoano,
+                endpoint="view_cargalicitacaoano")
 
 bp.add_url_rule("/licitacoesseltipo", view_func=view_licitacoesseltipo,
                 endpoint="view_licitacoesseltipo")
@@ -89,6 +101,9 @@ bp.add_url_rule("/_process_data", view_func=process_data,
                 endpoint="process_data")
 
 bp.add_url_rule("/_process_data_licitacao", view_func=process_data_licitacao, endpoint="process_data_licitacoes",
+                methods=['POST'])
+
+bp.add_url_rule("/_process_ano_licitacao", view_func=process_ano_licitacao, endpoint="process_ano_licitacoes",
                 methods=['POST'])
 
 bp.add_url_rule("/_carrega_dados", view_func=carrega_dados,

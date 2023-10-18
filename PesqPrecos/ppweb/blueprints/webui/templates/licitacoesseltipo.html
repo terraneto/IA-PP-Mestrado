@@ -80,6 +80,25 @@
       </form>
 </div>
 <br>
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js" type="text/javascript"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#go_index').bind('click', function() {
+             window.history.back();
+        });
+      });
+
+      $.ajax({
+            type: "POST",
+            url: "~/pythoncode.py",
+            data: { param: text}
+      }).done(function( o ) {
+                window.location.replace("/");
+      });
+    </script>
 {% block footer %}
 <footer class="footer hidden-xs">
     <div class="container-fluid" style="position: absolute; height: 2.4rem; width: 100%; bottom: 0" >

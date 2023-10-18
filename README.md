@@ -57,7 +57,7 @@ Federal;
 
 ### Dados consolidados das diversas tabelas da API de Compras Governamentais 
 
-[Dados-APIComprasGovernamentais](Dados-APIComprasGovernamentais/dadosapi.md)
+[Dados-APIComprasGovernamentais](Dados-APIComprasGovernamentais)
 
 ### JupyterNotebooks utilizados para a geração das tabelas do relatório
 

@@ -1,0 +1,59 @@
+{% extends "index.html" %}
+
+{% block content %}
+
+<div class="container">
+    <form action = "http://localhost:5000/_process_ano_licitacao" method = "POST">
+        <h1>Carregar jsons de Licitações por ano</h1>
+        <br>
+        <div class="row">
+            <div class="form-group col-xs-6">
+                <fieldset>
+                    <label for="select_ano">Selecione o ano</label>
+                    <select name="select_ano" class="selectpicker form-control" id="select_ano">
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                    </select>
+                </fieldset>
+            </div>
+        </div>
+        <div>
+            <button id="submit" type="submit" value="submit">Carregar json</button>
+            <button id="go_index" type="button">Fechar</button>
+        </div>
+        <br>
+    </form>
+</div>
+<br>
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js" type="text/javascript"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#go_index').bind('click', function() {
+             window.history.back();
+        });
+      });
+
+      $.ajax({
+            type: "POST",
+            url: "~/pythoncode.py",
+            data: { param: text}
+      }).done(function( o ) {
+                window.location.replace("/");
+      });
+    </script>
+{% block footer %}
+<footer class="footer hidden-xs">
+    <div class="container-fluid" style="position: absolute; height: 2.4rem; width: 100%; bottom: 0" >
+        <div class="row">
+           <div class="col-md-12">
+             <p class="texto text-center" style="background-image: url({{url_for('static', filename='RODAPE_BG.PNG')}}); color: white; "  >Senado Federal - Praça dos Três Poderes - Brasília DF - CEP 70165-900 - Fone: (61)3303-4141</p>
+           </div>
+        </div>
+    </div>
+</footer>
+{% endblock %}
+{% endblock %}
