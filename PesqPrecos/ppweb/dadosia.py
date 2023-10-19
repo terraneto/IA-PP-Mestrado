@@ -2,6 +2,7 @@ from ppweb.ext.database import db
 from ppweb.models import Itenscontratos, Itens, ComprasContratos, Licitacao, Material, \
     Itensprecospraticados, Fornecedor
 from ppweb.utils import baixa_json_material, baixa_json_fornecedor_pj
+import pandas as pd
 
 
 def busca_data(id):
@@ -56,7 +57,29 @@ def carrega_itens_contratos():
     try:
         # dfc=pd.read_sql(SQL,conn)
         catmat = 0
-        itens = Itenscontratos.query.filter(tipo_id='Material').all()
+        # itens = pd.read_sql("SELECT siasg.itensComprasContratos.*, data_assinatura,fornecedor_cnpj_cpf_idgener,"+
+        #                    "fornecedor_nome,fornecedor_tipo,unidade_codigo,id_municipio,sigla_uf  "+
+        #                    "FROM siasg.itensComprasContratos "+
+        #                    "inner join siasg.comprasContratos "+
+        #                    "on siasg.comprasContratos.id=siasg.itensComprasContratos.contrato_id "+
+        #                    "inner join siasg.uasg on siasg.comprasContratos.unidade_codigo =siasg.uasg.id "+
+        #                    "inner join siasg.municipios on siasg.uasg.id_municipio = siasg.municipios.id "+
+        #                    "where tipo_id='Material' and (valor_total is not Null or valor_unitario is not NUll) "+
+        #                    "and (valor_total>0 or valor_unitario>0)", dbConnection)
+
+        # userList = users.query \
+        #    .join(friendships, users.id == friendships.user_id) \
+        #    .add_columns(users.userId, users.name, users.email, friends.userId, friendId) \
+        #    .filter(users.id == friendships.friend_id) \
+        #   .filter(friendships.user_id == userID) \
+        #    .paginate(page, 1, False)
+
+        itens = Itenscontratos.query \
+            .filter(tipo_id='Material' & ((Itenscontratos.valor_unitario > 0) | (Itenscontratos.valor_total > 0))
+                            & ((Itenscontratos.valor_unitario is not None)
+                               | (Itenscontratos.valor_total is not None))).all()
+        #   .join(ComprasContratos,Itenscontratos.contrato_id = ComprasContratos.id)
+
         i = 0
         if i == 0:
             print('não achou')

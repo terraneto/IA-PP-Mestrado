@@ -1,7 +1,9 @@
+import os
 from datetime import datetime, timedelta, date
-from flask import abort, render_template, send_file, request, jsonify
-from ppweb.cargajson import carrega_json, carrega_json_licitacoes_ano, carrega_json_pregoes
 
+from flask import abort, render_template, send_file, request, jsonify
+
+from ppweb.cargajson import carrega_json, carrega_json_licitacoes_ano, carrega_json_pregoes, carrega_json_itenspregoes
 from ppweb.contratosdf import baixa_json_contrato_mensal, baixa_json_itenscontrato, baixa_json_contrato_anual, \
     baixa_json_contrato_mes
 from ppweb.dadosia import carrega_itens_contratos, carrega_itens_licitacoes
@@ -11,12 +13,8 @@ from ppweb.licitacoesdf import baixa_json_itenslicitacao, \
     baixa_json_uasg_licitacoes_mensal, baixa_json_licitacao_uasg_mensal, baixa_json_licitacao_uasg_trimestral, \
     baixa_json_itensprecospraticados, baixa_json_licitacao_uasg_anual_geral, baixa_uasg_diario_material_geral, \
     baixa_uasg_mensal_geral, baixa_uasg_mensal_diario_geral, baixa_uasg_diario_classe_geral
-
-from ppweb.models import Uasg, ComprasContratos, Itenslicitacao, Itenscontratos, Itens, Itensprecospraticados, Material, \
+from ppweb.models import Uasg, ComprasContratos, Itenscontratos, Itens, Material, \
     Pregao
-
-import os
-
 from ppweb.utils import baixa_json, baixa_json_pregoes, baixa_json_itens_pregoes
 
 
@@ -154,7 +152,7 @@ def process_data_licitacao():
                 case '2':
                     baixa_uasg_mensal_geral(ano, recursivo)
                 case '3':
-                    baixa_uasg_mensal_diario_geral(ano)
+                    baixa_uasg_mensal_diario_geral(ano, recursivo)
                 case '4':
                     baixa_uasg_diario_classe_geral(ano, recursivo)
                 case '5':
@@ -211,6 +209,12 @@ def view_cargalicitacaoano():
 
 def view_carrega_json_pregoes():
     carrega_json_pregoes()
+    pregoes = Pregao.query.all()
+    return render_template('pregoes.html', pregoes=pregoes)
+
+
+def view_carrega_json_itenspregoes():
+    carrega_json_itenspregoes()
     pregoes = Pregao.query.all()
     return render_template('pregoes.html', pregoes=pregoes)
 

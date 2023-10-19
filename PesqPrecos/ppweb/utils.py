@@ -51,32 +51,22 @@ def request_json(url, tipo, arquivo):
     return status
 
 
-def request_json_sobrepoe(url, tipo, arquivo):
-    temparquivo = './static/json/' + tipo + '/temp' + arquivo
+def request_json_naosobrepoe(url, tipo, arquivo):
     patharquivo = './static/json/' + tipo + '/' + arquivo
     status = False
     erro = 0
     tempo = 5
     while status is False and erro < 3:
         try:
-            data = datetime.datetime.now()
-            str_now = data.strftime('%Y-%m-%d %H:%M:%S')
-            mensagem = 'Request_json - ' + tipo + ' - ' + str_now + ' - Baixando ' + url + ' Erro=' + str(erro)
-            logs(tipo, mensagem)
+            if os.path.exists(patharquivo):
+                return True
             response = requests.get(url, timeout=tempo)
-            mensagem = 'Request_json - ' + tipo + ' - Status do download ' + str(response.status_code)
-            logs(tipo, mensagem)
             if response.status_code == 200:
                 if response.headers.get('content-type') == 'application/json':
                     data_json = response.json()
-                    with open(temparquivo, 'w') as f:
+                    with open(patharquivo, 'w') as f:
                         json.dump(data_json, f)
-                    if os.path.exists(patharquivo):
-                        os.remove(patharquivo)
-                    os.rename(temparquivo, patharquivo)
                     return True
-                else:
-                    logs(tipo, response.headers.get('content-type'))
             else:
                 if response.status_code == 404:
                     return False
@@ -120,7 +110,7 @@ def baixa_json(modulo, ptipo):
             if os.path.exists(patharquivo):
                 if not os.path.exists(oldarquivo):
                     os.rename(patharquivo, oldarquivo)
-        baixou = request_json(url, ptipo, arquivo)
+        baixou = request_json_naosobrepoe(url, ptipo, arquivo)
         if baixou or pag == 0:
             if not baixou:
                 print(oldarquivo)
@@ -153,7 +143,7 @@ def baixa_json_material(material):
     arquivo = ptipo + str(material).zfill(7) + '.json'
     patharquivo = './static/json/' + ptipo + '/' + arquivo
     print(url)
-    baixou = request_json(url, ptipo, arquivo)
+    baixou = request_json_naosobrepoe(url, ptipo, arquivo)
     material = None
     if baixou:
         with open(patharquivo, encoding="utf8") as jsonfile:
@@ -175,7 +165,7 @@ def baixa_json_fornecedor_pj(cnpj_fornecedor):
     arquivo = ptipo + str(cnpj_fornecedor).zfill(14) + '.json'
     patharquivo = './static/json/' + ptipo + '/' + arquivo
     print(url)
-    baixou = request_json(url, ptipo, arquivo)
+    baixou = request_json_naosobrepoe(url, ptipo, arquivo)
     fornecedor = None
     if baixou:
         with open(patharquivo, encoding="utf8") as jsonfile:
@@ -227,12 +217,12 @@ def baixa_json_itens_pregoes():
         i = i + 1
         id_pregao = pregao.numero
         url = 'http://compras.dados.gov.br/pregoes/id/pregao/' + str(id_pregao).zfill(16) + '/itens.json'
-        arquivo = 'pregao' + str(id_pregao).zfill(16) + '.json'
+        arquivo = 'itenspregao' + str(id_pregao).zfill(16) + '.json'
         patharquivo = './static/json/itenspregao/' + arquivo
         if os.path.exists(patharquivo):
             continue
         erro = 0
-        print('********\n', 'processando pregão ' + str(i) + ' de ' + str(len(pregoes)))
+        print('********\n', 'processando itens do pregão ' + str(i) + ' de ' + str(len(pregoes)))
         print(url)
         while erro < 3:
             try:
@@ -240,9 +230,6 @@ def baixa_json_itens_pregoes():
                 if response.status_code == 200:
                     if response.headers.get('content-type') == 'application/json':
                         data_json = response.json()
-                        # dados = str(data_json)
-                        # dados = '[' + dados[0:dados.find("_links") - 2] + '}]'
-                        # data_json = ast.literal_eval(dados)
                         with open(patharquivo, 'w') as f:
                             json.dump(data_json, f)
             except (requests.exceptions.RequestException, ValueError) as e:

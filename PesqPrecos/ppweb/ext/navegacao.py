@@ -40,6 +40,7 @@ def mynavbar():
                  View('Tipo selecionado', 'webui.view_cargaseltipo'),
                  View('Licitações por ano', 'webui.view_cargalicitacaoano'),
                  View('Pregões', 'webui.view_carrega_json_pregoes'),
+                 View('Itens dos Pregões', 'webui.view_carrega_json_itenspregoes'),
                  View('Contratos', 'webui.view_carrega_json_contratos_mensais'),
                  View('Itens dos Contratos', 'webui.view_carrega_json_itenscontratos')
                  ),

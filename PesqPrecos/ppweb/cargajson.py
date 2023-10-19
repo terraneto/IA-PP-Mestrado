@@ -152,3 +152,27 @@ def carrega_json_licitacoes(path):
         except Exception as excecao:
             print("Erro na carga do arquivo " + str(excecao.__cause__) + nomearq)
     return True
+
+
+def carrega_json_itenspregoes():
+    path = './static/json/itenspregao'
+    directories = os.listdir(path)
+    i = 0
+    numdir = len(directories)
+    for file in directories:
+        i = i + 1
+        print('Carregando arquivo de itenspregao ' + str(i) + '/' + str(numdir))
+        nomearq = file
+        try:
+            with open(path + "//" + nomearq, encoding="utf8") as json_file:
+                idpregao = nomearq[11:27]
+                data_json = json.loads(json_file.read())
+                embedded = data_json["_embedded"]
+                tb = embedded["pregoes"]
+                df = pd2.DataFrame.from_dict(tb, orient='columns')
+                df2 = df.astype(object).where(pd2.notnull(df), None)
+                df = df2
+                create_itenspregoes_from_dataframe(df,idpregao)
+        except Exception:
+            print("Erro na importação do arquivo " + nomearq)
+    return True

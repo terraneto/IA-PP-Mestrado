@@ -9,7 +9,7 @@ def create_db():
     """PDM.__table__.drop(db.engine)"""
     """Itens.__table__.drop(db.engine)"""
     """Itensprecospraticados.__table__.drop(db.engine)"""
-    """db.create_all()"""
+    db.create_all()
 
 
 def drop_db():

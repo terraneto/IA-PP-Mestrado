@@ -37,12 +37,16 @@ def create_pregoes_from_dataframe(df):
         print(excecao.args)
 
 
-def create_itenspregoes_from_dataframe(df):
+def create_itenspregoes_from_dataframe(df, idpregao):
     try:
-        if '_links' in df.columns:
-            del df['_links']
         for index, df_itens in df.iterrows():
-            vid = int(df_itens['id'])
+            vhref = df["_links"][0]['self']['href']
+            posbarra = vhref.rfind('/')
+            vid = int(vhref[posbarra + 1:])
+            vtitle = df["_links"][0]['self']['title']
+            posesp = vtitle.find(" ")
+            pos2pontos = vtitle.find(":")
+            numitem = int(vtitle[posesp + 1:pos2pontos])
             itempregao = Itempregao.query.filter_by(id=vid).first()
             if itempregao is None:
                 exists = False
@@ -50,15 +54,21 @@ def create_itenspregoes_from_dataframe(df):
             else:
                 exists = True
             itempregao.id = vid
-            itempregao.id_pregao = df_itens['id_pregao']
-            itempregao.num_item = df_itens['num_item']
+            itempregao.id_pregao = int(idpregao)
+            itempregao.num_item = numitem
             itempregao.descricao_item = df_itens['descricao_item']
             itempregao.quantidade_item = df_itens['quantidade_item']
             itempregao.valor_estimado_item = df_itens['valor_estimado_item']
             itempregao.descricao_detalhada_item = df_itens['descricao_detalhada_item']
             itempregao.tratamento_diferenciado = df_itens['tratamento_diferenciado']
-            itempregao.decreto_7174 = df_itens['decreto_7174']
-            itempregao.margem_preferencial = df_itens['margem_preferencial']
+            if df_itens['decreto_7174'] == 'FALSE':
+                itempregao.decreto_7174 = 0
+            else:
+                itempregao.decreto_7174 = 1
+            if df_itens['margem_preferencial'] == 'FALSE':
+                itempregao.margem_preferencial = 0
+            else:
+                itempregao.margem_preferencial = 1
             itempregao.unidade_fornecimento = df_itens['unidade_fornecimento']
             itempregao.situacao_item = df_itens['situacao_item']
             itempregao.fornecedor_vencedor = df_itens['fornecedor_vencedor']

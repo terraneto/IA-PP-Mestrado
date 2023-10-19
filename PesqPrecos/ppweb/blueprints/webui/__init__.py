@@ -11,7 +11,7 @@ from .views import index, dir_listing, \
     view_cargaseltipo, view_carrega_dados, carrega_dados, view_licitacoesseltipo, \
     process_data_licitacao, view_avalia_pesquisa_precos, selecao_material, avaliacao_pp, testa_sobrepreco, \
     view_cargalicitacaoano, process_ano_licitacao, view_baixa_json_pregoes, view_carrega_json_pregoes, \
-    view_baixa_json_itens_pregoes
+    view_baixa_json_itens_pregoes, view_carrega_json_itenspregoes
 
 bp = Blueprint("webui", __name__, template_folder="templates")
 
@@ -70,6 +70,9 @@ bp.add_url_rule("/carregadb/itenscontratos", view_func=view_carrega_json_itensco
 
 bp.add_url_rule("/carregadb/pregoes", view_func=view_carrega_json_pregoes,
                 endpoint="view_carrega_json_pregoes")
+
+bp.add_url_rule("/carregadb/itenspregoes", view_func=view_carrega_json_itenspregoes,
+                endpoint="view_carrega_json_itenspregoes")
 
 bp.add_url_rule("/seltipo", view_func=view_seltipo,
                 endpoint="view_seltipo")

@@ -7,7 +7,7 @@ import pandas as pd2
 
 from ppweb.ext.database import db
 from ppweb.models import Uasg, Orgao, Licitacao, Itenslicitacao, Classe, Material, Itensprecospraticados
-from ppweb.utils import logs, request_json
+from ppweb.utils import logs, request_json, request_json_naosobrepoe
 
 
 def baixa_uasg_mes(uasg, vano, vmes):
@@ -22,7 +22,7 @@ def baixa_uasg_mes(uasg, vano, vmes):
     logs('licitacoes', url)
     arquivo = 'licitacoes-' + str(int(uasg)).zfill(6) + '-' + vano + '-' + vmes + '.json'
     patharquivo = './static/json/licitacoes/' + vano + '/mensal' + '/' + arquivo
-    baixou = request_json(url, 'licitacoes/' + vano + '/mensal', arquivo)
+    baixou = request_json_naosobrepoe(url, 'licitacoes/' + vano + '/mensal', arquivo)
     if baixou:
         with open(patharquivo) as jsonfile:
             mdata_json = json.load(jsonfile)
@@ -73,7 +73,7 @@ def baixa_json_licitacao_uasg_mensal(vano, vmes):
         arquivo = 'licitacoes-' + str(vid).zfill(6) + '-' + vano + '.json'
         patharquivo = './static/json/licitacoes' + '/' + arquivo
         if not os.path.exists(patharquivo):
-            baixou = request_json(url, 'licitacoes', arquivo)
+            baixou = request_json_naosobrepoe(url, 'licitacoes', arquivo)
             if baixou:
                 with open(patharquivo) as jsonfile:
                     mdata_json = json.load(jsonfile)
@@ -107,7 +107,7 @@ def baixa_uasg_mensal(uasg, mvano):
         mpatharquivom = './static/json/' + 'licitacoes' + '/' + marquivo
         mbaixoum = False
         if not os.path.exists(mpatharquivom):
-            mbaixoum = request_json(url, 'licitacoes', marquivo)
+            mbaixoum = request_json_naosobrepoe(url, 'licitacoes', marquivo)
         if mbaixoum:
             with open(mpatharquivom) as jsonfile:
                 mdata_json = json.load(jsonfile)
@@ -136,7 +136,7 @@ def baixa_uasg_diario(uasg, dvano, dvmes):
               '&data_publicacao=' + vdia
         logs('licitacoes', url)
         darquivo = 'licitacoes-' + str(vid).zfill(6) + '-' + dsmes + '-' + str(ddia).zfill(2) + '.json'
-        request_json(url, 'licitacoes/' + dvano + '/diario', darquivo)
+        request_json_naosobrepoe(url, 'licitacoes/' + dvano + '/diario', darquivo)
     return True
 
 
@@ -160,7 +160,7 @@ def baixa_uasg_dia_classe(uasg, dia):
         dcpatharquivod = './static/json/' + 'licitacoes' + '/' + dcarquivo
         dcbaixoud = False
         if not os.path.exists(dcpatharquivod):
-            dcbaixoud = request_json(url, 'licitacoes', dcarquivo)
+            dcbaixoud = request_json_naosobrepoe(url, 'licitacoes', dcarquivo)
         if dcbaixoud:
             with open(dcpatharquivod) as jsonfile:
                 dcdata_json = json.load(jsonfile)
@@ -193,7 +193,7 @@ def baixa_uasg_dia_material(uasg, dia, classe):
         dmpatharquivod = './static/json/' + 'licitacoes' + '/' + dmarquivo
         dmbaixoud = False
         if not os.path.exists(dmpatharquivod):
-            dmbaixoud = request_json(url, 'licitacoes', dmarquivo)
+            dmbaixoud = request_json_naosobrepoe(url, 'licitacoes', dmarquivo)
         if dmbaixoud:
             with open(dmpatharquivod) as jsonfile:
                 dmdata_json = json.load(jsonfile)
@@ -229,7 +229,7 @@ def baixa_json_uasg_licitacoes_mensal(vano, vmes):
               '&data_publicacao_min=' + inicio + '&data_publicacao_max=' + fim
         arquivo = 'licitacoes' + str(vid).zfill(6) + '-' + vano + '-' + vmes + '.json'
         patharquivo = './static/json/licitacoes/' + arquivo
-        baixou = request_json(url, 'licitacoes', arquivo)
+        baixou = request_json_naosobrepoe(url, 'licitacoes', arquivo)
         if baixou:
             with open(patharquivo) as jsonfile:
                 data_json = json.load(jsonfile)
@@ -268,7 +268,7 @@ def baixa_json_itenslicitacao():
         arquivo = licitacao.identificador + '.json'
         patharquivo = './static/json/itenslicitacao/' + arquivo
         if not os.path.exists(patharquivo):
-            request_json(url, 'itenslicitacao', arquivo)
+            request_json_naosobrepoe(url, 'itenslicitacao', arquivo)
     return True
 
 
@@ -285,7 +285,7 @@ def baixa_json_itensprecospraticados():
         arquivo = licitacao.identificador + '.json'
         patharquivo = './static/json/itensprecospraticados/' + arquivo
         if not os.path.exists(patharquivo):
-            request_json(url, 'itensprecospraticados', arquivo)
+            request_json_naosobrepoe(url, 'itensprecospraticados', arquivo)
     return True
 
 
@@ -502,7 +502,7 @@ def baixa_uasg_diario_material_geral(ano):
             dmpatharquivod = './static/json/licitacoes/' + ano + '/material' + '/' + dmarquivo
             if not os.path.exists(dmpatharquivod):
                 print(str(i) + '/' + str(numdir) + ' - ' + url + ' - ' + str(m) + ' de ' + totalm)
-                request_json(url, 'licitacoes/' + ano + '/material', dmarquivo)
+                request_json_naosobrepoe(url, 'licitacoes/' + ano + '/material', dmarquivo)
     return True
 
 
@@ -544,7 +544,7 @@ def baixa_uasg_diario_classe_geral(ano, recursivo):
             dcpatharquivod = './static/json/licitacoes/' + ano + '/classes/' + dcarquivo
             if not os.path.exists(dcpatharquivod):
                 print('diario ' + str(i) + '/' + str(numdir) + ' Classe ' + str(c) + ' de ' + str(nclasses) + ' ' + url)
-                request_json(url, 'licitacoes/' + ano + '/classes', dcarquivo)
+                request_json_naosobrepoe(url, 'licitacoes/' + ano + '/classes', dcarquivo)
     if recursivo == 'S':
         baixa_uasg_diario_material_geral(ano)
     return True
@@ -587,7 +587,7 @@ def baixa_uasg_mensal_diario_geral(ano, recursivo):
             dpatharquivod = './static/json/licitacoes/' + ano + '/diario' + '/' + darquivo
             if not os.path.exists(dpatharquivod):
                 print('Mês ' + str(i) + '/' + str(numdir) + ' dia ' + str(ddia) + ' de ' + str(dudia) + ' ' + url)
-                request_json(url, 'licitacoes/' + ano + '/diario', darquivo)
+                request_json_naosobrepoe(url, 'licitacoes/' + ano + '/diario', darquivo)
     if recursivo == 'S':
         baixa_uasg_diario_classe_geral(ano, recursivo)
     return True
@@ -632,7 +632,7 @@ def baixa_uasg_mensal_geral(ano, recursivo):
             marquivo = 'licitacoes-' + svid + '-' + msmes + '.json'
             mpatharquivom = './static/json/licitacoes/' + ano + '/mensal/' + marquivo
             if not os.path.exists(mpatharquivom):
-                request_json(url, 'licitacoes/' + ano + '/mensal', marquivo)
+                request_json_naosobrepoe(url, 'licitacoes/' + ano + '/mensal', marquivo)
     if recursivo == 'S':
         baixa_uasg_mensal_diario_geral(ano, recursivo)
     return True
@@ -665,7 +665,7 @@ def baixa_json_licitacao_uasg_anual_geral(vano, recursivo):
         arquivo = 'licitacoes-' + str(vid).zfill(6) + '-' + vano + '.json'
         patharquivo = './static/json/licitacoes/' + vano + '/' + arquivo
         if not os.path.exists(patharquivo):
-            request_json(url, tipo, arquivo)
+            request_json_naosobrepoe(url, tipo, arquivo)
     if recursivo == 'S':
         baixa_uasg_mensal_geral(vano, recursivo)
     return True
