@@ -236,3 +236,5 @@ def baixa_json_itens_pregoes():
                 print(e)
             finally:
                 erro = erro + 1
+
+

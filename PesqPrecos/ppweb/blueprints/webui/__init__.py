@@ -4,14 +4,14 @@ from .views import index, dir_listing, \
     uasg, view_baixa_json, view_seltipo, update_dropdown, process_data, \
     view_carrega_json_contratos_mensais, \
     view_baixa_json_itenslicitacao, view_baixa_json_itenscontrato, view_baixa_json_licitacoes_mes, \
-    view_carrega_json_itenscontratos, view_baixa_json_contrato_mensal, \
-    view_baixa_json_contrato_anual, view_baixa_json_contrato_mes, \
+    view_carrega_json_itenscontratos, \
     view_baixa_json_licitacao_uasg_mensal, view_itenscontratos, view_itens, view_carrega_itens_contratos, \
     view_baixa_json_itensprecospraticados, view_carrega_itens_licitacoes, \
     view_cargaseltipo, view_carrega_dados, carrega_dados, view_licitacoesseltipo, \
     process_data_licitacao, view_avalia_pesquisa_precos, selecao_material, avaliacao_pp, testa_sobrepreco, \
     view_cargalicitacaoano, process_ano_licitacao, view_baixa_json_pregoes, view_carrega_json_pregoes, \
-    view_baixa_json_itens_pregoes, view_carrega_json_itenspregoes
+    view_baixa_json_itens_pregoes, view_carrega_json_itenspregoes, process_data_contrato, view_contratosseltipo, \
+    process_ano_contrato, view_contratosselano, view_corrige_distancia
 
 bp = Blueprint("webui", __name__, template_folder="templates")
 
@@ -36,16 +36,8 @@ bp.add_url_rule("/json/<vmodulo>/<vtipo>", view_func=view_baixa_json, endpoint="
 
 bp.add_url_rule("/json/pregoes/pregao", view_func=view_baixa_json_pregoes, endpoint="view_baixa_json_pregoes")
 
-bp.add_url_rule("/json/pregoes/itens", view_func=view_baixa_json_itens_pregoes, endpoint="view_baixa_json_itens_pregoes")
-
-bp.add_url_rule("/json/comprascontratos/<vano>", view_func=view_baixa_json_contrato_mensal,
-                endpoint="view_baixa_json_contrato_mensal")
-
-bp.add_url_rule("/json/comprascontratos/anual/<vano>", view_func=view_baixa_json_contrato_anual,
-                endpoint="view_baixa_json_contrato_anual")
-
-bp.add_url_rule("/json/comprascontratos/ano/<vano>/mes/<vmes>", view_func=view_baixa_json_contrato_mes,
-                endpoint="view_baixa_json_contrato_mes")
+bp.add_url_rule("/json/pregoes/itens", view_func=view_baixa_json_itens_pregoes,
+                endpoint="view_baixa_json_itens_pregoes")
 
 bp.add_url_rule("/json/itenslicitacao", view_func=view_baixa_json_itenslicitacao,
                 endpoint="view_baixa_json_itenslicitacao")
@@ -86,6 +78,12 @@ bp.add_url_rule("/cargalicitacaoano", view_func=view_cargalicitacaoano,
 bp.add_url_rule("/licitacoesseltipo", view_func=view_licitacoesseltipo,
                 endpoint="view_licitacoesseltipo")
 
+bp.add_url_rule("/contratosseltipo", view_func=view_contratosseltipo,
+                endpoint="view_contratosseltipo")
+
+bp.add_url_rule("/contratosselano", view_func=view_contratosselano,
+                endpoint="view_contratosselano")
+
 bp.add_url_rule("/carrega_dados/<tipo>", view_func=view_carrega_dados,
                 endpoint="view_carrega_dados")
 
@@ -103,10 +101,16 @@ bp.add_url_rule("/_update_dropdown", view_func=update_dropdown,
 bp.add_url_rule("/_process_data", view_func=process_data,
                 endpoint="process_data")
 
-bp.add_url_rule("/_process_data_licitacao", view_func=process_data_licitacao, endpoint="process_data_licitacoes",
-                methods=['POST'])
+bp.add_url_rule("/_process_data_licitacao", view_func=process_data_licitacao,
+                endpoint="process_data_licitacoes", methods=['POST'])
 
 bp.add_url_rule("/_process_ano_licitacao", view_func=process_ano_licitacao, endpoint="process_ano_licitacoes",
+                methods=['POST'])
+
+bp.add_url_rule("/_process_ano_contrato", view_func=process_ano_contrato, endpoint="process_ano_contrato",
+                methods=['POST'])
+
+bp.add_url_rule("/_process_data_contrato", view_func=process_data_contrato, endpoint="process_data_contrato",
                 methods=['POST'])
 
 bp.add_url_rule("/_carrega_dados", view_func=carrega_dados,
@@ -123,6 +127,10 @@ bp.add_url_rule("/_avaliacao_pp", view_func=avaliacao_pp,
 
 bp.add_url_rule("/_testa_sobrepreco", view_func=testa_sobrepreco,
                 endpoint="testa_sobrepreco")
+
+bp.add_url_rule("/corrige_distancia", view_func=view_corrige_distancia,
+                endpoint="view_corrige_distancia")
+
 
 def init_app(app):
     app.register_blueprint(bp)

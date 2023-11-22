@@ -37,49 +37,42 @@ def carrega_json(tipo):
                         tb = embedded["itens_compras_contratos"]
                     case "itensprecospraticados":
                         tb = embedded["itensPrecoPraticado"]
-                    case "itenspregoes":
-                        tb = embedded["pregoes"]
                     case _:
                         tb = embedded[tipo]
                 df = pd2.DataFrame.from_dict(tb, orient='columns')
-                print(df)
                 df2 = df.astype(object).where(pd2.notnull(df), None)
                 df = df2
                 match tipo:
-                    case "uasgs":
-                        create_uasg_from_dataframe(df)
-                    case "Orgaos":
-                        create_orgaos_from_dataframe(df)
-                    case "classes":
-                        create_classes_from_dataframe(df)
-                    case "grupos":
-                        create_grupos_from_dataframe(df)
-                    case "materiais":
-                        create_materiais_from_dataframe(df)
-                    case "pdms":
-                        create_pdms_from_dataframe(df)
                     case "ambitos_ocorrencia":
                         create_ambitos_ocorrencia_from_dataframe(df)
+                    case "classes":
+                        create_classes_from_dataframe(df)
                     case "cnaes":
                         create_cnaes_from_dataframe(df)
-                    case "municipios":
-                        create_municipios_from_dataframe(df)
                     case "contratos":
                         create_contratos_from_dataframe(df)
-                    case "licitacoes":
-                        create_licitacoes_from_dataframe(df)
-                    case "itenslicitacao":
-                        create_itenslicitacao_from_dataframe(df)
-                    case "itenscontrato":
-                        create_itenscontratos_from_dataframe(df)
-                    case "itensprecospraticados":
-                        create_itensprecospraticados_from_dataframe(df)
                     case "fornecedores":
                         create_fornecedores_from_dataframe(df)
-                    case "pregoes":
-                        create_pregoes_from_dataframe(df)
+                    case "grupos":
+                        create_grupos_from_dataframe(df)
+                    case "itenscontrato":
+                        create_itenscontratos_from_dataframe(df)
+                    case "itenslicitacao":
+                        create_itenslicitacao_from_dataframe(df)
+                    case "itensprecospraticados":
+                        create_itensprecospraticados_from_dataframe(df)
                     case "itenspregoes":
                         create_itenspregoes_from_dataframe(df)
+                    case "materiais":
+                        create_materiais_from_dataframe(df)
+                    case "municipios":
+                        create_municipios_from_dataframe(df)
+                    case "Orgaos":
+                        create_orgaos_from_dataframe(df)
+                    case "pdms":
+                        create_pdms_from_dataframe(df)
+                    case "uasgs":
+                        create_uasg_from_dataframe(df)
                     case _:
                         print('default')
         except Exception as excecao:
@@ -88,7 +81,7 @@ def carrega_json(tipo):
     return True
 
 
-def carrega_json_pregoes():
+def carrega_json_pregoes():               ### tem que gerar o número do pregão
     path = './static/json/pregao'
     directories = os.listdir(path)
     i = 0
@@ -128,7 +121,7 @@ def carrega_json_licitacoes_ano(vano):
         carrega_json_licitacoes(pathma)
 
 
-def carrega_json_licitacoes(path):
+def carrega_json_licitacoes(path):   ### Licitações tem estrutura diferente de diretórios
     directories = os.listdir(path)
     i = 0
     numdir = len(directories)
@@ -154,7 +147,7 @@ def carrega_json_licitacoes(path):
     return True
 
 
-def carrega_json_itenspregoes():
+def carrega_json_itenspregoes():  #### separado porque tem que gerar o idpregao
     path = './static/json/itenspregao'
     directories = os.listdir(path)
     i = 0

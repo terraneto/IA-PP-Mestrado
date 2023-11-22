@@ -1,9 +1,10 @@
+from flask_nav import Nav
+from flask_nav.elements import Navbar, View, Subgroup, Text, Separator
 import collections.abc
 import collections
 
 collections.MutableMapping = collections.abc.MutableMapping
-from flask_nav import Nav
-from flask_nav.elements import Navbar, View, Subgroup, Text, Separator
+
 
 # , Link
 
@@ -31,9 +32,8 @@ def mynavbar():
                  View('Preços praticados', 'webui.view_baixa_json_itensprecospraticados'),
                  View('Pregões', 'webui.view_baixa_json_pregoes'),
                  View('Itens de pregão', 'webui.view_baixa_json_itens_pregoes'),
-                 View('Contratos 2023', 'webui.view_baixa_json_contrato_mensal', vano=2023),
-                 View('Contratos do ano 2023', 'webui.view_baixa_json_contrato_anual', vano=2023),
-                 View('Contratos do mês', 'webui.view_baixa_json_contrato_mes', vano=2023, vmes='04'),
+                 View('Contratos', 'webui.view_contratosseltipo'),
+                 View('Contratos do ano baixados mensalmente', 'webui.view_contratosselano'),
                  View('Itens dos Contratos', 'webui.view_baixa_json_itenscontrato'),
                  Separator(),
                  Text('Carregar Jsons no Banco'),
@@ -44,15 +44,17 @@ def mynavbar():
                  View('Contratos', 'webui.view_carrega_json_contratos_mensais'),
                  View('Itens dos Contratos', 'webui.view_carrega_json_itenscontratos')
                  ),
-        #Subgroup('Licitações',
-                 #         View('Licitações do mês', 'webui.view_baixa_json_licitacoes_mes', vano=2022, vmes=12),
-                 #         View('Licitações mensais', 'webui.view_baixa_json_licitacao_uasg_mensal', vano=2022, vmes=12),
+        # Subgroup('Licitações',
+        #         View('Licitações do mês', 'webui.view_baixa_json_licitacoes_mes', vano=2022, vmes=12),
+        #         View('Licitações mensais', 'webui.view_baixa_json_licitacao_uasg_mensal', vano=2022, vmes=12),
         #         ),
         Subgroup('Preparação do Repositório',
                  Text('Módulo Contratos desde 2021'),
                  View('Carrega itens de contratos de material', 'webui.view_carrega_itens_contratos'),
                  Text('Licitações'),
                  View('Carrega itens de preços praticados', 'webui.view_carrega_itens_licitacoes'),
+                 Text('Correções'),
+                 View('Corrige cálculo da distância entre uasg e fornecedor', 'webui.view_corrige_distancia'),
                  ),
         Subgroup('Avaliação da Pesquisa de Preços',
                  View('Avalia pesquisa de preços', 'webui.view_avalia_pesquisa_precos')

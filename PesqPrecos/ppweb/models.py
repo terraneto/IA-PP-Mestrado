@@ -112,6 +112,9 @@ class Municipio(db.Model, SerializerMixin):
     nome_uf = db.Column(db.String(20))
     sigla_uf = db.Column(db.String(2))
     ativo = db.Column(db.Integer)
+    capital = db.Column(db.Integer)
+    latitude = db.Column(db.Float)
+    longitude = db.Column(db.Float)
 
 
 class ComprasContratos(db.Model, SerializerMixin):
@@ -210,7 +213,7 @@ class Itenscontratos(db.Model, SerializerMixin):
 
 
 class Itens(db.Model, SerializerMixin):
-    __tablename__ = "itens2"
+    __tablename__ = "itens"
     licitacao_contrato = db.Column(db.Integer, primary_key=True)
     id = db.Column(db.Integer, primary_key=True)
     data = db.Column(db.Text)
@@ -219,7 +222,9 @@ class Itens(db.Model, SerializerMixin):
     unidade = db.Column(db.Text)
     valor_unitario = db.Column(db.Float)
     valor_total = db.Column(db.Float)
-    uf_uasg = db.Column(db.Text)
+    municipio_uasg = db.Column(db.Integer, ForeignKey(Municipio.id))
+    municipio_fornecedor = db.Column(db.Integer, ForeignKey(Municipio.id))
+    distancia_uasg_fornecedor = db.Column(db.Float)
 
 
 class Itensprecospraticados(db.Model, SerializerMixin):

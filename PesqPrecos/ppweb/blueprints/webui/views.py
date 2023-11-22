@@ -6,7 +6,7 @@ from flask import abort, render_template, send_file, request, jsonify
 from ppweb.cargajson import carrega_json, carrega_json_licitacoes_ano, carrega_json_pregoes, carrega_json_itenspregoes
 from ppweb.contratosdf import baixa_json_contrato_mensal, baixa_json_itenscontrato, baixa_json_contrato_anual, \
     baixa_json_contrato_mes
-from ppweb.dadosia import carrega_itens_contratos, carrega_itens_licitacoes
+from ppweb.dadosia import carrega_itens_contratos, carrega_itens_licitacoes, corrige_calculo_distancia
 from ppweb.ext.database import db
 from ppweb.ia import recuperar_itens_catmat, retirar_extremos, treina_modelo, avalia_dados
 from ppweb.licitacoesdf import baixa_json_itenslicitacao, \
@@ -22,7 +22,7 @@ def index():
     return render_template("index.html")
 
 
-def get_dropdown_values():
+def get_dropdown_values():  # para baixar json
     modulos = {
         'fornecedores': ['ambitos_ocorrencia', 'cnaes', 'fornecedores', 'linhas_fornecimento', 'municipios',
                          'naturezas_juridicas', 'ocorrencias_fornecedores', 'portes_empresa', 'prazos_ocorrencia',
@@ -33,12 +33,12 @@ def get_dropdown_values():
     return modulos
 
 
-def get_carga_values():
+def get_carga_values():  # para carregar json
     modulos = {'ambitos_ocorrencia', 'cnaes', 'fornecedores', 'linhas_fornecimento', 'municipios',
                'naturezas_juridicas', 'ocorrencias_fornecedores', 'portes_empresa', 'prazos_ocorrencia',
                'ramos_negocio', 'tipos_ocorrencia', 'classes', 'grupos', 'pdms', 'materiais',
-               'modalidades_licitacao', 'orgaos', 'uasgs', 'licitacoes', 'itenslicitacao',
-               'itensprecospraticados'
+               'modalidades_licitacao', 'orgaos', 'uasgs', 'itenslicitacao',
+               'itensprecospraticados', 'contratos'
                }
     return modulos
 
@@ -169,6 +169,27 @@ def process_ano_licitacao():
     return dir_listing('licitacoes')
 
 
+def process_ano_contrato():
+    if request.method == 'POST':
+        result = request.form
+        ano = result.get('select_ano')
+        baixa_json_contrato_mensal(str(ano))
+    return dir_listing('contratos')
+
+
+def process_data_contrato():
+    if request.method == 'POST':
+        result = request.form
+        ano = result.get('select_ano')
+        mes = result.get('select_mes')
+        mensal = result.get('mes')
+        if mensal == 'S':
+            baixa_json_contrato_mes(str(ano), str(mes).zfill(2))
+        else:
+            baixa_json_contrato_anual(str(ano))
+    return dir_listing('contratos')
+
+
 def carrega_dados():
     selected_class = request.args.get('selected_class', type=str)
     carrega_json(selected_class)
@@ -201,6 +222,14 @@ def view_avalia_pesquisa_precos():
 
 def view_licitacoesseltipo():
     return render_template('licitacoesseltipo.html')
+
+
+def view_contratosseltipo():
+    return render_template('contratosseltipo.html')
+
+
+def view_contratosselano():
+    return render_template('contratosselano.html')
 
 
 def view_cargalicitacaoano():
@@ -270,21 +299,6 @@ def view_baixa_json_itens_pregoes():
     return dir_listing('itenspregao')
 
 
-def view_baixa_json_contrato_mensal(vano):
-    baixa_json_contrato_mensal(vano)
-    return dir_listing("contratos")
-
-
-def view_baixa_json_contrato_anual(vano):
-    baixa_json_contrato_anual(vano)
-    return dir_listing("contratos")
-
-
-def view_baixa_json_contrato_mes(vano, vmes):
-    baixa_json_contrato_mes(vano, vmes)
-    return dir_listing("contratos")
-
-
 def view_baixa_json_licitacao_uasg_mensal(vano, vmes):
     print('view baixa licitacoes  Menasl=' + str(vano) + str(vmes))
     baixa_json_licitacao_uasg_mensal(vano, vmes)
@@ -350,3 +364,8 @@ def view_carrega_itens_licitacoes():
     carrega_itens_licitacoes()
     itens = Itens.query.all()
     return render_template("itens.html", itens=itens)
+
+
+def view_corrige_distancia():
+    corrige_calculo_distancia()
+    return render_template("index.html")

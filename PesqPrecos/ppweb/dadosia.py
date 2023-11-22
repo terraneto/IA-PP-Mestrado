@@ -1,167 +1,240 @@
 from ppweb.ext.database import db
+from ppweb.geocode import calcula_distancia_circunferencia
 from ppweb.models import Itenscontratos, Itens, ComprasContratos, Licitacao, Material, \
-    Itensprecospraticados, Fornecedor
-from ppweb.utils import baixa_json_material, baixa_json_fornecedor_pj
-import pandas as pd
+    Itensprecospraticados, Fornecedor, Uasg
 
 
-def busca_data(id):
-    contrato = ComprasContratos.query.filter(id=id).first()
-    if contrato is None:
-        print('não achou contrato')
-        return '1970-01-01'
-    else:
-        return contrato.data_assinatura
-
-
-def busca_data_licitacao(uasg, modalidade, numero_aviso):
-    print('entrei na busca da data licitacao')
-    licitacao = Licitacao.query.filter_by(uasg=uasg, modalidade=modalidade,
-                                          numero_aviso=numero_aviso).first()
-    if licitacao is None:
-        print('licitacao não encontrada')
-        return '1970-01-01'
-    else:
-        return licitacao.data_abertura_proposta[:10]
-
-
-def busca_material(catmat):
-    material = Material.query.filter_by(codigo=catmat).first()
-    if material is None:
-        material = baixa_json_material(catmat)
-        if material is None:
-            print('não achei o material')
-    return material
-
-
-def busca_fornecedor_pj(cnpj_fornecedor):
+def busca_municipio_fornecedor_pj(cnpj_fornecedor):
     fornecedor = Fornecedor.query.filter_by(cnpj=cnpj_fornecedor).first()
-    if fornecedor is None:
-        fornecedor = baixa_json_fornecedor_pj(cnpj_fornecedor)
-        if fornecedor is None:
-            print('não achei o fornecedor')
-    return fornecedor
+    idmunicipio = 0
+    if fornecedor is not None:
+        idmunicipio = fornecedor.id_municipio
+    return idmunicipio
 
 
-def atualiza_materiais():
-    registros = Itens.query.all()
-    i = 0
-    n = len(registros)
-    for item in registros:
-        i = i + 1
-        print('processando item ' + str(i) + ' de ' + str(n))
-        busca_material(item.catmat_id)
+def busca_municipio_fornecedor_pf(nome_fornecedor):
+    fornecedor = Fornecedor.query.filter_by(nome=nome_fornecedor).first()
+    idmunicipio = 0
+    if fornecedor is not None:
+        idmunicipio = fornecedor.id_municipio
+    return idmunicipio
 
 
 def carrega_itens_contratos():
     try:
-        # dfc=pd.read_sql(SQL,conn)
-        catmat = 0
-        # itens = pd.read_sql("SELECT siasg.itensComprasContratos.*, data_assinatura,fornecedor_cnpj_cpf_idgener,"+
-        #                    "fornecedor_nome,fornecedor_tipo,unidade_codigo,id_municipio,sigla_uf  "+
-        #                    "FROM siasg.itensComprasContratos "+
-        #                    "inner join siasg.comprasContratos "+
-        #                    "on siasg.comprasContratos.id=siasg.itensComprasContratos.contrato_id "+
-        #                    "inner join siasg.uasg on siasg.comprasContratos.unidade_codigo =siasg.uasg.id "+
-        #                    "inner join siasg.municipios on siasg.uasg.id_municipio = siasg.municipios.id "+
-        #                    "where tipo_id='Material' and (valor_total is not Null or valor_unitario is not NUll) "+
-        #                    "and (valor_total>0 or valor_unitario>0)", dbConnection)
-
-        # userList = users.query \
-        #    .join(friendships, users.id == friendships.user_id) \
-        #    .add_columns(users.userId, users.name, users.email, friends.userId, friendId) \
-        #    .filter(users.id == friendships.friend_id) \
-        #   .filter(friendships.user_id == userID) \
-        #    .paginate(page, 1, False)
-
-        itens = Itenscontratos.query \
-            .filter(tipo_id='Material' & ((Itenscontratos.valor_unitario > 0) | (Itenscontratos.valor_total > 0))
-                            & ((Itenscontratos.valor_unitario is not None)
-                               | (Itenscontratos.valor_total is not None))).all()
-        #   .join(ComprasContratos,Itenscontratos.contrato_id = ComprasContratos.id)
-
+        itens = db.session.query(Itenscontratos, ComprasContratos, Uasg) \
+            .filter((Itenscontratos.tipo_id == 'Material') & ((
+                      (Itenscontratos.valor_unitario > 0) | (
+                      Itenscontratos.valor_total > 0))
+              & ((Itenscontratos.valor_unitario is not None
+                  ) | (Itenscontratos.valor_total is not None))) & (
+                            Itenscontratos.catmatser_item_id is not None)
+                    ) \
+            .join(ComprasContratos, Itenscontratos.contrato_id == ComprasContratos.id) \
+            .join(Uasg, ComprasContratos.unidade_codigo == Uasg.id) \
+            .all()
         i = 0
-        if i == 0:
-            print('não achou')
         for itemc in itens:
             try:
                 i = i + 1
                 print('processando item de contratos ' + str(i) + ' de ' + str(len(itens)))
-                gap_pos = itemc.catmatser_item_id.find(" ")
-                catmatstr = itemc.catmatser_item_id[0:gap_pos]
-                catmat = int(catmatstr)
-                print(catmat)
-                item = Itens.query.filter_by(id=itemc.id, licitacao_contrato=0).first()
+                try:
+                    gap_pos = itemc[0].catmatser_item_id.find(" ")
+                    catmatstr = itemc[0].catmatser_item_id[0:gap_pos]
+                    catmat = int(catmatstr)
+                except Exception as excep:
+                    print('Erro com o material = ' + str(catmat) + str(excep.__cause__))
+                    catmat = 0
+                item = Itens.query.filter_by(id=itemc[0].id, licitacao_contrato=0).first()
                 if item is None:
                     exists = False
                     item = Itens()
                 else:
                     exists = True
                 item.licitacao_contrato = 0
-                print(item.licitacao_contrato)
-                item.id = itemc.id
-                item.data = busca_data(itemc.contrato_id)
+                item.id = itemc[0].id
+                item.data = itemc[1].data_assinatura
                 item.catmat_id = catmat
-                item.quantidade = itemc.quantidade
-                item.valor_unitario = itemc.valor_unitario
-                item.valor_total = itemc.valor_total
-                if itemc.valor_unitario is None:
-                    if itemc.valor_total is None:
+                item.quantidade = itemc[0].quantidade
+                item.valor_unitario = itemc[0].valor_unitario
+                item.valor_total = itemc[0].valor_total
+                if itemc[0].valor_unitario is None:
+                    if itemc[0].valor_total is None:
                         continue
                     else:
-                        item.valor_unitario = itemc.valor_total / float(itemc.quantidade)
+                        item.valor_unitario = itemc[0].valor_total / float(itemc[0].quantidade)
                 else:
-                    item.valor_unitario = itemc.valor_unitario
-
+                    item.valor_unitario = itemc[0].valor_unitario
+                try:
+                    idcidade1 = int(itemc[2].id_municipio)
+                    item.municipio_uasg = idcidade1
+                    if itemc[1].fornecedor_tipo == 'JURIDICA':
+                        idf = itemc[1].fornecedor_cnpj_cpf_idgener
+                        cnpj_fornecedor = str(idf[0:2] + idf[3:6] + idf[7:10] + idf[11:15] + idf[16:18])
+                        idcidade2 = busca_municipio_fornecedor_pj(cnpj_fornecedor)
+                    else:
+                        idcidade2 = busca_municipio_fornecedor_pf(itemc[1].fornecedor_nome)
+                    item.municipio_fornecedor = idcidade2
+                    if idcidade1 == 0 or idcidade2 == 0:
+                        distanciacidades = 0.0
+                    else:
+                        distanciacidades = calcula_distancia_circunferencia(idcidade1, idcidade2)
+                    item.distancia_uasg_fornecedor = distanciacidades
+                except:
+                    print('Erro com o calculo da distância do registro = ' + str(i))
+                item.unidade = ' '
                 if exists:
                     item.verified = True
                 else:
                     db.session.add(item)
                 db.session.commit()
             except Exception as excep:
-                print('Erro com o material = ' + str(catmat) + str(excep.__cause__))
+                print('Erro com o registro = ' + str(i))
     except Exception as excecao:
         print("Erro na gravação no banco " + str(excecao.__cause__))
 
 
 def carrega_itens_licitacoes():
-    print('entrei itens de licitações')
     try:
-        itens = Itensprecospraticados.query.filter_by(codigo_item_servico=0).all()
+        itens = db.session.query(Itensprecospraticados, Licitacao, Uasg) \
+            .filter((Itensprecospraticados.codigo_item_servico == 0) & ((
+                            (
+                                        Itensprecospraticados.valor_unitario > 0) | (
+                                    Itensprecospraticados.valor_total > 0))
+                    & ((
+                               Itensprecospraticados.valor_unitario is not None
+                       ) | (
+                                   Itensprecospraticados.valor_total is not None)))) \
+            .join(Licitacao, int(Itensprecospraticados.id_licitacao) == int(Licitacao.identificador)) \
+            .join(Uasg, Itensprecospraticados.uasg == Uasg.id) \
+            .all()
         i = 0
         print('Número de licitações=' + str(len(itens)))
         for iteml in itens:
             try:
                 i = i + 1
                 print('processando item de licitação ' + str(i) + ' de ' + str(len(itens)))
-                id = int(iteml.id_licitacao)
+                id = int(iteml[0].id_licitacao)
                 item = Itens.query.filter_by(id=id,
-                                             licitacao_contrato=iteml.numero_item_licitacao).first()
+                                             licitacao_contrato=iteml[0].numero_item_licitacao).first()
                 if item is None:
                     exists = False
                     item = Itens()
                 else:
                     exists = True
-                item.licitacao_contrato = iteml.numero_item_licitacao
+                item.licitacao_contrato = iteml[0].numero_item_licitacao
                 item.id = id
-                item.data = busca_data_licitacao(iteml.uasg, iteml.modalidade, iteml.numero_aviso)
-                print(item.data)
-                item.catmat_id = iteml.codigo_item_material
-                item.quantidade = iteml.quantidade
-                item.unidade = iteml.unidade
-                if iteml.valor_unitario is None:
-                    if iteml.valor_total is None:
+                item.data = iteml[1].data_publicacao
+                item.catmat_id = iteml[0].codigo_item_material
+                item.quantidade = iteml[0].quantidade
+                item.unidade = iteml[0].unidade
+                if iteml[0].valor_unitario is None:
+                    if iteml[0].valor_total is None:
                         continue
                     else:
-                        item.valor_unitario = iteml.valor_total / float(iteml.quantidade)
+                        item.valor_unitario = iteml[0].valor_total / float(iteml[0].quantidade)
                 else:
-                    item.valor_unitario = iteml.valor_unitario
-                item.valor_total = iteml.valor_total
-                item.uf_uasg = 'UF'
+                    item.valor_unitario = iteml[0].valor_unitario
+                item.valor_total = iteml[0].valor_total
+                idcidade1 = int(iteml[2].id_municipio)
+                item.municipio_uasg = idcidade1
+                idcidade2 = int(busca_municipio_fornecedor_pj(iteml[0].cnpj_fornecedor))
+                item.municipio_fornecedor = idcidade2
+                distanciacidades = calcula_distancia_circunferencia(idcidade1, idcidade2)
+                item.distancia_uasg_fornecedor = distanciacidades
                 if exists:
                     item.verified = True
                 else:
                     db.session.add(item)
+                db.session.commit()
+            except Exception as ex:
+                print('Erro no item = ' + str(i))
+                print(ex.args)
+                print(ex.__traceback__)
+                break
+    except Exception as excecao:
+        print("Erro na gravação no banco " + str(excecao.__cause__))
+        print(excecao.args)
+        print(excecao.__traceback__)
+
+
+def corrige_calculo_distancia():
+    try:
+        itens = Itens.query.filter((Itens.municipio_uasg == 0) | (Itens.municipio_fornecedor == 0) | (
+                Itens.distancia_uasg_fornecedor == 0)).all()
+        i = 0
+        print('Número de itens a corrigir=' + str(len(itens)))
+        for item in itens:
+            i = i + 1
+            print('processando item  ' + str(i) + ' de ' + str(len(itens)))
+            try:
+                if item.licitacao_contrato == 0:
+                    itenscontratos = Itenscontratos.query.filter_by(id=item.id).first()
+                    contrato = ComprasContratos.query.filter_by(id=itenscontratos.contrato_id).first()
+                    if contrato is None:
+                        item.municipio_uasg = 0
+                        item.municipio_fornecedor = 0
+                        item.distancia_uasg_fornecedor = 0.0
+                    else:
+                        idcidade1 = item.municipio_uasg
+                        idcidade2 = item.municipio_fornecedor
+                        if item.municipio_uasg == 0:
+                            try:
+                                uasg = Uasg.query.filter_by(id=contrato.unidade_codigo).first()
+                                print(uasg)
+                                item.municipio_uasg = uasg.id_municipio
+                                idcidade1 = uasg.id_municipio
+                            except:
+                                print('Erro da busca da uasg')
+                            item.municipio_uasg=idcidade1
+                        if item.municipio_fornecedor == 0:
+                            try:
+                                if contrato.fornecedor_tipo == 'JURIDICA':
+                                    idf = contrato.fornecedor_cnpj_cpf_idgener
+                                    cnpj_fornecedor = str(idf[0:2] + idf[3:6] + idf[7:10] + idf[11:15] + idf[16:18])
+                                    idcidade2 = busca_municipio_fornecedor_pj(cnpj_fornecedor)
+                                else:
+                                    idcidade2 = busca_municipio_fornecedor_pf(contrato.fornecedor_nome)
+                            except:
+                                print('Erro na busca do fornecedor')
+                            item.municipio_fornecedor=idcidade2
+                        if idcidade1 != 0 and idcidade2 != 0 and idcidade1 != idcidade2:
+                            distanciacidades = calcula_distancia_circunferencia(idcidade1, idcidade2)
+                        else:
+                            distanciacidades = 0.0
+                        item.distancia_uasg_fornecedor = distanciacidades
+                else:
+                    print('item de licitacao')
+                    idlicitacao = str(item.id).zfill(17)
+                    itemlicitacao = Itensprecospraticados.query.filter((
+                        (Itensprecospraticados.id_licitacao == idlicitacao)
+                        & (Itensprecospraticados.numero_item_licitacao == item.licitacao_contrato))).first()
+                    print(itemlicitacao)
+                    print(idlicitacao)
+                    print(item.licitacao_contrato)
+                    idcidade1 = item.municipio_uasg
+                    idcidade2 = item.municipio_fornecedor
+                    print(idcidade1,idcidade2)
+                    if item.municipio_uasg == 0:
+                        try:
+                            uasg = Uasg.query.filter_by(id=itemlicitacao.uasg).first()
+                            item.municipio_uasg = uasg.id_municipio
+                            idcidade1 = uasg.id_municipio
+                        except:
+                            print('Erro da busca da uasg')
+                        item.municipio_uasg = idcidade1
+                    if item.municipio_fornecedor == 0:
+                        try:
+                            idcidade2 = busca_municipio_fornecedor_pj(itemlicitacao.cnpj_fornecedor)
+                        except:
+                            print('Erro na busca do fornecedor')
+                        item.municipio_fornecedor = idcidade2
+                    if idcidade1 != 0 and idcidade2 != 0 and idcidade1 != idcidade2:
+                        distanciacidades = calcula_distancia_circunferencia(idcidade1, idcidade2)
+                    else:
+                        distanciacidades = 0.0
+                    item.distancia_uasg_fornecedor = distanciacidades
+                item.verified = True
                 db.session.commit()
             except Exception as ex:
                 print('Erro no item = ' + str(i))

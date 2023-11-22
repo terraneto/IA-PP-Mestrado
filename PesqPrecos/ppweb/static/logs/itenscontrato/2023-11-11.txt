@@ -1,0 +1,63 @@
+2023-11-11 08:56:13 - Request_json - itenscontrato - 2023-11-11 08:56:13 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/92559/itens_compras_contratos.json Erro=0
+2023-11-11 08:56:19 - Request_json - itenscontrato - 2023-11-11 08:56:19 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/92559/itens_compras_contratos.json Erro=1
+2023-11-11 08:56:24 - Request_json - itenscontrato - 2023-11-11 08:56:24 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/92559/itens_compras_contratos.json Erro=2
+2023-11-11 08:56:29 - Request_json - itenscontrato - 2023-11-11 08:56:29 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/101214/itens_compras_contratos.json Erro=0
+2023-11-11 08:56:35 - Request_json - itenscontrato - 2023-11-11 08:56:35 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/101214/itens_compras_contratos.json Erro=1
+2023-11-11 08:56:38 - Request_json - itenscontrato - Status do download 200
+2023-11-11 08:56:57 - Request_json - itenscontrato - 2023-11-11 08:56:57 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/193034/itens_compras_contratos.json Erro=0
+2023-11-11 08:56:58 - Request_json - itenscontrato - Status do download 200
+2023-11-11 08:57:03 - Request_json - itenscontrato - 2023-11-11 08:57:03 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/212584/itens_compras_contratos.json Erro=0
+2023-11-11 08:57:04 - Request_json - itenscontrato - Status do download 200
+2023-11-11 08:57:04 - Request_json - itenscontrato - 2023-11-11 08:57:04 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/212626/itens_compras_contratos.json Erro=0
+2023-11-11 08:57:04 - Request_json - itenscontrato - Status do download 200
+2023-11-11 08:57:08 - Request_json - itenscontrato - 2023-11-11 08:57:08 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/213083/itens_compras_contratos.json Erro=0
+2023-11-11 08:57:09 - Request_json - itenscontrato - Status do download 200
+2023-11-11 08:57:09 - Request_json - itenscontrato - 2023-11-11 08:57:09 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/213128/itens_compras_contratos.json Erro=0
+2023-11-11 08:57:10 - Request_json - itenscontrato - Status do download 200
+2023-11-11 08:57:11 - Request_json - itenscontrato - 2023-11-11 08:57:11 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/213392/itens_compras_contratos.json Erro=0
+2023-11-11 08:57:12 - Request_json - itenscontrato - Status do download 200
+2023-11-11 08:57:12 - Request_json - itenscontrato - 2023-11-11 08:57:12 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/214758/itens_compras_contratos.json Erro=0
+2023-11-11 08:57:14 - Request_json - itenscontrato - Status do download 200
+2023-11-11 08:57:15 - Request_json - itenscontrato - 2023-11-11 08:57:15 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/214780/itens_compras_contratos.json Erro=0
+2023-11-11 08:57:15 - Request_json - itenscontrato - Status do download 200
+2023-11-11 08:57:15 - Request_json - itenscontrato - 2023-11-11 08:57:15 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/214893/itens_compras_contratos.json Erro=0
+2023-11-11 08:57:16 - Request_json - itenscontrato - Status do download 200
+2023-11-11 08:57:16 - Request_json - itenscontrato - 2023-11-11 08:57:16 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/216375/itens_compras_contratos.json Erro=0
+2023-11-11 08:57:16 - Request_json - itenscontrato - Status do download 200
+2023-11-11 08:57:18 - Request_json - itenscontrato - 2023-11-11 08:57:18 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/216572/itens_compras_contratos.json Erro=0
+2023-11-11 08:57:19 - Request_json - itenscontrato - Status do download 200
+2023-11-11 08:57:19 - Request_json - itenscontrato - 2023-11-11 08:57:19 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/218029/itens_compras_contratos.json Erro=0
+2023-11-11 08:57:22 - Request_json - itenscontrato - Status do download 200
+2023-11-11 08:57:22 - Request_json - itenscontrato - 2023-11-11 08:57:22 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/218087/itens_compras_contratos.json Erro=0
+2023-11-11 08:57:24 - Request_json - itenscontrato - Status do download 200
+2023-11-11 08:57:25 - Request_json - itenscontrato - 2023-11-11 08:57:25 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/218371/itens_compras_contratos.json Erro=0
+2023-11-11 08:57:25 - Request_json - itenscontrato - Status do download 200
+2023-11-11 08:57:25 - Request_json - itenscontrato - 2023-11-11 08:57:25 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/218373/itens_compras_contratos.json Erro=0
+2023-11-11 08:57:26 - Request_json - itenscontrato - Status do download 200
+2023-11-11 08:57:26 - Request_json - itenscontrato - 2023-11-11 08:57:26 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/218454/itens_compras_contratos.json Erro=0
+2023-11-11 08:57:27 - Request_json - itenscontrato - Status do download 200
+2023-11-11 08:57:27 - Request_json - itenscontrato - 2023-11-11 08:57:27 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/218740/itens_compras_contratos.json Erro=0
+2023-11-11 08:57:27 - Request_json - itenscontrato - Status do download 200
+2023-11-11 08:57:27 - Request_json - itenscontrato - 2023-11-11 08:57:27 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/218981/itens_compras_contratos.json Erro=0
+2023-11-11 08:57:28 - Request_json - itenscontrato - Status do download 200
+2023-11-11 08:57:28 - Request_json - itenscontrato - 2023-11-11 08:57:28 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/219338/itens_compras_contratos.json Erro=0
+2023-11-11 08:57:29 - Request_json - itenscontrato - Status do download 200
+2023-11-11 08:57:29 - Request_json - itenscontrato - 2023-11-11 08:57:29 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/219372/itens_compras_contratos.json Erro=0
+2023-11-11 08:57:30 - Request_json - itenscontrato - Status do download 200
+2023-11-11 08:57:30 - Request_json - itenscontrato - 2023-11-11 08:57:30 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/219382/itens_compras_contratos.json Erro=0
+2023-11-11 08:57:32 - Request_json - itenscontrato - Status do download 200
+2023-11-11 08:57:32 - Request_json - itenscontrato - 2023-11-11 08:57:32 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/219580/itens_compras_contratos.json Erro=0
+2023-11-11 08:57:33 - Request_json - itenscontrato - Status do download 200
+2023-11-11 08:57:33 - Request_json - itenscontrato - 2023-11-11 08:57:33 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/219752/itens_compras_contratos.json Erro=0
+2023-11-11 08:57:33 - Request_json - itenscontrato - Status do download 200
+2023-11-11 08:57:34 - Request_json - itenscontrato - 2023-11-11 08:57:34 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/220344/itens_compras_contratos.json Erro=0
+2023-11-11 08:57:34 - Request_json - itenscontrato - Status do download 200
+2023-11-11 08:57:34 - Request_json - itenscontrato - 2023-11-11 08:57:34 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/220397/itens_compras_contratos.json Erro=0
+2023-11-11 08:57:35 - Request_json - itenscontrato - Status do download 200
+2023-11-11 08:57:35 - Request_json - itenscontrato - 2023-11-11 08:57:35 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/220445/itens_compras_contratos.json Erro=0
+2023-11-11 08:57:35 - Request_json - itenscontrato - Status do download 200
+2023-11-11 08:57:35 - Request_json - itenscontrato - 2023-11-11 08:57:35 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/220487/itens_compras_contratos.json Erro=0
+2023-11-11 08:57:36 - Request_json - itenscontrato - Status do download 200
+2023-11-11 08:57:36 - Request_json - itenscontrato - 2023-11-11 08:57:36 - Baixando http://compras.dados.gov.br/comprasContratos/id/contrato/220503/itens_compras_contratos.json Erro=0
+2023-11-11 08:57:36 - Request_json - itenscontrato - Status do download 200
+2023-11-11 16:02:22 - Erro na gravação do arquivo None210034.json
