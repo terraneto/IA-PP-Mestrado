@@ -74,10 +74,10 @@ def avaliacao_pp():
     dataformatada = date.fromisoformat(data_selecionada).strftime('%d/%m/%Y')
     df = recuperar_itens_catmat(material_selecionado, data_selecionada)
     df = retirar_extremos(df)
-    min = "{:.2f}".format(df['valor_unitario'].min())
-    min = f"\t{min.replace('.', ',')}"
-    max = "{:.2f}".format(df['valor_unitario'].max())
-    max = f"\t{max.replace('.', ',')}"
+    minimo = "{:.2f}".format(df['valor_unitario'].min())
+    minimo = f"\t{minimo.replace('.', ',')}"
+    maximo = "{:.2f}".format(df['valor_unitario'].max())
+    maximo = f"\t{maximo.replace('.', ',')}"
     media = "{:.2f}".format(df['valor_unitario'].mean())
     media = f"\t{media.replace('.', ',')}"
     mediana = "{:.2f}".format(df['valor_unitario'].median())
@@ -88,7 +88,8 @@ def avaliacao_pp():
     qmedia = f"\t{qmedia.replace('.', ',')}"
     qmediana = "{:.2f}".format(df['quantidade'].median())
     qmediana = f"\t{qmediana.replace('.', ',')}"
-    return render_template("avaliacao_pesquisa.html", material=material, datainicio=dataformatada, min=min, max=max,
+    return render_template("avaliacao_pesquisa.html", material=material, datainicio=dataformatada,
+                           min=minimo, max=maximo,
                            media=media, qmin=qmin, qmax=qmax, qmedia=qmedia, qmediana=qmediana, numreg=len(df),
                            mediana=mediana)
 
@@ -100,7 +101,6 @@ def testa_sobrepreco():
         valor = float(f"\t{valor.replace(',', '.')}")
         catmat = request.args.get('catmat', type=int)
         datainicio = request.args.get('datainicio', type=str)
-        print(datainicio)
         df = recuperar_itens_catmat(catmat, datainicio)
         mediana = df['valor_unitario'].median()
         minimo = df['valor_unitario'].min()
@@ -120,8 +120,9 @@ def testa_sobrepreco():
                     retorno = {'predicao': 'Valor aceitável'}
                 else:
                     retorno = {'predicao': 'Possibilidade de sobrepreço'}
-    except:
-        retorno = {'predicao': 'Parâmetros inválidos ou erro no cálculo'}
+    except Exception as excecao:
+        retorno = {'predicao': 'Parâmetros inválidos ou erro no cálculo (excecao=' + str(excecao.__cause__) + ')'}
+
     return retorno
 
 
@@ -209,12 +210,13 @@ def view_seltipo():
 
 def view_avalia_pesquisa_precos():
     ontem = (datetime.now() - timedelta(30)).strftime('%Y-%m-%d')
-    anopassado = (datetime.now() - timedelta(365)).strftime('%Y-%m-%d')
+    # anopassado = (datetime.now() - timedelta(365)).strftime('%Y-%m-%d')
     anopassado = '2022-01-01'
     sql = 'select  itens2.catmat_id as catmat_id, count(*) as qtd, materiais.descricao   from itens2  inner join ' \
           'materiais on itens2.catmat_id = materiais.codigo group by catmat_id order by qtd desc'
-    materiais = db.engine.execute(sql).all()
-    materiaisfiltrados = [materiais for materiais in materiais if materiais['qtd'] > 30]
+    with db.engine.connect() as conn:
+        materiais = conn.execute(sql).all()
+    materiaisfiltrados = [materiais for materiais in materiais if materiais[1] > 30]
     material = materiaisfiltrados[0]
     return render_template('avaliapp.html',
                            all_materiais=materiaisfiltrados, material=material, ontem=ontem, anopassado=anopassado)
@@ -273,8 +275,8 @@ def uasg():
 #    return render_template("product.html", product=product)
 
 def dir_listing(req_path):
-    BASE_DIR = './static/json/'
-    abs_path = os.path.join(BASE_DIR, req_path)
+    base_dir = './static/json/'
+    abs_path = os.path.join(base_dir, req_path)
     if not os.path.exists(abs_path):
         return abort(404)
     if os.path.isfile(abs_path):

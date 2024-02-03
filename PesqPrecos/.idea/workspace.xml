@@ -5,41 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1166254f-e780-4544-b1bc-ff4fcc248a1a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ppweb/blueprints/webui/templates/contratosselano.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppweb/blueprints/webui/templates/contratosseltipo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppweb/geocode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppweb/static/logs/contratos/2023-10-20.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppweb/static/logs/contratos/2023-10-21.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppweb/static/logs/contratos/2023-10-22.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppweb/static/logs/contratos/2023-11-10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppweb/static/logs/itenscontrato/2023-10-20.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppweb/static/logs/itenscontrato/2023-10-21.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppweb/static/logs/itenscontrato/2023-10-22.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppweb/static/logs/itenscontrato/2023-11-11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppweb/static/logs/itenslicitacao/2023-10-20.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppweb/static/logs/itenslicitacao/2023-11-11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppweb/static/logs/itenslicitacao/2023-11-12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppweb/static/logs/itensprecospraticados/2023-10-20.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppweb/static/logs/itensprecospraticados/2023-10-21.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppweb/static/logs/itensprecospraticados/2023-10-22.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppweb/static/logs/itensprecospraticados/2023-11-11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppweb/static/logs/itensprecospraticados/2023-11-12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppweb/static/logs/licitacoes/2023-10-20.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppweb/static/logs/licitacoes/2023-10-21.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppweb/static/logs/licitacoes/2023-10-22.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppweb/static/logs/licitacoes/2023-11-10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppweb/static/logs/licitacoes/2023-11-11.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PesqPrecos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PesqPrecos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ppweb/blueprints/webui/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppweb/blueprints/webui/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ppweb/blueprints/webui/templates/itens.html" beforeDir="false" afterPath="$PROJECT_DIR$/ppweb/blueprints/webui/templates/itens.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppweb/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppweb/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ppweb/blueprints/webui/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppweb/blueprints/webui/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ppweb/cargajson.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppweb/cargajson.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ppweb/dadosia.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppweb/dadosia.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppweb/ext/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppweb/ext/database.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ppweb/ext/navegacao.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppweb/ext/navegacao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ppweb/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppweb/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ppweb/static/json/licitacao/licitacao15815405045822022.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ppweb/static/logs/licitacoes/2023-10-19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ppweb/static/logs/licitacoes/2023-10-19.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ppweb/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppweb/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppweb/ia.py" beforeDir="false" afterPath="$PROJECT_DIR$/ppweb/ia.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +29,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -64,6 +43,12 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2HsX5qtGQ31MhZLrToCA5brSSnl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -72,14 +57,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Workspace-SB/IA-PP-Mestrado/PesqPrecos/ppweb/blueprints/webui/templates&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "teste39",
+    "last_opened_file_path": "C:/Workspace-SB/IA-PP-Mestrado/PesqPrecos/ppweb/blueprints/webui/templates",
+    "settings.editor.selected.configurable": "configurable.group.appearance"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Workspace-SB\IA-PP-Mestrado\PesqPrecos\ppweb\blueprints\webui\templates" />
@@ -91,6 +78,7 @@
   <component name="RunManager">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PesqPrecos" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -110,6 +98,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

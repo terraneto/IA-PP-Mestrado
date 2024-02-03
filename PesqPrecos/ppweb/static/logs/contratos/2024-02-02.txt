@@ -1,0 +1,2 @@
+2024-02-02 07:26:46 - Request_json - contratos - 2024-02-02 07:26:46 - Baixando http://compras.dados.gov.br/comprasContratos/v1/contratos.json?data_assinatura_min=2023-11-30&data_assinatura_max=2024-01-01&offset=0 Erro=0
+2024-02-02 07:26:51 - Request_json - contratos - Status do download 200

@@ -1,9 +1,10 @@
 import pandas as pd
-from sqlalchemy import create_engine
-from pyod.models.suod import SUOD
-from pyod.models.pca import PCA
 from pyod.models.ecod import ECOD
 from pyod.models.lof import LOF
+from pyod.models.pca import PCA
+from pyod.models.suod import SUOD
+from sqlalchemy import create_engine
+
 
 ###################################################################
 # Funcao recuperar_itens_catmat
@@ -15,15 +16,14 @@ from pyod.models.lof import LOF
 # Retorno: dataframe pandas com todos os registros selecionados
 ###################################################################
 def recuperar_itens_catmat(catmat, data):
-
     # Cria a conexao com o servidor de banco de dados
-    sqlEngine = create_engine('mysql+pymysql://siasg:siasg@192.168.2.135/siasg', pool_recycle=3600)
-    dbConnection = sqlEngine.connect()
+    sqlengine = create_engine('mysql+pymysql://siasg:siasg@192.168.2.135/siasg', pool_recycle=3600)
+    dbconnection = sqlengine.raw_connection()
 
     # Le o banco de dados para buscar os registros que atendem os parametros informados
     df = pd.read_sql(
         "SELECT  quantidade, valor_unitario FROM siasg.itens2 where catmat_id=" + str(catmat) + " and data > '" + data
-        + "'", dbConnection);
+        + "'", dbconnection)
     return df
 
 
@@ -64,8 +64,7 @@ def retirar_extremos(df):
 ##################################################################################
 def treina_modelo(df, contamination):
     # treina o modelo utilizando o SUOD através da função treina_modelo_suod
-    clf = treina_modelo_SUOD(df, contamination)
-
+    clf = treina_modelo_suod(df, contamination)
     return clf
 
 
@@ -76,20 +75,23 @@ def treina_modelo(df, contamination):
 #             contamination - % estimado de valores anômalos nos dados.
 # Retorno: clf - modelo treinado utilizando o SUOD
 ##################################################################################
-def treina_modelo_SUOD(df, contamination):
+def treina_modelo_suod(df, contamination):
     # definição de parâmetros que serão utilizados no algoritmo HBOS
-    contamination = 0.1
-
-    # Lista de detectores
-    detector_list = [ECOD(contamination=contamination),
-                     PCA(n_components=2, n_selected_components=1, contamination=contamination),
-                     LOF(n_neighbors=21, contamination=contamination)
-                     ]
-
-    clf = SUOD(base_estimators=detector_list, n_jobs=2, combination='maximization', contamination=contamination,
-               verbose=False)
-    clf.fit(df)
+    try:
+        # Lista de detectores
+        detector_list = [ECOD(contamination=contamination),
+                         PCA(n_components=2, n_selected_components=1, contamination=contamination),
+                         LOF(n_neighbors=21, contamination=contamination)
+                         ]
+        clf = SUOD(base_estimators=detector_list, n_jobs=2, combination='average',
+                   verbose=False)
+        clf.fit(df)
+    except Exception as inst:
+        print(type(inst))
+        print(inst.args)
+        print(inst)
     return clf
+
 
 def avalia_dados(clf, quantidade, valor):
     dfteste = pd.DataFrame({'quantidade': quantidade, 'valor_unitario': valor}, index=[0])

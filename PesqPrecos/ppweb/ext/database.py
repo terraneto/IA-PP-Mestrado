@@ -1,6 +1,6 @@
 from flask_sqlalchemy import SQLAlchemy
-import collections.abc
 import collections
+import collections.abc
 collections.MutableMapping = collections.abc.MutableMapping
 
 db = SQLAlchemy()
