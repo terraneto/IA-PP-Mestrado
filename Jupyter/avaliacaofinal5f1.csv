@@ -1,0 +1,506 @@
+combinacao,lista_detectores,acuracia,recall,f1
+1,"INNE(contamination=0.05, n_estimators=50, random_state= 69)",0.9738937312421495,0.8026720909455266,0.6454967644095767
+2,"KNN(contamination=0.05, leaf_size=10, method='largest', n_neighbors=10)",0.9779464104982389,0.9554748409558398,0.7227860461266303
+3,"LOF(contamination=0.05, leaf_size=1, n_neighbors=34)",0.9607701675610182,0.580098273587573,0.4730177045692437
+4,"PCA(contamination=0.05, n_components=3, n_selected_components=1)",0.9473352005337187,0.3540370858631194,0.3068585543250292
+5,"Sampling(contamination=0.05, subset_size=10)",0.9718024988203309,0.8746598079515607,0.6570758973531309
+6,ECOD(contamination=0.09),0.9222778867890457,0.8989575851123766,0.4473525510027911
+7,COPOD(contamination=0.12),0.902156026999205,0.9796638655462185,0.41910579142952276
+8,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0)]",0.9435694313449272,0.9244269230966117,0.5283900921377167
+9,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2)]",0.93998392138488,0.9004536812395794,0.5136718782909532
+10,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False)]",0.9422391629249953,0.9112421915768852,0.5209519964058674
+11,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10)]",0.9435694313449272,0.9244269230966117,0.5283900921377167
+12,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), ECOD(contamination=0.09, n_jobs=1)]",0.9269284323667512,0.956705885063023,0.49168606640350515
+13,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), COPOD(contamination=0.12, n_jobs=1)]",0.9093549508329373,0.9714411958928411,0.4405727135823764
+14,"[KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2)]",0.9313285862006178,0.7980353653626857,0.45763339406157233
+15,"[KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False)]",0.9145632543894278,0.5196751610666841,0.3344208325507346
+16,"[KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10)]",0.940195954770241,0.9798305084745763,0.5299108997722018
+17,"[KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), ECOD(contamination=0.09, n_jobs=1)]",0.9108476084740771,0.9552323654226088,0.444241040085341
+18,"[KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), COPOD(contamination=0.12, n_jobs=1)]",0.9030603848760819,0.9411050614390595,0.4115720111893667
+19,"[LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False)]",0.9173616972416218,0.5649673184212589,0.35480232571900305
+20,"[LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10)]",0.9367695514836043,0.9155982370014693,0.506906102928092
+21,"[LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), ECOD(contamination=0.09, n_jobs=1)]",0.9108672874095977,0.9453697771078188,0.4435110378323796
+22,"[LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), COPOD(contamination=0.12, n_jobs=1)]",0.903417472568006,0.9390060805201431,0.41375004964362533
+23,"[PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10)]",0.9252560286523004,0.7158879422339044,0.40148982360332985
+24,"[PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), ECOD(contamination=0.09, n_jobs=1)]",0.9336383061484955,0.9552323654226088,0.5129498312941322
+25,"[PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), COPOD(contamination=0.12, n_jobs=1)]",0.9030646069564403,0.9402633010060727,0.41137201292261016
+26,"[Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), ECOD(contamination=0.09, n_jobs=1)]",0.9103824921950071,0.9552323654226088,0.43757437341867433
+27,"[Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), COPOD(contamination=0.12, n_jobs=1)]",0.9030603848760819,0.9411050614390595,0.4115720111893667
+28,"[ECOD(contamination=0.09, n_jobs=1), COPOD(contamination=0.12, n_jobs=1)]",0.9027034587755463,0.912562603641808,0.41057800318665094
+29,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2)]",0.93998392138488,0.9004536812395794,0.5136718782909532
+30,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False)]",0.9422391629249953,0.9112421915768852,0.5209519964058674
+31,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10)]",0.9435694313449272,0.9244269230966117,0.5283900921377167
+32,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), ECOD(contamination=0.09, n_jobs=1)]",0.9269284323667512,0.956705885063023,0.49168606640350515
+33,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), COPOD(contamination=0.12, n_jobs=1)]",0.9093549508329373,0.9714411958928411,0.4405727135823764
+34,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False)]",0.9400280833756233,0.8882930203650601,0.5096226398260877
+35,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10)]",0.93998392138488,0.9004536812395794,0.5136718782909532
+36,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), ECOD(contamination=0.09, n_jobs=1)]",0.9269112938404215,0.9459130641900936,0.4906814201426072
+37,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), COPOD(contamination=0.12, n_jobs=1)]",0.9101701360877474,0.9695102822008153,0.44459084050083125
+38,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10)]",0.9422391629249953,0.9112421915768852,0.5209519964058674
+39,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), ECOD(contamination=0.09, n_jobs=1)]",0.9390214556225651,0.956705885063023,0.5263289235463622
+40,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), COPOD(contamination=0.12, n_jobs=1)]",0.9093254176390341,0.970767502686745,0.4403176587948109
+41,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), ECOD(contamination=0.09, n_jobs=1)]",0.9269284323667512,0.956705885063023,0.49168606640350515
+42,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), COPOD(contamination=0.12, n_jobs=1)]",0.9093549508329373,0.9714411958928411,0.4405727135823764
+43,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), ECOD(contamination=0.09, n_jobs=1), COPOD(contamination=0.12, n_jobs=1)]",0.9081198839946643,0.9425626036418079,0.4319532945619423
+44,"[KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False)]",0.9170534232552479,0.567846408423978,0.3552735064416934
+45,"[KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10)]",0.9367412004414352,0.9169975275020604,0.5071664127084772
+46,"[KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), ECOD(contamination=0.09, n_jobs=1)]",0.9108672874095977,0.9453697771078188,0.4435110378323796
+47,"[KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), COPOD(contamination=0.12, n_jobs=1)]",0.903417472568006,0.9390060805201431,0.41375004964362533
+48,"[KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10)]",0.9283869328358362,0.7758879422339043,0.43204537915888547
+49,"[KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), ECOD(contamination=0.09, n_jobs=1)]",0.9336383061484955,0.9552323654226088,0.5129498312941322
+50,"[KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), COPOD(contamination=0.12, n_jobs=1)]",0.9030646069564403,0.9402633010060727,0.41137201292261016
+51,"[KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), ECOD(contamination=0.09, n_jobs=1)]",0.9103824921950071,0.9552323654226088,0.43757437341867433
+52,"[KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), COPOD(contamination=0.12, n_jobs=1)]",0.9030603848760819,0.9411050614390595,0.4115720111893667
+53,"[KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), ECOD(contamination=0.09, n_jobs=1), COPOD(contamination=0.12, n_jobs=1)]",0.9027034587755463,0.912562603641808,0.41057800318665094
+54,"[LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10)]",0.926062576434657,0.7344185976250248,0.41737818329584603
+55,"[LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), ECOD(contamination=0.09, n_jobs=1)]",0.9336579850840163,0.9453697771078188,0.5122198290411708
+56,"[LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), COPOD(contamination=0.12, n_jobs=1)]",0.9033584017284066,0.9383309630155141,0.41340156167896536
+57,"[LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), ECOD(contamination=0.09, n_jobs=1)]",0.9104021711305279,0.9453697771078188,0.43684437116571295
+58,"[LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), COPOD(contamination=0.12, n_jobs=1)]",0.903417472568006,0.9390060805201431,0.41375004964362533
+59,"[LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), ECOD(contamination=0.09, n_jobs=1), COPOD(contamination=0.12, n_jobs=1)]",0.902217163429256,0.8928917054333828,0.40593384190957166
+60,"[PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), ECOD(contamination=0.09, n_jobs=1)]",0.9331731898694258,0.9552323654226088,0.5062831646274655
+61,"[PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), COPOD(contamination=0.12, n_jobs=1)]",0.9030646069564403,0.9402633010060727,0.41137201292261016
+62,"[PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), ECOD(contamination=0.09, n_jobs=1), COPOD(contamination=0.12, n_jobs=1)]",0.9027034587755463,0.912562603641808,0.41057800318665094
+63,"[Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), ECOD(contamination=0.09, n_jobs=1), COPOD(contamination=0.12, n_jobs=1)]",0.9027034587755463,0.912562603641808,0.41057800318665094
+64,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False)]",0.9400280833756233,0.8882930203650601,0.5096226398260877
+65,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10)]",0.93998392138488,0.9004536812395794,0.5136718782909532
+66,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), ECOD(contamination=0.09, n_jobs=1)]",0.9269112938404215,0.9459130641900936,0.4906814201426072
+67,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), COPOD(contamination=0.12, n_jobs=1)]",0.9101701360877474,0.9695102822008153,0.44459084050083125
+68,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10)]",0.9422391629249953,0.9112421915768852,0.5209519964058674
+69,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), ECOD(contamination=0.09, n_jobs=1)]",0.9390214556225651,0.956705885063023,0.5263289235463622
+70,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), COPOD(contamination=0.12, n_jobs=1)]",0.9093254176390341,0.970767502686745,0.4403176587948109
+71,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), ECOD(contamination=0.09, n_jobs=1)]",0.9269284323667512,0.956705885063023,0.49168606640350515
+72,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), COPOD(contamination=0.12, n_jobs=1)]",0.9093549508329373,0.9714411958928411,0.4405727135823764
+73,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), ECOD(contamination=0.09, n_jobs=1), COPOD(contamination=0.12, n_jobs=1)]",0.9081198839946643,0.9425626036418079,0.4319532945619423
+74,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10)]",0.9400280833756233,0.8882930203650601,0.5096226398260877
+75,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), ECOD(contamination=0.09, n_jobs=1)]",0.9390043170962354,0.9459130641900936,0.5253242772854644
+76,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), COPOD(contamination=0.12, n_jobs=1)]",0.9101279428852788,0.9688351646961862,0.4442906473236755
+77,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), ECOD(contamination=0.09, n_jobs=1)]",0.9269112938404215,0.9459130641900936,0.4906814201426072
+78,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), COPOD(contamination=0.12, n_jobs=1)]",0.9101701360877474,0.9695102822008153,0.44459084050083125
+79,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), ECOD(contamination=0.09, n_jobs=1), COPOD(contamination=0.12, n_jobs=1)]",0.907633588648374,0.9228917054333827,0.42730913328486303
+80,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), ECOD(contamination=0.09, n_jobs=1)]",0.9390214556225651,0.956705885063023,0.5263289235463622
+81,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), COPOD(contamination=0.12, n_jobs=1)]",0.9093254176390341,0.970767502686745,0.4403176587948109
+82,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), ECOD(contamination=0.09, n_jobs=1), COPOD(contamination=0.12, n_jobs=1)]",0.9081198839946643,0.9425626036418079,0.4319532945619423
+83,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), ECOD(contamination=0.09, n_jobs=1), COPOD(contamination=0.12, n_jobs=1)]",0.9081198839946643,0.9425626036418079,0.4319532945619423
+84,"[KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10)]",0.9255362606451832,0.7344185976250248,0.4166638975815603
+85,"[KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), ECOD(contamination=0.09, n_jobs=1)]",0.9336579850840163,0.9453697771078188,0.5122198290411708
+86,"[KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), COPOD(contamination=0.12, n_jobs=1)]",0.9033584017284066,0.9383309630155141,0.41340156167896536
+87,"[KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), ECOD(contamination=0.09, n_jobs=1)]",0.9104021711305279,0.9453697771078188,0.43684437116571295
+88,"[KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), COPOD(contamination=0.12, n_jobs=1)]",0.903417472568006,0.9390060805201431,0.41375004964362533
+89,"[KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), ECOD(contamination=0.09, n_jobs=1), COPOD(contamination=0.12, n_jobs=1)]",0.902217163429256,0.8928917054333828,0.40593384190957166
+90,"[KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), ECOD(contamination=0.09, n_jobs=1)]",0.9331731898694258,0.9552323654226088,0.5062831646274655
+91,"[KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), COPOD(contamination=0.12, n_jobs=1)]",0.9030646069564403,0.9402633010060727,0.41137201292261016
+92,"[KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), ECOD(contamination=0.09, n_jobs=1), COPOD(contamination=0.12, n_jobs=1)]",0.9027034587755463,0.912562603641808,0.41057800318665094
+93,"[KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), ECOD(contamination=0.09, n_jobs=1), COPOD(contamination=0.12, n_jobs=1)]",0.9027034587755463,0.912562603641808,0.41057800318665094
+94,"[LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), ECOD(contamination=0.09, n_jobs=1)]",0.9331928688049465,0.9453697771078188,0.5055531623745042
+95,"[LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), COPOD(contamination=0.12, n_jobs=1)]",0.9033584017284066,0.9383309630155141,0.41340156167896536
+96,"[LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), ECOD(contamination=0.09, n_jobs=1), COPOD(contamination=0.12, n_jobs=1)]",0.902217163429256,0.8928917054333828,0.40593384190957166
+97,"[LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), ECOD(contamination=0.09, n_jobs=1), COPOD(contamination=0.12, n_jobs=1)]",0.902217163429256,0.8928917054333828,0.40593384190957166
+98,"[PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), ECOD(contamination=0.09, n_jobs=1), COPOD(contamination=0.12, n_jobs=1)]",0.9027034587755463,0.912562603641808,0.41057800318665094
+99,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10)]",0.9400280833756233,0.8882930203650601,0.5096226398260877
+100,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), ECOD(contamination=0.09, n_jobs=1)]",0.9390043170962354,0.9459130641900936,0.5253242772854644
+101,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), COPOD(contamination=0.12, n_jobs=1)]",0.9101279428852788,0.9688351646961862,0.4442906473236755
+102,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), ECOD(contamination=0.09, n_jobs=1)]",0.9269112938404215,0.9459130641900936,0.4906814201426072
+103,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), COPOD(contamination=0.12, n_jobs=1)]",0.9101701360877474,0.9695102822008153,0.44459084050083125
+104,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), ECOD(contamination=0.09, n_jobs=1), COPOD(contamination=0.12, n_jobs=1)]",0.907633588648374,0.9228917054333827,0.42730913328486303
+105,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), ECOD(contamination=0.09, n_jobs=1)]",0.9390214556225651,0.956705885063023,0.5263289235463622
+106,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), COPOD(contamination=0.12, n_jobs=1)]",0.9093254176390341,0.970767502686745,0.4403176587948109
+107,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), ECOD(contamination=0.09, n_jobs=1), COPOD(contamination=0.12, n_jobs=1)]",0.9081198839946643,0.9425626036418079,0.4319532945619423
+108,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), ECOD(contamination=0.09, n_jobs=1), COPOD(contamination=0.12, n_jobs=1)]",0.9081198839946643,0.9425626036418079,0.4319532945619423
+109,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), ECOD(contamination=0.09, n_jobs=1)]",0.9390043170962354,0.9459130641900936,0.5253242772854644
+110,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), COPOD(contamination=0.12, n_jobs=1)]",0.9101279428852788,0.9688351646961862,0.4442906473236755
+111,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), ECOD(contamination=0.09, n_jobs=1), COPOD(contamination=0.12, n_jobs=1)]",0.907633588648374,0.9228917054333827,0.42730913328486303
+112,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), ECOD(contamination=0.09, n_jobs=1), COPOD(contamination=0.12, n_jobs=1)]",0.907633588648374,0.9228917054333827,0.42730913328486303
+113,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), ECOD(contamination=0.09, n_jobs=1), COPOD(contamination=0.12, n_jobs=1)]",0.9081198839946643,0.9425626036418079,0.4319532945619423
+114,"[KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), ECOD(contamination=0.09, n_jobs=1)]",0.9331928688049465,0.9453697771078188,0.5055531623745042
+115,"[KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), COPOD(contamination=0.12, n_jobs=1)]",0.9033584017284066,0.9383309630155141,0.41340156167896536
+116,"[KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), ECOD(contamination=0.09, n_jobs=1), COPOD(contamination=0.12, n_jobs=1)]",0.902217163429256,0.8928917054333828,0.40593384190957166
+117,"[KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), ECOD(contamination=0.09, n_jobs=1), COPOD(contamination=0.12, n_jobs=1)]",0.902217163429256,0.8928917054333828,0.40593384190957166
+118,"[KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), ECOD(contamination=0.09, n_jobs=1), COPOD(contamination=0.12, n_jobs=1)]",0.9027034587755463,0.912562603641808,0.41057800318665094
+119,"[LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), ECOD(contamination=0.09, n_jobs=1), COPOD(contamination=0.12, n_jobs=1)]",0.902217163429256,0.8928917054333828,0.40593384190957166
+120,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), ECOD(contamination=0.09, n_jobs=1)]",0.9390043170962354,0.9459130641900936,0.5253242772854644
+121,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), COPOD(contamination=0.12, n_jobs=1)]",0.9101279428852788,0.9688351646961862,0.4442906473236755
+122,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), ECOD(contamination=0.09, n_jobs=1), COPOD(contamination=0.12, n_jobs=1)]",0.907633588648374,0.9228917054333827,0.42730913328486303
+123,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), ECOD(contamination=0.09, n_jobs=1), COPOD(contamination=0.12, n_jobs=1)]",0.907633588648374,0.9228917054333827,0.42730913328486303
+124,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), ECOD(contamination=0.09, n_jobs=1), COPOD(contamination=0.12, n_jobs=1)]",0.9081198839946643,0.9425626036418079,0.4319532945619423
+125,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), ECOD(contamination=0.09, n_jobs=1), COPOD(contamination=0.12, n_jobs=1)]",0.907633588648374,0.9228917054333827,0.42730913328486303
+126,"[KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), ECOD(contamination=0.09, n_jobs=1), COPOD(contamination=0.12, n_jobs=1)]",0.902217163429256,0.8928917054333828,0.40593384190957166
+127,"[INNE(contamination=0.05, max_samples='auto', n_estimators=50, random_state=69), KNN(algorithm='auto', contamination=0.05, leaf_size=10, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+  radius=1.0), LOF(algorithm='auto', contamination=0.05, leaf_size=1, metric='minkowski',
+  metric_params=None, n_jobs=1, n_neighbors=34, novelty=True, p=2), PCA(contamination=0.05, copy=True, iterated_power='auto', n_components=3,
+  n_selected_components=1, random_state=None, standardization=True,
+  svd_solver='auto', tol=0.0, weighted=True, whiten=False), Sampling(contamination=0.05, metric='minkowski', metric_params=None,
+     random_state=RandomState(MT19937) at 0x1FD763FF640, subset_size=10), ECOD(contamination=0.09, n_jobs=1), COPOD(contamination=0.12, n_jobs=1)]",0.907633588648374,0.9228917054333827,0.42730913328486303
