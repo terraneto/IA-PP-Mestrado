@@ -11,7 +11,7 @@ from .views import index, dir_listing, \
     process_data_licitacao, view_avalia_pesquisa_precos, selecao_material, avaliacao_pp, testa_sobrepreco, \
     view_cargalicitacaoano, process_ano_licitacao, view_baixa_json_pregoes, view_carrega_json_pregoes, \
     view_baixa_json_itens_pregoes, view_carrega_json_itenspregoes, process_data_contrato, view_contratosseltipo, \
-    process_ano_contrato, view_contratosselano, view_corrige_distancia
+    process_ano_contrato, view_contratosselano, view_corrige_distancia, precos_analisados
 
 bp = Blueprint("webui", __name__, template_folder="templates")
 
@@ -121,6 +121,9 @@ bp.add_url_rule("/avalia_pp", view_func=view_avalia_pesquisa_precos,
 
 bp.add_url_rule("/_selecao_material", view_func=selecao_material,
                 endpoint="selecao_material")
+
+bp.add_url_rule("/_precos_avaliados", view_func=precos_analisados,
+                endpoint="precos_analisados", methods=['GET', 'POST'])
 
 bp.add_url_rule("/_avaliacao_pp", view_func=avaliacao_pp,
                 endpoint="avaliacao_pp", methods=['GET', 'POST'])

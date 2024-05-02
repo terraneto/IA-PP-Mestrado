@@ -1,57 +1,70 @@
 import pandas as pd
-from pyod.models.ecod import ECOD
-from pyod.models.lof import LOF
-from pyod.models.pca import PCA
-from pyod.models.suod import SUOD
 from sqlalchemy import create_engine
 
 
 ###################################################################
-# Funcao recuperar_itens_catmat
+# Função recuperar_itens_catmat
 # Objetivo: Retornar todos os registros de um determinado material
-#           desde uma data especificada ate o dia de hoje
-# Parametros: catmat - codigo do material a ser recuperado
-#             data - Data a partir da qual os registros serao
+#           desde uma data especificada até o dia de hoje
+# Parâmetros: catmat - código do material a ser recuperado
+#             data - Data a partir da qual os registros serão
 #                    selecionados
 # Retorno: dataframe pandas com todos os registros selecionados
 ###################################################################
 def recuperar_itens_catmat(catmat, data):
-    # Cria a conexao com o servidor de banco de dados
-    sqlengine = create_engine('mysql+pymysql://siasg:siasg@192.168.2.135/siasg', pool_recycle=3600)
-    dbconnection = sqlengine.raw_connection()
+    # Cria a conexão com o servidor de banco de dados
+    sqlEngine = create_engine('mysql+pymysql://siasg:siasg@192.168.2.135/siasg', pool_recycle=3600)
+    dbConnection = sqlEngine.connect()
 
-    # Le o banco de dados para buscar os registros que atendem os parametros informados
+    # Lê o banco de dados para buscar os registros que atendem os parametros informados
     df = pd.read_sql(
-        "SELECT  quantidade, valor_unitario FROM siasg.itens2 where catmat_id=" + str(catmat) + " and data > '" + data
-        + "'", dbconnection)
+        "SELECT  quantidade, valor_unitario, distancia_uasg_fornecedor  FROM siasg.itens where catmat_id=" + str(
+            catmat) + " and data > '" + data
+        + "'", dbConnection)
     return df
 
 
 ###################################################################
-# Funcao retirar_extremos
-# Objetivo: Retirar da base de treinamento os 2,5% maiores valores
-#           e os 2,5% menores valores, pela possibilidade de serem
-#           erros ou distorções. Não serão retirados  mais  do que
-#           5% dos registros.
-# Parametros: df - dataframe pandas com os dados a serem avaliados
-# Retorno: dataframe pandas com todos os registros ajustados
+# Função recuperar_licitacoes_contratos_catmat
+# Objetivo: Retornar as licitações e contratos de um determinado
+#            material desde uma data especificada até o dia de hoje
+# Parâmetros: catmat - código do material a ser recuperado
+#             data - Data a partir da qual os registros serão
+#                    selecionados
+# Retorno: dataframe pandas com todos os registros selecionados
 ###################################################################
-def retirar_extremos(df):
-    # calcula o valor unitario onde 97,5% dos registros estao abaixo.
-    maior = df['valor_unitario'].quantile(0.975)
+def recuperar_licitacoes_contratos_catmat(catmat, data):
+    # Cria a conexão com o servidor de banco de dados
+    sqlEngine = create_engine('mysql+pymysql://siasg:siasg@192.168.2.135/siasg', pool_recycle=3600)
+    dbConnection = sqlEngine.connect()
 
-    # calcula o valor unitario onde 2,5% dos registros estao abaixo.
-    menor = df['valor_unitario'].quantile(0.025)
+    # Lê o banco de dados para buscar os registros que atendem os parametros informados
+    df = pd.read_sql(
+        "SELECT  *  FROM siasg.itenscompletos where catmat_id=" + str(
+            catmat) + " and data > '" + data
+        + "'", dbConnection)
+    return df
 
-    # Seleciona todos os registros que estao entre o menor e o maior valor
-    dfajustado = df.loc[(df["valor_unitario"] > menor) & (df["valor_unitario"] < maior)]
 
-    # Caso o tamanho do dataframe ajustado seja menor do que 95% dos registros, desconsidera o ajuste
-    if len(dfajustado) < (len(df) // (100 / 95)):
-        dfajustado = df
+#########################################################################
+# Função preprocessar_dados
+# Objetivo: Realizar o pré-processamento dos dados
+# Parametros: df - dataframe pandas com os dados a serem escalonados
+# Retorno: dataframe pandas com todos os registros ajustados utilizando
+#          o método Robust de escalonamento
+#########################################################################
+from sklearn.preprocessing import RobustScaler
+
+
+def preprocessar_dados(df):
+    # Cria uma instância do RobustScaler
+    robust_scaler = RobustScaler()
+
+    # Ajusta e transforma os dados com o RobustScaler
+    df_ajustado = robust_scaler.fit_transform(df)
 
     # retorna o dataframe ajustado
-    return dfajustado
+    return df_ajustado
 
 
 ##################################################################################
@@ -63,8 +76,9 @@ def retirar_extremos(df):
 #          clfdeep - modelo treinado utilizando o DeepSVDD
 ##################################################################################
 def treina_modelo(df, contamination):
-    # treina o modelo utilizando o SUOD através da função treina_modelo_suod
-    clf = treina_modelo_suod(df, contamination)
+    # treina o modelo
+    clf = COPOD(contamination=contamination)
+    clf.fit(df)
     return clf
 
 
@@ -93,8 +107,47 @@ def treina_modelo_suod(df, contamination):
     return clf
 
 
-def avalia_dados(clf, quantidade, valor):
-    dfteste = pd.DataFrame({'quantidade': quantidade, 'valor_unitario': valor}, index=[0])
+#####################################################
+# Funcao treina_modelo_inicial
+# Objetivo: Treina o modelo de detecção de anomalias
+# Parâmetros: df - dataframe pandas com  os  dados a
+#                  serem utilizados no treinamento
+# Retorno: clf - modelo treinado utilizando o SUOD
+#####################################################
+# Importa bibliotecas do PyOD com os algoritmos de detecção de anomalias
+from pyod.models.inne import INNE
+from pyod.models.knn import KNN
+from pyod.models.lof import LOF
+from pyod.models.pca import PCA
+from pyod.models.sampling import Sampling
+from pyod.models.ecod import ECOD
+from pyod.models.copod import COPOD
+from pyod.models.suod import SUOD
+
+
+def treina_modelo_inicial(df):
+    # Lista de detectores
+    detector_list = [
+        INNE(contamination=0.05, n_estimators=50, random_state=69),
+        KNN(contamination=0.05, leaf_size=10, method='largest', n_neighbors=10),
+        LOF(contamination=0.05, leaf_size=1, n_neighbors=34),
+        PCA(contamination=0.05, n_components=3, n_selected_components=1),
+        Sampling(contamination=0.05, subset_size=10),
+        ECOD(contamination=0.09),
+        COPOD(contamination=0.12)
+    ]
+
+    # configurar o SUOD com a lista de parâmetros e detectores
+    clf = SUOD(base_estimators=detector_list, n_jobs=2, combination='maximization', contamination=0.05,
+               verbose=False)
+
+    # treinar o modelo
+    clf.fit(df)
+    return clf
+
+
+def avalia_dados(clf, quantidade, valor, distancia):
+    dfteste = pd.DataFrame({'quantidade': quantidade, 'valor_unitario': valor, 'distancia': distancia}, index=[0])
     predicao = clf.predict(dfteste)
     return predicao
 

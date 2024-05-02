@@ -281,3 +281,22 @@ class Itempregao(db.Model, SerializerMixin):
     menor_lance = db.Column(db.Float)
     valorHomologadoItem = db.Column(db.Float)
     valor_negociado = db.Column(db.Float)
+
+
+class Itenscompletos(db.Model, SerializerMixin):
+    __tablename__ = "itenscompletos"
+    licitacao_contrato = db.Column(db.Integer, primary_key=True)
+    id = db.Column(db.Integer, primary_key=True)
+    data = db.Column(db.Text)
+    catmat_id = db.Column(db.Integer, ForeignKey(Material.codigo))
+    quantidade = db.Column(db.Integer)
+    unidade = db.Column(db.Text)
+    valor_unitario = db.Column(db.Float)
+    valor_total = db.Column(db.Float)
+    municipio_uasg = db.Column(db.Integer, ForeignKey(Municipio.id))
+    municipio_fornecedor = db.Column(db.Integer, ForeignKey(Municipio.id))
+    distancia_uasg_fornecedor = db.Column(db.Float)
+    tipo = db.Column(db.Text)
+    uasg = db.Column(db.Text)
+    fornecedor_cpfcnpj = db.Column(db.Text)
+    fornecedor_nome = db.Column(db.Text)

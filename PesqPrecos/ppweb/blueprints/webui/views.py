@@ -6,15 +6,16 @@ from flask import abort, render_template, send_file, request, jsonify
 from ppweb.cargajson import carrega_json, carrega_json_licitacoes_ano, carrega_json_pregoes, carrega_json_itenspregoes
 from ppweb.contratosdf import baixa_json_contrato_mensal, baixa_json_itenscontrato, baixa_json_contrato_anual, \
     baixa_json_contrato_mes
-from ppweb.dadosia import carrega_itens_contratos, carrega_itens_licitacoes, corrige_calculo_distancia
+from ppweb.dadosia import carrega_itens_contratos, carrega_itens_licitacoes, corrige_calculo_distancia, \
+    create_comprasanalisadas_from_dataframe, completa_itens_completos
 from ppweb.ext.database import db
-from ppweb.ia import recuperar_itens_catmat, retirar_extremos, treina_modelo, avalia_dados
+from ppweb.ia import recuperar_itens_catmat, treina_modelo, avalia_dados, recuperar_licitacoes_contratos_catmat
 from ppweb.licitacoesdf import baixa_json_itenslicitacao, \
     baixa_json_uasg_licitacoes_mensal, baixa_json_licitacao_uasg_mensal, baixa_json_licitacao_uasg_trimestral, \
     baixa_json_itensprecospraticados, baixa_json_licitacao_uasg_anual_geral, baixa_uasg_diario_material_geral, \
     baixa_uasg_mensal_geral, baixa_uasg_mensal_diario_geral, baixa_uasg_diario_classe_geral
 from ppweb.models import Uasg, ComprasContratos, Itenscontratos, Itens, Material, \
-    Pregao
+    Pregao, Itenscompletos
 from ppweb.utils import baixa_json, baixa_json_pregoes, baixa_json_itens_pregoes
 
 
@@ -73,7 +74,6 @@ def avaliacao_pp():
     material = Material.query.filter_by(codigo=material_selecionado).first()
     dataformatada = date.fromisoformat(data_selecionada).strftime('%d/%m/%Y')
     df = recuperar_itens_catmat(material_selecionado, data_selecionada)
-    df = retirar_extremos(df)
     minimo = "{:.2f}".format(df['valor_unitario'].min())
     minimo = f"\t{minimo.replace('.', ',')}"
     maximo = "{:.2f}".format(df['valor_unitario'].max())
@@ -82,16 +82,21 @@ def avaliacao_pp():
     media = f"\t{media.replace('.', ',')}"
     mediana = "{:.2f}".format(df['valor_unitario'].median())
     mediana = f"\t{mediana.replace('.', ',')}"
+    vuq975 = "{:.2f}".format(df['valor_unitario'].quantile(0.975))
+    vuq975 = f"\t{vuq975.replace('.', ',')}"
     qmin = f"\t{str(df['quantidade'].min()).replace('.', ',')}"
     qmax = f"\t{str(df['quantidade'].max()).replace('.', ',')}"
     qmedia = "{:.2f}".format(df['quantidade'].mean())
     qmedia = f"\t{qmedia.replace('.', ',')}"
     qmediana = "{:.2f}".format(df['quantidade'].median())
     qmediana = f"\t{qmediana.replace('.', ',')}"
+    qq975 = "{:.2f}".format(df['quantidade'].quantile(0.975))
+    qq975 = f"\t{qq975.replace('.', ',')}"
+
     return render_template("avaliacao_pesquisa.html", material=material, datainicio=dataformatada,
                            min=minimo, max=maximo,
                            media=media, qmin=qmin, qmax=qmax, qmedia=qmedia, qmediana=qmediana, numreg=len(df),
-                           mediana=mediana)
+                           mediana=mediana, vuq975=vuq975, qq975=qq975)
 
 
 def testa_sobrepreco():
@@ -102,6 +107,7 @@ def testa_sobrepreco():
         catmat = request.args.get('catmat', type=int)
         datainicio = request.args.get('datainicio', type=str)
         df = recuperar_itens_catmat(catmat, datainicio)
+        print(df)
         mediana = df['valor_unitario'].median()
         minimo = df['valor_unitario'].min()
         if valor < minimo:
@@ -114,8 +120,8 @@ def testa_sobrepreco():
             if valor <= mediana:
                 retorno = {'predicao': 'Valor aceitável'}
             else:
-                clf = treina_modelo(df, 0.1)
-                predicao = int(avalia_dados(clf, quantidade, valor))
+                clf = treina_modelo(df, 0.12)
+                predicao = int(avalia_dados(clf, quantidade, valor, 0.0))
                 if predicao == 0:
                     retorno = {'predicao': 'Valor aceitável'}
                 else:
@@ -212,14 +218,28 @@ def view_avalia_pesquisa_precos():
     ontem = (datetime.now() - timedelta(30)).strftime('%Y-%m-%d')
     # anopassado = (datetime.now() - timedelta(365)).strftime('%Y-%m-%d')
     anopassado = '2022-01-01'
-    sql = 'select  itens2.catmat_id as catmat_id, count(*) as qtd, materiais.descricao   from itens2  inner join ' \
-          'materiais on itens2.catmat_id = materiais.codigo group by catmat_id order by qtd desc'
+    sql = 'select  itens.catmat_id as catmat_id, count(*) as qtd, materiais.descricao   from itens  inner join ' \
+          'materiais on itens.catmat_id = materiais.codigo group by catmat_id order by qtd desc'
     with db.engine.connect() as conn:
         materiais = conn.execute(sql).all()
     materiaisfiltrados = [materiais for materiais in materiais if materiais[1] > 30]
     material = materiaisfiltrados[0]
     return render_template('avaliapp.html',
                            all_materiais=materiaisfiltrados, material=material, ontem=ontem, anopassado=anopassado)
+
+
+def precos_analisados():
+    if request.method == 'POST':
+        material = request.form.get('catmat', type=int)
+        data = request.form.get('datainicio', type=str)
+    else:
+        material = request.args.get('catmat', type=int)
+        data = request.args.get('datainicio', type=str)
+    completa_itens_completos()
+    print(material)
+    print(data)
+    dfcompras = Itenscompletos.query.filter_by(catmat_id=material).order_by(Itenscompletos.valor_unitario).limit(23).all()
+    return render_template('comprasanalisadas2.html', compras=dfcompras)
 
 
 def view_licitacoesseltipo():

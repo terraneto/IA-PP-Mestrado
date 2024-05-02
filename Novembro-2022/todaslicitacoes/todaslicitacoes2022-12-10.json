@@ -1,1 +1,0 @@
-{"_links":{"self":{"href":"http://compras.dados.gov.br/licitacoes/v1/licitacoes.json?data_publicacao=2022-12-10","title":"Lista de licitações filtrados por data_publicacao=2022-12-10."},"first":{"href":"/licitacoes/v1/licitacoes.json?data_publicacao=2022-12-10&offset=0","title":"Primeira página"}},"_embedded":{"licitacoes":[]},"count":0,"offset":0}

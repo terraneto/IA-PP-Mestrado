@@ -1,0 +1,40 @@
+{% extends "index.html" %}
+
+{% block content %}
+<div class="container">
+<h1>Preços Analisados</h1>
+    <table id="tbvalor" class="tftable" border="2">
+    <tr><th><p style="text-align:center">&nbspTipo&nbsp</p></th>
+        <th><p style="text-align:center">&nbspOrgão&nbsp</p></th>
+        <th><p style="text-align:center">&nbspCPF/CNPJ Fornecedor&nbsp</p></th>
+        <th><p style="text-align:center">&nbspNome Fornecedor&nbsp</p></th>
+        <th><p style="text-align:center">&nbspData&nbsp</p></th>
+        <th><p style="text-align:center">&nbspValor unitário&nbsp</p></th>
+        <th><p style="text-align:center">&nbspQuantidade&nbsp</p></th>
+        <th><p style="text-align:center"></p></th>
+    </tr>
+    {% for compra in compras %}
+        <tr>
+            <td>&nbsp{{compra.tipo}}&nbsp</td>
+            <td>&nbsp{{compra.uasg}}&nbsp</td>
+            <td>&nbsp{{compra.fornecedor_cpfcnpj}}&nbsp</td>
+            <td>&nbsp{{compra.fornecedor_nome}}&nbsp</td>
+            <td>&nbsp&nbsp{{compra.data.strftime('%d/%m/%Y')}}&nbsp&nbsp</td>
+            <td align="right">&nbsp{{" R$ %0.2f" | format(compra.valor_unitario) | replace('.',',')}}&nbsp&nbsp</td>
+            <td align="right">&nbsp{{compra.quantidade}}&nbsp&nbsp</td>
+        </tr>
+    {% endfor %}
+    </table>
+</div>
+{% block footer %}
+<footer class="footer hidden-xs">
+    <div class="container-fluid" style="position: absolute; height: 2.4rem; width: 100%; bottom: 0" >
+        <div class="row">
+           <div class="col-md-12">
+             <p class="texto text-center" style="background-image: url({{url_for('static', filename='RODAPE_BG.PNG')}}); color: white; "  >Senado Federal - Praça dos Três Poderes - Brasília DF - CEP 70165-900 - Fone: (61)3303-4141</p>
+           </div>
+        </div>
+    </div>
+</footer>
+{% endblock %}
+{% endblock %}

@@ -32,24 +32,48 @@
         <br>
     </div>
     <br>
-    Dados avaliados desde de {{datainicio}}
-    <br><br>Valor unitário está entre R$ <textarea id="mini" name="mini" rows="1" cols="15" style=" resize: none;" disabled>{{min}}</textarea>
-    e R$ <textarea id="maxi" name="maxi" rows="1" cols="15" style=" resize: none;" disabled>{{max}}</textarea>,
-    com média= R$ <textarea id="mediat" name="mediat" rows="1" cols="15" style=" resize: none;" disabled>{{media}}</textarea>
-    e mediana= R$ <textarea id="medianat" name="medianat" rows="1" cols="15" style=" resize: none;" disabled>{{mediana}}</textarea>
+    Dados avaliados desde de <b>{{datainicio}}</b> &nbsp&nbsp  - &nbsp&nbsp  Número de registros do item = <b>{{numreg}}</b>
     <br><br>
-    Quantidade adquirida está entre <textarea id="qmint" name="qmint" rows="1" cols="15" style=" resize: none;" disabled>{{qmin}}</textarea>
-    e <textarea id="qmaxt" name="qmaxt" rows="1" cols="15" style=" resize: none;" disabled>{{qmax}}</textarea>,
-    com média= R$ <textarea id="qmediat" name="qmediat" rows="1" cols="15" style=" resize: none;" disabled>{{qmedia}}</textarea>
-    e mediana= R$ <textarea id="qmedianat" name="qmedianat" rows="1" cols="15" style=" resize: none;" disabled>{{qmediana}}</textarea>
+    <b>Valor unitário:</b><br>
+    <table id="tbvalor" class="tftable" border="1">
+    <tr><th><p style="text-align:center">Mínimo</p></th>
+        <th><p style="text-align:center">Máximo</p></th>
+        <th><p style="text-align:center">Média</p></th>
+        <th><p style="text-align:center">Mediana</p></th>
+        <th><p style="text-align:center">Quartil 97,5%</p></th>
+    </tr>
+    <tr><td><textarea id="mini" name="mini" rows="1" cols="15" style=" resize: none;" disabled>{{min}}</textarea></td>
+        <td><textarea id="maxi" name="maxi" rows="1" cols="15" style=" resize: none;" disabled>{{max}}</textarea></td>
+        <td><textarea id="mediat" name="mediat" rows="1" cols="15" style=" resize: none;" disabled>{{media}}</textarea></td>
+        <td> <textarea id="medianat" name="medianat" rows="1" cols="15" style=" resize: none;" disabled>{{mediana}}</textarea></td>
+        <td><textarea id="q975t" name="q975t" rows="1" cols="15" style=" resize: none;" disabled>{{vuq975}}</textarea></td>
+    </tr>
+    </table>
     <br><br>
-    Número de registros do item = <textarea id="numregt" name="numregt" rows="1" cols="15" style=" resize: none;" disabled>{{numreg}}</textarea>
-    <br>
+    <b>Quantidade:</b><br>
+    <table id="tbquantidade" class="tftable" border="1">
+    <tr><th><p style="text-align:center">Mínimo</p></th>
+        <th><p style="text-align:center">Máximo</p></th>
+        <th><p style="text-align:center">Média</p></th>
+        <th><p style="text-align:center">Mediana</p></th>
+        <th><p style="text-align:center">Quartil 97,5%</p></th>
+    </tr>
+    <tr><td><textarea id="qmint" name="qmint" rows="1" cols="15" style=" resize: none;" disabled>{{qmin}}</textarea></td>
+        <td><textarea id="qmaxt" name="qmaxt" rows="1" cols="15" style=" resize: none;" disabled>{{qmax}}</textarea></td>
+        <td><textarea id="qmediat" name="qmediat" rows="1" cols="15" style=" resize: none;" disabled>{{qmedia}}</textarea></td>
+        <td> <textarea id="qmedianat" name="qmedianat" rows="1" cols="15" style=" resize: none;" disabled>{{qmediana}}</textarea></td>
+        <td><textarea id="qq975t" name="qq975t" rows="1" cols="15" style=" resize: none;" disabled>{{qq975}}</textarea></td>
+    </tr>
+    </table>
     <br>
     <br>
     <label for="descricao">Resultado da avaliação</label><br>
     <textarea id="descricao" name="descricao" rows="1" cols="76" style=" resize: none;"></textarea>
-    <button type="button" class="btn btn-primary btn-lg" id="go_licitacoes" name="go_licitacoes">Preços analisados</button>
+    <form action = "http://localhost:5000/_precos_avaliados" method = "POST">
+        <input type="hidden" id="catmat" name="catmat" value={{material.codigo}} />
+        <input type="hidden" id="datainicio" name="datainicio" value={{dataretorno}} />
+    <button type="submit" class="btn btn-primary btn-lg" id="licitacoes" name="licitacoes">Preços analisados</button>
+    </form>
     <script src="https://code.jquery.com/jquery-1.12.4.js" type="text/javascript"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript">
@@ -68,9 +92,6 @@
         });
 
         $('#go_index').bind('click', function() {
-             window.history.back();
-        });
-        $('#go_licitacoes').bind('click', function() {
              window.history.back();
         });
       });
