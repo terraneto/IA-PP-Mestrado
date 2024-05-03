@@ -61,13 +61,13 @@ Federal;
 
 ### JupyterNotebooks utilizados para a geração das tabelas do relatório
 
-[Jupyter](Jupyter/jupyter.md)
+[Jupyter](Jupyter)
 
 ### Fontes do aplicativo desenvolvido
 
-[PesqPrecos](Pesqprecos/pesqprecos.md)
+[PesqPrecos](Pesqprecos)
 
 ### Relatório de pesquisa do Mestrado Profissional em Poder Legislativo da Câmara dos Deputados
 
-[Relatório Técnico, TCC do Mestrado Profissional](Relat%C3%B3rio%20T%C3%A9cnico/TCC___Mestrado___PosQualificacao.pdf)
+[Relatório Técnico, TCC do Mestrado Profissional]
 
