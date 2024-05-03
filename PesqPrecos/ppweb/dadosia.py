@@ -251,7 +251,7 @@ def busca_id_contrato_por_item(iditem):
     itemcontrato = Itenscontratos.query.filter_by(id=iditem).first()
     if itemcontrato is None:
         return 0
-    contrato=itemcontrato.contrato_id
+    contrato = itemcontrato.contrato_id
     return contrato
 
 
@@ -327,9 +327,10 @@ def completa_itens_completos():
     try:
         itens = Itenscompletos.query.all()
         i = 0
-        print('Número de itens a completar=' + str(len(itens)))
         for item in itens:
             i = i + 1
+            if item.uasg is not None:
+                continue
             print('processando item  ' + str(i) + ' de ' + str(len(itens)))
             try:
                 if item.licitacao_contrato == 0:
@@ -340,24 +341,30 @@ def completa_itens_completos():
                     # id = contrato.numero
                     item.fornecedor_cpfcnpj = contrato.fornecedor_cnpj_cpf_idgener
                     item.fornecedor_nome = contrato.fornecedor_nome
-                else:
-                    print('item de licitacao')
-                    idlicitacao = str(item.id).zfill(17)
-                    itemlicitacao = Itensprecospraticados.query.filter((
-                            (Itensprecospraticados.id_licitacao == idlicitacao)
-                            & (Itensprecospraticados.numero_item_licitacao == item.licitacao_contrato))).first()
-                    print(itemlicitacao)
-                    print(idlicitacao)
-                    print(item.licitacao_contrato)
-
                     item.tipo = 'Licitação'
-                    coduasg = Uasg.query.filter_by(id=itemlicitacao.uasg).first()
-                    item.uasg = coduasg.nome
-                    item.fornecedor_cpfcnpj = itemlicitacao.cnpj_fornecedor
-                    fornecedor= Fornecedor.query.filter_by(cnpj=item.fornecedor_cpfcnpj).first()
-                    item.fornecedor_nome =fornecedor.nome
-
-
+                else:
+                    idlic = str(item.id).zfill(17)
+                    iduasg = int(idlic[0:6])
+                    ano = int(idlic[13:17])
+                    if i == 106882:
+                        print('licitacao ' + idlic)
+                        print('Uasg ' + str(iduasg))
+                        print('ano ' + str(ano))
+                    if ano < 2022:
+                        continue
+                    itemlicitacao = Itensprecospraticados.query.filter((
+                            (Itensprecospraticados.id_licitacao == idlic)
+                            & (Itensprecospraticados.numero_item_licitacao == item.licitacao_contrato))).first()
+                    coduasg = Uasg.query.filter_by(id=iduasg).first()
+                    if coduasg is not None:
+                        item.uasg = coduasg.nome
+                    if itemlicitacao is not None:
+                        item.fornecedor_cpfcnpj = itemlicitacao.cnpj_fornecedor
+                        fornecedor = Fornecedor.query.filter_by(cnpj=item.fornecedor_cpfcnpj).first()
+                        if fornecedor is not None:
+                            item.fornecedor_nome = fornecedor.nome
+                    else:
+                        print('item de licitacao ' + str(idlic) + ' problema com ' + str(i))
                 item.verified = True
                 db.session.commit()
             except Exception as ex:
