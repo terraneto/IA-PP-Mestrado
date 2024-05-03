@@ -69,5 +69,5 @@ Federal;
 
 ### Relatório de pesquisa do Mestrado Profissional em Poder Legislativo da Câmara dos Deputados
 
-[Relatório Técnico, TCC do Mestrado]([Relatório Técnico](Relat%C3%B3rio%20T%C3%A9cnico)
+[Relatório Técnico, TCC do Mestrado]([Relatório Técnico](Relat%C3%B3rio%20T%C3%A9cnico))
 
