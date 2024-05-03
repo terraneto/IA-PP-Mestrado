@@ -65,9 +65,9 @@ Federal;
 
 ### Fontes do aplicativo desenvolvido
 
-[PesqPrecos](Pesqprecos)
+[PesqPrecos](PesqPrecos)
 
 ### Relatório de pesquisa do Mestrado Profissional em Poder Legislativo da Câmara dos Deputados
 
-[Relatório Técnico, TCC do Mestrado Profissional]
+[Relatório Técnico, TCC do Mestrado Profissional](Relatório Técnico, TCC do Mestrado Profissional)
 
