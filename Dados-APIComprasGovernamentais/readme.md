@@ -1,9 +1,11 @@
 # Dados recuperados da API de Compras Governamentais
 
-[Módulo Contratos a partir de 2021]
+[Dump do banco de dados MySQL utilizado durante a pesquisa](Dump%20do%20Banco%20Mysql)
 
-[Módulo Fornecedores]
+[Módulo Contratos a partir de 2021]()
 
-[Módulo Licitaçoes]
+[Módulo Fornecedores]()
 
-[Módulo Materiais]
+[Módulo Licitaçoes]()
+
+[Módulo Materiais]()
