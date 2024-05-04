@@ -8,7 +8,7 @@ Jsons compactados dos módulos:
 
 [Módulo Contratos a partir de 2021](M%C3%B3dulo%20Contratos%20a%20partir%20de%202021)
 
-[Módulo Fornecedores]()
+[Módulo Fornecedores](M%C3%B3dulo%20Fornecedores)
 
 [Módulo Licitaçoes](M%C3%B3dulo%20Licita%C3%A7%C3%B5es)
 
