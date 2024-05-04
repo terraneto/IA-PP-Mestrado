@@ -1,10 +1,12 @@
 {% extends "index.html" %}
 
 {% block content %}
-<div class="container">
+
+<div style="margin: 30px;">
 <h1>Preços Analisados</h1>
-    <table id="tbvalor" class="tftable" border="2">
+    <table id="tbvalor" border="2">
     <tr><th><p style="text-align:center">&nbspTipo&nbsp</p></th>
+        <th><p style="text-align:center">&nbspNúmero&nbsp</p></th>
         <th><p style="text-align:center">&nbspOrgão&nbsp</p></th>
         <th><p style="text-align:center">&nbspCPF/CNPJ Fornecedor&nbsp</p></th>
         <th><p style="text-align:center">&nbspNome Fornecedor&nbsp</p></th>
@@ -16,9 +18,10 @@
     {% for compra in compras %}
         <tr>
             <td>&nbsp{{compra.tipo}}&nbsp</td>
-            <td>&nbsp{{compra.uasg}}&nbsp</td>
-            <td>&nbsp{{compra.fornecedor_cpfcnpj}}&nbsp</td>
-            <td>&nbsp{{compra.fornecedor_nome}}&nbsp</td>
+            <td align="right">&nbsp{{compra.numero}}&nbsp</td>
+            <td style="width: 400px">&nbsp{{compra.uasg}}&nbsp</td>
+            <td align="center">&nbsp{{compra.fornecedor_cpfcnpj}}&nbsp</td>
+            <td style="width: 500px">&nbsp{{compra.fornecedor_nome}}&nbsp</td>
             <td>&nbsp&nbsp{{compra.data.strftime('%d/%m/%Y')}}&nbsp&nbsp</td>
             <td align="right">&nbsp{{" R$ %0.2f" | format(compra.valor_unitario) | replace('.',',')}}&nbsp&nbsp</td>
             <td align="right">&nbsp{{compra.quantidade}}&nbsp&nbsp</td>

@@ -111,7 +111,7 @@ def testa_sobrepreco():
         mediana = df['valor_unitario'].median()
         minimo = df['valor_unitario'].min()
         if valor < minimo:
-            qmax = df['quantidade'].max()
+            qmax = df['quantidade'].quantile(97.5)
             if quantidade < qmax:
                 retorno = {'predicao': 'Possibilidade de preço inexequivel'}
             else:
@@ -235,10 +235,11 @@ def precos_analisados():
     else:
         material = request.args.get('catmat', type=int)
         data = request.args.get('datainicio', type=str)
-    completa_itens_completos()
+    # completa_itens_completos()
     print(material)
     print(data)
-    dfcompras = Itenscompletos.query.filter_by(catmat_id=material).order_by(Itenscompletos.valor_unitario).limit(23).all()
+    dfcompras = Itenscompletos.query.filter_by(catmat_id=material).filter(Itenscompletos.data >= data).order_by(
+        Itenscompletos.valor_unitario).limit(15).all()
     return render_template('comprasanalisadas2.html', compras=dfcompras)
 
 

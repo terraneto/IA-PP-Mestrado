@@ -300,3 +300,4 @@ class Itenscompletos(db.Model, SerializerMixin):
     uasg = db.Column(db.Text)
     fornecedor_cpfcnpj = db.Column(db.Text)
     fornecedor_nome = db.Column(db.Text)
+    numero = db.Column(db.Text)
