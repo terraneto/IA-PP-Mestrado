@@ -10,6 +10,6 @@ Jsons compactados dos módulos:
 
 [Módulo Fornecedores]()
 
-[Módulo Licitaçoes]()
+[Módulo Licitaçoes](M%C3%B3dulo%20Licita%C3%A7%C3%B5es)
 
 [Módulo Materiais](M%C3%B3dulo%20Materiais)
