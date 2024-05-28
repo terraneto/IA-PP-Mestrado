@@ -1,10 +1,16 @@
 {% extends "index.html" %}
 
 {% block content %}
-
+<style>
+    .scrollable{
+        max-height:600px;
+        overflow-y:auto;
+    }
+</style>
 <div style="margin: 30px;">
 <h1>Preços Analisados</h1>
-    <table id="tbvalor" border="2">
+    <div class="scrollable">
+    <table id="tbvalor" class="scrollable" border="2">
     <tr><th><p style="text-align:center">&nbspTipo&nbsp</p></th>
         <th><p style="text-align:center">&nbspNúmero&nbsp</p></th>
         <th><p style="text-align:center">&nbspOrgão&nbsp</p></th>
@@ -28,6 +34,7 @@
         </tr>
     {% endfor %}
     </table>
+    </div>
 </div>
 {% block footer %}
 <footer class="footer hidden-xs">

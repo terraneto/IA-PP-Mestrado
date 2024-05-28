@@ -18,7 +18,7 @@ def recuperar_itens_catmat(catmat, data):
 
     # Lê o banco de dados para buscar os registros que atendem os parametros informados
     df = pd.read_sql(
-        "SELECT  quantidade, valor_unitario, distancia_uasg_fornecedor  FROM siasg.itens where catmat_id=" + str(
+        "SELECT  quantidade, valor_unitario  FROM siasg.itens where catmat_id=" + str(
             catmat) + " and data > '" + data
         + "'", dbConnection)
     return df
@@ -75,6 +75,10 @@ def preprocessar_dados(df):
 # Retorno: clf - modelo treinado utilizando o SUOD
 #          clfdeep - modelo treinado utilizando o DeepSVDD
 ##################################################################################
+
+from pyod.models.copod import COPOD
+
+
 def treina_modelo(df, contamination):
     # treina o modelo
     clf = COPOD(contamination=contamination)
@@ -121,7 +125,6 @@ from pyod.models.lof import LOF
 from pyod.models.pca import PCA
 from pyod.models.sampling import Sampling
 from pyod.models.ecod import ECOD
-from pyod.models.copod import COPOD
 from pyod.models.suod import SUOD
 
 
@@ -146,9 +149,11 @@ def treina_modelo_inicial(df):
     return clf
 
 
-def avalia_dados(clf, quantidade, valor, distancia):
-    dfteste = pd.DataFrame({'quantidade': quantidade, 'valor_unitario': valor, 'distancia': distancia}, index=[0])
+def avalia_dados(clf, quantidade, valor):
+    dfteste = pd.DataFrame({'quantidade': quantidade, 'valor_unitario': valor}, index=[0])
+    print(dfteste)
     predicao = clf.predict(dfteste)
+    print(predicao)
     return predicao
 
 

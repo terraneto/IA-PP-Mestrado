@@ -109,9 +109,14 @@ def testa_sobrepreco():
         df = recuperar_itens_catmat(catmat, datainicio)
         print(df)
         mediana = df['valor_unitario'].median()
+        print(mediana)
         minimo = df['valor_unitario'].min()
+        print(minimo)
+        percentil=df['valor_unitario'].quantile(0.975)
+        print(percentil)
         if valor < minimo:
-            qmax = df['quantidade'].quantile(97.5)
+            qmax = df['quantidade'].quantile(0.975)
+            print(qmax)
             if quantidade < qmax:
                 retorno = {'predicao': 'Possibilidade de preço inexequivel'}
             else:
@@ -121,9 +126,13 @@ def testa_sobrepreco():
                 retorno = {'predicao': 'Valor aceitável'}
             else:
                 clf = treina_modelo(df, 0.12)
-                predicao = int(avalia_dados(clf, quantidade, valor, 0.0))
-                if predicao == 0:
-                    retorno = {'predicao': 'Valor aceitável'}
+                print(clf)
+                predicao = int(avalia_dados(clf, quantidade, valor))
+                if valor < percentil:
+                   if predicao == 0:
+                      retorno = {'predicao': 'Valor aceitável'}
+                   else:
+                      retorno = {'predicao': 'Possibilidade de sobrepreço'}
                 else:
                     retorno = {'predicao': 'Possibilidade de sobrepreço'}
     except Exception as excecao:
@@ -239,7 +248,7 @@ def precos_analisados():
     print(material)
     print(data)
     dfcompras = Itenscompletos.query.filter_by(catmat_id=material).filter(Itenscompletos.data >= data).order_by(
-        Itenscompletos.valor_unitario).limit(15).all()
+        Itenscompletos.valor_unitario).limit(50).all()
     return render_template('comprasanalisadas2.html', compras=dfcompras)
 
 
