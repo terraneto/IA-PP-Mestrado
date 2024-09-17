@@ -1,4 +1,5 @@
 import os
+import locale
 from datetime import datetime, timedelta, date
 
 from flask import abort, render_template, send_file, request, jsonify
@@ -74,24 +75,33 @@ def avaliacao_pp():
     material = Material.query.filter_by(codigo=material_selecionado).first()
     dataformatada = date.fromisoformat(data_selecionada).strftime('%d/%m/%Y')
     df = recuperar_itens_catmat(material_selecionado, data_selecionada)
-    minimo = "{:.2f}".format(df['valor_unitario'].min())
+    minimo = '{:,.2f}'.format(df['valor_unitario'].min())
     minimo = f"\t{minimo.replace('.', ',')}"
-    maximo = "{:.2f}".format(df['valor_unitario'].max())
+    maximo = '{:,.2f}'.format(df['valor_unitario'].max())
     maximo = f"\t{maximo.replace('.', ',')}"
-    media = "{:.2f}".format(df['valor_unitario'].mean())
+    media = '{:,.2f}'.format(df['valor_unitario'].mean())
     media = f"\t{media.replace('.', ',')}"
-    mediana = "{:.2f}".format(df['valor_unitario'].median())
+    mediana = '{:,.2f}'.format(df['valor_unitario'].median())
     mediana = f"\t{mediana.replace('.', ',')}"
-    vuq975 = "{:.2f}".format(df['valor_unitario'].quantile(0.975))
+    vuq975 = '{:,.2f}'.format(df['valor_unitario'].quantile(0.975))
     vuq975 = f"\t{vuq975.replace('.', ',')}"
-    qmin = f"\t{str(df['quantidade'].min()).replace('.', ',')}"
-    qmax = f"\t{str(df['quantidade'].max()).replace('.', ',')}"
-    qmedia = "{:.2f}".format(df['quantidade'].mean())
-    qmedia = f"\t{qmedia.replace('.', ',')}"
-    qmediana = "{:.2f}".format(df['quantidade'].median())
-    qmediana = f"\t{qmediana.replace('.', ',')}"
-    qq975 = "{:.2f}".format(df['quantidade'].quantile(0.975))
-    qq975 = f"\t{qq975.replace('.', ',')}"
+
+
+
+
+    qmin = '{:_.2f}'.format(df['quantidade'].min())
+    qmin = qmin.replace('.', ',').replace('_', '.')
+
+    qmax = '{:_.2f}'.format(df['quantidade'].max())
+    qmax = qmax.replace('.', ',').replace('_', '.')
+    qmedia = '{:_.2f}'.format(df['quantidade'].mean())
+
+
+    qmedia = qmedia.replace('.', ',').replace('_', '.')
+    qmediana = '{:_.2f}'.format(df['quantidade'].median())
+    qmediana = qmediana.replace('.', ',').replace('_', '.')
+    qq975 = '{:_.2f}'.format(df['quantidade'].quantile(0.975))
+    qq975 = qq975.replace('.', ',').replace('_', '.')
 
     return render_template("avaliacao_pesquisa.html", material=material, datainicio=dataformatada,
                            min=minimo, max=maximo,

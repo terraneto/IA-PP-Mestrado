@@ -30,8 +30,7 @@
             <td style="width: 500px">&nbsp{{compra.fornecedor_nome}}&nbsp</td>
             <td>&nbsp&nbsp{{compra.data.strftime('%d/%m/%Y')}}&nbsp&nbsp</td>
             <td align="right">&nbsp{{" R$ %0.2f" | format(compra.valor_unitario) | replace('.',',')}}&nbsp&nbsp</td>
-            <td align="right">&nbsp{{compra.quantidade}}&nbsp&nbsp</td>
-        </tr>
+            <td align="right">&nbsp{{'{:_}'.format(compra.quantidade)| replace('_','.')}}&nbsp&nbsp</td>        </tr>
     {% endfor %}
     </table>
     </div>

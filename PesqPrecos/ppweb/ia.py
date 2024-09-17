@@ -7,7 +7,7 @@ from sqlalchemy import create_engine
 # Objetivo: Retornar todos os registros de um determinado material
 #           desde uma data especificada até o dia de hoje
 # Parâmetros: catmat - código do material a ser recuperado
-#             data - Data a partir da qual os registros serão
+#             data - Data a partir da qual os registros serãfl
 #                    selecionados
 # Retorno: dataframe pandas com todos os registros selecionados
 ###################################################################
